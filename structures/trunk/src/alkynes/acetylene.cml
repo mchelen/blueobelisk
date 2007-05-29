@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_acetylene">
+ <formula concise=" C 2 H 2 "/>
+ <identifier version="InChI/1">
+  <basic>1/C2H2/c1-2/h1-2H</basic>
+ </identifier>
+ <name convention="IUPAC">Acetylene</name>
+ <atomArray>
+  <atom id="a1" elementType="C" x3="0.578781" y3="0.012373" z3="0.137009"/>
+  <atom id="a2" elementType="C" x3="-0.578774" y3="-0.012388" z3="-0.137139"/>
+  <atom id="a3" elementType="H" x3="1.614334" y3="0.034553" z3="0.382514"/>
+  <atom id="a4" elementType="H" x3="-1.614341" y3="-0.034538" z3="-0.382385"/>
+ </atomArray>
+ <bondArray>
+  <bond atomRefs2="a1 a2" order="3"/>
+  <bond atomRefs2="a1 a3" order="1"/>
+  <bond atomRefs2="a2 a4" order="1"/>
+ </bondArray>
+ <list>
+  <propertyList>
+   <property dictRef="cml:molwt" title="molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="cml:molwt" units="unit:g">26.0373</scalar>
+   </property>
+   <property dictRef="chemwt:exact_molwt" title="exact molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="chemwt:exact_molwt" units="unit:g">26.0156501</scalar>
+   </property>
+   <property dictRef="cml:mpt" title="melting point">
+    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:mpt" units="unit:celsius">-84</scalar>
+   </property>
+   <property dictRef="cml:bpt" title="boiling point">
+    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:bpt" units="unit:celsius">-81</scalar>
+   </property>
+  </propertyList>
+ </list>
+</molecule>

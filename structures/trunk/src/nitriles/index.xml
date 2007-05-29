@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Nitriles</title>
+  <title xml:lang="fr">Nitriles</title>
+  <title xml:lang="de">Nitrile</title>
+  <entry id="CS_acetonitrile">
+    <name xml:lang="en">Acetonitrile</name>
+    <filename>acetonitrile</filename>
+    <synonym xml:lang="fr">Acétonitrile</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_1_1_1-trichloroacetonitrile">
+    <name xml:lang="en">1,1,1-Trichloroacetonitrile</name>
+    <filename>1_1_1-trichloroacetonitrile</filename>
+    <synonym xml:lang="en">Cyanotrichloromethane</synonym>
+    <synonym xml:lang="en">Trichloromethyl cyanide</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_2-methylpropanenitrile">
+    <name xml:lang="en">2-Methylpropanenitrile</name>
+    <filename>2-methylpropanenitrile</filename>
+    <synonym xml:lang="en">Isobutyronitrile</synonym>
+    <synonym xml:lang="en">2-Methylpropionitrile</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_butanenitrile">
+    <name xml:lang="en">Butanenitrile</name>
+    <filename>butanenitrile</filename>
+    <synonym xml:lang="en">Butyronitrile</synonym>
+    <synonym xml:lang="en">Propyl cyanide</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_propanenitrile">
+    <name xml:lang="en">Propanenitrile</name>
+    <filename>propanenitrile</filename>
+    <synonym xml:lang="en">Propiononitrile</synonym>
+    <synonym xml:lang="en">Ethyl cyanide</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+</index>

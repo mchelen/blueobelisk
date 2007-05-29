@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Thioethers</title>
+  <title xml:lang="fr">Thioéthers</title>
+  <title xml:lang="de">Thioether</title>
+  <entry id="CS_thiepin">
+    <name xml:lang="en">Thiepin</name>
+    <filename>thiepin</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_thiophene">
+    <name xml:lang="en">Thiophene</name>
+    <filename>thiophene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+</index>

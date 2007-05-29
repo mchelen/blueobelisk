@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Alkynes</title>
+  <title xml:lang="fr">Alcynes</title>
+  <title xml:lang="de">Alkine</title>
+  <entry id="CS_acetylene">
+    <name xml:lang="en">Acetylene</name>
+    <filename>acetylene</filename>
+    <synonym xml:lang="en">Ethyne</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_but-1-yne">
+    <name xml:lang="en">But-1-yne</name>
+    <filename>but-1-yne</filename>
+    <synonym xml:lang="en">1-Butyne</synonym>
+    <synonym xml:lang="de">1-Butin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_but-2-yne">
+    <name xml:lang="en">But-2-yne</name>
+    <filename>but-2-yne</filename>
+    <synonym xml:lang="en">2-Butyne</synonym>
+    <synonym xml:lang="de">2-Butin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_propyne">
+    <name xml:lang="en">Propyne</name>
+    <filename>propyne</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+</index>

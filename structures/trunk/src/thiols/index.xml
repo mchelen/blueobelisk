@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Thiols</title>
+  <title xml:lang="fr">Thiols</title>
+  <title xml:lang="de">Thiole</title>
+  <entry id="CS_2-methylproprane-2-thiol">
+    <name xml:lang="en">2-Methylproprane-2-thiol</name>
+    <filename>2-methylproprane-2-thiol</filename>
+    <synonym xml:lang="en">2-Methyl-2-propanethiol</synonym>
+    <synonym xml:lang="en">tert-Butyl mercaptan</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_butane-1-thiol">
+    <name xml:lang="en">Butane-1-thiol</name>
+    <filename>butane-1-thiol</filename>
+    <synonym xml:lang="en">1-butanethiol</synonym>
+    <synonym xml:lang="en">n-Butyl mercaptan</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_2R_butane-2-thiol">
+    <name xml:lang="en">(2R)-Butane-2-thiol</name>
+    <filename>2R_butane-2-thiol</filename>
+    <synonym xml:lang="en">(2R)-2-Butanethiol</synonym>
+    <synonym xml:lang="en">sec-Butyl mercaptan</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_ethane-1_2-dithiol">
+    <name xml:lang="en">Ethane-1_2-dithiol</name>
+    <filename>ethane-1_2-dithiol</filename>
+    <synonym xml:lang="en">1,2-Ethanedithiol</synonym>
+    <synonym xml:lang="en">1,2-Dimercaptoethane</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_ethanethiol">
+    <name xml:lang="en">Ethanethiol</name>
+    <filename>ethanethiol</filename>
+    <synonym xml:lang="en">Ethyl mercaptan</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_heptane-1-thiol">
+    <name xml:lang="en">Heptane-1-thiol</name>
+    <filename>heptane-1-thiol</filename>
+    <synonym xml:lang="en">1-Heptanethiol</synonym>
+    <synonym xml:lang="en">Heptyl mercaptan</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_hexane-1-thiol">
+    <name xml:lang="en">Hexane-1-thiol</name>
+    <filename>hexane-1-thiol</filename>
+    <synonym xml:lang="en">1-Hexanethiol</synonym>
+    <synonym xml:lang="en">Hexyl mercaptan</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_methanethiol">
+    <name xml:lang="en">Methanethiol</name>
+    <filename>methanethiol</filename>
+    <synonym xml:lang="en">Methyl mercaptan</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_octane-1-thiol">
+    <name xml:lang="en">Octane-1-thiol</name>
+    <filename>octane-1-thiol</filename>
+    <synonym xml:lang="en">1-Octanethiol</synonym>
+    <synonym xml:lang="en">Octyl mercaptan</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_pentane-1-thiol">
+    <name xml:lang="en">Pentane-1-thiol</name>
+    <filename>pentane-1-thiol</filename>
+    <synonym xml:lang="en">1-Pentanethiol</synonym>
+    <synonym xml:lang="en">n-Amyl mercaptan</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_proprane-1-thiol">
+    <name xml:lang="en">Proprane-1-thiol</name>
+    <filename>proprane-1-thiol</filename>
+    <synonym xml:lang="en">1-Propanethiol</synonym>
+    <synonym xml:lang="en">n-Propyl mercaptan</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_proprane-2-thiol">
+    <name xml:lang="en">Proprane-2-thiol</name>
+    <filename>proprane-2-thiol</filename>
+    <synonym xml:lang="en">2-Propanethiol</synonym>
+    <synonym xml:lang="en">Isopropyl mercaptan</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+</index>

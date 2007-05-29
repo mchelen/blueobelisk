@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Ethers</title>
+  <title xml:lang="fr">Ethers</title>
+  <title xml:lang="de">Ether</title>
+  <entry id="CS_1_4-dioxane">
+    <name xml:lang="en">1,4-Dioxane</name>
+    <filename>1_4-dioxane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_1-propoxypropane">
+    <name xml:lang="en">1-Propoxypropane</name>
+    <filename>1-propoxypropane</filename>
+    <synonym xml:lang="en">Dipropylether</synonym>
+    <synonym xml:lang="en">n-Propylether</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2-methyl-2-tert-butoxypropane">
+    <name xml:lang="en">2-Methyl-2-tert-butoxypropane</name>
+    <filename>2-methyl-2-tert-butoxypropane</filename>
+    <synonym xml:lang="en">Di-tert-butylether</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_1-butoxybutane">
+    <name xml:lang="en">1-Butoxybutane</name>
+    <filename>1-butoxybutane</filename>
+    <synonym xml:lang="en">Dibutylether</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-06-26</date>
+  </entry>
+  <entry id="CS_2-propan-2-yloxypropane">
+    <name xml:lang="en">2-Propan-2-yloxypropane</name>
+    <filename>2-propan-2-yloxypropane</filename>
+    <synonym xml:lang="en">Diisopropylether</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_ethoxyethane">
+    <name xml:lang="en">Ethoxyethane</name>
+    <filename>ethoxyethane</filename>
+    <synonym xml:lang="en">Diethylether</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_furan">
+    <name xml:lang="en">Furan</name>
+    <filename>furan</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_methoxyethane">
+    <name xml:lang="en">Methoxyethane</name>
+    <filename>methoxyethane</filename>
+    <synonym xml:lang="en">Ethylmethylether</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_methoxymethane">
+    <name xml:lang="en">Methoxymethane</name>
+    <filename>methoxymethane</filename>
+    <synonym xml:lang="en">Dimethylether</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_oxolane">
+    <name xml:lang="en">Oxolan</name>
+    <filename>oxolane</filename>
+    <synonym xml:lang="en">Tetrahydrofuran</synonym>
+    <synonym xml:lang="en">Oxacyclopentane</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2_3-dimethyloxepin">
+    <name xml:lang="en">2,3-Dimethyloxepin</name>
+    <filename>2_3-dimethyloxepin</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_2_7-dimethyloxepin">
+    <name xml:lang="en">2,7-Dimethyloxepin</name>
+    <filename>2_7-dimethyloxepin</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_oxepin">
+    <name xml:lang="en">Oxepin</name>
+    <filename>oxepin</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_R-2-ethoxybutane">
+    <name xml:lang="en">(R)-2-Ethoxybutane</name>
+    <filename>R-2-ethoxybutane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_1_4_7_10_13_16-hexaoxacyclooctadecane">
+    <name xml:lang="en">1,4,7,10,13,16-Hexaoxacyclooctadecane</name>
+    <filename>1_4_7_10_13_16-hexaoxacyclooctadecane</filename>
+    <synonym xml:lang="en">18-Crown-6 ether</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_2-2-hydroxyethoxy_ethanol">
+    <name xml:lang="en">2-(2-Hydroxyethoxy)ethanol</name>
+    <filename>2-2-hydroxyethoxy_ethanol</filename>
+    <synonym xml:lang="en">Diethylene glycol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+</index>

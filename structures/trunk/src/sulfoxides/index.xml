@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Sulfoxides</title>
+  <title xml:lang="fr">Sulfoxydes</title>
+  <title xml:lang="de">Sulfoxide</title>
+  <entry id="CS_methylsulfinylmethane">
+    <name xml:lang="en">Methylsulfinylmethane</name>
+    <filename>methylsulfinylmethane</filename>
+    <synonym xml:lang="en">Dimethylsulfoxyde</synonym>
+    <synonym xml:lang="fr">Diméthylsulfoxyde</synonym>
+    <synonym xml:lang="en">DMSO</synonym>
+    <synonym xml:lang="fr">DMSO</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+</index>

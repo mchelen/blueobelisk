@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_1_3-oxazole">
+ <formula concise=" C 3 H 3 N 1 O 1 "/>
+ <identifier version="InChI/1">
+  <basic>1/C3H3NO/c1-2-5-3-4-1/h1-3H</basic>
+ </identifier>
+ <name convention="IUPAC">1,3-Oxazole</name>
+ <atomArray>
+  <atom id="a1" elementType="C" x3="0.804244" y3="0.583150" z3="-0.283929"/>
+  <atom id="a2" elementType="C" x3="0.631659" y3="-0.769801" z3="-0.394098"/>
+  <atom id="a3" elementType="H" x3="1.587648" y3="1.288900" z3="-0.541711"/>
+  <atom id="a4" elementType="H" x3="1.273893" y3="-1.551160" z3="-0.795102"/>
+  <atom id="a5" elementType="O" x3="-0.322524" y3="1.123945" z3="0.303217"/>
+  <atom id="a6" elementType="C" x3="-1.183752" y3="0.085165" z3="0.549649"/>
+  <atom id="a7" elementType="N" x3="-0.645306" y3="-1.057163" z3="0.145820"/>
+  <atom id="a8" elementType="H" x3="-2.145862" y3="0.296963" z3="1.016155"/>
+ </atomArray>
+ <bondArray>
+  <bond atomRefs2="a1 a2" order="2"/>
+  <bond atomRefs2="a1 a3" order="1"/>
+  <bond atomRefs2="a2 a4" order="1"/>
+  <bond atomRefs2="a1 a5" order="1"/>
+  <bond atomRefs2="a5 a6" order="1"/>
+  <bond atomRefs2="a6 a7" order="2"/>
+  <bond atomRefs2="a7 a2" order="1"/>
+  <bond atomRefs2="a6 a8" order="1"/>
+ </bondArray>
+ <list>
+  <propertyList>
+   <property dictRef="cml:molwt" title="molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="cml:molwt" units="unit:g">69.0620</scalar>
+   </property>
+   <property dictRef="chemwt:exact_molwt" title="exact molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="chemwt:exact_molwt" units="unit:g">69.0214637</scalar>
+   </property>
+   <property dictRef="cml:bpt" title="boiling point">
+    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:bpt" units="unit:celsius">69</scalar>
+   </property>
+  </propertyList>
+ </list>
+</molecule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Carbamides</title>
+  <title xml:lang="fr">Carbamides</title>
+  <title xml:lang="de">Carbamides</title>
+  <entry id="CS_urea">
+    <name xml:lang="en">Urea</name>
+    <name xml:lang="de">Harnstoff</name>
+    <name xml:lang="fr">Urée</name>
+    <filename>urea</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+</index>

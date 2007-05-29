@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_bromomethane">
+ <formula concise=" C 1 H 3 Br 1 "/>
+ <identifier version="InChI/1">
+  <basic>1/CH3Br/c1-2/h1H3</basic>
+ </identifier>
+ <name convention="IUPAC">Bromomethane</name>
+ <atomArray>
+  <atom id="a1" elementType="C" x3="-0.104476" y3="0.128652" z3="0.078387"/>
+  <atom id="a2" elementType="Br" x3="1.007440" y3="-1.240558" z3="-0.755788"/>
+  <atom id="a3" elementType="H" x3="0.039154" y3="0.078911" z3="1.158088"/>
+  <atom id="a4" elementType="H" x3="-1.145647" y3="-0.069532" z3="-0.177545"/>
+  <atom id="a5" elementType="H" x3="0.203529" y3="1.102527" z3="-0.303141"/>
+ </atomArray>
+ <bondArray>
+  <bond atomRefs2="a1 a2" order="1"/>
+  <bond atomRefs2="a1 a3" order="1"/>
+  <bond atomRefs2="a1 a4" order="1"/>
+  <bond atomRefs2="a1 a5" order="1"/>
+ </bondArray>
+ <list>
+  <propertyList>
+   <property dictRef="cml:molwt" title="molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="cml:molwt" units="unit:g">94.9385</scalar>
+   </property>
+   <property dictRef="chemwt:exact_molwt" title="exact molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="chemwt:exact_molwt" units="unit:g">93.9418121</scalar>
+   </property>
+   <property dictRef="cml:mpt" title="melting point">
+    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:mpt" units="unit:celsius">-94</scalar>
+   </property>
+   <property dictRef="cml:bpt" title="boiling point">
+    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:bpt" units="unit:celsius">4</scalar>
+   </property>
+  </propertyList>
+ </list>
+</molecule>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_methylsulfinylmethane">
+ <formula concise=" C 2 H 6 O 1 S 1 "/>
+ <identifier version="InChI/1">
+  <basic>1/C2H6OS/c1-4(2)3/h1-2H3</basic>
+ </identifier>
+ <name convention="IUPAC">Methylsulfinylmethane</name>
+ <atomArray>
+  <atom id="a1" elementType="C" x3="1.359080" y3="0.298313" z3="0.164941"/>
+  <atom id="a2" elementType="S" x3="-0.297448" y3="0.985458" z3="-0.134860"/>
+  <atom id="a3" elementType="C" x3="-1.209899" y3="-0.558836" z3="-0.432287"/>
+  <atom id="a4" elementType="O" x3="-0.781814" y3="1.460352" z3="1.266649"/>
+  <atom id="a5" elementType="H" x3="2.082498" y3="1.117632" z3="0.257632"/>
+  <atom id="a6" elementType="H" x3="1.678490" y3="-0.333247" z3="-0.671256"/>
+  <atom id="a7" elementType="H" x3="1.437418" y3="-0.297680" z3="1.081697"/>
+  <atom id="a8" elementType="H" x3="-0.745511" y3="-1.139653" z3="-1.236744"/>
+  <atom id="a9" elementType="H" x3="-2.235197" y3="-0.322760" z3="-0.742349"/>
+  <atom id="a10" elementType="H" x3="-1.287616" y3="-1.209578" z3="0.446577"/>
+ </atomArray>
+ <bondArray>
+  <bond atomRefs2="a1 a2" order="1"/>
+  <bond atomRefs2="a2 a3" order="1"/>
+  <bond atomRefs2="a2 a4" order="2"/>
+  <bond atomRefs2="a1 a5" order="1"/>
+  <bond atomRefs2="a1 a6" order="1"/>
+  <bond atomRefs2="a1 a7" order="1"/>
+  <bond atomRefs2="a3 a8" order="1"/>
+  <bond atomRefs2="a3 a9" order="1"/>
+  <bond atomRefs2="a3 a10" order="1"/>
+ </bondArray>
+ <list>
+  <propertyList>
+   <property dictRef="cml:molwt" title="molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="cml:molwt" units="unit:g">78.1334</scalar>
+   </property>
+   <property dictRef="chemwt:exact_molwt" title="exact molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="chemwt:exact_molwt" units="unit:g">78.0139358</scalar>
+   </property>
+   <property dictRef="cml:mpt" title="melting point">
+    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:mpt" units="unit:celsius">18</scalar>
+   </property>
+   <property dictRef="cml:bpt" title="boiling point">
+    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:bpt" units="unit:celsius">189</scalar>
+   </property>
+  </propertyList>
+ </list>
+</molecule>

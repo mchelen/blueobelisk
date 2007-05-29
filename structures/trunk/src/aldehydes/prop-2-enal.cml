@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_prop-2-enal">
+ <formula concise=" C 3 H 4 O 1 "/>
+ <identifier version="InChI/1">
+  <basic>1/C3H4O/c1-2-3-4/h2-3H,1H2</basic>
+ </identifier>
+ <name convention="IUPAC">Prop-2-enal</name>
+ <atomArray>
+  <atom id="a1" elementType="O" x3="1.617499" y3="1.678880" z3="0.056540"/>
+  <atom id="a2" elementType="C" x3="1.092060" y3="0.593953" z3="0.165714"/>
+  <atom id="a3" elementType="C" x3="-0.330105" y3="0.361657" z3="-0.178847"/>
+  <atom id="a4" elementType="C" x3="-0.883774" y3="-0.839548" z3="-0.048785"/>
+  <atom id="a5" elementType="H" x3="1.671453" y3="-0.269990" z3="0.533118"/>
+  <atom id="a6" elementType="H" x3="-0.904772" y3="1.221477" z3="-0.545022"/>
+  <atom id="a7" elementType="H" x3="-0.339072" y3="-1.709689" z3="0.311255"/>
+  <atom id="a8" elementType="H" x3="-1.923290" y3="-1.036740" z3="-0.293974"/>
+ </atomArray>
+ <bondArray>
+  <bond atomRefs2="a1 a2" order="2"/>
+  <bond atomRefs2="a2 a3" order="1"/>
+  <bond atomRefs2="a3 a4" order="2"/>
+  <bond atomRefs2="a2 a5" order="1"/>
+  <bond atomRefs2="a3 a6" order="1"/>
+  <bond atomRefs2="a4 a7" order="1"/>
+  <bond atomRefs2="a4 a8" order="1"/>
+ </bondArray>
+ <list>
+  <propertyList>
+   <property dictRef="cml:molwt" title="molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="cml:molwt" units="unit:g">56.0633</scalar>
+   </property>
+   <property dictRef="chemwt:exact_molwt" title="exact molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="chemwt:exact_molwt" units="unit:g">56.0262147</scalar>
+   </property>
+   <property dictRef="cml:mpt" title="melting point">
+    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:mpt" units="unit:celsius">-87</scalar>
+   </property>
+   <property dictRef="cml:bpt" title="boiling point">
+    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:bpt" units="unit:celsius">53</scalar>
+   </property>
+  </propertyList>
+ </list>
+</molecule>

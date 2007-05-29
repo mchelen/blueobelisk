@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Amino acids</title>
+  <title xml:lang="fr">Acides aminés</title>
+  <title xml:lang="de">Aminosäuren</title>
+  <entry id="CS_2R-2-aminopropanoic_acid">
+    <name xml:lang="en">(2R)-2-Aminopropanoic acid</name>
+    <name xml:lang="de">(2R)-2-Aminopropansäure</name>
+    <filename>2R-2-aminopropanoic_acid</filename>
+    <synonym xml:lang="en">D-Alanine</synonym>
+    <synonym xml:lang="de">D-Alanin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-amino-5-diaminomethylideneaminopentanoic_acid">
+    <name xml:lang="en">(2R)-2-Amino-5-(diaminomethylideneamino)pentanoic acid</name>
+    <name xml:lang="de">(2R)-2-Amino-5-(diaminomethylideneamino)pentansäure</name>
+    <filename>2R-2-amino-5-diaminomethylideneaminopentanoic_acid</filename>
+    <synonym xml:lang="en">D-Arginine</synonym>
+    <synonym xml:lang="de">D-Arginin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-amino-3-carbamoyl-propanoic_acid">
+    <name xml:lang="en">(2R)-2-Amino-3-carbamoyl-propanoic acid</name>
+    <name xml:lang="de">(2R)-2-Amino-3-carbamoyl-propansäure</name>
+    <filename>2R-2-amino-3-carbamoyl-propanoic_acid</filename>
+    <synonym xml:lang="en">D-Asparagine</synonym>
+    <synonym xml:lang="de">D-Asparagin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-aminobutanedioic_acid">
+    <name xml:lang="en">(2R)-2-Aminobutanedioic acid</name>
+    <name xml:lang="de">(2R)-2-Aminobutandisäure</name>
+    <filename>2R-2-aminobutanedioic_acid</filename>
+    <synonym xml:lang="en">D-Aspartic acid</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-amino-3-sulfanyl-propanoic_acid">
+    <name xml:lang="en">(2S)-2-Amino-3-sulfanyl-propanoic acid</name>
+    <name xml:lang="de">(2S)-2-Amino-3-sulfanyl-propansäure</name>
+    <filename>2S-2-amino-3-sulfanyl-propanoic_acid</filename>
+    <synonym xml:lang="en">D-Cysteine</synonym>
+    <synonym xml:lang="de">D-Cystein</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-aminopentanedioic_acid">
+    <name xml:lang="en">(2R)-2-Aminopentanedioic acid</name>
+    <name xml:lang="de">(2R)-2-Aminopentandisäure</name>
+    <filename>2R-2-aminopentanedioic_acid</filename>
+    <synonym xml:lang="en">D-Glutamic acid</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-amino-4-carbamoyl-butanoic_acid">
+    <name xml:lang="en">(2R)-2-Amino-4-carbamoyl-butanoic acid</name>
+    <name xml:lang="de">(2R)-2-Amino-4-carbamoyl-butansäure</name>
+    <filename>2R-2-amino-4-carbamoyl-butanoic_acid</filename>
+    <synonym xml:lang="en">D-Glutamine</synonym>
+    <synonym xml:lang="de">D-Glutamin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-amino-3-3H-imidazol-4-yl_propanoic_acid">
+    <name xml:lang="en">(2R)-2-Amino-3-(3H-imidazol-4-yl)propanoic acid</name>
+    <name xml:lang="de">(2R)-2-Amino-3-(3H-imidazol-4-yl)propansäure</name>
+    <filename>2R-2-amino-3-3H-imidazol-4-yl_propanoic_acid</filename>
+    <synonym xml:lang="en">D-Histidine</synonym>
+    <synonym xml:lang="de">D-Histidin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R_3R-2-amino-3-methyl-pentanoic_acid">
+    <name xml:lang="en">(2R,3R)-2-Amino-3-methyl-pentanoic acid</name>
+    <name xml:lang="de">(2R,3R)-2-Amino-3-methyl-pentansäure</name>
+    <filename>2R_3R-2-amino-3-methyl-pentanoic_acid</filename>
+    <synonym xml:lang="en">D-Isoleucine</synonym>
+    <synonym xml:lang="de">D-Isoleucin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-amino-4-methyl-pentanoic_acid">
+    <name xml:lang="en">(2R)-2-Amino-4-methyl-pentanoic acid</name>
+    <name xml:lang="de">(2R)-2-Amino-4-methyl-pentansäure</name>
+    <filename>2R-2-amino-4-methyl-pentanoic_acid</filename>
+    <synonym xml:lang="en">D-Leucine</synonym>
+    <synonym xml:lang="de">D-Leucin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2_6-diaminohexanoic_acid">
+    <name xml:lang="en">(2R)-2,6-Diaminohexanoic acid</name>
+    <name xml:lang="de">(2R)-2,6-Diaminohexansäure</name>
+    <filename>2R-2_6-diaminohexanoic_acid</filename>
+    <synonym xml:lang="en">D-Lysine</synonym>
+    <synonym xml:lang="de">D-Lysin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-amino-4-methylsulfanyl-butanoic_acid">
+    <name xml:lang="en">(2R)-2-Amino-4-methylsulfanyl-butanoic acid</name>
+    <name xml:lang="de">(2R)-2-Amino-4-methylsulfanyl-butansäure</name>
+    <filename>2R-2-amino-4-methylsulfanyl-butanoic_acid</filename>
+    <synonym xml:lang="en">D-Methionine</synonym>
+    <synonym xml:lang="de">D-Methionin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-amino-3-phenyl-propanoic_acid">
+    <name xml:lang="en">(2R)-2-Amino-3-phenyl-propanoic acid</name>
+    <name xml:lang="de">(2R)-2-Amino-3-phenyl-propansäure</name>
+    <filename>2R-2-amino-3-phenyl-propanoic_acid</filename>
+    <synonym xml:lang="en">D-Phenylalanine</synonym>
+    <synonym xml:lang="de">D-Phenylalanin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-pyrrolidine-2-carboxylic_acid">
+    <name xml:lang="en">(2R)-Pyrrolidine-2-carboxylic acid</name>
+    <name xml:lang="de">(2R)-Pyrrolidine-2-carbonsäure</name>
+    <filename>2R-pyrrolidine-2-carboxylic_acid</filename>
+    <synonym xml:lang="en">D-Proline</synonym>
+    <synonym xml:lang="de">D-Prolin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-amino-3-hydroxy-propanoic_acid">
+    <name xml:lang="en">(2R)-2-Amino-3-hydroxy-propanoic acid</name>
+    <name xml:lang="de">(2R)-2-Amino-3-hydroxy-propansäure</name>
+    <filename>2R-2-amino-3-hydroxy-propanoic_acid</filename>
+    <synonym xml:lang="en">D-Serine</synonym>
+    <synonym xml:lang="de">D-Serin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R_3S-2-amino-3-hydroxy-butanoic_acid">
+    <name xml:lang="en">(2R,3S)-2-Amino-3-hydroxy-butanoic acid</name>
+    <name xml:lang="de">(2R,3S)-2-Amino-3-hydroxy-butansäure</name>
+    <filename>2R_3S-2-amino-3-hydroxy-butanoic_acid</filename>
+    <synonym xml:lang="en">D-Threonine</synonym>
+    <synonym xml:lang="de">D-Threonin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-amino-3-1H-indol-3-yl_propanoic_acid">
+    <name xml:lang="en">(2R)-2-Amino-3-(1H-indol-3-yl)propanoic acid</name>
+    <name xml:lang="de">(2R)-2-Amino-3-(1H-indol-3-yl)propansäure</name>
+    <filename>2R-2-amino-3-1H-indol-3-yl_propanoic_acid</filename>
+    <synonym xml:lang="en">D-Tryptophan</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-amino-3-4-hydroxyphenyl_propanoic_acid">
+    <name xml:lang="en">(2R)-2-Amino-3-(4-hydroxyphenyl)propanoic acid</name>
+    <name xml:lang="de">(2R)-2-Amino-3-(4-hydroxyphenyl)propansäure</name>
+    <filename>2R-2-amino-3-4-hydroxyphenyl_propanoic_acid</filename>
+    <synonym xml:lang="en">D-Tyrosine</synonym>
+    <synonym xml:lang="de">D-Tyrosin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-amino-3-methyl-butanoic_acid">
+    <name xml:lang="en">(2R)-2-Amino-3-methyl-butanoic acid</name>
+    <name xml:lang="de">(2R)-2-Amino-3-methyl-butansäure</name>
+    <filename>2R-2-amino-3-methyl-butanoic_acid</filename>
+    <synonym xml:lang="en">D-Valine</synonym>
+    <synonym xml:lang="de">D-Valin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2-aminoacetic_acid">
+    <name xml:lang="en">2-Aminoacetic acid</name>
+    <name xml:lang="de">2-Aminoessigsäure</name>
+    <filename>2-aminoacetic_acid</filename>
+    <synonym xml:lang="en">Glycine</synonym>
+    <synonym xml:lang="de">Glycin</synonym>
+    <synonym>Gly</synonym>
+    <synonym>G</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-aminopropanoic_acid">
+    <name xml:lang="en">(2S)-2-Aminopropanoic acid</name>
+    <name xml:lang="de">(2S)-2-Aminopropansäure</name>
+    <filename>2S-2-aminopropanoic_acid</filename>
+    <synonym xml:lang="en">L-Alanine</synonym>
+    <synonym xml:lang="de">L-Alanin</synonym>
+    <synonym>Ala</synonym>
+    <synonym>A</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-amino-5-diaminomethylideneaminopentanoic_acid">
+    <name xml:lang="en">(2S)-2-Amino-5-(diaminomethylideneamino)pentanoic acid</name>
+    <name xml:lang="de">(2S)-2-Amino-5-(diaminomethylideneamino)pentansäure</name>
+    <filename>2S-2-amino-5-diaminomethylideneaminopentanoic_acid</filename>
+    <synonym xml:lang="en">L-Arginine</synonym>
+    <synonym xml:lang="de">L-Arginin</synonym>
+    <synonym>Arg</synonym>
+    <synonym>R</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-amino-3-carbamoyl-propanoic_acid">
+    <name xml:lang="en">(2S)-2-Amino-3-carbamoyl-propanoic acid</name>
+    <name xml:lang="de">(2S)-2-Amino-3-carbamoyl-propansäure</name>
+    <filename>2S-2-amino-3-carbamoyl-propanoic_acid</filename>
+    <synonym xml:lang="en">L-Asparagine</synonym>
+    <synonym xml:lang="de">L-Asparagin</synonym>
+    <synonym>Asn</synonym>
+    <synonym>N</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-aminobutanedioic_acid">
+    <name xml:lang="en">(2S)-2-Aminobutanedioic acid</name>
+    <name xml:lang="de">(2S)-2-Aminobutansäure</name>
+    <filename>2S-2-aminobutanedioic_acid</filename>
+    <synonym xml:lang="en">L-Aspartic acid</synonym>
+    <synonym xml:lang="de">L-Aspartic acid</synonym>
+    <synonym>Asp</synonym>
+    <synonym>D</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-amino-3-sulfanyl-propanoic_acid">
+    <name xml:lang="en">(2R)-2-Amino-3-sulfanyl-propanoic acid</name>
+    <name xml:lang="de">(2R)-2-Amino-3-sulfanyl-propansäure</name>
+    <filename>2R-2-amino-3-sulfanyl-propanoic_acid</filename>
+    <synonym xml:lang="en">L-Cysteine</synonym>
+    <synonym xml:lang="de">L-Cysteine</synonym>
+    <synonym>Cys</synonym>
+    <synonym>C</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-aminopentanedioic_acid">
+    <name xml:lang="en">(2S)-2-Aminopentanedioic acid</name>
+    <name xml:lang="de">(2S)-2-Aminopentandisäure</name>
+    <filename>2S-2-aminopentanedioic_acid</filename>
+    <synonym xml:lang="en">L-Glutamic acid</synonym>
+    <synonym>Glu</synonym>
+    <synonym>E</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-amino-4-carbamoyl-butanoic_acid">
+    <name xml:lang="en">(2S)-2-Amino-4-carbamoyl-butanoic acid</name>
+    <name xml:lang="de">(2S)-2-Amino-4-carbamoyl-butansäure</name>
+    <filename>2S-2-amino-4-carbamoyl-butanoic_acid</filename>
+    <synonym xml:lang="en">L-Glutamine</synonym>
+    <synonym xml:lang="de">L-Glutamin</synonym>
+    <synonym>Gln</synonym>
+    <synonym>Q</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-amino-3-3H-imidazol-4-yl_propanoic_acid">
+    <name xml:lang="en">(2S)-2-Amino-3-(3H-imidazol-4-yl)propanoic acid</name>
+    <name xml:lang="de">(2S)-2-Amino-3-(3H-imidazol-4-yl)propansäure</name>
+    <filename>2S-2-amino-3-3H-imidazol-4-yl_propanoic_acid</filename>
+    <synonym xml:lang="en">L-Histidine</synonym>
+    <synonym xml:lang="de">L-Histidin</synonym>
+    <synonym>His</synonym>
+    <synonym>H</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S_3S-2-amino-3-methyl-pentanoic_acid">
+    <name xml:lang="en">(2S,3S)-2-Amino-3-methyl-pentanoic acid</name>
+    <name xml:lang="de">(2S,3S)-2-Amino-3-methyl-pentansäure</name>
+    <filename>2S_3S-2-amino-3-methyl-pentanoic_acid</filename>
+    <synonym xml:lang="en">L-Isoleucine</synonym>
+    <synonym xml:lang="de">L-Isoleucin</synonym>
+    <synonym>Ile</synonym>
+    <synonym>I</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-amino-4-methyl-pentanoic_acid">
+    <name xml:lang="en">(2S)-2-Amino-4-methyl-pentanoic acid</name>
+    <name xml:lang="de">(2S)-2-Amino-4-methyl-pentansäure</name>
+    <filename>2S-2-amino-4-methyl-pentanoic_acid</filename>
+    <synonym xml:lang="en">L-Leucine</synonym>
+    <synonym xml:lang="de">L-Leucin</synonym>
+    <synonym>Leu</synonym>
+    <synonym>L</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2_6-diaminohexanoic_acid">
+    <name xml:lang="en">(2S)-2,6-Diaminohexanoic acid</name>
+    <name xml:lang="de">(2S)-2,6-Diaminohexansäure</name>
+    <filename>2S-2_6-diaminohexanoic_acid</filename>
+    <synonym xml:lang="en">L-Lysine</synonym>
+    <synonym xml:lang="de">L-Lysin</synonym>
+    <synonym>Lys</synonym>
+    <synonym>K</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-amino-4-methylsulfanyl-butanoic_acid">
+    <name xml:lang="en">(2S)-2-Amino-4-methylsulfanyl-butanoic acid</name>
+    <name xml:lang="de">(2S)-2-Amino-4-methylsulfanyl-butansäure</name>
+    <filename>2S-2-amino-4-methylsulfanyl-butanoic_acid</filename>
+    <synonym xml:lang="en">L-Methionine</synonym>
+    <synonym xml:lang="de">L-Methionin</synonym>
+    <synonym>Met</synonym>
+    <synonym>M</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-amino-3-phenyl-propanoic_acid">
+    <name xml:lang="en">(2S)-2-Amino-3-phenyl-propanoic acid</name>
+    <name xml:lang="de">(2S)-2-Amino-3-phenyl-propansäure</name>
+    <filename>2S-2-amino-3-phenyl-propanoic_acid</filename>
+    <synonym xml:lang="en">L-Phenylalanine</synonym>
+    <synonym xml:lang="de">L-Phenylalanin</synonym>
+    <synonym>Phe</synonym>
+    <synonym>F</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-pyrrolidine-2-carboxylic_acid">
+    <name xml:lang="en">(2S)-Pyrrolidine-2-carboxylic acid</name>
+    <name xml:lang="de">(2S)-Pyrrolidine-2-carbonsäure</name>
+    <filename>2S-pyrrolidine-2-carboxylic_acid</filename>
+    <synonym xml:lang="en">L-Proline</synonym>
+    <synonym xml:lang="de">L-Prolin</synonym>
+    <synonym>Pro</synonym>
+    <synonym>P</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-amino-3-hydroxy-propanoic_acid">
+    <name xml:lang="en">(2S)-2-Amino-3-hydroxy-propanoic acid</name>
+    <name xml:lang="de">(2S)-2-Amino-3-hydroxy-propansäure</name>
+    <filename>2S-2-amino-3-hydroxy-propanoic_acid</filename>
+    <synonym xml:lang="en">L-Serine</synonym>
+    <synonym xml:lang="de">L-Serin</synonym>
+    <synonym>Ser</synonym>
+    <synonym>S</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S_3R-2-amino-3-hydroxy-butanoic_acid">
+    <name xml:lang="en">(2S,3R)-2-Amino-3-hydroxy-butanoic acid</name>
+    <name xml:lang="de">(2S,3R)-2-Amino-3-hydroxy-butansäure</name>
+    <filename>2S_3R-2-amino-3-hydroxy-butanoic_acid</filename>
+    <synonym xml:lang="en">L-Threonine</synonym>
+    <synonym xml:lang="de">L-Threonin</synonym>
+    <synonym>Thr</synonym>
+    <synonym>T</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-amino-3-1H-indol-3-yl_propanoic_acid">
+    <name xml:lang="en">(2S)-2-Amino-3-(1H-indol-3-yl)propanoic acid</name>
+    <name xml:lang="de">(2S)-2-Amino-3-(1H-indol-3-yl)propansäure</name>
+    <filename>2S-2-amino-3-1H-indol-3-yl_propanoic_acid</filename>
+    <synonym xml:lang="en">L-Tryptophan</synonym>
+    <synonym>Trp</synonym>
+    <synonym>W</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-amino-3-4-hydroxyphenyl_propanoic_acid">
+    <name xml:lang="en">(2S)-2-Amino-3-(4-hydroxyphenyl)propanoic acid</name>
+    <name xml:lang="de">(2S)-2-Amino-3-(4-hydroxyphenyl)propansäure</name>
+    <filename>2S-2-amino-3-4-hydroxyphenyl_propanoic_acid</filename>
+    <synonym xml:lang="en">L-Tyrosine</synonym>
+    <synonym xml:lang="en">Tyr</synonym>
+    <synonym xml:lang="en">Y</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-amino-3-methyl-butanoic_acid">
+    <name xml:lang="en">(2S)-2-Amino-3-methyl-butanoic acid</name>
+    <name xml:lang="de">(2S)-2-Amino-3-methyl-butansäure</name>
+    <filename>2S-2-amino-3-methyl-butanoic_acid</filename>
+    <synonym xml:lang="en">L-Valine</synonym>
+    <synonym xml:lang="de">L-Valin</synonym>
+    <synonym>Val</synonym>
+    <synonym>V</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R_3R-2-amino-3-hydroxy-butanoic_acid">
+    <name xml:lang="en">(2R,3R)-2-Amino-3-hydroxy-butanoic acid</name>
+    <name xml:lang="de">(2R,3R)-2-Amino-3-hydroxy-butansäure</name>
+    <filename>2R_3R-2-amino-3-hydroxy-butanoic_acid</filename>
+    <synonym xml:lang="en">D-allo-Threonine</synonym>
+    <synonym xml:lang="de">D-allo-Threonin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-06-26</date>
+  </entry>
+  <entry id="CS_2S_3R-2-amino-3-methyl-pentanoic_acid">
+    <name xml:lang="en">(2S,3R)-2-Amino-3-methyl-pentanoic acid</name>
+    <name xml:lang="de">(2S,3R)-2-Amino-3-methyl-pentansäure</name>
+    <filename>2S_3R-2-amino-3-methyl-pentanoic_acid</filename>
+    <synonym xml:lang="en">L-allo-Isoleucine</synonym>
+    <synonym xml:lang="de">L-allo-Isoleucin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-06-26</date>
+  </entry>
+</index>

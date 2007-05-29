@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Aromatics</title>
+  <title xml:lang="fr">Aromatiques</title>
+  <title xml:lang="de">Aromate</title>
+  <entry id="CS_aniline">
+    <name xml:lang="en">Aniline</name>
+    <name xml:lang="de">Anilin</name>
+    <filename>aniline</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_benzene">
+    <name xml:lang="en">Benzene</name>
+    <name xml:lang="de">Benzol</name>
+    <filename>benzene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_benzoic_acid">
+    <name xml:lang="en">Benzoic acid</name>
+    <name xml:lang="de">Benzoesäure</name>
+    <filename>benzoic_acid</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_phenol">
+    <name xml:lang="en">Phenol</name>
+    <filename>phenol</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_phenylmethanol">
+    <name xml:lang="en">Phenylmethanol</name>
+    <filename>phenylmethanol</filename>
+    <synonym xml:lang="en">Benzyl alcohol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_toluene">
+    <name xml:lang="en">Toluene</name>
+    <name xml:lang="de">Toluol</name>
+    <filename>toluene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_1_2-xylene">
+    <name xml:lang="en">1,2-Xylene</name>
+    <name xml:lang="de">1,2-Xylol</name>
+    <filename>1_2-xylene</filename>
+    <synonym xml:lang="en">o-Xylene</synonym>
+    <synonym xml:lang="de">o-Xylol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_1_3-xylene">
+    <name xml:lang="en">1,3-Xylene</name>
+    <name xml:lang="de">1,3-Xylol</name>
+    <filename>1_3-xylene</filename>
+    <synonym xml:lang="en">m-Xylene</synonym>
+    <synonym xml:lang="de">m-Xylol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_1_4-xylene">
+    <name xml:lang="en">1,4-Xylene</name>
+    <name xml:lang="de">1,4-Xylol</name>
+    <filename>1_4-xylene</filename>
+    <synonym xml:lang="en">p-Xylene</synonym>
+    <synonym xml:lang="de">p-Xylol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_2_4_6-trimethylaniline">
+    <name xml:lang="en">2,4,6-Trimethylaniline</name>
+    <name xml:lang="de">2,4,6-Trimethylanilin</name>
+    <filename>2_4_6-trimethylaniline</filename>
+    <synonym xml:lang="en">Mesidine</synonym>
+    <synonym xml:lang="de">Mesidin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-06-29</date>
+  </entry>
+  <entry id="CS_benzene-1_2-diol">
+    <name xml:lang="en">Benzene-1,2-diol</name>
+    <name xml:lang="de">1,2-Dihydroxybenzol</name>
+    <filename>benzene-1_2-diol</filename>
+    <synonym xml:lang="en">Pyrocatechol</synonym>
+    <synonym xml:lang="en">Catechol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-06-29</date>
+  </entry>
+  <entry id="CS_benzene-1_3-diol">
+    <name xml:lang="en">Benzene-1,3-diol</name>
+    <name xml:lang="de">1,3-Dihydroxybenzol</name>
+    <filename>benzene-1_3-diol</filename>
+    <synonym xml:lang="en">Resorcinol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-06-29</date>
+  </entry>
+  <entry id="CS_benzene-1_4-diol">
+    <name xml:lang="en">Benzene-1,4-diol</name>
+    <name xml:lang="de">1,4-Dihydroxybenzol</name>
+    <filename>benzene-1_4-diol</filename>
+    <synonym xml:lang="en">Hydroquinone</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-06-29</date>
+  </entry>
+  <entry id="CS_1S_2R-1_2-diphenylethane-1_2-diol">
+    <name xml:lang="en">(1S,2R)-1,2-Diphenylethane-1,2-diol</name>
+    <name xml:lang="de">(1S,2R)-1,2-Diphenylethan-1,2-diol</name>
+    <filename>1S_2R-1_2-diphenylethane-1_2-diol</filename>
+    <synonym xml:lang="en">meso-Hydrobenzoin</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_2_3-dimethylphenol">
+    <name xml:lang="en">2,3-Dimethylphenol</name>
+    <filename>2_3-dimethylphenol</filename>
+    <synonym xml:lang="en">2,3-Xylenol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_2_4_6-trinitrotoluene">
+    <name xml:lang="en">2,4,6-Trinitrotoluene</name>
+    <name xml:lang="de">2,4,6-Trinitrotoluol</name>
+    <filename>2_4_6-trinitrotoluene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_2_4-diaminotoluene">
+    <name xml:lang="en">2,4-Diaminotoluene</name>
+    <name xml:lang="de">2,4-Diaminotoluol</name>
+    <filename>2_4-diaminotoluene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_2_4-dimethylphenol">
+    <name xml:lang="en">2,4-Dimethylphenol</name>
+    <filename>2_4-dimethylphenol</filename>
+    <synonym xml:lang="en">2,4-Xylenol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_2_5-dimethylphenol">
+    <name xml:lang="en">2,5-Dimethylphenol</name>
+    <filename>2_5-dimethylphenol</filename>
+    <synonym xml:lang="en">2,5-Xylenol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_2_6-diaminotoluene">
+    <name xml:lang="en">2,6-Diaminotoluene</name>
+    <name xml:lang="de">2,6-Diaminotoluol</name>
+    <filename>2_6-diaminotoluene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_2_6-dimethylphenol">
+    <name xml:lang="en">2,6-Dimethylphenol</name>
+    <filename>2_6-dimethylphenol</filename>
+    <synonym xml:lang="en">2,6-Xylenol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_2-hydroxybenzaldehyde">
+    <name xml:lang="en">2-Hydroxybenzaldehyde</name>
+    <name xml:lang="de">2-Hydroxybenzaldehyd</name>
+    <filename>2-hydroxybenzaldehyde</filename>
+    <synonym xml:lang="en">Salicylaldehyde</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_2-phenylethanol">
+    <name xml:lang="en">2-Phenylethanol</name>
+    <filename>2-phenylethanol</filename>
+    <synonym xml:lang="en">Phenethyl alcohol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_3_4-dimethylphenol">
+    <name xml:lang="en">3,4-Dimethylphenol</name>
+    <filename>3_4-dimethylphenol</filename>
+    <synonym xml:lang="en">3,4-Xylenol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_3_5-dimethylphenol">
+    <name xml:lang="en">3_5-Dimethylphenol</name>
+    <filename>3_5-dimethylphenol</filename>
+    <synonym xml:lang="en">3,5-Xylenol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_1_3_5-trimethylbenzene">
+    <name xml:lang="en">1,3,5-Trimethylbenzene</name>
+    <name xml:lang="de">1,3,5-Trimethylbenzol</name>
+    <filename>1_3_5-trimethylbenzene</filename>
+    <synonym xml:lang="en">Mesitylene</synonym>
+    <synonym xml:lang="de">Mesitylen</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_4-dimethylaminobenzaldehyde">
+    <name xml:lang="en">4-Dimethylaminobenzaldehyde</name>
+    <filename>4-dimethylaminobenzaldehyde</filename>
+    <synonym xml:lang="en">Ehrlich's reagent</synonym>
+    <synonym xml:lang="de">Ehrlich's Reagenz</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_benzaldehyde">
+    <name xml:lang="en">Benzaldehyde</name>
+    <name xml:lang="de">Benzaldehyd</name>
+    <filename>benzaldehyde</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_benzene-1_2-diamine">
+    <name xml:lang="en">Benzene-1,2-diamine</name>
+    <name xml:lang="de">Benzene-1,2-diamin</name>
+    <filename>benzene-1_2-diamine</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_benzene-1_3-diamine">
+    <name xml:lang="en">Benzene-1,3-diamine</name>
+    <name xml:lang="de">Benzene-1,3-diamin</name>
+    <filename>benzene-1_3-diamine</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_benzene-1_4-diamine">
+    <name xml:lang="en">Benzene-1,4-diamine</name>
+    <name xml:lang="de">Benzene-1,4-diamin</name>
+    <filename>benzene-1_4-diamine</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_ethoxybenzene">
+    <name xml:lang="en">Ethoxybenzene</name>
+    <name xml:lang="de">Ethoxybenzol</name>
+    <filename>ethoxybenzene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_tris_4-dimethylaminophenyl_methanol">
+    <name xml:lang="en">Tris(4-dimethylaminophenyl)methanol</name>
+    <filename>tris_4-dimethylaminophenyl_methanol</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-10-15</date>
+  </entry>
+  <entry id="CS_tris_4-aminophenyl_methanol">
+    <name xml:lang="en">Tris(4-aminophenyl)methanol</name>
+    <filename>tris_4-aminophenyl_methanol</filename>
+    <synonym xml:lang="en">Pararosaniline base</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-10-15</date>
+  </entry>
+  <entry id="CS_triphenylmethanol">
+    <name xml:lang="en">Triphenylmethanol</name>
+    <filename>triphenylmethanol</filename>
+    <synonym xml:lang="en">Tritanol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-10-15</date>
+  </entry>
+  <entry id="CS_4_bis_4-dimethylaminophenyl_methylene-2_5-cyclohexadien-1-iminium">
+    <name xml:lang="en">4-[Bis(4-dimethylaminophenyl)methylene]-2,5-cyclohexadien-1-iminium</name>
+    <filename>4_bis_4-dimethylaminophenyl_methylene-2_5-cyclohexadien-1-iminium</filename>
+    <synonym xml:lang="en">Methyl Violet 2B</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-10-15</date>
+  </entry>
+  <entry id="CS_2-bromophenol">
+    <name xml:lang="en">2-Bromophenol</name>
+    <filename>2-bromophenol</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_2-chlorophenol">
+    <name xml:lang="en">2-Chlorophenol</name>
+    <filename>2-chlorophenol</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_2-phenylacetic_acid">
+    <name xml:lang="en">2-Phenylacetic acid</name>
+    <filename>2-phenylacetic_acid</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_2-pyridin-2-ylpyridine">
+    <name xml:lang="en">2-Pyridin-2-ylpyridine</name>
+    <filename>2-pyridin-2-ylpyridine</filename>
+    <synonym xml:lang="en">2,2'-Bipyridine</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_3-bromophenol">
+    <name xml:lang="en">2-Bromophenol</name>
+    <filename>3-bromophenol</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_3-chlorophenol">
+    <name xml:lang="en">3-Chlorophenol</name>
+    <filename>3-chlorophenol</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_3-pyridin-3-ylpyridine">
+    <name xml:lang="en">3-Pyridin-3-ylpyridine</name>
+    <filename>3-pyridin-3-ylpyridine</filename>
+    <synonym xml:lang="en">3,3'-Bipyridine</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_4-bromophenol">
+    <name xml:lang="en">4-Bromophenol</name>
+    <filename>4-bromophenol</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_4-chlorophenol">
+    <name xml:lang="en">4-Chlorophenol</name>
+    <filename>4-chlorophenol</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_4-pyridin-4-ylpyridine">
+    <name xml:lang="en">4-Pyridin-4-ylpyridine</name>
+    <filename>4-pyridin-4-ylpyridine</filename>
+    <synonym xml:lang="en">4,4'-Bipyridine</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_N_N-dimethylaniline">
+    <name xml:lang="en">N,N-Dimethylaniline</name>
+    <filename>N_N-dimethylaniline</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_anisole">
+    <name xml:lang="en">Anisole</name>
+    <filename>anisole</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_benzamide">
+    <name xml:lang="en">Benzamide</name>
+    <filename>benzamide</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_benzoyl_chloride">
+    <name xml:lang="en">Benzoylchloride</name>
+    <filename>benzoyl_chloride</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_bromobenzene">
+    <name xml:lang="en">Bromobenzene</name>
+    <filename>bromobenzene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_chlorobenzene">
+    <name xml:lang="en">Chlorobenzene</name>
+    <filename>chlorobenzene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_tris_4-cyanophenyl_methane">
+    <name xml:lang="en">Tris(4-cyanophenyl)methane</name>
+    <filename>tris_4-cyanophenyl_methane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_tris_4-cyanophenyl_methanol">
+    <name xml:lang="en">Tris(4-cyanophenyl)methanol</name>
+    <filename>tris_4-cyanophenyl_methanol</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_1_3_5-trichloro-2-methoxybenzene">
+    <name xml:lang="en">1,3,5-Trichloro-2-methoxybenzene</name>
+    <filename>1_3_5-trichloro-2-methoxybenzene</filename>
+    <synonym xml:lang="en">2,4,6-Trichloranisole</synonym>
+    <synonym xml:lang="en">Tyrene</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_1-chloro-2-ethenylbenzene">
+    <name xml:lang="en">1-Chloro-2-ethenylbenzene</name>
+    <filename>1-chloro-2-ethenylbenzene</filename>
+    <synonym xml:lang="en">2-Chlorostyrene</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_1-chloro-2-methoxybenzene">
+    <name xml:lang="en">1-Chloro-2-methoxybenzene</name>
+    <filename>1-chloro-2-methoxybenzene</filename>
+    <synonym xml:lang="en">2-Chloroanisole</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_1-chloro-3-methoxybenzene">
+    <name xml:lang="en">1-Chloro-3-methoxybenzene</name>
+    <filename>1-chloro-3-methoxybenzene</filename>
+    <synonym xml:lang="en">3-Chloroanisole</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_2-chloro-5-methylphenol">
+    <name xml:lang="en">2-Chloro-5-methylphenol</name>
+    <filename>2-chloro-5-methylphenol</filename>
+    <synonym xml:lang="en">6-Chloro-m-cresol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_1-chloro-4-methoxybenzene">
+    <name xml:lang="en">1-Chloro-4-methoxybenzene</name>
+    <filename>1-chloro-4-methoxybenzene</filename>
+    <synonym xml:lang="en">4-Chloroanisole</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_1-phenylbutan-1-one">
+    <name xml:lang="en">1-Phenylbutan-1-one</name>
+    <filename>1-phenylbutan-1-one</filename>
+    <synonym xml:lang="en">n-Butyrophenone</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_2_2-dimethyl-3H-benzofuran-7-yl_N-methylcarbamate">
+    <name xml:lang="en">(2,2-Dimethyl-3H-benzofuran-7-yl) N-methylcarbamate</name>
+    <filename>2_2-dimethyl-3H-benzofuran-7-yl_N-methylcarbamate</filename>
+    <synonym xml:lang="en">Carbofuran</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_2_3_4_5_6-pentachlorophenol">
+    <name xml:lang="en">2,3,4,5,6-Pentachlorophenol</name>
+    <filename>2_3_4_5_6-pentachlorophenol</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_2_4_6-trichlorophenol">
+    <name xml:lang="en">2,4,6-Trichlorophenol</name>
+    <filename>2_4_6-trichlorophenol</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_2-chloro-4-nitroaniline">
+    <name xml:lang="en">2-Chloro-4-nitroaniline</name>
+    <filename>2-chloro-4-nitroaniline</filename>
+    <synonym xml:lang="en"></synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_4-bromo-5-methyl-2-propan-2-yl-phenol">
+    <name xml:lang="en">4-Bromo-5-methyl-2-propan-2-yl-phenol</name>
+    <filename>4-bromo-5-methyl-2-propan-2-yl-phenol</filename>
+    <synonym xml:lang="en">Bromothymol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_4-chloro-2-methylphenol">
+    <name xml:lang="en">4-Chloro-2-methylphenol</name>
+    <filename>4-chloro-2-methylphenol</filename>
+    <synonym xml:lang="en">4-Chloro-o-cresol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_4-chloro-3-methylphenol">
+    <name xml:lang="en">4-Chloro-3-methylphenol</name>
+    <filename>4-chloro-3-methylphenol</filename>
+    <synonym xml:lang="en">4-Chloro-m-cresol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_4-chloroaniline">
+    <name xml:lang="en">4-Chloroaniline</name>
+    <filename>4-chloroaniline</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_4-methoxybenzaldehyde">
+    <name xml:lang="en">4-Methoxybenzaldehyde</name>
+    <filename>4-methoxybenzaldehyde</filename>
+    <synonym xml:lang="en">p-Anisaldehyde</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_4-methylbenzoic_acid">
+    <name xml:lang="en">4-Methylbenzoic acid</name>
+    <filename>4-methylbenzoic_acid</filename>
+    <synonym xml:lang="en">p-Toluic acid</synonym>
+    <synonym xml:lang="en">Crithminic acid</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_4-octylphenol">
+    <name xml:lang="en">4-Octylphenol</name>
+    <filename>4-octylphenol</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_5-chloro-2-2_4-dichlorophenoxy_phenol">
+    <name xml:lang="en">5-Chloro-2-(2,4-dichlorophenoxy)phenol</name>
+    <filename>5-chloro-2-2_4-dichlorophenoxy_phenol</filename>
+    <synonym xml:lang="en">Triclosan</synonym>
+    <synonym xml:lang="en">Irgasan</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_benzonitrile">
+    <name xml:lang="en">Benzonitrile</name>
+    <filename>benzonitrile</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_E-2-chloroethenyl_benzene">
+    <name xml:lang="en">[(E)-2-Chloroethenyl]benzene</name>
+    <filename>E-2-chloroethenyl_benzene</filename>
+    <synonym xml:lang="en">beta-Chlorostyrene</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_E-2-phenylethenyl_benzene">
+    <name xml:lang="en">[(E)-2-Phenylethenyl]benzene</name>
+    <filename>E-2-phenylethenyl_benzene</filename>
+    <synonym xml:lang="en">trans-Stilbene</synonym>
+    <synonym xml:lang="en">trans-1,2-Diphenylethylene</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_nitrobenzene">
+    <name xml:lang="en">Nitrobenzene</name>
+    <filename>nitrobenzene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_benzhydrylbenzene">
+    <name xml:lang="en">Benzhydrylbenzene</name>
+    <filename>benzhydrylbenzene</filename>
+    <synonym xml:lang="en">Triphenylmethane</synonym>
+    <synonym xml:lang="en">Tritane</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+</index>

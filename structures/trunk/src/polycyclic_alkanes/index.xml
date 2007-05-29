@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Polycyclic alkanes</title>
+  <title xml:lang="fr">Alcanes polycycliques</title>
+  <title xml:lang="de">Polyzyklische Alkane</title>
+  <entry id="CS_cis-decahydronaphthalene">
+    <name xml:lang="en">cis-Decahydronaphthalene</name>
+    <filename>cis-decahydronaphthalene</filename>
+    <synonym xml:lang="en">cis-Decaline</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_trans-decahydronaphthalene">
+    <name xml:lang="en">trans-Decahydronaphthalene</name>
+    <filename>trans-decahydronaphthalene</filename>
+    <synonym xml:lang="en">trans-Decaline</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_hexadecahydro-1H-cyclopenta_a_phenanthrene">
+    <name xml:lang="en">Hexadecahydro-1H-cyclopenta[a]phenanthrene</name>
+    <filename>hexadecahydro-1H-cyclopenta_a_phenanthrene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_abietic_acid">
+    <name xml:lang="en">Abietic acid</name>
+    <name xml:lang="de">Abietinsäure</name>
+    <filename>abietic_acid</filename>
+    <synonym xml:lang="en">Sylvic acid</synonym>
+    <synonym xml:lang="en">Abietinic acid</synonym>
+    <synonym xml:lang="de">Sylvinsäure</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_1R_4S-1_7_7-trimethylnorbornan-2-one">
+    <name xml:lang="en">(1R,4S)-1,7,7-Trimethylnorbornan-2-one</name>
+    <filename>1R_4S-1_7_7-trimethylnorbornan-2-one</filename>
+    <synonym xml:lang="en">(1R)-Camphor</synonym>
+    <synonym xml:lang="en">D-Camphor</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_1R_4S-2_2-dimethyl-3-methylidenenorbornane">
+    <name xml:lang="en">(1R,4S)-2,2-Dimethyl-3-methylidenenorbornane</name>
+    <filename>1R_4S-2_2-dimethyl-3-methylidenenorbornane</filename>
+    <synonym xml:lang="en">D-Camphene</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_cubane">
+    <name xml:lang="en">Cubane</name>
+    <filename>cubane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+</index>

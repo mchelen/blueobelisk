@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Esters</title>
+  <title xml:lang="fr">Esters</title>
+  <title xml:lang="de">Ester</title>
+  <entry id="CS_ethyl_acetate">
+    <name xml:lang="en">Ethyl acetate</name>
+    <filename>ethyl_acetate</filename>
+    <synonym xml:lang="en">Acetic acid ethyl ester</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_butyl_acetate">
+    <name xml:lang="en">Butyl acetate</name>
+    <filename>butyl_acetate</filename>
+    <synonym xml:lang="en">Acetic acid n-butyl ester</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_butyl_butanoate">
+    <name xml:lang="en">Butyl butanoate</name>
+    <filename>butyl_butanoate</filename>
+    <synonym xml:lang="en">n-Butyric acid n-butyl ester</synonym>
+    <synonym xml:lang="en">Butyl butyrate</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_butyl_formate">
+    <name xml:lang="en">Butyl formate</name>
+    <filename>butyl_formate</filename>
+    <synonym xml:lang="en">Formic acid n-butyl ester</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_butyl_pentanoate">
+    <name xml:lang="en">Butyl pentanoate</name>
+    <filename>butyl_pentanoate</filename>
+    <synonym xml:lang="en">n-Valeric acid n-butyl ester</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_butyl_propanoate">
+    <name xml:lang="en">Butyl propanoate</name>
+    <filename>butyl_propanoate</filename>
+    <synonym xml:lang="en">Propionic acid n-butyl ester</synonym>
+    <synonym xml:lang="en">Butyl propionate</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_ethyl_butanoate">
+    <name xml:lang="en">Ethyl butanoate</name>
+    <filename>ethyl_butanoate</filename>
+    <synonym xml:lang="en">n-Butyric acid ethyl ester</synonym>
+    <synonym xml:lang="en">Ethyl Butyrate</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_ethyl_formate">
+    <name xml:lang="en">Ethyl formate</name>
+    <filename>ethyl_formate</filename>
+    <synonym xml:lang="en">Formic acid ethyl ester</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_ethyl_pentanoate">
+    <name xml:lang="en">Ethyl pentanoate</name>
+    <filename>ethyl_pentanoate</filename>
+    <synonym xml:lang="en">n-Valeric acid ethyl ester</synonym>
+    <synonym xml:lang="en">Ethyl valerate</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_ethyl_propanoate">
+    <name xml:lang="en">Ethyl propanoate</name>
+    <filename>ethyl_propanoate</filename>
+    <synonym xml:lang="en">Propionic acid ethyl ester</synonym>
+    <synonym xml:lang="en">Ethyl propionate</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_methyl_acetate">
+    <name xml:lang="en">Methyl acetate</name>
+    <filename>methyl_acetate</filename>
+    <synonym xml:lang="en">Acetic acid methyl ester</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_methyl_butanoate">
+    <name xml:lang="en">Methyl butanoate</name>
+    <filename>methyl_butanoate</filename>
+    <synonym xml:lang="en">n-Butyric acid methyl ester</synonym>
+    <synonym xml:lang="en">Methyl butyrate</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_methyl_formate">
+    <name xml:lang="en">Methyl formate</name>
+    <filename>methyl_formate</filename>
+    <synonym xml:lang="en">Formic acid methyl ester</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_methyl_pentanoate">
+    <name xml:lang="en">Methyl pentanoate</name>
+    <filename>methyl_pentanoate</filename>
+    <synonym xml:lang="en">n-Valeric acid methyl ester</synonym>
+    <synonym xml:lang="en">Methyl valerate</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_methyl_propanoate">
+    <name xml:lang="en">Methyl propanoate</name>
+    <filename>methyl_propanoate</filename>
+    <synonym xml:lang="en">Propionic acid methyl ester</synonym>
+    <synonym xml:lang="en">Methyl propionate</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_pentyl_acetate">
+    <name xml:lang="en">Pentyl acetate</name>
+    <filename>pentyl_acetate</filename>
+    <synonym xml:lang="en">Acetic acid pentyl ester</synonym>
+    <synonym xml:lang="en">Amyl acetate</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_pentyl_butanoate">
+    <name xml:lang="en">Pentyl butanoate</name>
+    <filename>pentyl_butanoate</filename>
+    <synonym xml:lang="en">n-Butyric acid pentyl ester</synonym>
+    <synonym xml:lang="en">Pentyl butyrate</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_pentyl_formate">
+    <name xml:lang="en">Pentyl formate</name>
+    <filename>pentyl_formate</filename>
+    <synonym xml:lang="en">Formic acid pentyl ester</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_pentyl_pentanoate">
+    <name xml:lang="en">Pentyl pentanoate</name>
+    <filename>pentyl_pentanoate</filename>
+    <synonym xml:lang="en">n-Valeric acid pentyl ester</synonym>
+    <synonym xml:lang="en">Pentyl valerate</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_pentyl_propanoate">
+    <name xml:lang="en">Pentyl propanoate</name>
+    <filename>pentyl_propanoate</filename>
+    <synonym xml:lang="en">Propionic acid pentyl ester</synonym>
+    <synonym xml:lang="en">Pentyl propionate</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_propyl_acetate">
+    <name xml:lang="en">Propyl acetate</name>
+    <filename>propyl_acetate</filename>
+    <synonym xml:lang="en">Acetic acid propyl ester</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_propyl_butanoate">
+    <name xml:lang="en">Propyl butanoate</name>
+    <filename>propyl_butanoate</filename>
+    <synonym xml:lang="en">n-Butyric acid propyl ester</synonym>
+    <synonym xml:lang="en">Propyl butyrate</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_propyl_formate">
+    <name xml:lang="en">Propyl formate</name>
+    <filename>propyl_formate</filename>
+    <synonym xml:lang="en">Formic acid propyl ester</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_propyl_pentanoate">
+    <name xml:lang="en">Propyl pentanoate</name>
+    <filename>propyl_pentanoate</filename>
+    <synonym xml:lang="en">n-Valeric acid propyl ester</synonym>
+    <synonym xml:lang="en">Propyl valerate</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_propyl_propanoate">
+    <name xml:lang="en">Propyl propanoate</name>
+    <filename>propyl_propanoate</filename>
+    <synonym xml:lang="en">Propionic acid propyl ester</synonym>
+    <synonym xml:lang="en">Propyl propionate</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_linolein">
+    <name xml:lang="en">2,3-bis[[(9Z,12Z)-octadeca-9,12-dienoyl]oxy]propyl (9Z,12Z)-octadeca-9,12-dienoate</name>
+    <filename>linolein</filename>
+    <synonym xml:lang="en">Linolein</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-06-27</date>
+  </entry>
+</index>

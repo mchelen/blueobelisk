@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Aldehydes</title>
+  <title xml:lang="fr">Aldéhydes</title>
+  <title xml:lang="de">Aldehyde</title>
+  <entry id="CS_2-methylpropanal">
+    <name xml:lang="en">2-Methylpropanal</name>
+    <filename>2-methylpropanal</filename>
+    <synonym xml:lang="en">Isobutyraldehyde</synonym>
+    <synonym xml:lang="de">Isobutyraldehyd</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-methylbutanal">
+    <name xml:lang="en">(2R)-2-Methylbutanal</name>
+    <filename>2R-2-methylbutanal</filename>
+    <synonym xml:lang="en">2-Methylbutyraldehyde</synonym>
+    <synonym xml:lang="de">2-Methylbutyraldehyd</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_3-methylbutanal">
+    <name xml:lang="en">3-Methylbutanal</name>
+    <filename>3-methylbutanal</filename>
+    <synonym xml:lang="en">Isovaleraldehyde</synonym>
+    <synonym xml:lang="de">Isovaleraldehyd</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_butanal">
+    <name xml:lang="en">Butanal</name>
+    <filename>butanal</filename>
+    <synonym xml:lang="en">n-Butyraldehyde</synonym>
+    <synonym xml:lang="de">n-Butyraldehyd</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_acetaldehyde">
+    <name xml:lang="en">Acetaldehyde</name>
+    <filename>acetaldehyde</filename>
+    <synonym xml:lang="en">Ethanal</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_heptanal">
+    <name xml:lang="en">Heptanal</name>
+    <filename>heptanal</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_hexanal">
+    <name xml:lang="en">Hexanal</name>
+    <filename>hexanal</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_formaldehyde">
+    <name xml:lang="en">Formaldehyde</name>
+    <filename>formaldehyde</filename>
+    <synonym xml:lang="en">Methanal</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_octanal">
+    <name xml:lang="en">Octanal</name>
+    <filename>octanal</filename>
+    <synonym xml:lang="en">Octyl aldehyde</synonym>
+    <synonym xml:lang="de">Octylaldehyd</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_pentanal">
+    <name xml:lang="en">Pentanal</name>
+    <filename>pentanal</filename>
+    <synonym xml:lang="en">n-Valeraldehyde</synonym>
+    <synonym xml:lang="de">n-Valeraldehyd</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_propanal">
+    <name xml:lang="en">Propanal</name>
+    <filename>propanal</filename>
+    <synonym xml:lang="en">Proprionaldehyde</synonym>
+    <synonym xml:lang="de">Proprionaldehyd</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_prop-2-enal">
+    <name xml:lang="en">Prop-2-enal</name>
+    <filename>prop-2-enal</filename>
+    <synonym xml:lang="en">Acrolein</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-21</date>
+  </entry>
+</index>

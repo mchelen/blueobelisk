@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_butanenitrile">
+ <formula concise=" C 4 H 7 N 1 "/>
+ <identifier version="InChI/1">
+  <basic>1/C4H7N/c1-2-3-4-5/h2-3H2,1H3</basic>
+ </identifier>
+ <name convention="IUPAC">Butanenitrile</name>
+ <atomArray>
+  <atom id="a1" elementType="C" x3="0.355226" y3="0.441873" z3="-0.194570"/>
+  <atom id="a2" elementType="C" x3="-0.973350" y3="-0.223845" z3="0.144107"/>
+  <atom id="a3" elementType="C" x3="-2.090140" y3="0.653638" z3="-0.139033"/>
+  <atom id="a4" elementType="N" x3="-2.986358" y3="1.353184" z3="-0.364789"/>
+  <atom id="a5" elementType="H" x3="0.371532" y3="0.736330" z3="-1.262293"/>
+  <atom id="a6" elementType="C" x3="1.511569" y3="-0.485069" z3="0.105408"/>
+  <atom id="a7" elementType="H" x3="0.464983" y3="1.384138" z3="0.377371"/>
+  <atom id="a8" elementType="H" x3="-1.011142" y3="-0.509205" z3="1.215180"/>
+  <atom id="a9" elementType="H" x3="-1.105129" y3="-1.160742" z3="-0.434595"/>
+  <atom id="a10" elementType="H" x3="2.470915" y3="-0.010875" z3="-0.137880"/>
+  <atom id="a11" elementType="H" x3="1.448352" y3="-1.414689" z3="-0.475846"/>
+  <atom id="a12" elementType="H" x3="1.543541" y3="-0.764737" z3="1.166941"/>
+ </atomArray>
+ <bondArray>
+  <bond atomRefs2="a1 a2" order="1"/>
+  <bond atomRefs2="a2 a3" order="1"/>
+  <bond atomRefs2="a3 a4" order="3"/>
+  <bond atomRefs2="a1 a5" order="1"/>
+  <bond atomRefs2="a1 a6" order="1"/>
+  <bond atomRefs2="a1 a7" order="1"/>
+  <bond atomRefs2="a2 a8" order="1"/>
+  <bond atomRefs2="a2 a9" order="1"/>
+  <bond atomRefs2="a6 a10" order="1"/>
+  <bond atomRefs2="a6 a11" order="1"/>
+  <bond atomRefs2="a6 a12" order="1"/>
+ </bondArray>
+ <list>
+  <propertyList>
+   <property dictRef="cml:molwt" title="molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="cml:molwt" units="unit:g">69.1051</scalar>
+   </property>
+   <property dictRef="chemwt:exact_molwt" title="exact molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="chemwt:exact_molwt" units="unit:g">69.0578492</scalar>
+   </property>
+   <property dictRef="cml:mpt" title="melting point">
+    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:mpt" units="unit:celsius">-112</scalar>
+   </property>
+   <property dictRef="cml:bpt" title="boiling point">
+    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:bpt" units="unit:celsius">116</scalar>
+   </property>
+  </propertyList>
+ </list>
+</molecule>

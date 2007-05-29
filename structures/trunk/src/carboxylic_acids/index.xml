@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Carboxylic acids</title>
+  <title xml:lang="fr">Acides carboxyliques</title>
+  <title xml:lang="de">Carbonsäuren</title>
+  <entry id="CS_2_2_2-trifluoroacetic_acid">
+    <name xml:lang="en">2,2,2-Trifluoroacetic acid</name>
+    <name xml:lang="de">2,2,2-Trifluoroessigsäure</name>
+    <filename>2_2_2-trifluoroacetic_acid</filename>
+    <synonym xml:lang="de">Perfluoroessig säure</synonym>
+    <synonym xml:lang="en">Perfluoroacetic acid</synonym>
+    <synonym xml:lang="de">Acide perfluoroacétique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2-hydroxypropane-1_2_3-tricarboxylic_acid">
+    <name xml:lang="en">2-Hydroxypropane-1,2,3-tricarboxylic acid</name>
+    <name xml:lang="de">2-Hydroxypropan-1,2,3-tricarbonsäure</name>
+    <filename>2-hydroxypropane-1_2_3-tricarboxylic_acid</filename>
+    <synonym xml:lang="en">Citric acid</synonym>
+    <synonym xml:lang="fr">Acide citrique</synonym>
+    <synonym xml:lang="de">Zitronsaüre</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-1S-1_2-dihydroxyethyl-4_5-dihydroxy-furan-3-one">
+    <name xml:lang="en">(2R)-2-[(1S)-1,2-Dihydroxyethyl]-4,5-dihydroxy-furan-3-one</name>
+    <name xml:lang="de">(2R)-2-[(1S)-1,2-Dihydroxyethyl]-4,5-dihydroxy-furan-3-on</name>
+    <filename>2R-2-1S-1_2-dihydroxyethyl-4_5-dihydroxy-furan-3-one</filename>
+    <synonym xml:lang="de">L-Ascorbinsäure</synonym>
+    <synonym xml:lang="en">L-Ascorbic acid</synonym>
+    <synonym xml:lang="fr">Acide L-ascorbique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-hydroxybutanedioic_acid">
+    <name xml:lang="en">(2R)-2-Hydroxybutanedioic acid</name>
+    <name xml:lang="de">(2R)-2-Hydroxybutandicarbonsäure</name>
+    <filename>2R-2-hydroxybutanedioic_acid</filename>
+    <synonym xml:lang="de">D-Äpfelsäure</synonym>
+    <synonym xml:lang="en">D-Malic acid</synonym>
+    <synonym xml:lang="fr">Acide D-malique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-hydroxypropanoic_acid">
+    <name xml:lang="en">(2R)-2-Hydroxypropanoic acid</name>
+    <name xml:lang="de">(2R)-2-Hydroxypropansäure</name>
+    <filename>2R-2-hydroxypropanoic_acid</filename>
+    <synonym xml:lang="de">D-Milchsäure</synonym>
+    <synonym xml:lang="en">D-Lactic acid</synonym>
+    <synonym xml:lang="fr">Acide D-lactique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R_3R-2_3-dihydroxybutanedioic_acid">
+    <name xml:lang="en">(2R,3R)-2,3-Dihydroxybutanedioic acid</name>
+    <name xml:lang="de">(2R,3R)-2,3-Dihydroxybutandicarbonsäure</name>
+    <filename>2R_3R-2_3-dihydroxybutanedioic_acid</filename>
+    <synonym xml:lang="en">L-Tartaric acid</synonym>
+    <synonym xml:lang="de">L-Weinsäure</synonym>
+    <synonym xml:lang="fr">Acide L-tartrique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-hydroxybutanedioic_acid">
+    <name xml:lang="en">(2S)-2-Hydroxybutanedioic acid</name>
+    <name xml:lang="de">(2S)-2-Hydroxybutanedicarbonsäure</name>
+    <filename>2S-2-hydroxybutanedioic_acid</filename>
+    <synonym xml:lang="de">L-Äpfelsäure</synonym>
+    <synonym xml:lang="en">L-Malic acid</synonym>
+    <synonym xml:lang="fr">Acide L-malique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S-2-hydroxypropanoic_acid">
+    <name xml:lang="en">(2S)-2-Hydroxypropanoic acid</name>
+    <name xml:lang="de">(2S)-2-Hydroxypropansäure</name>
+    <filename>2S-2-hydroxypropanoic_acid</filename>
+    <synonym xml:lang="de">L-Milchsäure</synonym>
+    <synonym xml:lang="en">L-Lactic acid</synonym>
+    <synonym xml:lang="fr">Acide L-lactique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2S_3S-2_3-dihydroxybutanedioic_acid">
+    <name xml:lang="en">(2S,3S)-2,3-Dihydroxybutanedioic acid</name>
+    <name xml:lang="de">(2S,3S)-2,3-Dihydroxybutandicarbonsäure</name>
+    <filename>2S_3S-2_3-dihydroxybutanedioic_acid</filename>
+    <synonym xml:lang="en">D-Weinsäure</synonym>
+    <synonym xml:lang="en">D-Tartaric acid</synonym>
+    <synonym xml:lang="fr">Acide D-tartrique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_acetic_acid">
+    <name xml:lang="en">Acetic acid</name>
+    <name xml:lang="de">Essigsäure</name>
+    <name xml:lang="fr">Acide acétique</name>
+    <filename>acetic_acid</filename>
+    <synonym xml:lang="en">Ethanoic acid</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_butanedioic_acid">
+    <name xml:lang="en">Butanedioic acid</name>
+    <name xml:lang="de">Butandisäure</name>
+    <filename>butanedioic_acid</filename>
+    <synonym xml:lang="de">Bernsteinsäure</synonym>
+    <synonym xml:lang="en">Succinic acid</synonym>
+    <synonym xml:lang="fr">Acide succinique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_butanoic_acid">
+    <name xml:lang="en">Butanoic acid</name>
+    <name xml:lang="de">Butansäure</name>
+    <filename>butanoic_acid</filename>
+    <synonym xml:lang="en">n-Butyric acid</synonym>
+    <synonym xml:lang="de">Buttersäure</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_formic_acid">
+    <name xml:lang="en">Formic acid</name>
+    <name xml:lang="de">Ameisensäure</name>
+    <filename>formic_acid</filename>
+    <synonym xml:lang="en">Methanoic acid</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_isobutyric_acid">
+    <name xml:lang="en">Isobutyric acid</name>
+    <filename>isobutyric_acid</filename>
+    <synonym xml:lang="de">Isobuttersäure</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_oxalic_acid">
+    <name xml:lang="en">Oxalic acid</name>
+    <name xml:lang="de">Oxalsäure</name>
+    <filename>oxalic_acid</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_propanoic_acid">
+    <name xml:lang="en">Propanoic acid</name>
+    <name xml:lang="de">Propansäure</name>
+    <filename>propanoic_acid</filename>
+    <synonym xml:lang="en">Propionic acid</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2_2_2-trichloroacetic_acid">
+    <name xml:lang="en">2,2,2-Trichloroacetic acid</name>
+    <filename>2_2_2-trichloroacetic_acid</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+  <entry id="CS_2_2-dichloroacetic_acid">
+    <name xml:lang="en">2,2-Dichloroacetic acid</name>
+    <filename>2_2-dichloroacetic_acid</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-24</date>
+  </entry>
+</index>

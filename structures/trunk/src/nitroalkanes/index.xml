@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Nitroalkanes</title>
+  <title xml:lang="fr">Nitroalcanes</title>
+  <title xml:lang="de">Nitroalkan</title>
+  <entry id="CS_nitroethane">
+    <name xml:lang="en">Nitroethane</name>
+    <name xml:lang="fr">Nitroéthane</name>
+    <filename>nitroethane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_nitromethane">
+    <name xml:lang="en">Nitromethane</name>
+    <name xml:lang="fr">Nitrométhane</name>
+    <filename>nitromethane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+</index>

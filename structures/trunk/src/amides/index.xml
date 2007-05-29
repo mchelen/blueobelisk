@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Amides</title>
+  <title xml:lang="fr">Amides</title>
+  <title xml:lang="de">Amide</title>
+  <entry id="CS_N_N-dimethylformamide">
+    <name xml:lang="en">N,N-Dimethylformamide</name>
+    <name xml:lang="de">N,N-Dimethylformamid</name>
+    <filename>N_N-dimethylformamide</filename>
+    <synonym xml:lang="en">DMF</synonym>
+    <synonym xml:lang="de">DMF</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_oxamide">
+    <name xml:lang="en">Oxamide</name>
+    <name xml:lang="de">Oxamid</name>
+    <filename>oxamide</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_1-bromopyrrolidine-2_5-dione">
+    <name xml:lang="en">1-Bromopyrrolidine-2,5-dione</name>
+    <filename>1-bromopyrrolidine-2_5-dione</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_acetamide">
+    <name xml:lang="en">Acetamide</name>
+    <filename>acetamide</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_ethyl_carbamate">
+    <name xml:lang="en">Ethyl carbamate</name>
+    <filename>ethyl_carbamate</filename>
+    <synonym xml:lang="en">Urethane</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_N_N-dimethylacetamide">
+    <name xml:lang="en">N,N-Dimethylacetamide</name>
+    <name xml:lang="fr">N,N-Diméthylacétamide</name>
+    <filename>N_N-dimethylacetamide</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+
+</index>

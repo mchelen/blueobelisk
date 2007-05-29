@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Haloalkanes</title>
+  <title xml:lang="fr">Halogénures d'alkyle</title>
+  <title xml:lang="de">Halogenalkane</title>
+  <entry id="CS_1_1_2_2-tetrachloroethane">
+    <name xml:lang="en">1,1,2,2-Tetrachloroethane</name>
+    <filename>1_1_2_2-tetrachloroethane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_bromoform">
+    <name xml:lang="en">Bromoform</name>
+    <filename>bromoform</filename>
+    <synonym xml:lang="en">Tribromomethane</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_chloroform">
+    <name xml:lang="en">Chloroform</name>
+    <filename>chloroform</filename>
+    <synonym xml:lang="en">Trichloromethane</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_dichloromethane">
+    <name xml:lang="en">Dichloromethane</name>
+    <filename>dichloromethane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_tetrachloromethane">
+    <name xml:lang="en">Tetrachloromethane</name>
+    <filename>tetrachloromethane</filename>
+    <synonym xml:lang="en">Carbon tetrachloride</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_1_3-dichloropropane">
+    <name xml:lang="en">1,3-Dichloropropane</name>
+    <filename>1_3-dichloropropane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_1-chlorobutane">
+    <name xml:lang="en">1-Chlorobutane</name>
+    <filename>1-chlorobutane</filename>
+    <synonym xml:lang="en">n-Butyl chloride</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_1-chlorodecane">
+    <name xml:lang="en">1-Chlorodecane</name>
+    <filename>1-chlorodecane</filename>
+    <synonym xml:lang="en">n-Decyl chloride</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_1-chloroheptane">
+    <name xml:lang="en">1-Chloroheptane</name>
+    <filename>1-chloroheptane</filename>
+    <synonym xml:lang="en">n-Heptyl chloride</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_1-chlorohexane">
+    <name xml:lang="en">1-Chlorohexane</name>
+    <filename>1-chlorohexane</filename>
+    <synonym xml:lang="en">n-Hexyl chloride</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_1-chlorononane">
+    <name xml:lang="en">1-Chlorononane</name>
+    <filename>1-chlorononane</filename>
+    <synonym xml:lang="en">n-Nonyl chloride</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_1-chlorooctane">
+    <name xml:lang="en">1-Chlorooctane</name>
+    <filename>1-chlorooctane</filename>
+    <synonym xml:lang="en">n-Octyl chloride</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_1-chloropentane">
+    <name xml:lang="en">1-Chloropentane</name>
+    <filename>1-chloropentane</filename>
+    <synonym xml:lang="en">n-Amyl chloride</synonym>
+    <synonym xml:lang="en">n-Pentyl chloride</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_1-chloropropane">
+    <name xml:lang="en">1-Chloropropane</name>
+    <filename>1-chloropropane</filename>
+    <synonym xml:lang="en">n-Propyl chloride</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_2-chloro-2-methylpropane">
+    <name xml:lang="en">2-Chloro-2-methylpropane</name>
+    <filename>2-chloro-2-methylpropane</filename>
+    <synonym xml:lang="en">tert-Butyl chloride</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_3-chloropropanoxide">
+    <name xml:lang="en">3-Chloropropanoxide</name>
+    <filename>3-chloropropanoxide</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_3-chloropropene">
+    <name xml:lang="en">3-Chloropropene</name>
+    <filename>3-chloropropene</filename>
+    <synonym xml:lang="en">Allyl chloride</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_chloroethane">
+    <name xml:lang="en">Chloroethane</name>
+    <filename>chloroethane</filename>
+    <synonym xml:lang="en">Ethyl chloride</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_chloromethane">
+    <name xml:lang="en">Chloromethane</name>
+    <filename>chloromethane</filename>
+    <synonym xml:lang="en">Methyl chloride</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+  <entry id="CS_1-bromopropane">
+    <name xml:lang="en">1-Bromopropane</name>
+    <filename>1-bromopropane</filename>
+    <synonym xml:lang="en">n-Propyl bromide</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_1_4-dichlorobut-2-yne">
+    <name xml:lang="en">1,4-Dichlorobut-2-yne</name>
+    <filename>1_4-dichlorobut-2-yne</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_2-bromopropane">
+    <name xml:lang="en">2-Bromopropane</name>
+    <filename>2-bromopropane</filename>
+    <synonym xml:lang="en">Isopropyl bromide</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_2-chloropropane">
+    <name xml:lang="en">2-Chloropropane</name>
+    <filename>2-chloropropane</filename>
+    <synonym xml:lang="en">Isopropyl chloride</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_bromocyclohexane">
+    <name xml:lang="en">Bromocyclohexane</name>
+    <filename>bromocyclohexane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_bromoethane">
+    <name xml:lang="en">Bromoethane</name>
+    <filename>bromoethane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_bromomethane">
+    <name xml:lang="en">Bromomethane</name>
+    <filename>bromomethane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_bromotrifluoromethane">
+    <name xml:lang="en">Bromotrifluoromethane</name>
+    <filename>bromotrifluoromethane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_chloro-chloromethoxy_methane">
+    <name xml:lang="en">Chloro-(chloromethoxy)methane</name>
+    <filename>chloro-chloromethoxy_methane</filename>
+    <synonym xml:lang="en">Dichloromethyl ether</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_chlorocyclohexane">
+    <name xml:lang="en">Chlorocyclohexane</name>
+    <filename>chlorocyclohexane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_1_1_1_2_2_2-hexafluoroethane">
+    <name xml:lang="en">1,1,1,2,2,2-Hexafluoroethane</name>
+    <filename>1_1_1_2_2_2-hexafluoroethane</filename>
+    <synonym xml:lang="en">Perfluoro ethane</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_1_1_1_2_2-pentafluoroethane">
+    <name xml:lang="en">1,1,1,2,2-Pentafluoroethane</name>
+    <filename>1_1_1_2_2-pentafluoroethane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_1_1_1-trichloroethane">
+    <name xml:lang="en">1,1,1-Trichloroethane</name>
+    <filename>1_1_1-trichloroethane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_1-chloro-1_1_2_2_2-pentafluoroethane">
+    <name xml:lang="en">1-Chloro-1,1,2,2,2-pentafluoroethane</name>
+    <filename>1-chloro-1_1_2_2_2-pentafluoroethane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_2-bromo-2-methylpropane">
+    <name xml:lang="en">2-Bromo-2-methylpropane</name>
+    <filename>2-bromo-2-methylpropane</filename>
+    <synonym xml:lang="en">tert-Butyl bromide</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_2S-2-bromobutane">
+    <name xml:lang="en">(2S)-2-Bromobutane</name>
+    <filename>2S-2-bromobutane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_2S-2-chlorobutane">
+    <name xml:lang="en">(2S)-2-Chlorobutane</name>
+    <filename>2S-2-chlorobutane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_difluoromethane">
+    <name xml:lang="en">Difluoromethane</name>
+    <filename>difluoromethane</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+</index>

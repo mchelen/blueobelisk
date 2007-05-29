@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Nucleobases</title>
+  <title xml:lang="fr">Bases nucléiques</title>
+  <title xml:lang="de">Nukleobasen</title>
+  <title xml:lang="es">Nucleobases</title>
+  <entry id="CS_1H-pyrimidine-2_4-dione">
+    <name xml:lang="en">1H-Pyrimidine-2,4-dione</name>
+    <filename>1H-pyrimidine-2_4-dione</filename>
+    <synonym xml:lang="en">Uracil</synonym>
+    <synonym xml:lang="en">U</synonym>
+    <synonym xml:lang="de">Uracil</synonym>
+    <synonym xml:lang="de">U</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-09-28</date>
+  </entry>
+  <entry id="CS_2-amino-3_7-dihydropurin-6-one">
+    <name xml:lang="en">2-Amino-3,7-dihydropurin-6-one</name>
+    <filename>2-amino-3_7-dihydropurin-6-one</filename>
+    <synonym xml:lang="en">Guanine</synonym>
+    <synonym xml:lang="en">G</synonym>
+    <synonym xml:lang="de">Guanin</synonym>
+    <synonym xml:lang="de">G</synonym>
+    <synonym xml:lang="es">Guanina</synonym>
+    <synonym xml:lang="es">G</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-09-28</date>
+  </entry>
+  <entry id="CS_4-amino-3H-pyrimidin-2-one">
+    <name xml:lang="en">4-Amino-3H-pyrimidin-2-one</name>
+    <filename>4-amino-3H-pyrimidin-2-one</filename>
+    <synonym xml:lang="en">Cytosine</synonym>
+    <synonym xml:lang="en">C</synonym>
+    <synonym xml:lang="de">Cytosin</synonym>
+    <synonym xml:lang="de">C</synonym>
+    <synonym xml:lang="es">Cytosina</synonym>
+    <synonym xml:lang="es">C</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-09-28</date>
+  </entry>
+  <entry id="CS_5-methyl-1H-pyrimidine-2_4-dione">
+    <name xml:lang="en">5-Methyl-1H-pyrimidine-2,4-dione</name>
+    <filename>5-methyl-1H-pyrimidine-2_4-dione</filename>
+    <synonym xml:lang="en">Thymine</synonym>
+    <synonym xml:lang="en">T</synonym>
+    <synonym xml:lang="de">Thymine</synonym>
+    <synonym xml:lang="de">T</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-09-28</date>
+  </entry>
+  <entry id="CS_7H-purin-6-amine">
+    <name xml:lang="en">7H-Purin-6-amine</name>
+    <filename>7H-purin-6-amine</filename>
+    <synonym xml:lang="en">Adenine</synonym>
+    <synonym xml:lang="en">A</synonym>
+    <synonym xml:lang="de">Adenin</synonym>
+    <synonym xml:lang="de">A</synonym>
+    <synonym xml:lang="es">Adenina</synonym>
+    <synonym xml:lang="es">A</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-09-28</date>
+  </entry>
+</index>

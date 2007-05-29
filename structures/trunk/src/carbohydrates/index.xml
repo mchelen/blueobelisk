@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Carbohydrates</title>
+  <title xml:lang="fr">Carbohydrates</title>
+  <title xml:lang="de">Kohlenhydrate</title>
+  <entry id="CS_2S_3R-butane-1_2_3_4-tetrol">
+    <name xml:lang="en">(2S,3R)-Butane-1,2,3,4-tetrol</name>
+    <name xml:lang="de">(2S,3R)-Butan-1,2,3,4-tetrol</name>
+    <filename>2S_3R-butane-1_2_3_4-tetrol</filename>
+    <synonym xml:lang="en">meso-Erythritol</synonym>
+    <synonym xml:lang="en">(2S,3R)-1,2,3,4-Tetrahydroxybutane</synonym>
+    <synonym xml:lang="de">(2S,3R)-1,2,3,4-Tetrahydroxybutan</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-13</date>
+  </entry>
+</index>

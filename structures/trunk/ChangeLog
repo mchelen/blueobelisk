@@ -1,0 +1,658 @@
+2007-02-28 19:40:11 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Add dutch translation
+
+* Fix InChI code
+
+* Fix width
+
+* Release 2.0.1
+
+2007-02-27 09:47:24 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Create formulaindexwriter and nameindexwriter from dataindexwriter
+
+* Add a sort function for chemical formula to make_index.py
+
+* Add Kelvin units
+
+* Fix src/CMakeLists.txt
+
+* Release 2.0.0
+
+2007-02-26 15:59:25 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Fix some translations in xml/l10n.xsl
+
+* Change many entries in src/styles/style.css
+
+* Move to cmake build system
+
+* Add a cmake module: FindOpenBabel2Exe.cmake
+
+* Add several python scripts for building and checking the webpages
+
+* Move some files to other directories:
+  
+  - pyridine derivatives to heteraromatics
+
+  - bromosuccinimide to amides
+
+* Fix some IUPAC names
+
+2006-11-24 13:58:25 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Update xml/l10n.xsl
+
+* Add new structure directories: macrocycles, nitroalkanes, sulfones,
+  sulfoxides and thiols
+
+* alcohols/Z-hex-3-en-1-ol.cml
+
+* alcohols/2_2_2-trifluoroethanol.cml
+
+* alcohols/2-thioethanol.cml
+
+* alcohols/1_1_1_3_3_3-hexafluoropropan-2-ol.cml
+
+* aldehydes/prop-2-enal.cml
+
+* alkenes/cycloocta-1_3-diene.cml
+
+* alkenes/cyclopenta-1_3-diene.cml
+
+* alkenes/cycloocta-1_3_5_7-tetraene.cml
+
+* alkenes/cycloocta-1_3_5-triene.cml
+
+* alkenes/cyclohexa-1_4-diene.cml
+
+* alkenes/cyclohexa-1_3-diene.cml
+
+* alkenes/cyclohepta-1_4-diene.cml
+
+* alkenes/cyclohepta-1_3_5-triene.cml
+
+* alkenes/cyclohepta-1_3-diene.cml
+
+* amides/N_N-dimethylacetamide.cml
+
+* amides/ethyl_carbamate.cml
+
+* amines/1R_2S-cyclohexane-1_2-diamine.cml
+
+* amines/1S_2S-cyclohexane-1_2-diamine.cml
+
+* amines/1_4-diazabicyclo_2_2_2_octane.cml
+
+* amines/2-methylpropan-2-amine.cml
+
+* amines/2S-butan-2-amine.cml
+
+* amines/N-ethylethanamine.cml
+
+* amines/N-methylmethanamine.cml
+
+* amines/N_N_N2_N2-tetramethylethane-1_2-diamine.cml
+
+* amines/cyclohexanamine.cml
+
+* amines/cyclopentamine.cml
+
+* amines/pentane-1_5-diamine.cml
+
+* aromatics/1-chloro-2-ethenylbenzene.cml
+
+* aromatics/1-chloro-2-methoxybenzene.cml
+
+* aromatics/1-chloro-3-methoxybenzene.cml
+
+* aromatics/1-chloro-4-methoxybenzene.cml
+
+* aromatics/1-phenylbutan-1-one.cml
+
+* aromatics/1_3_5-trichloro-2-methoxybenzene.cml
+
+* aromatics/2-chloro-4-nitroaniline.cml
+
+* aromatics/2-chloro-5-methylphenol.cml
+
+* aromatics/2_2-dimethyl-3H-benzofuran-7-yl_N-methylcarbamate.cml
+
+* aromatics/2_3_4_5_6-pentachlorophenol.cml
+
+* aromatics/2_4_6-trichlorophenol.cml
+
+* aromatics/4-bromo-5-methyl-2-propan-2-yl-phenol.cml
+
+* aromatics/4-chloro-2-methylphenol.cml
+
+* aromatics/4-chloro-3-methylphenol.cml
+
+* aromatics/4-chloroaniline.cml
+
+* aromatics/4-methoxybenzaldehyde.cml
+
+* aromatics/4-methylbenzoic_acid.cml
+
+* aromatics/4-octylphenol.cml
+
+* aromatics/5-chloro-2-2_4-dichlorophenoxy_phenol.cml
+
+* aromatics/E-2-chloroethenyl_benzene.cml
+
+* aromatics/E-2-phenylethenyl_benzene.cml
+
+* aromatics/benzhydrylbenzene.cml
+
+* aromatics/benzonitrile.cml
+
+* aromatics/nitrobenzene.cml
+
+* carboxylic_acids/2_2-dichloroacetic_acid.cml
+
+* carboxylic_acids/2_2_2-trichloroacetic_acid.cml
+
+* drugs/2S-1-phenylpropan-2-amine.cml
+
+* ethers/1_4_7_10_13_16-hexaoxacyclooctadecane.cml
+
+* ethers/2-2-hydroxyethoxy_ethanol.cml
+
+* haloalkanes/1-chloro-1_1_2_2_2-pentafluoroethane.cml
+
+* haloalkanes/1_1_1-trichloroethane.cml
+
+* haloalkanes/1_1_1_2_2-pentafluoroethane.cml
+
+* haloalkanes/1_1_1_2_2_2-hexafluoroethane.cml
+
+* haloalkanes/2-bromo-2-methylpropane.cml
+
+* haloalkanes/2S-2-bromobutane.cml
+
+* haloalkanes/2S-2-chlorobutane.cml
+
+* haloalkanes/difluoromethane.cml
+
+* heteroaromatics/1H-pyridine-2-thione.cml
+
+* heteroaromatics/pyridine-2-thiol.cml
+
+* ketones/1_1_1_3_3_3-hexafluoropropanone.cml
+
+* ketones/Z-4-hydroxypent-3-en-2-one.cml
+
+* ketones/but-3-en-2-one.cml
+
+* ketones/cyclohex-2-en-1-one.cml
+
+* ketones/cyclohexanone.cml
+
+* ketones/cyclopent-2-en-1-one.cml
+
+* macrocycles/molecules.xml
+
+* macrocycles/porphyrin.cml
+
+* nitriles/1_1_1-trichloroacetonitrile.cml
+
+* nitriles/2-methylpropanenitrile.cml
+
+* nitriles/butanenitrile.cml
+
+* nitriles/propanenitrile.cml
+
+* nitroalkanes/molecules.xml
+
+* nitroalkanes/nitroethane.cml
+
+* nitroalkanes/nitromethane.cml
+
+* polycyclic_alkanes/1R_4S-1_7_7-trimethylnorbornan-2-one.cml
+
+* polycyclic_alkanes/1R_4S-2_2-dimethyl-3-methylidenenorbornane.cml
+
+* polycyclic_alkanes/cubane.cml
+
+* polycyclic_aromatics/1_3_7-trimethylpurine-2_6-dione.cml
+
+* polycyclic_aromatics/2-hydroxy-3-1R-3-oxo-1-phenylbutyl_chromen-4-one.cml
+
+* polycyclic_aromatics/7_9-dihydro-3H-purine-2_6_8-trione.cml
+
+* sulfones/4-methylbenzenesulfonic_acid.cml
+
+* sulfones/benzenesulfonic_acid.cml
+
+* sulfones/methanesulfonic_acid.cml
+
+* sulfones/molecules.xml
+
+* sulfoxides/methylsulfinylmethane.cml
+
+* sulfoxides/molecules.xml
+
+* thiols/2-methylproprane-2-thiol.cml
+
+* thiols/butane-1-thiol.cml
+
+* thiols/butane-2-thiol.cml
+
+* thiols/ethane-1_2-dithiol.cml
+
+* thiols/ethanethiol.cml
+
+* thiols/heptane-1-thiol.cml
+
+* thiols/hexane-1-thiol.cml
+
+* thiols/methanethiol.cml
+
+* thiols/molecules.xml
+
+* thiols/octane-1-thiol.cml
+
+* thiols/pentane-1-thiol.cml
+
+* thiols/proprane-1-thiol.cml
+
+* thiols/proprane-2-thiol.cml
+
+2006-11-13 14:34:03 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Modify xml/molecule_data.xsl : using Jmol.js script
+
+* Move src/bin to src/jmol
+
+* Add complete jmol binary distribution (v10.2) to /src/jmol
+
+2006-11-09 12:06:23 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Add new structure directories: alkynes, drugs
+
+* Update directories.xml
+
+* Add alcohols/cyclohexanol.cml
+
+* Add alcohols/cyclopentanol.cml
+
+* Add alcohols/but-2-yne-1_4-diol.cml
+
+* Update alcohols/molecules.xml
+
+* Add alkynes/acetylene.cml
+
+* Add alkynes/but-1-yne.cml
+
+* Add alkynes/but-2-yne.cml
+
+* Add alkynes/propyne.cml
+
+* Add alkynes/molecules.xml
+
+* Add amides/acetamide.cml
+
+* Update amides/molecules.xml
+
+* Add aromatics/2-bromophenol.cml
+
+* Add aromatics/2-chlorophenol.cml
+
+* Add aromatics/2-phenylacetic_acid.cml
+
+* Add aromatics/2-pyridin-2-ylpyridine.cml
+
+* Add aromatics/3-bromophenol.cml
+
+* Add aromatics/3-chlorophenol.cml
+
+* Add aromatics/3-pyridin-3-ylpyridine.cml
+
+* Add aromatics/4-bromophenol.cml
+
+* Add aromatics/4-chlorophenol.cml
+
+* Add aromatics/4-pyridin-4-ylpyridine.cml
+
+* Add aromatics/N_N-dimethylaniline.cml
+
+* Add aromatics/anisol.cml
+
+* Add aromatics/benzoyl_chloride.cml
+
+* Add aromatis/benzamide.cml
+
+* Add aromatics/bromobenzene.cml
+
+* Add aromatics/chlorobenzene.cml
+
+* Add aromatics/pyridine-2-carboxamide.cml
+
+* Add aromatics/pyridine-2-carboxylic_acid.cml
+
+* Add aromatics/pyridine-3-carboxamide.cml
+
+* Add aromatics/pyridine-3-carboxylic_acid.cml
+
+* Add aromatics/pyridine-4-carboxamide.cml
+
+* Add aromatics/pyridine-4-carboxylic_acid.cml
+
+* Update aromatics/molecules.xml
+
+* Add drugs/4-acetamidophenyl_2-hydroxybenzoate.cml
+
+* Add drugs/N-4-hydroxyphenyl_acetamide.cml
+
+* Add drugs/acepromazine.cml
+
+* Add drugs/molecules.xml
+
+* Add ethers/R-2-ethoxybutane.cml
+
+* Update ethers/molecules.xml
+
+* Add haloalkanes/1-bromopropane.cml
+
+* Add haloalkanes/1_4-dichlorobut-2-yne.cml
+
+* Add haloalkanes/2-bromopropane.cml
+
+* Add haloalkanes/2-chloropropane.cml
+
+* Add haloalkanes/bromocyclohexane.cml
+
+* Add haloalkanes/bromoethane.cml
+
+* Add haloalkanes/bromomethane.cml
+
+* Add haloalkanes/bromotrifluoromethane.cml
+
+* Add haloalkanes/chloro-chloromethoxy_methane.cml
+
+* Add haloalkanes/chlorocyclohexane.cml
+
+* Update haloalkanes/molecules.xml
+
+* Add polycyclic_aromatics/acenaphthene-1_2-dione.cml
+
+* Add polycyclic_aromatics/acenaphthene.cml
+
+* Add polycyclic_aromatics/acenaphthylene.cml
+
+* Update polycyclic_aromatics/molecules.xml
+
+* Add polycyclic_alkanes/abietic_acid.cml
+
+* Update polycyclic_alkanes/molecules.xml
+
+2006-10-17 10:43:45 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Update german translations in alcohols/molecules.xml
+
+* Update german translations in aldehydes/molecules.xml
+
+* Update german translations in alkanes/molecules.xml
+
+* Update german translations in alkenes/molecules.xml
+
+* Update german translations in amides/molecules.xml
+
+* Update german translations in amines/molecules.xml
+
+* Update german translations in amino_acids/molecules.xml
+
+* Update german translations in aromatics/molecules.xml
+
+* Update german translations in carbamides/molecules.xml
+
+* Update german translations in carbohydrates/molecules.xml
+
+* Update german translations in carboxylic_acids/molecules.xml
+
+2006-10-16 13:44:03 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Add alkanes/1S_2S-1-ethyl-2-methylcyclopentane.cml
+
+* Update alkanes/molecules.xml
+
+* Add alkenes/3Z_3-ethylhepta-1_3-diene.cml
+
+* Update alkenes/molecules.xml
+
+* Add aromatics/tris_4-dimethylaminophenyl_methanol.cml
+
+* Add aromatics/tris_4-aminophenyl_methanol.cml
+
+* Add aromatics/triphenylmethanol.cml
+
+* Add aromatics/4_bis_4-dimethylaminophenyl_methylene-2_5-\
+  cyclohexadien-1-iminium.cml
+
+* Update aromatics/molecules.xml
+
+* Add polycyclic_aromatics/1_1-benzofuran-2-yl_ethanone.cml
+
+* Update polycyclic_aromatics/molecules.xml
+
+2006-10-11 16:45:11 Jerome Pansanel <j.pansanel@pansanel.net>
+
+        * Release 1.05
+
+        * Remove 8Z_12Z_16Z_19Z-docosa-8_12_16_19-tetraenoic_acid.cml
+  (Structure was false and non-relevant)
+
+        * Update fatty_acids with MOPAC/PM3 optimized structures
+
+2006-10-03 08:43:10 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Update alcohols with MOPAC/PM3 optimized structures
+
+* Update aldehydes with MOPAC/PM3 optimized structures
+
+* Update alkanes with MOPAC/PM3 optimized structures
+
+* Update alkenes with MOPAC/PM3 optimized structures
+
+* Update amides with MOPAC/PM3 optimized structures
+
+* Update amines with MOPAC/PM3 optimized structures
+
+* Update amino_acids with MOPAC/PM3 optimized structures
+
+* Update aromatics with MOPAC/PM3 optimized structures
+
+* Update carbamides with MOPAC/PM3 optimized structures
+
+* Update carbohydrates with MOPAC/PM3 optimized structures
+
+* Update carboxylic_acid with MOPAC/PM3 optimized structures
+
+* Update esters with MOPAC/PM3 optimized structures
+
+* Update ethers with MOPAC/PM3 optimized structures
+
+* Update haloalkanes with MOPAC/PM3 optimized structures
+
+* Update heteroaromatics with MOPAC/PM3 optimized structures
+
+* Update ketones with MOPAC/PM3 optimized structures
+
+* Update nitriles with MOPAC/PM3 optimized structures
+
+* Update nucleobases with MOPAC/PM3 optimized structures
+
+* Update polycyclic_alkanes with MOPAC/PM3 optimized structures
+
+* Update polycyclic_aromatics with MOPAC/PM3 optimized structures
+
+* Update thioethers with MOPAC/PM3 optimized structures
+
+* Update water with MOPAC/PM3 optimized structures
+
+2006-06-29 08:43:10 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Add cyclohexa-2,5-diene-1,4-dione 
+
+* Add cyclohexa-2,4-diene-1,6-dione 
+
+* Add benzene-1,2-diol 
+
+* Add benzene-1,3-diol 
+
+* Add benzene-1,4-diol 
+
+* Add 2,4,6-trimethylaniline
+
+* Change make.sh to Makefile
+
+* Add chemwt.xml to xml directory
+
+2006-06-28 08:02:52 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Update README
+
+2006-06-27 08:51:28 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Release 1.0
+
+* Add (2R,3R)-2-Amino-3-hydroxy-butanoic acid (D-allo-Threonine)
+
+* Add (2S,3R)-2-Amino-3-methyl-pentanoic acid (L-allo-Leucine)
+
+* Add Linolein
+
+2006-06-26 08:51:28 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Add Pyrrolidine
+
+* Add missing mpt values
+
+* Add missing bpt values
+
+2006-06-23 21:26:45 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Add Butoxybutane
+
+* Add missing mpt values
+
+* Add missing bpt values
+
+2006-06-22 08:34:56 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Add formula to each cml file
+
+* Add InChI (version 1) to each cml file
+
+* Add property:molwt to each cml file
+
+* Add property:exact_molwt to each cml file
+
+* Add property:mpt tag to each cml file
+
+* Add property:bpt tag to each cml file
+
+* Add some bpt and mpt values
+
+* Update l10n.xml
+
+* Update molecule_data.xsl
+
+2006-06-20 08:01:04 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Release 0.9
+
+* Fixes some issues in amino_acids directory
+
+* Remove "(),[]" from molecule filenames
+
+2006-06-19 19:12:26 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Add l10n.xml (Localization)
+
+* Add l10n.xsl (Internationalization)
+
+* update make.sh (add support for fr and de languages)
+
+2006-06-16 08:47:39 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* change applet to object in molecule_data.xsl
+
+* add README 
+
+2006-06-15 08:39:11 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* release version 0.8
+
+* add src/images/cml.png
+
+* add src/images/mol.png
+
+* add xsl style sheet for cml files
+
+* add Jmol applet
+
+* update directory_index.xsl
+
+* update molecule_index.xsl
+
+* use xsltproc by default (was sabcmd)
+
+2006-06-14 18:12:50 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* add xsl stylesheet for directories and molecules
+
+* update make.sh
+
+* add some translation (german and french)
+
+2006-06-13 18:48:19 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* change structure mol file to cml file type (was mol file type)
+
+* add filename tag to index.xml
+
+* change description tag to comments
+
+* update the index files
+
+* fix make.sh
+
+2006-05-09 09:23:14 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* add new molecule types:
+  - fatty acids
+  - nucleobases
+
+2006-05-08 14:12:23 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* add new molecule types:
+  - amides
+  - amines
+  - amino acids
+  - aromatics
+  - esters
+  - ethers
+  - nitriles
+
+* remove molecule types:
+  - others
+
+* create build script make.sh
+
+* add licensing informations (COPYING file)
+
+2006-05-05 10:33:52 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* add new molecule types:
+  - alcohols
+  - aldehydes
+  - alkanes
+  - alkenes
+  - carboxylics_acid
+  - others
+  - haloalkanes
+  - ketones
+  - other
+  - water

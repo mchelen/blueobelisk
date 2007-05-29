@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_1_1_1_2_2-pentafluoroethane">
+ <formula concise=" C 2 H 1 F 5 "/>
+ <identifier version="InChI/1">
+  <basic>1/C2HF5/c3-1(4)2(5,6)7/h1H</basic>
+ </identifier>
+ <name convention="IUPAC">1,1,1,2,2-Pentafluoroethane</name>
+ <atomArray>
+  <atom id="a1" elementType="C" x3="0.768917" y3="-0.024548" z3="-0.018557"/>
+  <atom id="a2" elementType="C" x3="-0.834836" y3="-0.032754" z3="0.037868"/>
+  <atom id="a3" elementType="F" x3="1.252567" y3="-0.950531" z3="-0.900430"/>
+  <atom id="a4" elementType="F" x3="1.323688" y3="-0.337049" z3="1.191248"/>
+  <atom id="a5" elementType="F" x3="1.309710" y3="1.172026" z3="-0.387996"/>
+  <atom id="a6" elementType="H" x3="-1.156195" y3="-1.068297" z3="0.352443"/>
+  <atom id="a7" elementType="F" x3="-1.366500" y3="0.316677" z3="-1.172710"/>
+  <atom id="a8" elementType="F" x3="-1.297350" y3="0.924476" z3="0.898134"/>
+ </atomArray>
+ <bondArray>
+  <bond atomRefs2="a1 a2" order="1"/>
+  <bond atomRefs2="a1 a3" order="1"/>
+  <bond atomRefs2="a1 a4" order="1"/>
+  <bond atomRefs2="a1 a5" order="1"/>
+  <bond atomRefs2="a2 a6" order="1"/>
+  <bond atomRefs2="a2 a7" order="1"/>
+  <bond atomRefs2="a2 a8" order="1"/>
+ </bondArray>
+ <list>
+  <propertyList>
+   <property dictRef="cml:molwt" title="molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="cml:molwt" units="unit:g">120.0214</scalar>
+   </property>
+   <property dictRef="chemwt:exact_molwt" title="exact molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="chemwt:exact_molwt" units="unit:g">119.9998411</scalar>
+   </property>
+   <property dictRef="cml:mpt" title="melting point">
+    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:mpt" units="unit:celsius">-103</scalar>
+   </property>
+   <property dictRef="cml:bpt" title="boiling point">
+    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:bpt" units="unit:celsius">-48</scalar>
+   </property>
+  </propertyList>
+ </list>
+</molecule>

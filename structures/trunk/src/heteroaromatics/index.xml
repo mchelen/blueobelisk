@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Aromatics</title>
+  <title xml:lang="fr">Aromatiques</title>
+  <title xml:lang="de">Aromaten</title>
+  <entry id="CS_1H-pyrrole">
+    <name xml:lang="en">1H-Pyrrole</name>
+    <filename>1H-pyrrole</filename>
+    <synonym xml:lang="en">Pyrrol</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_pyridine">
+    <name xml:lang="en">Pyridine</name>
+    <filename>pyridine</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_1_2-oxazole">
+    <name xml:lang="en">1,2-Oxazole</name>
+    <filename>1_2-oxazole</filename>
+    <synonym xml:lang="en">Oxazole</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_1_2-thiazole">
+    <name xml:lang="en">1,2-Thiazole</name>
+    <filename>1_2-thiazole</filename>
+    <synonym xml:lang="en">Thiazole</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_1_3-oxazole">
+    <name xml:lang="en">1,3-Oxazole</name>
+    <filename>1_3-oxazole</filename>
+    <synonym xml:lang="en">Isoxazole</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_1_3-thiazole">
+    <name xml:lang="en">1,3-Thiazole</name>
+    <filename>1_3-thiazole</filename>
+    <synonym xml:lang="en">Isothiazole</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_1H-pyrazole">
+    <name xml:lang="en">1H-Pyrazole</name>
+    <filename>1H-pyrazole</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_1H-pyridine-2-thione">
+    <name xml:lang="en">1H-Pyridine-2-thione</name>
+    <filename>1H-pyridine-2-thione</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_pyridine-2-thiol">
+    <name xml:lang="en">Pyridine-2-thiol</name>
+    <filename>pyridine-2-thiol</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_pyridine-2-carboxamide">
+    <name xml:lang="en">Pyridine-2-carboxamide</name>
+    <filename>pyridine-2-carboxamide</filename>
+    <synonym xml:lang="en">Picolinamide</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_pyridine-2-carboxylic_acid">
+    <name xml:lang="en">Pyridine-2-carboxylic acid</name>
+    <filename>pyridine-2-carboxylic_acid</filename>
+    <synonym xml:lang="en">Picolinic acid</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_pyridine-3-carboxamide">
+    <name xml:lang="en">Pyridine-3-carboxamide</name>
+    <filename>pyridine-3-carboxamide</filename>
+    <synonym xml:lang="en">Nicotinamide</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_pyridine-3-carboxylic_acid">
+    <name xml:lang="en">Pyridine-3-carboxylic acid</name>
+    <filename>pyridine-3-carboxylic_acid</filename>
+    <synonym xml:lang="en">Nicotinic acid</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_pyridine-4-carboxamide">
+    <name xml:lang="en">Pyridine-4-carboxamide</name>
+    <filename>pyridine-4-carboxamide</filename>
+    <synonym xml:lang="en">Isonicotamide</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_pyridine-4-carboxylic_acid">
+    <name xml:lang="en">Pyridine-4-carboxylic acid</name>
+    <filename>pyridine-4-carboxylic_acid</filename>
+    <synonym xml:lang="en">Isonicotinic acid</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+</index>

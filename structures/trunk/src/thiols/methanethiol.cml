@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_methanethiol">
+ <formula concise=" C 1 H 4 S 1 "/>
+ <identifier version="InChI/1">
+  <basic>1/CH4S/c1-2/h2H,1H3</basic>
+ </identifier>
+ <name convention="IUPAC">Methanethiol</name>
+ <atomArray>
+  <atom id="a1" elementType="C" x3="0.288559" y3="0.384538" z3="0.043284"/>
+  <atom id="a2" elementType="S" x3="-1.073577" y3="-0.572750" z3="-0.642930"/>
+  <atom id="a3" elementType="H" x3="0.309018" y3="1.346759" z3="-0.483699"/>
+  <atom id="a4" elementType="H" x3="0.174705" y3="0.594940" z3="1.112074"/>
+  <atom id="a5" elementType="H" x3="-0.964128" y3="-1.663080" z3="0.068251"/>
+  <atom id="a6" elementType="H" x3="1.265424" y3="-0.090407" z3="-0.096980"/>
+ </atomArray>
+ <bondArray>
+  <bond atomRefs2="a1 a2" order="1"/>
+  <bond atomRefs2="a1 a3" order="1"/>
+  <bond atomRefs2="a1 a4" order="1"/>
+  <bond atomRefs2="a2 a5" order="1"/>
+  <bond atomRefs2="a1 a6" order="1"/>
+ </bondArray>
+ <list>
+  <propertyList>
+   <property dictRef="cml:molwt" title="molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="cml:molwt" units="unit:g">48.1075</scalar>
+   </property>
+   <property dictRef="chemwt:exact_molwt" title="exact molecular weight">
+    <scalar dataType="xsd:decimal" dictRef="chemwt:exact_molwt" units="unit:g">48.0033711</scalar>
+   </property>
+   <property dictRef="cml:mpt" title="melting point">
+    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:mpt" units="unit:celsius">-123</scalar>
+   </property>
+   <property dictRef="cml:bpt" title="boiling point">
+    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:bpt" units="unit:celsius">6</scalar>
+   </property>
+  </propertyList>
+ </list>
+</molecule>

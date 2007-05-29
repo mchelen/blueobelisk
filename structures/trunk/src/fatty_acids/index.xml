@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Fatty acids</title>
+  <title xml:lang="fr">Acides gras</title>
+  <title xml:lang="de">Fettsäuren</title>
+  <entry id="CS_4Z_7Z_10Z_13Z_16Z_19Z-docosa-4_7_10_13_16_19-hexaenoic_acid">
+    <name xml:lang="en">(4Z,7Z,10Z,13Z,16Z,19Z)-Docosa-4,7,10,13,16,19-hexaenoic acid</name>
+    <filename>4Z_7Z_10Z_13Z_16Z_19Z-docosa-4_7_10_13_16_19-hexaenoic_acid</filename>
+    <synonym xml:lang="en">Cervonic acid</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_5Z_8Z_11Z_14Z_17Z-icosa-5_8_11_14_17-pentaenoic_acid">
+    <name xml:lang="en">(5Z,8Z,11Z,14Z,17Z)-Icosa-5,8,11,14,17-pentaenoic acid</name>
+    <filename>5Z_8Z_11Z_14Z_17Z-icosa-5_8_11_14_17-pentaenoic_acid</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_5Z_8Z_11Z_14Z-icosa-5_8_11_14-tetraenoic_acid">
+    <name xml:lang="en">(5Z,8Z,11Z,14Z)-Icosa-5,8,11,14-tetraenoic acid</name>
+    <filename>5Z_8Z_11Z_14Z-icosa-5_8_11_14-tetraenoic_acid</filename>
+    <synonym xml:lang="en">Arachidonic acid</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_6Z_9Z_12Z-octadeca-6_9_12-trienoic_acid">
+    <name xml:lang="en">(6Z,9Z,12Z)-Octadeca-6,9,12-trienoic acid</name>
+    <filename>6Z_9Z_12Z-octadeca-6_9_12-trienoic_acid</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_9Z_12Z_15Z-octadeca-9_12_15-trienoic_acid">
+    <name xml:lang="en">(9Z,12Z,15Z)-Octadeca-9,12,15-trienoic acid</name>
+    <filename>9Z_12Z_15Z-octadeca-9_12_15-trienoic_acid</filename>
+    <synonym xml:lang="en">Linolenic acid</synonym>
+    <synonym xml:lang="fr">Acide linolénique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_octadecanoic_acid">
+    <name xml:lang="en">Octadecanoic acid</name>
+    <filename>octadecanoic_acid</filename>
+    <synonym xml:lang="en">Stearic acid</synonym>
+    <synonym xml:lang="fr">Acide stéarique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_Z-octadec-9-enoic_acid">
+    <name xml:lang="en">(Z)-Octadec-9-enoic acid</name>
+    <filename>Z-octadec-9-enoic_acid</filename>
+    <synonym xml:lang="en">Oleic acid</synonym>
+    <synonym xml:lang="fr">Acide oléique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_pentanoic_acid">
+    <name xml:lang="en">Pentanoic acid</name>
+    <filename>pentanoic_acid</filename>
+    <synonym xml:lang="en">Valerianic acid</synonym>
+    <synonym xml:lang="en">Valeric acid</synonym>
+    <synonym xml:lang="fr">Acide valérique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_hexanoic_acid">
+    <name xml:lang="en">Hexanoic acid</name>
+    <filename>hexanoic_acid</filename>
+    <synonym xml:lang="en">Caproic acid</synonym>
+    <synonym xml:lang="fr">Acide caproïque</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_heptanoic_acid">
+    <name xml:lang="en">Heptanoic acid</name>
+    <filename>heptanoic_acid</filename>
+    <synonym xml:lang="en">Enanthic acid</synonym>
+    <synonym xml:lang="fr">Acide énanthique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_octanoic_acid">
+    <name xml:lang="en">Octanoic acid</name>
+    <filename>octanoic_acid</filename>
+    <synonym xml:lang="en">Caprylic acid</synonym>
+    <synonym xml:lang="fr">Acide caprylique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_decanoic_acid">
+    <name xml:lang="en">Decanoic acid</name>
+    <filename>decanoic_acid</filename>
+    <synonym xml:lang="en">Caprinic acid</synonym>
+    <synonym xml:lang="fr">Acide caprinique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_dodecanoic_acid">
+    <name xml:lang="en">Dodecanoic acid</name>
+    <filename>dodecanoic_acid</filename>
+    <synonym xml:lang="en">Lauric acid</synonym>
+    <synonym xml:lang="fr">Acide laurique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_tetradecanoic_acid">
+    <name xml:lang="en">Tetradecanoic acid</name>
+    <filename>tetradecanoic_acid</filename>
+    <synonym xml:lang="en">Myristic acid</synonym>
+    <synonym xml:lang="fr">Acide myristique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_hexadecanoic_acid">
+    <name xml:lang="en">Hexadecanoic acid</name>
+    <filename>hexadecanoic_acid</filename>
+    <synonym xml:lang="en">Palmitic acid</synonym>
+    <synonym xml:lang="fr">Acide palmitique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_9Z_12Z-octadeca-9_12-dienoic_acid">
+    <name xml:lang="en">(9Z,12Z)-Octadeca-9,12-dienoic acid</name>
+    <filename>9Z_12Z-octadeca-9_12-dienoic_acid</filename>
+    <synonym xml:lang="en">Linoleic acid</synonym>
+    <synonym xml:lang="fr">Acide linoléique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+</index>
