@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Module>
+  <ModulePrefs 
+	title="Postgenomic - Science Blogger Buzz" 
+	title_url = "http://www.postgenomic.com"
+	description="Displays the latest terms that are appearing with unusual frequency in science blogs across the world."
+	author="Euan Adie"
+	author_affiliation="Postgenomic.com"
+	author_email="euan.adie+widget@gmail.com"
+	screenshot="http://www.postgenomic.com/images/google_gadget.png"
+	height="175"
+/> 
+<UserPref name="category" datatype="enum" default_value="any" display_name="Category:">
+	<EnumValue value="all" display_value="All"/>
+	<EnumValue value="life sciences" display_value="Life Sciences"/>
+	<EnumValue value="chemistry" display_value="Chemistry"/>
+	<EnumValue value="physics" display_value="Physics"/>
+	<EnumValue value="bioinformatics" display_value="Bioinformatics"/>
+	<EnumValue value="earth and environment" display_value="Earth and Environment"/>
+	<EnumValue value="natural history" display_value="Natural History"/>
+	<EnumValue value="neuroscience" display_value="Neuroscience"/>
+	<EnumValue value="clinical practice and research" display_value="Medicine"/>
+</UserPref>
+<Content type="url" href="http://neutron.nature.com/interface/widget_terms_gadget.php" />  
+</Module>

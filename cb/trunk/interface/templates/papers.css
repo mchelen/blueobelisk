@@ -1,0 +1,48 @@
+.paperbox {
+	padding: 10px;
+	border: 1px solid #DEDEDE;
+	margin-bottom: 5px;
+}
+
+.paperbox .author {
+	font-style: italic;
+	color: #999999;
+	font-size: 0.9em;
+}
+
+.paperbox_title {
+	font-size: 1.1em;		
+	padding-bottom: 5px;
+}
+
+.paperbox_byline {
+	font-style: italic;
+	font-size: 0.9em;
+	color: #999999;
+	padding-bottom: 5px;	
+}
+
+.paperbox_abstract {
+	padding: 10px;
+	margin: 10px;
+	background-color: #FFF9BF;
+}
+
+.paperbox_thumbnail {
+	float: left;
+	margin: 5px;	
+}
+
+.paperbox_footer {
+	height: 1px;
+	line-height: 1px;
+	clear: left;	
+}
+
+/* "holding" divs */
+.paperbox_posts {
+	margin-left: 20px;
+}
+.paperbox_comments {
+	margin-left: 20px;
+}

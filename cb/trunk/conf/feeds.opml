@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?><opml version="1.1">
+<head>
+	<title>all blogs from chemicalblogspace.org</title>
+	<dateModified>Sat, 10 Jun 2006 17:17:35 +0100</dateModified>
+	<ownerName>chemicalblogspace.org</ownerName>
+</head>
+<body>
+	
+	<outline text="Chemistry">
+<outline text="Chem-bla-ics" type="rss" xmlUrl="http://chem-bla-ics.blogspot.com/rss.xml" htmlUrl="http://chem-bla-ics.blogspot.com/"/>
+	</outline>
+	
+</body>
+</opml>

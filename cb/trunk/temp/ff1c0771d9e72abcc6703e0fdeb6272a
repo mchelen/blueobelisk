@@ -1,0 +1,278 @@
+<html>
+<head>
+<title>Article DOI Lookup</title>
+<META HTTP-EQUIV="EXPIRES" CONTENT="Wed, 30 May 2007 11:00:00 GMT">
+<link rel="STYLESHEET" type="text/css" href="http://pubs.acs.org/archives/styles/toc.css">
+<script language="JavaScript1.2">
+<!--
+  //popup window
+  function popup(url)
+      {
+   url = url.replace(/\+/, "%2b")
+   popupWindow=window.open(url,"Article","toolbar=no,width=475,height=500,directories=no,status=no,scrollbars=yes,resize=no,menubar=no");
+   popupWindow.focus();
+  }
+//-->
+</script>
+</head>
+<body BGCOLOR="white">
+<img SRC="http://pubs.acs.org/images/v3/acs_small_logo.gif" ALIGN=middle>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<!--START OF TEST-->
+<script language="JavaScript">
+<!-- 	
+// This script checks and unchecks boxes on a form
+// Checks and unchecks unlimited number in the group...
+// Pass the Checkbox group name...
+// call buttons as so:
+// <input type=button name="CheckAll"   value="Check All"
+	//onClick="checkAll(document.myform.jid)">
+// <input type=button name="UnCheckAll" value="Uncheck All"
+	//onClick="uncheckAll(document.myform.jid)">
+// -->
+<!-- Begin
+function checkAll(field)
+{
+for (i = 0; i < field.length; i++){
+	field[i].checked = true ;
+    }
+	field.checked = true ;
+}
+function uncheckAll(field)
+{
+for (i = 0; i < field.length; i++)
+	field[i].checked = false ;
+	field.checked = false ;
+}
+function submitform()
+{
+  document.citationSelect.submit();
+}
+//  End -->
+  </script>
+<form name="citationSelect" method="get" action="http://pubs.acs.org/wls/journals/citation2/Citation">
+      <TABLE cellSpacing=0 cellPadding=5 width="95%" border=0>
+<tr valign="bottom">
+<td align="right"> <label class="line"><INPUT type="checkbox" value="ol052081f" name="jid">Select Citation</label><a href="javascript:popup('http://pubs3.acs.org/acs/journals/feedback_information.feedback_form?in_manuscript_number=ol052081f&in_from=TOC')"><img src="http://pubs.acs.org/archives/images/feedback.jpg" width="82" height="25" alt="FEEDBACK" border="0"></a><a href="http://pubs.acs.org/UADB/xppview/cgi-bin/article.cgi/orlef7/2005/7/i23/pdf/ol052081f.pdf"><img src="http://pubs.acs.org/archives/images/purchase.jpg" width="76" height="25" alt="PURCHASE" border="0"></a></td>
+</tr>
+<tr valign="top">
+<td colspan="2">
+<table border="1" width="100%" bordercolor="#CCCCCC" cellspacing="0" cellpadding="5">
+<tr bgcolor="#FFF9DF">
+<td>
+<span class="textbold">Uncialamycin, A New Enediyne Antibiotic</span><br />
+<span class="textsmall">Julian Davies, Hao Wang, Terry Taylor, Kaoru Warabi, Xin-Hui Huang, and Raymond J. Andersen<br />
+Org. Lett.; <b>2005;</b> <i>7</i>(23) pp 5233 - 5236; <b>(Letter)</b> DOI: </span><a href="http://dx.doi.org/10.1021/ol052081f" class="link">10.1021/ol052081f</a></br>
+<div class="TOCGRAPHIC"><img src="http://pubs.acs.org/isubscribe/journals/orlef7/7/i23/figures/ol052081fn00001.gif" vspace="5"></div>
+</td>
+</tr>
+<tr bgcolor="#EBEBEB">
+<td>
+<a href="http://pubs.acs.org/cgi-bin/abstract.cgi/orlef7/2005/7/i23/abs/ol052081f.html" class="link">Abstract</a>&nbsp;&nbsp;
+<span class="text">Full:&nbsp;</span>
+<a href="http://pubs.acs.org/cgi-bin/article.cgi/orlef7/2005/7/i23/html/ol052081f.html" class="link">HTML</a>&nbsp;/&nbsp;
+<a href="http://pubs.acs.org/cgi-bin/article.cgi/orlef7/2005/7/i23/pdf/ol052081f.pdf" class="link">PDF</a>&nbsp;<span class="text">(71K)</span>&nbsp;
+<a href="http://pubs3.acs.org/acs/journals/supporting_information.page?in_manuscript=ol052081f" class="link">Supporting Info</a>&nbsp;
+<span style="position:relative; top:3px"><img id="openURL_img" src="http://pubs.acs.org/archives/images/blank.gif" height="20" onMouseOver="this.style.cursor='pointer'" style="visibility:hidden" onClick="openURLRedirect('doi='+URLEncode('10.1021/ol052081f'))" /></span>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- Begin Citation Manager ACTIONS -->
+<div id="citationMgrBox" class="inDOI">
+<h5>Citation Management</h5>
+<p><a href="http://pubs.acs.org/journals/citation/index.html" title="Learn More">Learn More</a></p>
+<a href="javascript:checkAll(document.citationSelect.jid);" id="selectAll"></a>
+<a href="javascript:uncheckAll(document.citationSelect.jid);" id="deselectAll"></a>
+<a href="javascript: submitform();" id="downloadCitations"></a>
+</div>
+<!-- End Citation Manager ACTIONS -->
+<!--END OF TEST-->
+</form>
+</td>
+</tr>
+</table>
+</blockquote>
+<hr><p>All users may click on the [Abstract] link to view the abstract of this article.  If you are a subscriber, you may click on the 
+<b>[HTML]</b> or <b>[PDF]</b> link to view the article. If you are not a 
+subscriber, you may purchase and download the PDF version of the article using 
+your credit card by clicking on the <b>[Purchase]</b> link.</p>
+<!-- Copyright IBM Corporation, 2001-2004 --><script language="Javascript1.1" type="text/javascript">var SA_ID="acspix;acspix";</script><script language="Javascript1.1" type="text/javascript" src="//stats.surfaid.ihost.com/sacdcg3p_acspix_acspix.js"></script><noscript><img src="//stats.surfaid.ihost.com/crc/images/uc.GIF?1.20&acspix&acspix&noscript" height="1" width="1" alt="" border="0"/></noscript>
+<script>
+function createCookie(name,value,days)
+{
+	if (days)
+	{
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	var ck = name+"="+value+expires+"; path=/";
+	document.cookie = ck;
+}
+
+function readCookie(name)
+{
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i<ca.length;i++)
+	{
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
+function URLEncode(plaintext)
+
+{
+
+            // The Javascript escape and unescape functions do not correspond
+            // with what browsers actually do...
+
+            var SAFECHARS = "0123456789abcdefghijklmnopqrstuvwxyz-_.!~*'()";
+            var HEX = "0123456789ABCDEF";
+
+            var encoded = "";
+
+            for (var i = 0; i < plaintext.length; i++ ) {
+
+                        var ch = plaintext.charAt(i);
+
+                if (ch == " ") {
+                            encoded += "+";
+                        } else if (SAFECHARS.indexOf(ch) != -1) {
+                            encoded += ch;
+                        } else {
+                            var charCode = ch.charCodeAt(0);
+                                    if (charCode > 255) {
+                                        alert( "Unicode Character '" 
+                        + ch 
+                        + "' cannot be encoded using standard URL encoding.\n" + "(URL encoding only supports 8-bit characters.)\n" + "A space (+) will be substituted." );
+                                                encoded += "+";
+                                    } else {
+                                                encoded += "%";
+                                                encoded += HEX.charAt((charCode >> 4) & 0xF);
+                                                encoded += HEX.charAt(charCode & 0xF);
+                                    }
+                        }
+            } // for
+
+            return encoded;
+};
+
+	function getWLHost() {
+		var hostdev="pubsdev.acs.org"; 
+		var hosttest="pubstest.acs.org";
+		var hostprod="pubs.acs.org";
+
+		var localhost=window.location.toString();
+		if (localhost!=null)
+			localhost=localhost.toUpperCase();
+		if (localhost.indexOf("DEV.")!=-1) {
+			return hostdev;
+		} else if (localhost.indexOf("TEST.")!=-1) {
+			return hosttest;
+		} else {
+			return hostprod;
+		}
+	}
+	function openURLRedirect(query) {
+		var myframe=window.document.getElementById?
+			window.document.getElementById('openURLFrame'):
+			window.document.frames['openURLFrame'];
+		var myform=myframe.contentDocument?
+			myframe.contentDocument.openURLForm:
+			window.document.frames['openURLFrame'].openURLForm;
+		//var subscriberId=myform.subscriberId.value;
+		var subscriberId=readCookie("OpenURL_Saved_SubscriberId");
+		var url="http://"+getWLHost()+"/wls/ACSOpenURLWeb/servlet/OpenURLRedirectorServlet?subscriberId="+subscriberId+"&"+query; 
+		// document.location=url;
+		// new window
+		window.open(url,"openurl","toolbar=yes,menubar=yes,location=yes,scrollbars=yes,resizable=yes");
+        }
+	var history_len1;
+	var history_len2;
+
+	function openURLSubmit() {
+		// works with IE
+		// window.document.frames['openURLFrame'].openURLForm.submit();
+		// this works with both IE and netscape
+		history_len1=history.length;
+
+		var myframe=window.document.getElementById?
+			window.document.getElementById('openURLFrame'):
+			window.document.frames['openURLFrame'];
+		if (myframe==null) {
+			window.setTimeout('openURLSubmit()',100);
+			return;
+		}
+		var myform=myframe.contentDocument?
+			myframe.contentDocument.openURLForm:
+			window.document.frames['openURLFrame'].openURLForm;
+		if (myform==null) {
+			window.setTimeout('openURLSubmit()',100);
+			return;
+		}
+		myform.action="http://"+getWLHost()+"/wls/ACSOpenURLWeb/servlet/OpenURLServlet";
+		myform.submit();
+		openURLProcess();
+	}
+	function openURLProcess() {
+		var myframe=window.document.getElementById?
+			window.document.getElementById('openURLFrame'):
+			window.document.frames['openURLFrame'];
+		var mydoc=myframe.contentDocument?
+			myframe.contentDocument:window.document.frames['openURLFrame'].document;
+		var myform=myframe.contentDocument?
+			myframe.contentDocument.openURLForm:
+			window.document.frames['openURLFrame'].openURLForm;
+
+		var isOpenURL=myform.isOpenURL.value;
+		var imageLocation=myform.imageLocation.value;
+
+
+		if (isOpenURL==null || isOpenURL=='' || isOpenURL=='unknown' ||
+	            imageLocation==null || imageLocation=='' || imageLocation=='unknown') {
+			window.setTimeout('openURLProcess()',100);
+			return;
+		}
+
+		if (isOpenURL=='true') {
+			var i;
+			for (i=0;i<999;i++) {
+				if (window.document.images==null) break;
+				if (window.document.images[i]==null) break;
+				var image_name=window.document.images[i].id;
+				if (image_name.indexOf('openURL_img')!=-1) {
+					window.document.images[i].style.visibility="";
+					window.document.images[i].src=imageLocation;
+				}
+			}
+		}
+		// 12/14/2005 
+		// go back to previous page so users don't have to click twice
+		history_len2=history.length;
+		var subscriberId=myform.subscriberId.value;
+		createCookie("OpenURL_Saved_SubscriberId",subscriberId);
+
+                var agt=navigator.userAgent.toLowerCase();
+                var version=parseInt(navigator.appVersion);
+
+		if (history_len2-history_len1==1 || history_len1-history_len2==1) {
+			// 4/17/2005 safari fix
+ 			if (agt.indexOf('safari') == -1 ) {
+				history.back();
+			}
+		}
+	}
+</script>
+
+<iframe id="openURLFrame" src="/acs/journals/openurl.form" frameborder=0 height=0 width=0></iframe>
+<img src="http://pubs.acs.org/archives/images/blank.gif" height=0 width=0 onload="openURLSubmit()">
+</body>
+</html>

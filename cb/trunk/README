@@ -1,0 +1,187 @@
+POSTGENOMIC
+===========
+
+Postgenomic is an academic blog aggregator. It aggregates blog posts and collects metadata about any papers or books that get referenced by those blog posts.
+
+Postgenomic is open source and is released under the GPL 2.0 licence.
+
+Requirements
+============
+
+To make full use of Postgenomic you'll need:
+
+Python (http://www.python.org)
+Perl (http://www.perl.com)
+PHP (http://www.php.net)
+A web server (http://httpd.apache.org)
+MySQL (http://www.mysql.com)
+curl (http://curl.haxx.se/)
+
+And some Perl modules, namely:
+
+DBI
+Config::Natural
+Lingua::EN::Fathom
+HTTP::TreeBuilder
+HTTP::OAI::Harvester
+SOAP::Lite
+
+You can get these from CPAN or (on Windows) through ActiveState's PPM, the exception being HTTP::OAI::Harvester: I haven't found a Windows version of this yet which means that you can't collect metadata via OAI-PMH under Windows.
+
+Installing Postgenomic
+======================
+
+To obtain the Postgenomic code:
+
+1) Download and install subversion if you haven't already got it
+2) Create a directory for your Postgenomic installation
+3) Enter that directory
+4) run
+
+	svn checkout http://openreview.googlecode.com/svn/trunk/ openreview
+	
+this will download the latest version of the code.
+
+To initialize the database:
+
+1) Connect to your MySQL server as a user that has permission to create databases
+2) Type
+	
+	CREATE DATABASE pg_posts;
+
+(you can replace 'pg_posts' with any name you like)
+3) Create a user with read / write privileges on the database you just created:
+
+	GRANT ALL ON pg_posts.* TO 'user'@'%' IDENTIFIED BY 'password';
+
+(remember to replace user and password with something more appropriate)
+3) Exit 
+4) Go to the "conf" subdirectory
+5) Type
+
+	mysql -u <user> --password=<password> pg_posts < pg_posts.schema
+
+Let your webserver know where to serve documents from:
+
+1) You need to make the interface subdirectory available through your web server - perhaps with a symbolic link? If you're trying things out, note that you'll get a MySQL errors at this point because you haven't finished configuring Postgenomic yet. Don't worry about it.
+2) Make the "xml" subdirectory of the interface directory writable by your web server, e.g.
+
+	chmod -R 777 xml/
+
+To configure the code:
+
+1) Go to the "conf" subdirectory
+2) edit the default.conf file. 
+3) Go through the options one by one and change them if necessary. Things you will definitely need to change include db_user (the name of the user you created in the step above) and db_password (their password). 
+
+If do_search=1 then Postgenomic will attempt to index posts, blogs and papers with PyLucene. If you don't have PyLucene installed (and don't want to install it) set this value to 0, but note that search functionality on the site won't work (for now).
+
+To integrate Connotea you need to have an account there so that you can access the API.
+
+base_url should be the address of your Postgenomic installation - for example, if it's installed locally in the "postgenomic" subdirectory your base_url would be "http://localhost/postgenomic/". Remember the trailing slash.
+
+path_to_pipeline should be the complete path to the "openreview" directory created by the svn command. path_to_interface should be the complete path to the "interface" subdirectory.
+
+Logging in as admin
+===================
+
+Fire up your browser and visit your Postgenomic installation.
+Go to the "login.php" page (which isn't linked to: you'll have to type it into the browser address bar e.g. http://localhost/login.php)
+Enter a username and password, then check the "I'm a new user" checkbox
+The first user you create will automatically get admin privileges - an "Admin" tab should appear on the menubar. Click on it to get to interfaces where you can add new blogs and assign privileges to other users (eventually).
+
+Now you'll want to try out adding some blogs to the index. You can do this two ways:
+
+Option 1: Import blogs with OPML
+================================
+
+1) Create an OPML file containing some blogs (note that many popular feed readers can export OPML). The OPML 'folders' will be used as tags.
+2) Make sure that 'feeds' in the config files points to your OPML file.
+3) Go to the root pipeline directory (the one created by svn)
+4) Type
+
+	utils/sync_opml.pl
+	
+Option 2: Use the admin interface
+=================================
+
+1) Follow the "logging in as admin" steps above
+2) Click on the Admin tab, then "Manage Blogs"
+3) Underneath the "Add Blogs" title is a large textbox. Paste the URLs of any feeds you want to index in this box, separated by newlines (hit return after each one). If you have a large number of blogs to input I suggest that you do them in batches of a dozen or so, or the web server will timeout.
+4) Hit "Submit". Postgenomic will retrieve the blog titles and descriptions and add them to the database (this may take some time). 
+5) You should now see some blogs listed in the "blog workspace". To put them into categories type the category name into the "create a custom tag?" box. After you enter the next batch of blogs any custom tags will appear in the "Tags:" area underneath every blog: click on any of these tags to assign them to that blog. Assigned tags are in bold. 
+
+Running Postgenomic for the first time
+======================================
+
+1) Type
+
+	./pipeline.pl
+	
+This may take a little time.
+
+2) Type
+
+	./weekly_pipeline.pl
+	
+Voila! Fire up your web browser and go see what's there.
+
+Run ./pipeline.pl once a day.
+Run ./weekly_pipeline.pl once a week.
+
+Good luck.
+
+Customising look and feel
+=========================
+
+Everything you need to customise the look and feel of Postgenomic can be found in the interface/templates/ directory.
+
+The relevant files are:
+
+basic.css : basic css like anchors, font sizes, how big the sidebar is etc.
+blogs.css : css that controls how blogs look
+header.css : css that controls how the header and menus look
+links.css : css that controls how links look
+papers.css : css that controls how papers and books look
+posts.css : css that controls how posts look
+search.css : css for search boxes
+zeitgeist.css : css for stats and zeitgest pages
+
+blurb.php : defines an array called $blurb that contains chunks of text - things like the welcome message on the front page. Different categories can have different chunks: see below.
+
+Giving different categories different looks
+===========================================
+
+Postgenomic automatically looks for subdirectories in templates/ that match the current category name. The names of these subdirectories shouldn't contain any spaces or non-letter characters (e.g. "Earth & Environment" would become "earthenvironment").
+
+The subdirectories can contain different versions of any of the .css files listed above. If a category-specific css file exists then it is used, otherwise the default templates/ version is used.
+
+For example, to change the link colours for a category called Earth & Environment copy the basic.css file to a subdirectory called "earthenvironment/" in the templates dir and then edit the relevant style there.
+
+You can also create a category specific blurb.php and a supplemental .conf file (this must match the name of the subdirectory - e.g. "physics.conf" for the physics/ subdirectory). These are parsed *AFTER* the default blurb and config files, so you're overwriting the template defaults rather than overriding them.
+
+Some examples (remember to turn off caching to test things out - set 'cache_to = none' in the default config file):
+
+1) You've got a Physics category. Create a physics/ subdirectory under templates/ and then create a file called physics.conf. Add a single line to that file:
+
+name=Hello Physics World
+
+now when you view that category the window title should include "hello physics world"
+
+2) In the physics/ subdirectory create a file called blurb.php. Edit blurb.php and change the blurb array as required e.g $blurb['frontpage'] = "Welcome to the physics frontpage";
+
+Further help
+============
+
+Don't hesitate to email me if there are any problems....
+
+e.adie@nature.com
+
+There's a project homepage on Google Code that lists some known issues etc. at: http://code.google.com/p/openreview/
+
+Also check out the mailing list (not very high traffic at all): http://groups.google.com/group/openreview
+
+Making modifications to the code
+================================
+
+It'd be great if you submitted your modifications back to the community. Email me and I'll add you to the subversion "write" list.

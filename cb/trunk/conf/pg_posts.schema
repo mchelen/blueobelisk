@@ -1,0 +1,268 @@
+create table posts (
+post_id bigint auto_increment primary key,
+blog_id	bigint,
+title text,
+active int default 1,
+url text,
+url_hash varchar(33),
+summary text,
+filename text,
+content_hash varchar(255),
+author varchar(255),
+pubdate timestamp default 0,
+added_on timestamp
+);
+create unique index url_idx ON posts (url(512));
+create unique index filename_idx ON posts (filename(512));
+create index blog_id_idx ON posts (blog_id);
+create index pubdate_idx ON posts (pubdate);
+create index added_on_idx ON posts (added_on);
+create index url_hash_idx ON posts (url_hash);
+
+create table bursts (
+term varchar(255) primary key,
+score float
+);
+
+create table bursts_images (
+image_id bigint auto_increment primary key,
+post_id bigint,
+src text,
+image longblob,
+height int,
+width int,
+alt text
+) engine=innodb;
+
+create table blogs (
+blog_id	bigint primary key auto_increment,
+title text,
+image text,
+description text,
+url text,
+feed_url text,
+active int default 1,
+added_on timestamp default 0
+);
+create unique index url_idx ON blogs (url(512));
+create unique index feed_url_idx ON blogs (feed_url(512));
+
+create table links (
+post_id bigint,
+blog_id bigint,
+paper_id bigint,
+id_url_hash varchar(33) primary key,
+type varchar(255),
+followed int default 0,
+is_story int default 0,
+url text,
+url_hash varchar(33),
+domain text,
+directory text,
+file text,
+title varchar(255),
+page_title varchar(255),
+added_on timestamp default 0
+);
+create index post_id_idx ON links (post_id);
+create index paper_id_idx ON links (paper_id);
+create index followed_id_idx ON links (followed);
+create index is_story_idx ON links (is_story);
+create index url_idx ON links (url(512));
+create index added_on_idx ON links (added_on);
+create index url_hash_idx ON links (url_hash);
+create index blog_id_idx ON links (blog_id);
+
+create table papers (
+paper_id bigint auto_increment primary key,
+doi_id varchar(255),
+pubmed_id varchar(255),
+arxiv_id varchar(255),
+pii_id varchar(255),
+isbn_id varchar(255),
+image text,
+journal text,
+title text,
+abstract text,
+authors text,
+pubdate timestamp default 0,
+added_on timestamp
+);
+create index journal_idx ON papers (journal(64));
+create index pubdate_idx ON papers (pubdate);
+create index added_on_idx ON papers (added_on);
+
+create table tags (
+id_tag_hash varchar(33) primary key,
+blog_id bigint,
+post_id bigint,
+paper_id bigint,
+tag varchar(255),
+tagged_by varchar(255)
+);
+create index post_id_idx ON tags (post_id);
+create index blog_id_idx ON tags (blog_id);
+create index paper_id_idx ON tags (paper_id);
+create index tag_idx ON tags (tag);
+
+drop table if exists blog_stats;
+create table blog_stats (
+blog_id int primary key,
+num_posts int default 0,
+incoming_bloglove int default 0,
+outgoing_bloglove int default 0,
+incoming_links int default 0,
+outgoing_links int default 0,
+avg_words_per_post int default 0,
+percent_complex_words float default 0,
+readability_flesch float default 0,
+readability_kincaid float default 0,
+readability_fog float default 0,
+rank int default 0	
+) engine=innodb;
+
+drop table if exists journal_stats;
+create table journal_stats (
+journal text,
+num_papers int default 0,
+pubdates text,
+incoming_links int default 0,
+incoming_bloglove int default 0,
+no_direct_links int default 1,
+rank int default 0
+) engine=innodb;
+
+drop table if exists links_summary;
+create table links_summary (
+url_hash varchar(33),
+post_titles mediumtext,
+categories text,
+linked_by int,
+url text,
+domain text,
+titles mediumtext,
+page_title varchar(255),
+last_linked_on timestamp default 0
+);
+create index last_linked_on_idx ON links_summary (last_linked_on);
+create index linked_by_idx ON links_summary (linked_by);
+
+drop table if exists posts_summary;
+create table posts_summary (
+post_id bigint,
+blog_id bigint,
+blog_name text,
+blog_image text,
+title text,
+url text,
+url_hash varchar(33),
+summary text,
+filename text,
+author text,
+pubdate timestamp default 0,
+added_on timestamp default 0,
+linked_by int
+);
+create index pubdate_idx ON posts_summary (pubdate);
+create index added_on_idx ON posts_summary (added_on);
+create index linked_by_idx ON posts_summary (linked_by);
+create index post_id_idx ON posts_summary (post_id);
+create index blog_id_idx ON posts_summary (blog_id);
+
+drop table if exists papers_summary;
+create table papers_summary (
+paper_id bigint,
+doi_id varchar(255),
+pubmed_id varchar(255),
+arxiv_id varchar(255),
+pii_id varchar(255),
+isbn_id varchar(255),
+image text,
+journal text,
+title text,
+abstract text,
+authors text,	
+pubdate timestamp default 0,
+added_on timestamp default 0,
+url text,
+cited_by int default 0,
+reviewed int default 0,
+blog_ids text
+);
+
+create table users (
+user_id bigint auto_increment primary key,
+name varchar(255),
+password varchar(255),
+email text
+);
+
+create table roles (
+role_id bigint auto_increment primary key,
+user_id bigint,
+role varchar(255)
+);
+create index user_id_idx ON roles (user_id);
+insert into roles (user_id, role) VALUES (1, 'is_admin');
+
+create table trackbacks (
+requested_by bigint,
+validated int default 0,
+domain text,
+path_regexp text,
+last_checked timestamp default 0
+);
+
+create table comments (
+id_comment_hash varchar(33) primary key,
+blog_id bigint,
+post_id bigint,
+paper_id bigint,
+author varchar(255),
+author_id bigint,
+source varchar(255),
+rating int default 0,
+url text,
+title text,
+comment text,
+pubdate timestamp default 0,
+added_on timestamp default 0
+);
+create index paper_id_idx ON comments (paper_id);
+create index post_id_idx ON comments (post_id);
+
+drop table if exists terms;
+create table terms (
+id_term_hash varchar(33) primary key,
+post_id bigint,
+paper_id bigint,
+comment_id bigint,
+term varchar(255),
+geoname_id bigint default 0,
+lng float,
+lat float
+);
+create index post_id_idx ON terms (post_id);
+create index term_idx ON terms (term);
+
+drop table if exists render_cache;
+create table render_cache (
+cache_id varchar(255) primary key,
+contents mediumtext
+);
+
+drop table if exists connotea_cache;
+create table connotea_cache (
+post_hash varchar(255) primary key,
+tags text,
+uri text,
+user varchar(255),
+comment text,
+doi varchar(255),
+pmid varchar(255),
+created varchar(255),
+added timestamp default 0
+);
+create index uri_idx ON connotea_cache (uri(64));
+create index doi_idx ON connotea_cache (doi);
+create index pmid_idx ON connotea_cache (pmid);

@@ -1,0 +1,23 @@
+create table inchis (
+id_inchi_hash varchar(33) primary key,
+blog_id bigint,
+post_id bigint,
+inchi varchar(255),
+added_on timestamp,
+inchi_id bigint
+);
+create index post_id_idx ON inchis (post_id);
+create index blog_id_idx ON inchis (blog_id);
+create index inchi_idx ON inchis (inchi);
+create index added_on_idx ON inchis (added_on);
+
+create table compounds (
+cid varchar(255),
+inchi varchar(255),
+smiles varchar(255),
+name varchar(255),
+added_on timestamp
+);
+create index inchi_idx ON compounds (inchi);
+create index cid_idx ON compounds (cid);
+

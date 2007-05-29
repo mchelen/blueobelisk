@@ -1,0 +1,43 @@
+/* STATS */
+.statsbox {
+	background-color: #EDF4F5;
+	color: #809FFF;
+	padding: 5px;
+	text-align: center;
+}
+
+.statsbox h2 {
+	margin-top: 8px;
+	color: #5C73B8;
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: -2px;
+}
+.statsbox h3 {
+	color: inherit;
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: -2px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.statsbox h4 {
+	color: inherit;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: -1px;	
+	margin: 4px;
+	padding: 0px;
+}
+.statsbox a {color: #809FFF;}
+
+.statsbox a:hover {
+	background-color: transparent;
+}
+
+/* STATS TABLES */
+.stats_table {background-color: #EDF4F5; color: #809FFF;}
+
+.even_row {	background-color: #EDF4F5; color: #809FFF;}
+.odd_row {	background-color: #E5ECED; color: #809FFF;}

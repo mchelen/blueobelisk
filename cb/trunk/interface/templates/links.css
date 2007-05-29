@@ -1,0 +1,30 @@
+.linkbox {
+	padding: 10px;
+	border: 1px solid #DEDEDE;
+	margin-bottom: 5px;
+}
+
+.linkbox_title {
+	font-size: 1.1em;
+	padding-bottom: 5px;
+}
+
+.linkbox_byline {
+	padding-bottom: 5px;	
+}
+
+.linkbox_thumbnail {
+	float: left;
+	margin: 5px;
+}
+
+.linkbox_content {
+	color: #999999;
+	font-size: 0.9em;
+}
+
+.linkbox_footer {
+	height: 1px;
+	line-height: 1px;
+	clear: left;
+}

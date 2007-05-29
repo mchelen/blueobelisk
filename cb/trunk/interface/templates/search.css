@@ -1,0 +1,25 @@
+/* SEARCH BOX */
+.searchbox {
+	margin: 5px;
+	margin-bottom: 10px;
+	border: 2px solid #FFCC00;
+	margin-bottom: 20px;
+	background-image: url('../images/search_bg.png');
+	background-color: #FFE680;
+}
+
+.searchbox_title {
+	padding: 5px;
+	border-bottom: 2px solid #FFCC00;
+	background-color: #FFCC00;
+	font-size: 1.2em;
+}
+
+.searchbox_content {
+	padding: 5px;
+}
+
+.searchbox input {
+	margin-bottom: 5px;
+	background-color: #FFFCE6;
+}

@@ -1,0 +1,676 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>PLoS ONE : Publishing science, accelerating research</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="shortcut icon" href="/images/pone_favicon.ico" type="image/x-icon" />
+<link rel="home" title="home" href="http://www.plosone.org:"></link>
+<link rel="alternate" type="application/rss+xml" title="PLoS ONE: New Articles" href="http://www.plosone.org:/rss/PLoSONE.xml" />
+
+<!-- global_css.ftl -->
+
+<style type="text/css" media="all"> @import "/css/pone_screen.css";</style>
+<style type="text/css" media="all"> @import "/css/pone_iepc.css";</style>
+<style type="text/css" media="all"> @import "/css/pone_home.css";</style>
+<style type="text/css" media="print"> @import "/css/pone_print.css";</style><script type="text/javascript">
+  var namespace="";
+  	var loggedIn = false;
+
+	var djConfig = {
+		isDebug: false,
+		debugContainerId : "dojoDebug",
+		debugAtAllCosts: false,
+  	bindEncoding: "UTF-8",
+  	baseScriptUri: "/javascript/dojo/"
+	};
+</script>
+<script type="text/javascript" src="/javascript/dojo/dojo_home.js"></script>	
+<script type="text/javascript" src="/javascript/topaz/topaz.js"></script>	
+<script type="text/javascript" src="/javascript/topaz/domUtil.js"></script>	
+<script type="text/javascript" src="/javascript/topaz/htmlUtil.js"></script>	
+<script type="text/javascript">
+  dojo.registerModulePath("topaz", "../topaz");
+  dojo.require("topaz.topaz");
+  dojo.require("dojo.html.*");
+  dojo.require("dojo.io.*");
+  dojo.require("dojo.event.*");
+
+ </script>	
+<script type="text/javascript" src="/javascript/config_home.js"></script>	
+<script type="text/javascript" src="/javascript/topaz/horizontalTabs.js"></script>	
+<script type="text/javascript" src="/javascript/init_global.js"></script>	
+<script type="text/javascript" src="/javascript/init_navigation.js"></script>	
+<script type="text/javascript" src="/javascript/init_home.js"></script>	
+
+<meta name="description" content="PLoS ONE: an inclusive, peer-reviewed, open-access resource from the PUBLIC LIBRARY OF SCIENCE. Reports of well-performed scientific studies from all disciplines freely available to the whole world. " />
+
+<meta name="keywords" content="PLoS, Public Library of Science, Open Access, Open-Access, Science, Medicine, Biology, Research, Peer-review, Inclusive, Interdisciplinary, Ante-disciplinary, Physics, Chemistry, Engineering" />
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.plosone.org:/home.action">
+   <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+</rdf:RDF>
+-->
+</head>
+<body>
+<!-- begin : container -->
+<div id="container">
+	
+	<!-- begin : top banner external ad space -->
+	<div id="topBanner">
+	<!-- begin : left banner slot -->
+	<div class="left">
+<script language='JavaScript' type='text/javascript' src='http://ads.plos.org/adx.js'></script>
+<script language='JavaScript' type='text/javascript'>
+<!--
+   if (!document.phpAds_used) document.phpAds_used = ',';
+   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+   
+   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+   document.write ("http://ads.plos.org/adjs.php?n=" + phpAds_random);
+   document.write ("&amp;what=zone:33");
+   document.write ("&amp;exclude=" + document.phpAds_used);
+   if (document.referrer)
+      document.write ("&amp;referer=" + escape(document.referrer));
+   document.write ("'><" + "/script>");
+//-->
+</script><noscript><a href='http://ads.plos.org/adclick.php?n=acfd0f5a' target='_blank'><img src='http://ads.plos.org/adview.php?what=zone:35&amp;n=acfd0f5a' border='0' alt=''></a></noscript>	
+	</div>
+	<!-- end : left banner slot -->
+	<!-- begin : right banner slot -->
+	<div class="right">
+<script language='JavaScript' type='text/javascript' src='http://ads.plos.org/adx.js'></script>
+<script language='JavaScript' type='text/javascript'>
+<!--
+   if (!document.phpAds_used) document.phpAds_used = ',';
+   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+   
+   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+   document.write ("http://ads.plos.org/adjs.php?n=" + phpAds_random);
+   document.write ("&amp;what=zone:35");
+   document.write ("&amp;exclude=" + document.phpAds_used);
+   if (document.referrer)
+      document.write ("&amp;referer=" + escape(document.referrer));
+   document.write ("'><" + "/script>");
+//-->
+</script><noscript><a href='http://ads.plos.org/adclick.php?n=acfd0f5a' target='_blank'><img src='http://ads.plos.org/adview.php?what=zone:35&amp;n=acfd0f5a' border='0' alt=''></a></noscript>	
+</div>
+	<!-- end : right banner slot -->	</div>
+	<!-- end : top banner external ad space -->
+	
+	<!-- begin : header -->
+	<div id="hdr" class="login">
+	
+	<!-- begin : logo -->
+	<div id="logo" title="PLoS ONE: Publishing science, acclerating research"><a href="http://www.plosone.org:" title="PLoS ONE: Publishing science, accelerating research"><span>PLoS ONE</span></a></div>
+	<!-- end : logo -->
+	<!-- begin : user controls -->
+
+	<div id="user">
+		<div>
+			<ul>
+				<li><a href="/user/secure/secureRedirect.action?goTo=%2Fhome.action" class="feedback"><strong>Login</strong></a></li>
+				<li><a href="https://register.plos.org:/plos-registration/register.action">Create Account</a></li>
+				<li class="feedback"><a href="/feedbackCreate.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?page=%252Fhome.action" title="Send us your feedback">Feedback</a></li>
+			</ul>
+		</div>
+	</div>
+
+	
+	<!-- end : user controls -->
+	<!-- begin search links -->
+	<ul id="links"><li class="browse"><a href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783" title="Browse PLoS ONE Articles">Browse</a></li><li class="rss"><a href="/static/rssFeeds.action;jsessionid=3CAE7828AB751785DD91020E6CB93783" title="PLoS ONE RSS Feeds">RSS</a></li></ul>
+	<!-- end : search links -->
+	<!-- begin : dashboard -->
+	<div id="db">
+		<form name="searchForm" action="/search/simpleSearch.action;jsessionid=3CAE7828AB751785DD91020E6CB93783" method="get">
+			<fieldset>
+				<legend>Search PLoS ONE</legend>
+				<label for="search">Search</label>
+				<div class="wrap"><input id="search" type="text" name="query" value="Search articles..." onfocus="if(this.value=='Search articles...')value='';" onblur="if(this.value=='')value='Search articles...';" class="searchField" alt="Search articles..."/></div>
+				<input src="/images/pone_search_btn1.gif" onclick="submit();" value="ftsearch" alt="SEARCH" tabindex="3" class="button" type="image" />
+			</fieldset>
+		</form>
+	</div>
+	<!-- end : dashboard -->
+	<!-- begin : navigation -->
+	<ul id="nav">
+		<li><a href="http://www.plosone.org:" tabindex="101">Home</a></li>
+		<li><a href="/static/browse.action" tabindex="102">Browse Articles</a>
+				<ul>
+					<li><a href="/article/browse.action?field=date">By Publication Date</a></li>
+					<li><a href="/article/browse.action">By Subject</a></li>
+				</ul>
+		</li>			
+		<li><a href="/static/about.action;jsessionid=3CAE7828AB751785DD91020E6CB93783" tabindex="103">About</a>
+				<ul>
+					<li><a href="/static/information.action;jsessionid=3CAE7828AB751785DD91020E6CB93783">Journal Information</a></li>
+					<li><a href="/static/edboard.action;jsessionid=3CAE7828AB751785DD91020E6CB93783">Editorial Board</a></li>
+					<li><a href="/static/license.action;jsessionid=3CAE7828AB751785DD91020E6CB93783">License</a></li>
+				</ul>
+			</li>			
+		<li><a href="/static/users.action;jsessionid=3CAE7828AB751785DD91020E6CB93783" tabindex="104">For Users</a>
+				<ul>
+					<li><a href="/static/commentGuidelines.action;jsessionid=3CAE7828AB751785DD91020E6CB93783">Commenting Guidelines</a></li>
+					<li><a href="/static/help.action;jsessionid=3CAE7828AB751785DD91020E6CB93783">Help Using this Site</a></li>
+					<li><a href="/static/sitemap.action;jsessionid=3CAE7828AB751785DD91020E6CB93783">Site Map</a></li>
+					<li><a href="/static/contact.action;jsessionid=3CAE7828AB751785DD91020E6CB93783">Contact Us</a></li>
+				</ul>
+			</li>
+		<li><a href="/static/authors.action;jsessionid=3CAE7828AB751785DD91020E6CB93783" tabindex="105">For Authors and Reviewers</a>
+				<ul>
+					<li><a href="/static/whypublish.action;jsessionid=3CAE7828AB751785DD91020E6CB93783">Why Publish With Us?</a></li>
+					<li><a href="/static/policies.action;jsessionid=3CAE7828AB751785DD91020E6CB93783">Editorial and Publishing Policies</a></li>
+					<li><a href="/static/guidelines.action;jsessionid=3CAE7828AB751785DD91020E6CB93783">Author Guidelines</a></li>
+					<li><a href="/static/figureGuidelines.action;jsessionid=3CAE7828AB751785DD91020E6CB93783">Figure Guidelines</a></li>
+					<li><a href="/static/checklist.action;jsessionid=3CAE7828AB751785DD91020E6CB93783">Submit Your Paper</a></li>
+					<li><a href="/static/reviewerGuidelines.action;jsessionid=3CAE7828AB751785DD91020E6CB93783">Reviewer Guidelines</a></li>
+				</ul>
+			</li>
+			<li class="journalnav"><a href="http://www.plos.org" title="Public Library of Science" tabindex="110" class="drop">PLoS.org</a>
+				<ul>
+					<li><a href="http://www.plos.org/oa/index.html" title="Open Access Statement">Open Access</a></li>
+					<li><a href="http://www.plos.org/support/donate.php" title="Join PLoS: Show Your Support">Join PLoS</a></li>
+					<li><a href="http://www.plos.org/cms/blog" title="PLoS Blog">PLoS Blog</a></li>
+				</ul>
+			</li>
+
+			<li class="journalnav"><a href="http://www.plosjournals.org" tabindex="109">PLoS Journals</a>
+				<ul>
+					<li><a href="http://biology.plosjournals.org" title="PLoSBiology.org">PLoS Biology</a></li>
+					<li><a href="http://medicine.plosjournals.org" title="PLoSMedicine.org">PLoS Medicine</a></li>
+					<li><a href="http://compbiol.plosjournals.org" title="PLoSCompBiol.org">PLoS Computational Biology</a></li>
+					<li><a href="http://genetics.plosjournals.org" title="PLoSGenetics.org">PLoS Genetics</a></li>
+					<li><a href="http://pathogens.plosjournals.org" title="PLoSPathogens.org">PLoS Pathogens</a></li>
+					<li><a href="http://clinicaltrials.plosjournals.org" title="PLoSClinicalTrials.org">PLoS Clinical Trials</a></li>
+					<li><a href="http://www.plosone.org/" title="PLoSONE.org">PLoS ONE</a></li>
+					<li><a href="http://www.plosntds.org/" title="PLoSNTD.org">PLoS Neglected Tropical Diseases</a></li>
+				</ul>
+			</li>
+		</ul>
+	<!-- end : navigation -->
+	</div>
+	<!-- end : header -->
+<!-- begin : main content -->
+<!-- begin : main content -->
+<div id="content">
+	<!-- begin : home page wrapper -->
+	<div id="wrap">
+		<div id="home">
+			<!-- begin : layout wrapper -->
+			<div class="col">
+				<!-- begin : wrapper for cols 1 & 2 -->
+				<div id="first" class="col">
+					<!-- begin : col 1 -->
+					<div class="col first">
+						<div class="block mainnav">
+							<ul>
+								<li><a href="http://www.plos.org/oa/index.html" title="Learn more about Open Access on PLoS.org">Open Access</a></li>
+								<li><a href="http://www.plos.org/support/donate.php" title="Join PLoS and our Open Access mission">Join PLoS</a></li>
+								<li><a href="/static/checklist.action" title="Find out how to submit to PLoS ONE">
+Submit Today</a></li>
+							</ul>
+						</div><!-- end : block mainnav -->
+						<div class="block partner">
+							<h6>Partners</h6>
+							<a href="http://www.unitedlayer.com/" title="UnitedLayer, LLC"><img src="/images/pone_home_unitedlayer.gif" alt="UnitedLayer, LLC"/></a>
+							<a href="http://fedora.info/" title="Fedora.info"><img src="/images/pone_home_fedora.jpg" alt="Fedora.info"/></a>
+							<a href="http://www.mulgara.org/" title="Mulgara.org"><img src="/images/pone_home_mulgara.png" alt="Mulgara.org"/></a>
+							<a href="http://www.sciencecommons.org/" title="Science Commons"><img src="/images/pone_home_sciencecommons.gif"  alt="Science Commons"/></a>
+							<a href="http://www.osafoundation.org" title="Open Source Applications Foundation"><img src="/images/pone_home_osaf.gif" alt="OSAF"/></a>
+							<a href="http://www.moore.org" title="Gorden and Betty Moore Foundation"><img src="/images/pone_home_moore.gif" alt="Moore Foundation"/></a>
+						</div><!-- end : block partner -->		
+						<div class="block banner">
+							<script language='JavaScript' type='text/javascript' src='http://ads.plos.org/adx.js'></script>
+							<script language='JavaScript' type='text/javascript'>
+							<!--
+							   if (!document.phpAds_used) document.phpAds_used = ',';
+							   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+							   
+							   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+							   document.write ("http://ads.plos.org/adjs.php?n=" + phpAds_random);
+							   document.write ("&amp;what=zone:38&amp;source=ONE&amp;target=_top&amp;block=1");
+							   document.write ("&amp;exclude=" + document.phpAds_used);
+							   if (document.referrer)
+								  document.write ("&amp;referer=" + escape(document.referrer));
+							   document.write ("'><" + "/script>");
+							//-->
+							</script><noscript><a href='http://ads.plos.org/adclick.php?n=a50d73a8' target='_top'><img src='http://ads.plos.org/adview.php?what=zone:38&amp;source=ONE&amp;n=a50d73a8' border='0' alt=''></a></noscript>
+						</div><!-- end : block banner -->	
+						<div class="block banner">
+							<script language='JavaScript' type='text/javascript' src='http://ads.plos.org/adx.js'></script>
+							<script language='JavaScript' type='text/javascript'>
+							<!--
+							   if (!document.phpAds_used) document.phpAds_used = ',';
+							   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+							   
+							   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+							   document.write ("http://ads.plos.org/adjs.php?n=" + phpAds_random);
+							   document.write ("&amp;what=zone:37&amp;source=ONE&amp;target=_top&amp;block=1");
+							   document.write ("&amp;exclude=" + document.phpAds_used);
+							   if (document.referrer)
+								  document.write ("&amp;referer=" + escape(document.referrer));
+							   document.write ("'><" + "/script>");
+							//-->
+							</script><noscript><a href='http://ads.plos.org/adclick.php?n=a8d63154' target='_top'><img src='http://ads.plos.org/adview.php?what=zone:37&amp;source=ONE&amp;n=a8d63154' border='0' alt=''></a></noscript>
+						</div><!-- end : block banner -->	   
+					</div><!-- end : col first -->
+					<!-- begin : col 2 -->
+					<div class="col last">		
+						<div class="horizontalTabs" style="padding-top: 0; ">
+							<ul id="tabsContainer">
+							</ul>
+						
+							<div id="tabPaneSet" class="contentwrap">
+							<ul class="articles">
+								<li class="even">
+									<a href="/article/fetchArticle.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?articleURI=info%3Adoi%2F10.1371%2Fjournal.pone.0000457" title="Read Open Access Article">Ionizing Radiation Changes the Electronic Properties of Melanin and Enhances the Growth of Melanized Fungi</a>
+								</li>
+								<li>
+									<a href="/article/fetchArticle.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?articleURI=info%3Adoi%2F10.1371%2Fjournal.pone.0000446" title="Read Open Access Article">Calculation of the Free Energy and Cooperativity of Protein Folding</a>
+								</li>
+								<li class="even">
+									<a href="/article/fetchArticle.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?articleURI=info%3Adoi%2F10.1371%2Fjournal.pone.0000448" title="Read Open Access Article">LRP1 Functions as an Atheroprotective Integrator of TGFβ and PDFG Signals in the Vascular Wall: Implications for Marfan Syndrome</a>
+								</li>
+								<li>
+									<a href="/article/fetchArticle.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?articleURI=info%3Adoi%2F10.1371%2Fjournal.pone.0000467" title="Read Open Access Article">Structural Insights into the Evolution of a Non-Biological Protein: Importance of Surface Residues in Protein Fold Optimization</a>
+								</li>
+								<li class="even">
+									<a href="/article/fetchArticle.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?articleURI=info%3Adoi%2F10.1371%2Fjournal.pone.0000443" title="Read Open Access Article">Order in Spontaneous Behavior</a>
+								</li>
+							</ul>
+						<ul>
+							<li><a href="/article/browse.action?field=date" title="Browse by Publication Date">Browse all recently published articles</a></li>
+						</ul>
+							</div>
+						</div><!-- end : horizontalTabs -->
+	
+						<div class="block feature">
+
+							<h2>New and Noted</h2>
+							<div>
+								<a href="/article/fetchArticle.action?articleURI=info:doi/10.1371/journal.pone.0000456" title="Read Open-Access Article">High-Yield Hydrogen Production from Starch and Water by a Synthetic Enzymatic Pathway</a>
+								<p>Using hydrogen as a fuel source has considerable appeal, but production, storage, and distribution are problematic. This paper presents a synthetic enzymatic pathway that produces hydrogen from starch and water at 30&deg;C, and with a higher yield than achievable through fermentation. Such a process may bring closer a viable hydrogen economy with consequent decreases in fossil fuel dependence and greenhouse gas emissions. </p>
+
+								<a href="/article/fetchArticle.action?articleURI=info:doi/10.1371/journal.pone.0000449" title="Read Open-Access Article">The <em>Arabidopsis thaliana</em> Brassinosteroid Receptor (AtBRI1) Contains a Domain that Functions as a Guanylyl Cyclase In Vitro</a>
+								<p>Brassinosteroid is a major plant hormone, chiefly controlling a plant's growth by elongation. This study identifies a region in the brassinosteroid receptor AtBR1 with similarities to guanylyl cyclase enzymes, and demonstrates that it is capable of converting GTP to cyclic GMP. This suggests that AtBR1 may use cyclic GMP as a second messenger in brassinosteroid signalling.</p>
+
+								<a href="/article/fetchArticle.action?articleURI=info:doi/10.1371/journal.pone.0000465" title="Read Open-Access Article">Resistance Exercise Reverses Aging in Human Skeletal Muscle</a>
+								<p>An undesirable consequence of human aging is the weakening of skeletal muscles in association with mitochondrial dysfunction.  This study monitored the transcriptional profiles of younger and older adults before and after a six-month exercise regime. Initially, older individuals showed profiles consistent with mitochondrial impairment, but with adherence to the exercise regime, these became more similar to younger profiles.</p>
+								
+								<h3>Also of Note</h3>
+								<ul class="articles">
+									<li><a href="/article/fetchArticle.action?articleURI=info:doi/10.1371/journal.pone.0000454" title="Read Open-Access Article">Molecular Biogeography: Towards an Integrated Framework for Conserving Pan-African Biodiversity</a></li>
+									<li><a href="/article/fetchArticle.action?articleURI=info:doi/10.1371/journal.pone.0000460" title="Read Open-Access Article">Virtual Northern Analysis of the Human Genome</a></li>
+									<li><a href="/article/fetchArticle.action?articleURI=info:doi/10.1371/journal.pone.0000470" title="Read Open-Access Article">Statins Disrupt CCR5 and RANTES Expression Levels in CD4+ T Lymphocytes In Vitro and Preferentially Decrease Infection of R5 Versus X4 HIV-1</a></li>
+									<li><a href="/article/fetchArticle.action?articleURI=info:doi/10.1371/journal.pone.0000461" title="Read Open-Access Article">Global Genetic Population Structure of <em>Bacillus anthracis</em></a></li>
+								</ul>
+							</div>
+						</div>
+									           
+					   <!-- end block feature -->
+					</div><!-- end : col last -->
+				</div><!-- end : wrapper for cols 1 & 2 -->
+				
+				<!-- begin : wrapper for cols 3 & 4 -->
+				<div id="second" class="col">
+					<!-- begin : col 3 -->
+					<div class="subcol first">
+						<div class="info block">
+
+							<h2>What is PLoS ONE?</h2>
+							<div>
+								<p>A new way of communicating peer-reviewed science and medicine.</p>
+								<ul>
+									<li>Try out <a href="/static/commentGuidelines.action;jsessionid=3CAE7828AB751785DD91020E6CB93783#annotation" title="Learn how to add an annotation">annotations</a> and <a href="/static/commentGuidelines.action;jsessionid=3CAE7828AB751785DD91020E6CB93783#discussion" title="Learn how to start a discussion">discussions</a> in the <a href="/article/fetchArticle.action?articleURI=info:doi/10.1371/journal.pone.0000000" title="PLoS ONE Sandbox: A Play to Learn and Play"><em>PLoS ONE</em> Sandbox</a>.</li>
+								<li><a href="/article/browse.action?field=date" title="PLoS ONE | Browse by Publication Date">Browse articles by Publication Date</a> and try our improved <a href="/article/browse.action" title="PLoS ONE | Browse by Subject">Browse by Subject</a>.</li>
+								<li><a href="/static/rssFeeds.action" title="PLoS ONE | RSS Feeds">RSS Feeds</a> by Subject</li>
+								</ul>
+								<p><em>More functionality coming soon</em></p>
+								<p><a href="/static/feedbackCreate.action;jsessionid=3CAE7828AB751785DD91020E6CB93783" title="Send us your feedback">Your feedback</a> will help us shape <em>PLoS ONE</em>.</p>
+								<h3>Journal Clubs - New Discussion</h3>
+								<p><em>PLoS ONE</em> regularly sends out papers in advance of publication to interested labs to debate them and post their comments online. </p>
+								<ul>
+									<li><a href="/article/fetchArticle.action?articleURI=info:doi/10.1371/journal.pone.0000343" title="Onset Rivalry: Brief Presentation Isolates an Early Independent Phase of Perceptual Competition">This recent paper</a> was discussed by the <a href="/user/showUser.action?userId=info:doi/10.1371/account/39755" title="Potsdam University Eye-Movement Group">Potsdam University Eye-Movement Group</a>.</li>
+									<li>Add your own comments to <a href="/annotation/getCommentary.action?target=info:doi/10.1371/journal.pone.0000343" title="Annotations and Discussions Re: Onset Rivalry: Brief Presentation Isolates an Early Independent Phase of Perceptual Competition">the discussion</a>.</li>
+									<li><a href="/static/feedbackCreate.action;jsessionid=3CAE7828AB751785DD91020E6CB93783" title="Send us your feedback">Nominate your lab</a> for a future journal club.</li>
+								</ul>
+							</div>
+						</div><!-- end : info block -->
+					
+						<div class="subject block">
+							<h2>Explore by Subject</h2>
+							<dl class="category">
+							<dt>
+								<a class="expand" id="widgetAnesthesiologyandPainManagement" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=0">Anesthesiology and Pain Management (1)</a>&nbsp;
+								<a href="/rss/AnesthesiologyandPainManagement.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetBiochemistry" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=1">Biochemistry (45)</a>&nbsp;
+								<a href="/rss/Biochemistry.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetBiophysics" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=2">Biophysics (22)</a>&nbsp;
+								<a href="/rss/Biophysics.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetBiotechnology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=3">Biotechnology (27)</a>&nbsp;
+								<a href="/rss/Biotechnology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetCardiovascularDisorders" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=4">Cardiovascular Disorders (18)</a>&nbsp;
+								<a href="/rss/CardiovascularDisorders.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetCellBiology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=5">Cell Biology (87)</a>&nbsp;
+								<a href="/rss/CellBiology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetChemicalBiology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=6">Chemical Biology (4)</a>&nbsp;
+								<a href="/rss/ChemicalBiology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetChemistry" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=7">Chemistry (5)</a>&nbsp;
+								<a href="/rss/Chemistry.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetComputationalBiology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=8">Computational Biology (55)</a>&nbsp;
+								<a href="/rss/ComputationalBiology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetComputerScience" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=9">Computer Science (4)</a>&nbsp;
+								<a href="/rss/ComputerScience.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetCriticalCareandEmergencyMedicine" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=10">Critical Care and Emergency Medicine (2)</a>&nbsp;
+								<a href="/rss/CriticalCareandEmergencyMedicine.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetDermatology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=11">Dermatology (1)</a>&nbsp;
+								<a href="/rss/Dermatology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetDevelopmentalBiology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=12">Developmental Biology (38)</a>&nbsp;
+								<a href="/rss/DevelopmentalBiology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetDiabetesandEndocrinology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=13">Diabetes and Endocrinology (9)</a>&nbsp;
+								<a href="/rss/DiabetesandEndocrinology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetEcology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=14">Ecology (49)</a>&nbsp;
+								<a href="/rss/Ecology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetEvidence-BasedHealthcare" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=15">Evidence-Based Healthcare (3)</a>&nbsp;
+								<a href="/rss/Evidence-BasedHealthcare.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetEvolutionaryBiology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=16">Evolutionary Biology (92)</a>&nbsp;
+								<a href="/rss/EvolutionaryBiology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetGastroenterologyandHepatology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=17">Gastroenterology and Hepatology (7)</a>&nbsp;
+								<a href="/rss/GastroenterologyandHepatology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetGeneticsandGenomics" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=18">Genetics and Genomics (118)</a>&nbsp;
+								<a href="/rss/GeneticsandGenomics.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetGeriatrics" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=19">Geriatrics (3)</a>&nbsp;
+								<a href="/rss/Geriatrics.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetHematology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=20">Hematology (12)</a>&nbsp;
+								<a href="/rss/Hematology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetImmunology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=21">Immunology (49)</a>&nbsp;
+								<a href="/rss/Immunology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetInfectiousDiseases" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=22">Infectious Diseases (76)</a>&nbsp;
+								<a href="/rss/InfectiousDiseases.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetMathematics" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=23">Mathematics (12)</a>&nbsp;
+								<a href="/rss/Mathematics.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetMentalHealth" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=24">Mental Health (10)</a>&nbsp;
+								<a href="/rss/MentalHealth.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetMicrobiology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=25">Microbiology (48)</a>&nbsp;
+								<a href="/rss/Microbiology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetMolecularBiology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=26">Molecular Biology (64)</a>&nbsp;
+								<a href="/rss/MolecularBiology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetNephrology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=27">Nephrology (2)</a>&nbsp;
+								<a href="/rss/Nephrology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetNeurologicalDisorders" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=28">Neurological Disorders (15)</a>&nbsp;
+								<a href="/rss/NeurologicalDisorders.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetNeuroscience" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=29">Neuroscience (75)</a>&nbsp;
+								<a href="/rss/Neuroscience.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetNon-ClinicalMedicine" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=30">Non-Clinical Medicine (8)</a>&nbsp;
+								<a href="/rss/Non-ClinicalMedicine.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetNutrition" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=31">Nutrition (9)</a>&nbsp;
+								<a href="/rss/Nutrition.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetObstetrics" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=32">Obstetrics (1)</a>&nbsp;
+								<a href="/rss/Obstetrics.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetOncology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=33">Oncology (30)</a>&nbsp;
+								<a href="/rss/Oncology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetOphthalmology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=34">Ophthalmology (4)</a>&nbsp;
+								<a href="/rss/Ophthalmology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetOtolaryngology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=35">Otolaryngology (1)</a>&nbsp;
+								<a href="/rss/Otolaryngology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetPathology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=36">Pathology (10)</a>&nbsp;
+								<a href="/rss/Pathology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetPediatricsandChildHealth" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=37">Pediatrics and Child Health (9)</a>&nbsp;
+								<a href="/rss/PediatricsandChildHealth.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetPharmacology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=38">Pharmacology (10)</a>&nbsp;
+								<a href="/rss/Pharmacology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetPhysics" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=39">Physics (8)</a>&nbsp;
+								<a href="/rss/Physics.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetPhysiology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=40">Physiology (29)</a>&nbsp;
+								<a href="/rss/Physiology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetPlantBiology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=41">Plant Biology (13)</a>&nbsp;
+								<a href="/rss/PlantBiology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetPublicHealthandEpidemiology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=42">Public Health and Epidemiology (45)</a>&nbsp;
+								<a href="/rss/PublicHealthandEpidemiology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetRadiologyandMedicalImaging" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=43">Radiology and Medical Imaging (6)</a>&nbsp;
+								<a href="/rss/RadiologyandMedicalImaging.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetRespiratoryMedicine" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=44">Respiratory Medicine (5)</a>&nbsp;
+								<a href="/rss/RespiratoryMedicine.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetRheumatology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=45">Rheumatology (4)</a>&nbsp;
+								<a href="/rss/Rheumatology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetSciencePolicy" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=46">Science Policy (9)</a>&nbsp;
+								<a href="/rss/SciencePolicy.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetSurgery" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=47">Surgery (3)</a>&nbsp;
+								<a href="/rss/Surgery.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetUrology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=48">Urology (2)</a>&nbsp;
+								<a href="/rss/Urology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetVirology" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=49">Virology (29)</a>&nbsp;
+								<a href="/rss/Virology.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							<dt>
+								<a class="expand" id="widgetWomensHealth" href="/article/browse.action;jsessionid=3CAE7828AB751785DD91020E6CB93783?catId=50">Women's Health (2)</a>&nbsp;
+								<a href="/rss/WomensHealth.xml"><img src="/images/feed-icon-12x12.gif" /></a>
+							</dt>
+							</dl>
+						</div><!-- end : subject block -->
+					</div><!-- end : subcol first -->
+					
+					<!-- begin : col 4 -->
+					<div class="subcol last">
+						<div class="block banner">
+							<script language='JavaScript' type='text/javascript' src='http://ads.plos.org/adx.js'></script>
+							<script language='JavaScript' type='text/javascript'>
+							<!--
+   							if (!document.phpAds_used) document.phpAds_used = ',';
+   							phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+   
+   							document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+   							document.write ("http://ads.plos.org/adjs.php?n=" + phpAds_random);
+   							document.write ("&amp;what=zone:36&amp;source=ONE&amp;target=_top&amp;block=1");
+   							document.write ("&amp;exclude=" + document.phpAds_used);
+   							if (document.referrer)
+      							document.write ("&amp;referer=" + escape(document.referrer));
+   							document.write ("'><" + "/script>");
+							//-->
+							</script><noscript><a href='http://ads.plos.org/adclick.php?n=ad8f367e' target='_top'><img src='http://ads.plos.org/adview.php?what=zone:36&amp;source=ONE&amp;n=ad8f367e' border='0' alt='' /></a></noscript>
+						</div><!-- end : block banner -->
+					</div><!-- end : subcol last -->
+				</div><!-- end : wrapper for cols 3 & 4 -->
+				
+				<div id="lower">
+					<div class="col first">
+						<script language='JavaScript' type='text/javascript' src='http://ads.plos.org/adx.js'></script>
+						<script language='JavaScript' type='text/javascript'>
+						<!--
+						   if (!document.phpAds_used) document.phpAds_used = ',';
+						   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+						   
+						   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+						   document.write ("http://ads.plos.org/adjs.php?n=" + phpAds_random);
+						   document.write ("&amp;what=zone:160&amp;source=ONE&amp;target=_top&amp;block=1");
+						   document.write ("&amp;exclude=" + document.phpAds_used);
+						   if (document.referrer)
+							  document.write ("&amp;referer=" + escape(document.referrer));
+						   document.write ("'><" + "/script>");
+						//-->
+						</script><noscript><a href='http://ads.plos.org/adclick.php?n=a58966f8' target='_top'><img src='http://ads.plos.org/adview.php?what=zone:160&amp;source=ONE&amp;n=a58966f8' border='0' alt='' /></a></noscript>
+			
+							
+						<script language='JavaScript' type='text/javascript' src='http://ads.plos.org/adx.js'></script>
+						<script language='JavaScript' type='text/javascript'>
+						<!--
+						   if (!document.phpAds_used) document.phpAds_used = ',';
+						   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+						   
+						   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+						   document.write ("http://ads.plos.org/adjs.php?n=" + phpAds_random);
+						   document.write ("&amp;what=zone:161&amp;source=ONE&amp;target=_top&amp;block=1");
+						   document.write ("&amp;exclude=" + document.phpAds_used);
+						   if (document.referrer)
+							  document.write ("&amp;referer=" + escape(document.referrer));
+						   document.write ("'><" + "/script>");
+						//-->
+						</script><noscript><a href='http://ads.plos.org/adclick.php?n=a67dfba7' target='_top'><img src='http://ads.plos.org/adview.php?what=zone:161&amp;source=ONE&amp;n=a67dfba7' border='0' alt='' /></a></noscript>
+			
+						<script language='JavaScript' type='text/javascript' src='http://ads.plos.org/adx.js'></script>
+						<script language='JavaScript' type='text/javascript'>
+						<!--
+						   if (!document.phpAds_used) document.phpAds_used = ',';
+						   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+						   
+						   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+						   document.write ("http://ads.plos.org/adjs.php?n=" + phpAds_random);
+						   document.write ("&amp;what=zone:162&amp;source=ONE&amp;target=_top&amp;block=1");
+						   document.write ("&amp;exclude=" + document.phpAds_used);
+						   if (document.referrer)
+							  document.write ("&amp;referer=" + escape(document.referrer));
+						   document.write ("'><" + "/script>");
+						//-->
+						</script><noscript><a href='http://ads.plos.org/adclick.php?n=a08b8fff' target='_top'><img src='http://ads.plos.org/adview.php?what=zone:162&amp;source=ONE&amp;n=a08b8fff' border='0' alt='' /></a></noscript>
+					</div><!-- end : col first -->
+				</div><!-- end : lower -->
+				
+			</div><!-- end : col -->
+		</div><!-- end : home -->
+	</div><!-- end : wrap -->
+</div><!-- end : content -->
+<!-- end : main contents -->
+
+</div>
+<!-- end : container -->	
+
+<!-- begin : footer -->
+<div id="ftr">
+	<p><span>All site content, except where otherwise noted, is licensed under a <a href="http://creativecommons.org/licenses/by/2.5/" title="Creative Commons Attribution License 2.5" tabindex="200">Creative Commons Attribution License</a>.</span></p>
+	<ul>
+				<li><a href="/static/privacy.action;jsessionid=3CAE7828AB751785DD91020E6CB93783" title="PLoS ONE Statement" tabindex="501">Privacy Statement</a></li>
+		<li><a href="/static/terms.action;jsessionid=3CAE7828AB751785DD91020E6CB93783" title="PLoS ONE Terms of Use" tabindex="502">Terms of Use</a></li>
+		<li><a href="http://www.plos.org/advertise/" title="Advertise With PLoS" tabindex="503">Advertise</a></li>
+		<li><a href="http://www.plos.org/journals/embargopolicy.html" title="PLoS Embargo Policy" tabindex="504">Media Inquiries</a></li>
+		<li><a href="http://www.plos.org/journals/print.html" title="PLoS in Print" tabindex="505">PLoS in Print</a></li>
+		<li><a href="/static/sitemap.action;jsessionid=3CAE7828AB751785DD91020E6CB93783" title="PLoS ONE Site Map" tabindex="506">Site Map</a></li>
+		<li><a href="http://www.plos.org" title="PLoS.org" tabindex="507">PLoS.org</a></li>
+	</ul>
+<div class="powered">Managed Colocation provided by <a href="http://www.unitedlayer.com/" title="UnitedLayer: Built on IP Services">UnitedLayer</a>.</div></div>
+<!-- end : footer -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-338393-1";
+_udn = "plosone.org";
+urchinTracker();
+</script>
+</body>
+</html>
+
+<div id="dojoDebug" style="background: yellow;"></div>

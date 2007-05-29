@@ -1,0 +1,43 @@
+.postbox {
+	padding: 10px;
+	border: 1px solid #DEDEDE;
+	margin-bottom: 5px;
+}
+
+.postbox_title {
+	font-size: 1.1em;
+	padding-bottom: 5px;
+}
+
+.postbox_byline {
+	font-style: italic;
+	font-size: 0.9em;
+	color: #999999;
+	padding-bottom: 5px;
+}
+
+.postbox_thumbnail {
+	float: left;
+	margin: 5px;	
+	border: 1px solid #DEDEDE;
+}
+
+.postbox_content {
+	
+}
+
+.postbox_footer {
+	height: 1px;
+	line-height: 1px;
+	clear: left;	
+}
+
+/* holder div */
+.postbox_postboxes {
+	margin-left: 50px;
+}
+
+/* review posts */
+.review {
+	
+}

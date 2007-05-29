@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ast.amazonaws.com/doc/2006-05-15/" targetNamespace="http://ast.amazonaws.com/doc/2006-05-15/">
+ <types>
+  <xs:schema targetNamespace="http://ast.amazonaws.com/doc/2006-05-15/" xmlns:tns="http://ast.amazonaws.com/doc/2006-05-15/" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+   <xs:element name="Signature" type="xs:string"/>
+   <xs:element name="Timestamp" type="xs:string"/>
+   <xs:element name="AWSAccessKeyId" type="xs:string"/>
+   <xs:element name="Url" type="xs:string"/>
+   <xs:element name="RequestId" type="xs:string"/>
+   <xs:element name="Service" type="xs:string"/>
+   <xs:complexType name="ThumbnailRequestType">
+    <xs:sequence>
+     <xs:element ref="tns:Signature" minOccurs="0"/>
+     <xs:element ref="tns:Timestamp" minOccurs="0"/>
+     <xs:element ref="tns:AWSAccessKeyId" minOccurs="0"/>
+     <xs:element ref="tns:Url" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+   </xs:complexType>
+   <xs:element name="OperationRequest">
+    <xs:complexType>
+     <xs:sequence>
+      <xs:element ref="tns:RequestId" minOccurs="1" maxOccurs="1"/>
+     </xs:sequence>
+    </xs:complexType>
+   </xs:element>
+   <xs:element name="ThumbnailRequest">
+    <xs:complexType>
+     <xs:sequence>
+      <xs:element name="Request" type="tns:ThumbnailRequestType" minOccurs="1" maxOccurs="unbounded"/>
+     </xs:sequence>
+    </xs:complexType>
+   </xs:element>
+   <xs:element name="ThumbnailResult">
+    <xs:complexType>
+     <xs:sequence>
+      <xs:element name="Thumbnail" minOccurs="1">
+       <xs:complexType>
+        <xs:simpleContent>
+         <xs:extension base="xs:string">
+          <xs:attribute name="Exists" type="xs:string"/>
+         </xs:extension>
+        </xs:simpleContent>
+       </xs:complexType>
+      </xs:element>
+      <xs:element name="RequestUrl" type="xs:string" minOccurs="1"/>
+     </xs:sequence>
+    </xs:complexType>
+   </xs:element>
+   <xs:element name="Response">
+    <xs:complexType>
+     <xs:sequence>
+      <xs:element ref="tns:OperationRequest" minOccurs="1"/>
+      <xs:element ref="tns:ThumbnailResult" minOccurs="1"/>
+      <xs:element ref="tns:ResponseStatus" minOccurs="1"/>
+     </xs:sequence>
+    </xs:complexType>
+   </xs:element>
+   <xs:element name="ResponseStatus">
+    <xs:complexType>
+     <xs:sequence>
+      <xs:element name="StatusCode" type="xs:string"/>
+     </xs:sequence>
+    </xs:complexType>
+   </xs:element>
+   <xs:element name="ThumbnailResponse">
+    <xs:complexType>
+     <xs:sequence>
+      <xs:element ref="tns:Response" minOccurs="1" maxOccurs="unbounded"/>
+     </xs:sequence>
+    </xs:complexType>
+   </xs:element>
+  </xs:schema>
+ </types>
+ <message name="ThumbnailRequestMsg">
+  <part name="body" element="tns:ThumbnailRequest"/>
+ </message>
+ <message name="ThumbnailResponseMsg">
+  <part name="body" element="tns:ThumbnailResponse"/>
+ </message>
+ <portType name="AlexaSiteThumbnailPortType">
+  <operation name="Thumbnail">
+   <input message="tns:ThumbnailRequestMsg"/>
+   <output message="tns:ThumbnailResponseMsg"/>
+  </operation>
+ </portType>
+ <binding name="AlexaSiteThumbnailBinding" type="tns:AlexaSiteThumbnailPortType">
+  <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+  <operation name="Thumbnail">
+   <soap:operation soapAction="http://soap.amazon.com"/>
+   <input>
+    <soap:body use="literal"/>
+   </input>
+   <output>
+    <soap:body use="literal"/>
+   </output>
+  </operation>
+ </binding>
+ <service name="AlexaSiteThumbnail">
+  <port name="AlexaSiteThumbnailPort" binding="tns:AlexaSiteThumbnailBinding">
+   <soap:address location="http://ast.amazonaws.com/Xino"/>
+  </port>
+ </service>
+</definitions>
