@@ -365,7 +365,7 @@ function get_tags_for_journal($journal, $limit = false) {
 }
 
 function get_blogs_with_no_tags() {
-	$query = "SELECT DISTINCT blog_id FROM blogs WHERE blog_id IN (SELECT DISTINCT blog_id FROM tags)";
+	$query = "SELECT DISTINCT blog_id FROM blogs WHERE blog_id IN (SELECT DISTINCT blog_id FROM tags WHERE tags.tagged_by = 'admin')";
 	$results = mysql_query($query);
 	$tagged_blogs = array();
 	while ($row = mysql_fetch_assoc($results)) {
