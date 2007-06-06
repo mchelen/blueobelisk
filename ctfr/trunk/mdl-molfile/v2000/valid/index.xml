@@ -10,6 +10,22 @@
        <test by="CDK"/>
     </file>
 
+    <file name="tetrahedral_with_four_wedges.mol"
+          mime="chemical/x-mdl-molfile"
+          valid="yes"
+          producedBy="CDK"
+          license="LGPL">
+       <test by="CDK"/>
+    </file>
+
+    <file name="withcharges.mol"
+          mime="chemical/x-mdl-molfile"
+          valid="yes"
+          producedBy="CDK"
+          license="LGPL">
+       <test by="CDK"/>
+    </file>
+
   </chemfiles>
 
 </dir>
