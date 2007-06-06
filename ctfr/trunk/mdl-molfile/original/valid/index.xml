@@ -1,3 +1,11 @@
 <dir name="valid">
 
+    <file name="Strychnine_nichtOK.mol"
+          mime="chemical/x-mdl-molfile"
+          valid="yes"
+          producedBy="ACD/Labs"
+          license="LGPL">
+       <test by="CDK"/>
+    </file>
+
 </dir>
