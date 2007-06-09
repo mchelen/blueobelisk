@@ -24,19 +24,13 @@ def xmlof(name, filename, directory)
 	aString = <<EOS
 	<stuff>
                 <name>#{name}</name>
-                <type>40</type>
                 <author>Jerome Pansanel</author>
                 <email>j.pansanel@pansanel.net</email>
                 <license>FreeBSD</license>
                 <summary>Important molecule</summary>
                 <version>2.0.1</version>
-                <release></release>
                 <releasedate>2007-02-28</releasedate>
-                <preview>http://chem-file.sourceforge.net/data/#{directory}/#{strippedstring}</preview>
-                <payload>http://chem-file.sourceforge.net/data/#{directory}/#{filename}</payload>
-                <rating></rating>
-                <downloads></downloads>
-                <more></more>
+                <payload>./#{filename}</payload>
         </stuff>
 EOS
 end
@@ -45,18 +39,19 @@ end
 #tricky Ruby-code but this hardcoding is far easier
 directories = ["alcohols" , "aldehydes" , "alkanes" , "alkenes" , "alkynes" , "amides" , "amines" , "amino_acids" , "aromatics" , "carbamides" , "carbohydrates" , "carboxylic_acids" , "drugs" , "esters" , "ethers" , "fatty_acids" , "haloalkanes" , "heteroaromatics" , "ketones" , "macrocycles" , "nitriles" , "nitroalkanes" , "nucleobases" , "polycyclic_alkanes" , "polycyclic_aromatics" , "sulfones" , "sulfoxides" , "thioethers" , "thiols" , "water"]
 
-xmloutputfile = File.new( "xmlout.xml", File::CREAT|File::TRUNC|File::RDWR )
-
-xmloutputfile << "<?xml version=\"1.0\"?>\n"
-xmloutputfile << "<knewstuff>\n"
-	
 #a global counter for the molecules
 @@counter = 1
 
 #go over all directories
 directories.each{ |d|
-	Dir.chdir( "/home/carsten/svn/blueobelisk/trunk/structures/src/#{d}" )
+	Dir.chdir( "/home/carsten/svn/kalzium/#{d}" )
 	list = Dir.glob("*.cml")
+
+	xmloutputfile = File.new( ".meta", File::CREAT|File::TRUNC|File::RDWR )
+
+	xmloutputfile << "<?xml version=\"1.0\"?>\n"
+	xmloutputfile << "<ghnsupload>\n"
+	
 
 	#in each directory parse all files, get the valid XML and put the XML in the file
 	list.each{|filename| 
@@ -65,6 +60,6 @@ directories.each{ |d|
 		xmloutputfile <<  xmlof(moleculename,filename,d)
 		@@counter+=1
 	}
+	xmloutputfile << "</ghnsupload>"
 }
 
-xmloutputfile << "</knewstuff>"
