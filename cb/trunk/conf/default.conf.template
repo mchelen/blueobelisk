@@ -1,5 +1,7 @@
 # Basic setup
 #
+# IMPORTANT: copy this file to default.conf before editing it!
+#
 # Copyright_notice: appears at the bottom of every page.
 #
 name=Chemical blogspace
