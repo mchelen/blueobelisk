@@ -60,21 +60,23 @@ function inchi_atom_entry($link) {
 		$title = $link['inchi'];
         }
 
+        $base_url = $_GET['base_url'];
         $return .= "
 <entry>
         <title>".$title."</title>
-        <link rel='alternate' href=\"http://wiki.cubic.uni-koeln.de/cb/inchi.php?id=".$link['cbid']."\"/>
+        <link rel='alternate' href=\"".$base_url."inchi.php?id=".$link['cbid']."\"/>
         <id>".slinkto("link.php", array(), array("url_hash" => md5($link['inchi'])))."</id>
         <updated>".$link['added_on']."</updated>
         <content type='xhtml'><xh:div>";
  
         $return .= "The article <xh:i>".$link['title']."</xh:i> discusses: ".$link['inchi'].".";
         $return .= "<!-- CID: ".$link['cid']." --><xh:br />\n";
-        $return .= "<xh:img src=\"http://wiki.cubic.uni-koeln.de/cb/images/compounds/".$link['cid'].".png\" />\n";
+        $return .= "<xh:img src=\"".$base_url."images/compounds/".$link['cid'].".png\" />\n";
  
         $return .="</xh:div></content>";
 
-        $filename = "/srv/www/htdocs/cb/images/compounds/".$link['cid'].".cml";
+        $pti = $_GET['path_to_interface'];
+        $filename = $pti."images/compounds/".$link['cid'].".cml";
         if (file_exists($filename)) {
 		# include($filename);
 		$cml = "";
