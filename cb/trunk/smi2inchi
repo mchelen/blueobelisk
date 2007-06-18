@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo $1 > /tmp/tmp.smi
+/home/egonw/progs/bin/babel -ismi /tmp/tmp.smi -oinchi /tmp/tmp.inchi
+cat /tmp/tmp.inchi
+#rm /tmp/tmp.inchi
