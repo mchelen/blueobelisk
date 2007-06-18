@@ -9,7 +9,9 @@ use config qw(%config log log_error urldecode $DEBUG parse_post_xml url_breakdow
 use Digest::MD5 qw(md5_hex);
 use diagnostics;
 
-my $imageDir = "/mnt/wiki/images/compounds/";
+my $pti = $config{"path_to_interface"};
+
+my $imageDir = $pti."images/compounds/";
 
 my $connection_string = sprintf("dbi:mysql:%s:%s", $config{"db_name"}, $config{"db_host"});
 my $db = DBI->connect($connection_string, $config{"db_user"}, $config{"db_password"}) or log_error("Couldn't connect to the database.\n");
@@ -28,7 +30,7 @@ while (my $row = $sql->fetchrow_hashref()) {
     `wget -q -O $cid.mol "$url"`;
     `babel $cid.mol -ocml $cid.cml`;
     `cat $cid.cml | grep -v "<?xml" > $cid.out.cml`;
-    `mv $cid.out.cml $cid.cml`;
+    `mv $cid.out.cml $imageDir$cid.cml`;
     `rm $cid.mol`;
   }
 }
