@@ -1008,6 +1008,8 @@ function print_inchi($paper, $filters = array()) {
                 print "</div>";
         }
 
+        $pti = $_GET['path_to_interface'];
+        $base_url = $_GET['base_url'];
         if (($filters['show_abstract']) && ($paper['cid'])) {
                 print "<div class='paperbox_identifiers'>";
 	                if ($paper['name']) {
@@ -1016,9 +1018,9 @@ function print_inchi($paper, $filters = array()) {
                 print "</div>";
                 print "<div class='paperbox_abstract'>";
                 if ($paper['cid']) {
-	                $filename = "/srv/www/htdocs/cb/images/compounds/".$paper['cid'].".png";
+	                $filename = $pti."images/compounds/".$paper['cid'].".png";
         	        if (file_exists($filename)) {
-                	        print "<div class='paperbox_thumbnail'><img src='/cb/images/compounds/".$paper['cid'].".png'/></div>";
+                	        print "<div class='paperbox_thumbnail'><img src='/images/compounds/".$paper['cid'].".png'/></div>";
                		}
                 }
                 if ($paper['smiles']) {
@@ -1028,9 +1030,9 @@ function print_inchi($paper, $filters = array()) {
                         print "PubChem: <a href='http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=".$paper['cid']."'>".$paper['cid']."</a><br />";
                 }
                 if ($paper['cid']) {
-                        $filename = "/srv/www/htdocs/cb/images/compounds/".$paper['cid'].".cml";
+                        $filename = $pti."images/compounds/".$paper['cid'].".cml";
                         if (file_exists($filename)) {
-                        	print "[<a href='/cb/images/compounds/".$paper['cid'].".cml'>CML</a>]";
+                        	print "[<a href='images/compounds/".$paper['cid'].".cml'>CML</a>]";
                         }
                 }
                 print "<div class='paperbox_footer'>&nbsp;</div>";
