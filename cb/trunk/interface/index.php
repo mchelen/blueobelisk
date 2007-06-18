@@ -43,6 +43,7 @@
         print "<div class='frontpage_tab' style='text-align: center; vertical-align: center;'>";
         print "<div class='tab_padding'>";
         print "<div class='tab_title'>Latest Molecules</div>";
+        $pti = $_GET['path_to_interface'];
         $filters = array();
         $filters['limit'] = 8;
         $inchis = get_inchis("", $filters);
@@ -52,9 +53,9 @@
 		# print "DEBUG: ".$inchi['cbid']."\n";
                 #print "<span class='chem:inchi'>".$inchi['inchi']."</span>";
                 if ($inchi['cid']) {
-                        $filename = "/srv/www/htdocs/cb/images/compounds/".$inchi['cid'].".png";
+                        $filename = $pti."images/compounds/".$inchi['cid'].".png";
                         if (file_exists($filename)) {
-                                print "<a href=\"/cb/inchi.php?id=".$inchi['cbid']."\"><img alt=\"".$inchi['title']."\" src='/cb/images/compounds/".$inchi['cid'].".png' border='0'/></a>";
+                                print "<a href=\"inchi.php?id=".$inchi['cbid']."\"><img alt=\"".$inchi['title']."\" src='images/compounds/".$inchi['cid'].".png' border='0'/></a>";
                         }
                 }
         }
