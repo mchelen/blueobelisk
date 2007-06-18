@@ -58,7 +58,11 @@ sub parse_feed_xml {
 
 sub quick_parse_post_xml {
 	my $file = $_[0];
-	
+
+        if (!(-e $file)	) {
+            print STDERR "Post XML does not exist: $file\n";
+            return;
+        }
 	open(FILE, $file);
 	my @lines = <FILE>;
 	close(FILE);
@@ -76,6 +80,11 @@ sub quick_parse_post_xml {
 
 sub parse_post_xml {
   my $file = $_[0];
+
+  if (!(-e $file) ) {
+    print STDERR "Post XML does not exist: $file\n";
+    return;
+  }
 
   my %post;
 
