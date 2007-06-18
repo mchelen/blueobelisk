@@ -61,7 +61,7 @@
 		print "document.write(\"</ul>\");";
 	}
 	
-	print "document.write(\"<br/><i>Powered by <a class='pg_widget_link' href='http://wiki.cubic.uni-koeln.de/'>Chemical blogspace</a></i>\");";
+	print "document.write(\"<br/><i>Powered by <a class='pg_widget_link' href='".$base_url."'>Chemical blogspace</a></i>\");";
 	print "document.write(\"</div>\");";
 
 	print "}\n";
