@@ -25,7 +25,7 @@ feedbox("New molecules", "atom.php?category=$safe_category&type=latest_inchis");
 ? -->
 </div>
 <div class='content'>
-<p>To have your blog items show up on this page, just use semantic markup for InChI's and SMILES, 
+<p>To have your blog items show up on this page, use the semantic markup for InChI's and SMILES, 
 <a href="http://chem-bla-ics.blogspot.com/2006/12/including-smiles-cml-and-inchi-in.html">using
 microformats or RDFa</a>. For example, write &lt;span class="chem:smiles">CCCOC&lt;span> instead 
 of just CCCOC, or &lt;span class="chem:inchi">InChI=1/bla&lt;span> instead of InChI=1/bla.

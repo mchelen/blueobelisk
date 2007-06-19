@@ -79,13 +79,13 @@ function get_inchis($sort_by = "added_on", $filters = array()) {
 
         # print "DEBUG: called get_inchis.<br />\n";
 
-	$query = "SELECT DISTINCT SQL_CALC_FOUND_ROWS * FROM inchis, posts, compounds ";
-	$where_clause = "WHERE inchis.post_id = posts.post_id AND compounds.inchi = inchis.inchi";
-	$order_by = " ORDER BY posts.added_on DESC";
+	$query = "SELECT SQL_CALC_FOUND_ROWS * FROM inchis, posts, compounds, links ";
+	$where_clause = "WHERE inchis.post_id = posts.post_id AND compounds.inchi = inchis.inchi AND links.id_inchi_hash = inchis.id_inchi_hash AND posts.post_id = links.post_id";
+	$order_by = " ORDER BY posts.pubdate DESC";
 	$group_by = "";
 	$limit_by = "";
 
-	if ($sort_by == "added_on") {$order_by = " ORDER BY inchis.added_on DESC";}
+	if ($sort_by == "added_on") {$order_by = " ORDER BY posts.added_on DESC";}
 	
 	if ($filters['min_links']) {
 		$having_clause .= " HAVING cited_by >= ".$filters['min_links'];
