@@ -61,8 +61,7 @@
 		print "document.write(\"</ul>\");";
 	}
 	
-	print "document.write(\"<br/><i>Powered by <a class='pg_widget_link' href='http://cb.openmolecules.net/'>Chemical 
-blogspace</a></i>\");";
+	print "document.write(\"<br/><i>Powered by <a class='pg_widget_link' href='http://cb.openmolecules.net/'>Chemical blogspace</a></i>\");";
 	print "document.write(\"</div>\");";
 
 	print "}\n";
