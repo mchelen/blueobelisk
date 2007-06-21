@@ -1,0 +1,14 @@
+<dir name="valid">
+
+  <chemfiles>
+
+    <file name="two_aceticacid.pmp"
+          valid="yes"
+          producedBy="Cerius2 Polymorph Predictor"
+          license="LGPL">
+       <test by="CDK"/>
+    </file>
+
+  </chemfiles>
+
+</dir>

@@ -1,0 +1,14 @@
+<dir name="valid">
+
+  <chemfiles>
+
+    <file name="cid1.asn"
+          valid="yes"
+          producedBy="PubChem"
+          license="PublicDomain">
+       <test by="CDK"/>
+    </file>
+
+  </chemfiles>
+
+</dir>
