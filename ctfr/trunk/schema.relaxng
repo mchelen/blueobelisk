@@ -27,7 +27,12 @@
   <define name="file.el">
     <element name="file">
       <attribute name="name"/>
-      <attribute name="valid"/>
+      <attribute name="valid">
+        <choice>
+          <value>yes</value>
+          <value>no</value>
+        </choice>
+      </attribute>
       <ref name="dc.group"/>
       <zeroOrMore>
         <element name="test">
@@ -40,7 +45,15 @@
   <define name="dc.group">
     <interleave>
       <!-- the MIME type -->
-      <element name="format" ns="http://purl.org/dc/elements/1.1/"><text/></element>
+      <element name="format" ns="http://purl.org/dc/elements/1.1/">
+        <choice>
+          <value>chemical/x-asn-pubchem</value>
+          <value>chemical/x-hin</value>
+          <value>chemical/x-mdl-molfile</value>
+          <value>chemical/x-mol2</value>
+          <value>chemical/x-pmp</value>
+        </choice>
+      </element>
       <!-- the person who created the test file -->
       <element name="creator" ns="http://purl.org/dc/elements/1.1/"><text/></element>
       <!-- OSI licence -->
