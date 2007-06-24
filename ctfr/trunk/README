@@ -1,0 +1,45 @@
+CHEMICAL TEST FILE REPOSITORY
+-----------------------------
+
+This goal of this project is to set up a large repository of mutually orthogonal chemical
+test files to increase interoperability between chemical software.
+
+orthogonal
+----------
+
+The project will not contain test files that duplicate test space. The axes in this
+space are:
+- MIME type
+- producing software name
+- producing software version
+- valid or invalid
+- license
+
+For example, two valid chemical/x-mdl-molfiles produced with the same version of the same
+program having the same license are *not* orthogonal, and will not add new testable
+data. However, if the second file has a different license, or was produced by another
+program, or a different version of the same program, then the file is called 'orthogonal'.
+
+THE ARCHITECTURE OF THE CTFR
+----------------------------
+
+The repository organizes the test files according to this scheme:
+
+<MIME>[/SUBTYPE]/[valid|invalid]
+
+where each directory contains one index.xml file providing metadata for that directories
+content.
+
+VALIDATION OF INDEX.XML
+-----------------------
+
+Validation of the index.xml files is easily done with xmllint against the schema.relaxng.
+
+To validate one file run:
+
+  xmllint --noout --relaxng schema.relaxng index.xml
+
+To validate them all in one go, run:
+
+find . -name index.xml | grep -v .svn | xargs xmllint --noout --relaxng schema.relaxng
+
