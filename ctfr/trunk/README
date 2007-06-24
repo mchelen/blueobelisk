@@ -14,11 +14,14 @@ space are:
 - producing software version
 - valid or invalid
 - license
+- file format constructs
 
 For example, two valid chemical/x-mdl-molfiles produced with the same version of the same
 program having the same license are *not* orthogonal, and will not add new testable
 data. However, if the second file has a different license, or was produced by another
 program, or a different version of the same program, then the file is called 'orthogonal'.
+Additionally, if one file contains certain constructs that the other does not, then they
+are orthogonal too.
 
 THE ARCHITECTURE OF THE CTFR
 ----------------------------
