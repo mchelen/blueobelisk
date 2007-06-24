@@ -1,0 +1,13 @@
+<dir name="valid">
+
+  <chemfiles>
+
+    <file name="gravindex.hin"
+          valid="yes"
+          license="LGPL">
+       <test by="CDK"/>
+    </file>
+
+  </chemfiles>
+
+</dir>
