@@ -1,0 +1,28 @@
+<element name="dir" xmlns="http://relaxng.org/ns/structure/1.0">
+  <attribute name="name"/>
+  <zeroOrMore>
+    <element name="subdir">
+      <attribute name="name"/>
+    </element>
+  </zeroOrMore>
+  <zeroOrMore>
+    <element name="chemfiles">
+      <oneOrMore>
+        <element name="file">
+          <attribute name="name"/>
+          <attribute name="mime"/>
+          <attribute name="valid"/>
+          <attribute name="license"/>
+          <optional>
+            <attribute name="producedBy"/>
+          </optional>
+          <zeroOrMore>
+            <element name="test">
+              <attribute name="by"/>
+            </element>
+          </zeroOrMore>
+        </element>
+      </oneOrMore>
+    </element>
+  </zeroOrMore>
+</element>
