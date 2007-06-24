@@ -1,5 +1,7 @@
 <dir name="valid">
 
+  <chemfiles>
+
     <file name="Strychnine_nichtOK.mol"
           mime="chemical/x-mdl-molfile"
           valid="yes"
@@ -7,5 +9,7 @@
           license="LGPL">
        <test by="CDK"/>
     </file>
+
+  </chemfiles>
 
 </dir>

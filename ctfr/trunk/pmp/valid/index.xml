@@ -2,7 +2,8 @@
 
   <chemfiles>
 
-    <file name="two_aceticacid.pmp"
+    <file mime="chemical/x-pmp"
+          name="two_aceticacid.pmp"
           valid="yes"
           producedBy="Cerius2 Polymorph Predictor"
           license="LGPL">

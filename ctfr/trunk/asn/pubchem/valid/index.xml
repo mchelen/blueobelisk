@@ -2,7 +2,8 @@
 
   <chemfiles>
 
-    <file name="cid1.asn"
+    <file mime="chemical/x-asn-pubchem"
+          name="cid1.asn"
           valid="yes"
           producedBy="PubChem"
           license="PublicDomain">
