@@ -1,28 +1,55 @@
-<element name="dir" xmlns="http://relaxng.org/ns/structure/1.0">
-  <attribute name="name"/>
-  <zeroOrMore>
-    <element name="subdir">
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+
+  <start>
+    <ref name="dir.el"/>
+  </start>
+
+  <define name="dir.el">
+    <element name="dir">
+      <!-- full path with respect to ctfr/trunk/ -->
       <attribute name="name"/>
-    </element>
-  </zeroOrMore>
-  <zeroOrMore>
-    <element name="chemfiles">
-      <oneOrMore>
-        <element name="file">
+      <zeroOrMore>
+        <element name="subdir">
+          <!-- full path with respect to ctfr/trunk/ -->
           <attribute name="name"/>
-          <attribute name="mime"/>
-          <attribute name="valid"/>
-          <attribute name="license"/>
-          <optional>
-            <attribute name="producedBy"/>
-          </optional>
-          <zeroOrMore>
-            <element name="test">
-              <attribute name="by"/>
-            </element>
-          </zeroOrMore>
         </element>
-      </oneOrMore>
+      </zeroOrMore>
+      <zeroOrMore>
+        <element name="chemfiles">
+          <oneOrMore>
+            <ref name="file.el"/>
+          </oneOrMore>
+        </element>
+      </zeroOrMore>
     </element>
-  </zeroOrMore>
-</element>
+  </define>
+
+  <define name="file.el">
+    <element name="file">
+      <attribute name="name"/>
+      <attribute name="valid"/>
+      <ref name="dc.group"/>
+      <zeroOrMore>
+        <element name="test">
+          <attribute name="by"/>
+        </element>
+      </zeroOrMore>
+    </element>
+  </define>
+
+  <define name="dc.group">
+    <interleave>
+      <!-- the MIME type -->
+      <element name="format" ns="http://purl.org/dc/elements/1.1/"><text/></element>
+      <!-- the person who created the test file -->
+      <element name="creator" ns="http://purl.org/dc/elements/1.1/"><text/></element>
+      <!-- OSI licence -->
+      <element name="rights" ns="http://purl.org/dc/elements/1.1/"><text/></element>
+      <optional>
+        <!-- the program with which the test file was created -->
+        <element name="source" ns="http://purl.org/dc/elements/1.1/"><text/></element>
+      </optional>
+    </interleave>
+  </define>
+
+</grammar>

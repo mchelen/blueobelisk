@@ -1,12 +1,12 @@
-<dir name="valid">
+<dir name="mdl-molfile/original/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
   <chemfiles>
 
-    <file name="Strychnine_nichtOK.mol"
-          mime="chemical/x-mdl-molfile"
-          valid="yes"
-          producedBy="ACD/Labs"
-          license="LGPL">
+    <file name="Strychnine_nichtOK.mol" valid="yes">
+       <dc:format>chemical/x-mdl-molfile</dc:format>
+       <dc:source>ACD/Labs</dc:source>
+       <dc:creator>Unknown</dc:creator>
+       <dc:rights>LGPL</dc:rights>
        <test by="CDK"/>
     </file>
 

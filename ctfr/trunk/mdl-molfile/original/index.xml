@@ -1,6 +1,6 @@
-<dir name="original">
+<dir name="mdl-molfile/original" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-  <subdir name="valid"/>
-  <subdir name="invalid"/>
+  <subdir name="mdl-molfile/original/valid"/>
+  <subdir name="mdl-molfile/original/invalid"/>
 
 </dir>

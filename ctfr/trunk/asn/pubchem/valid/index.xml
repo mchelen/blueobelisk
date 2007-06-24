@@ -1,12 +1,12 @@
-<dir name="valid">
+<dir name="asn/pubchem/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
   <chemfiles>
 
-    <file mime="chemical/x-asn-pubchem"
-          name="cid1.asn"
-          valid="yes"
-          producedBy="PubChem"
-          license="PublicDomain">
+    <file name="cid1.asn" valid="yes">
+       <dc:format>chemical/x-asn-pubchem</dc:format>
+       <dc:source>PubChem</dc:source>
+       <dc:creator>Unknown</dc:creator>
+       <dc:rights>PublicDomain</dc:rights>
        <test by="CDK"/>
     </file>
 

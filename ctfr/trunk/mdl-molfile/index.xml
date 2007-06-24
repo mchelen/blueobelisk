@@ -1,7 +1,7 @@
-<dir name="mdl-molfile">
+<dir name="mdl-molfile" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-  <subdir name="original"/>
-  <subdir name="v2000"/>
-  <subdir name="v3000"/>
+  <subdir name="mdl-molfile/original"/>
+  <subdir name="mdl-molfile/v2000"/>
+  <subdir name="mdl-molfile/v3000"/>
 
 </dir>

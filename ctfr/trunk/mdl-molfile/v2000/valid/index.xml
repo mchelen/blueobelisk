@@ -1,28 +1,28 @@
-<dir name="valid">
+<dir name="mdl-molfile/v2000/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
   <chemfiles>
 
-    <file name="azulene.mol"
-          mime="chemical/x-mdl-molfile"
-          valid="yes"
-          producedBy="CDK"
-          license="LGPL">
+    <file name="azulene.mol" valid="yes">
+       <dc:format>chemical/x-mdl-molfile</dc:format>
+       <dc:source>CDK</dc:source>
+       <dc:creator>Unknown</dc:creator>
+       <dc:rights>LGPL</dc:rights>
        <test by="CDK"/>
     </file>
 
-    <file name="tetrahedral_with_four_wedges.mol"
-          mime="chemical/x-mdl-molfile"
-          valid="yes"
-          producedBy="CDK"
-          license="LGPL">
+    <file name="tetrahedral_with_four_wedges.mol" valid="yes">
+       <dc:format>chemical/x-mdl-molfile</dc:format>
+       <dc:source>CDK</dc:source>
+       <dc:creator>Unknown</dc:creator>
+       <dc:rights>LGPL</dc:rights>
        <test by="CDK"/>
     </file>
 
-    <file name="withcharges.mol"
-          mime="chemical/x-mdl-molfile"
-          valid="yes"
-          producedBy="CDK"
-          license="LGPL">
+    <file name="withcharges.mol" valid="yes">
+       <dc:format>chemical/x-mdl-molfile</dc:format>
+       <dc:source>CDK</dc:source>
+       <dc:creator>Unknown</dc:creator>
+       <dc:rights>LGPL</dc:rights>
        <test by="CDK"/>
     </file>
 

@@ -1,12 +1,12 @@
-<dir name="valid">
+<dir name="pmp/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
   <chemfiles>
 
-    <file mime="chemical/x-pmp"
-          name="two_aceticacid.pmp"
-          valid="yes"
-          producedBy="Cerius2 Polymorph Predictor"
-          license="LGPL">
+    <file name="two_aceticacid.pmp" valid="yes">
+       <dc:format>chemical/x-pmp</dc:format>
+       <dc:source>Cerius2 Polymorph Predictor</dc:source>
+       <dc:creator>Unknown</dc:creator>
+       <dc:rights>LGPL</dc:rights>
        <test by="CDK"/>
     </file>
 

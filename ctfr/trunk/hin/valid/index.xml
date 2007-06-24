@@ -1,10 +1,11 @@
-<dir name="valid">
+<dir name="hin/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
   <chemfiles>
 
-    <file name="gravindex.hin" mime="chemical/x-hin"
-          valid="yes"
-          license="LGPL">
+    <file name="gravindex.hin" valid="yes">
+       <dc:format>chemical/x-hin</dc:format>
+       <dc:creator>Unknown</dc:creator>
+       <dc:rights>LGPL</dc:rights>
        <test by="CDK"/>
     </file>
 
