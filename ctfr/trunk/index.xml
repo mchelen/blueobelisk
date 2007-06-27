@@ -1,6 +1,7 @@
 <dir name="" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
   <subdir name="asn"/>
+  <subdir name="cml"/>
   <subdir name="hin"/>
   <subdir name="mdl-molfile"/>
   <subdir name="mol2"/>

@@ -1,0 +1,30 @@
+<dir name="cml/cml2/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <file name="butane.cml" valid="yes">
+     <mimetype property="dc:format">chemical/x-cml</mimetype>
+     <program property="dc:source">BO Chemical Structures 2.0.1 scripts with OpenBabel2</program>
+     <copyright>
+       <owner property="dc:creator">jpansanel</owner>
+       <license property="dc:rights">BSD</license>
+     </copyright>
+  </file>
+
+  <file name="linolein.cml" valid="yes">
+     <mimetype property="dc:format">chemical/x-cml</mimetype>
+     <program property="dc:source">BO Chemical Structures 2.0.1 scripts with OpenBabel2</program>
+     <copyright>
+       <owner property="dc:creator">jpansanel</owner>
+       <license property="dc:rights">BSD</license>
+     </copyright>
+  </file>
+
+  <file name="oxidane.cml" valid="yes">
+     <mimetype property="dc:format">chemical/x-cml</mimetype>
+     <program property="dc:source">BO Chemical Structures 2.0.1 scripts with OpenBabel2</program>
+     <copyright>
+       <owner property="dc:creator">jpansanel</owner>
+       <license property="dc:rights">BSD</license>
+     </copyright>
+  </file>
+
+</dir>
