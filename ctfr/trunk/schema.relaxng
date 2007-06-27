@@ -41,11 +41,61 @@
           <choice><value>dc:format</value></choice>
         </attribute>
         <choice>
-          <value>chemical/x-asn-pubchem</value>
-          <value>chemical/x-hin</value>
-          <value>chemical/x-mdl-molfile</value>
-          <value>chemical/x-mol2</value>
+          <!-- copied from chemical-mime.sf.net -->
+          <value>chemical/x-alchemy</value> 
+          <value>chemical/x-cache</value> 
+          <value>chemical/x-cactvs-ascii</value> 
+          <value>chemical/x-cactvs-binary</value> 
+          <value>chemical/x-cactvs-table</value> 
+          <value>chemical/x-cdx</value> 
+          <value>chemical/x-cdxml</value> 
+          <value>chemical/x-chem3d</value> 
+          <value>chemical/x-cif</value> 
+          <value>chemical/x-cml</value> 
+          <value>chemical/x-daylight-smiles</value> 
+          <value>chemical/x-dmol</value> 
+          <value>chemical/x-gamess-input</value> 
+          <value>chemical/x-gamess-output</value> 
+          <value>chemical/x-gaussian-input</value> 
+          <value>chemical/x-gaussian</value> 
+          <value>chemical/x-gaussian-log</value> 
+          <value>chemical/x-gaussian-output</value> 
+          <value>chemical/x-gaussian03-output</value> 
+          <value>chemical/x-gaussian92-output</value> 
+          <value>chemical/x-gaussian94-output</value> 
+          <value>chemical/x-gaussian98-output</value> 
+          <value>chemical/x-genbank</value> 
+          <value>chemical/seq-na-genbank</value> 
+          <value>chemical/x-gulp</value> 
+          <value>chemical/x-hin</value> 
+          <value>chemical/x-inchi</value> 
+          <value>chemical/x-inchi-xml</value> 
+          <value>chemical/x-jcamp-dx</value> 
+          <value>chemical/x-macromodel-input</value> 
+          <value>chemical/x-mdl-molfile</value> 
+          <value>chemical/x-mdl-rdfile</value> 
+          <value>chemical/x-mdl-rxnfile</value> 
+          <value>chemical/x-mdl-sdfile</value> 
+          <value>chemical/x-mdl-tgf</value> 
+          <value>chemical/x-mmcif</value> 
+          <value>chemical/x-mol2</value> 
+          <value>chemical/x-mopac</value> 
+          <value>chemical/x-mopac-graph</value> 
+          <value>chemical/x-mopac-input</value> 
+          <value>chemical/x-mopac-out</value> 
+          <value>chemical/x-msi-car</value> 
+          <value>chemical/x-msi-hessian</value> 
+          <value>chemical/x-msi-mdf</value> 
+          <value>chemical/x-msi-msi</value> 
+          <value>chemical/x-ncbi-asn1-ascii</value> 
+          <value>chemical/x-ncbi-asn1-binary</value> 
+          <value>chemical/x-ncbi-asn1-xml</value> 
+          <value>chemical/x-pdb</value> 
+          <value>chemical/pdb</value> 
           <value>chemical/x-pmp</value>
+          <value>chemical/x-shelx</value> 
+          <value>chemical/x-vmd</value> 
+          <value>chemical/x-xyz</value>
         </choice>
       </element>
       <!-- the person who created the test file -->
