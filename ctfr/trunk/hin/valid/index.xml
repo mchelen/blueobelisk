@@ -1,16 +1,12 @@
 <dir name="hin/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-  <chemfiles>
-
-    <file name="gravindex.hin" valid="yes">
-       <mimetype property="dc:format">chemical/x-hin</mimetype>
-       <program property="dc:source">PubChem</program>
-       <copyright>
-         <owner property="dc:creator">Rajarshi Guha</owner>
-         <license property="dc:rights">LGPL</license>
-       </copyright>
-    </file>
-
-  </chemfiles>
+  <file name="gravindex.hin" valid="yes">
+     <mimetype property="dc:format">chemical/x-hin</mimetype>
+     <program property="dc:source">PubChem</program>
+     <copyright>
+       <owner property="dc:creator">Rajarshi Guha</owner>
+       <license property="dc:rights">LGPL</license>
+     </copyright>
+  </file>
 
 </dir>

@@ -1,16 +1,12 @@
 <dir name="mdl-molfile/original/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-  <chemfiles>
-
-    <file name="Strychnine_nichtOK.mol" valid="yes">
-       <mimetype property="dc:format">chemical/x-mdl-molfile</mimetype>
-       <program property="dc:source">ACD/Labs</program>
-       <copyright>
-         <owner property="dc:creator">Unknown</owner>
-         <license property="dc:rights">LGPL</license>
-       </copyright>
-    </file>
-
-  </chemfiles>
+  <file name="Strychnine_nichtOK.mol" valid="yes">
+    <mimetype property="dc:format">chemical/x-mdl-molfile</mimetype>
+    <program property="dc:source">ACD/Labs</program>
+    <copyright>
+      <owner property="dc:creator">Unknown</owner>
+      <license property="dc:rights">LGPL</license>
+    </copyright>
+  </file>
 
 </dir>

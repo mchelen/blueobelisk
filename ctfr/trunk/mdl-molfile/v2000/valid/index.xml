@@ -1,34 +1,30 @@
 <dir name="mdl-molfile/v2000/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-  <chemfiles>
+  <file name="azulene.mol" valid="yes">
+    <mimetype property="dc:format">chemical/x-mdl-molfile</mimetype>
+    <program property="dc:source">CDK</program>
+    <copyright>
+      <owner property="dc:creator">Unknown</owner>
+      <license property="dc:rights">LGPL</license>
+    </copyright>
+  </file>
 
-    <file name="azulene.mol" valid="yes">
-       <mimetype property="dc:format">chemical/x-mdl-molfile</mimetype>
-       <program property="dc:source">CDK</program>
-       <copyright>
-         <owner property="dc:creator">Unknown</owner>
-         <license property="dc:rights">LGPL</license>
-       </copyright>
-    </file>
+  <file name="tetrahedral_with_four_wedges.mol" valid="yes">
+    <mimetype property="dc:format">chemical/x-mdl-molfile</mimetype>
+    <program property="dc:source">CDK</program>
+    <copyright>
+      <owner property="dc:creator">Unknown</owner>
+      <license property="dc:rights">LGPL</license>
+    </copyright>
+  </file>
 
-    <file name="tetrahedral_with_four_wedges.mol" valid="yes">
-       <mimetype property="dc:format">chemical/x-mdl-molfile</mimetype>
-       <program property="dc:source">CDK</program>
-       <copyright>
-         <owner property="dc:creator">Unknown</owner>
-         <license property="dc:rights">LGPL</license>
-       </copyright>
-    </file>
-
-    <file name="withcharges.mol" valid="yes">
-       <mimetype property="dc:format">chemical/x-mdl-molfile</mimetype>
-       <program property="dc:source">CDK</program>
-       <copyright>
-         <owner property="dc:creator">Unknown</owner>
-         <license property="dc:rights">LGPL</license>
-       </copyright>
-    </file>
-
-  </chemfiles>
+  <file name="withcharges.mol" valid="yes">
+    <mimetype property="dc:format">chemical/x-mdl-molfile</mimetype>
+    <program property="dc:source">CDK</program>
+    <copyright>
+      <owner property="dc:creator">Unknown</owner>
+      <license property="dc:rights">LGPL</license>
+    </copyright>
+  </file>
 
 </dir>

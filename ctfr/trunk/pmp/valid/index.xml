@@ -1,16 +1,12 @@
 <dir name="pmp/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-  <chemfiles>
-
-    <file name="two_aceticacid.pmp" valid="yes">
-       <mimetype property="dc:format">chemical/x-pmp</mimetype>
-       <program property="dc:source">Cerius2 Polymorph Predictor</program>
-       <copyright>
-         <owner property="dc:creator">Unknown</owner>
-         <license property="dc:rights">LGPL</license>
-       </copyright>
-    </file>
-
-  </chemfiles>
+  <file name="two_aceticacid.pmp" valid="yes">
+     <mimetype property="dc:format">chemical/x-pmp</mimetype>
+     <program property="dc:source">Cerius2 Polymorph Predictor</program>
+     <copyright>
+       <owner property="dc:creator">Unknown</owner>
+       <license property="dc:rights">LGPL</license>
+     </copyright>
+  </file>
 
 </dir>

@@ -1,16 +1,12 @@
 <dir name="asn/pubchem/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-  <chemfiles>
-
-    <file name="cid1.asn" valid="yes">
-       <mimetype property="dc:format">chemical/x-asn-pubchem</mimetype>
-       <program property="dc:source">PubChem</program>
-       <copyright>
-         <owner property="dc:creator">Unknown</owner>
-         <license property="dc:rights">PublicDomain</license>
-       </copyright>
-    </file>
-
-  </chemfiles>
+  <file name="cid1.asn" valid="yes">
+     <mimetype property="dc:format">chemical/x-asn-pubchem</mimetype>
+     <program property="dc:source">PubChem</program>
+     <copyright>
+       <owner property="dc:creator">Unknown</owner>
+       <license property="dc:rights">PublicDomain</license>
+     </copyright>
+  </file>
 
 </dir>

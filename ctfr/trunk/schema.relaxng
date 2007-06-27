@@ -15,11 +15,7 @@
         </element>
       </zeroOrMore>
       <zeroOrMore>
-        <element name="chemfiles">
-          <oneOrMore>
-            <ref name="file.el"/>
-          </oneOrMore>
-        </element>
+        <ref name="file.el"/>
       </zeroOrMore>
     </element>
   </define>
@@ -70,8 +66,8 @@
           </element>
         </interleave>
       </element>
+      <!-- the program with which the test file was created -->
       <optional>
-        <!-- the program with which the test file was created -->
         <element name="program">
           <attribute name="property">
             <choice><value>dc:source</value></choice>
