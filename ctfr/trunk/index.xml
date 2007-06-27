@@ -4,7 +4,7 @@
   <subdir name="cml"/>
   <subdir name="hin"/>
   <subdir name="mdl-molfile"/>
-  <subdir name="mol2"/>
+  <!--#nofiles subdir name="mol2"/-->
   <subdir name="pmp"/>
 
 </dir>
