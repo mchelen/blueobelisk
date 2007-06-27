@@ -1,7 +1,7 @@
 <dir name="asn/pubchem/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
   <file name="cid1.asn" valid="yes">
-     <mimetype property="dc:format">chemical/x-asn-pubchem</mimetype>
+     <mimetype property="dc:format">chemical/x-ncbi-asn1-ascii</mimetype>
      <program property="dc:source">PubChem</program>
      <copyright>
        <owner property="dc:creator">Unknown</owner>
