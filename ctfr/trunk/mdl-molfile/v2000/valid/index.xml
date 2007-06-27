@@ -3,27 +3,30 @@
   <chemfiles>
 
     <file name="azulene.mol" valid="yes">
-       <dc:format>chemical/x-mdl-molfile</dc:format>
-       <dc:source>CDK</dc:source>
-       <dc:creator>Unknown</dc:creator>
-       <dc:rights>LGPL</dc:rights>
-       <test by="CDK"/>
+       <mimetype property="dc:format">chemical/x-mdl-molfile</mimetype>
+       <program property="dc:source">CDK</program>
+       <copyright>
+         <owner property="dc:creator">Unknown</owner>
+         <license property="dc:rights">LGPL</license>
+       </copyright>
     </file>
 
     <file name="tetrahedral_with_four_wedges.mol" valid="yes">
-       <dc:format>chemical/x-mdl-molfile</dc:format>
-       <dc:source>CDK</dc:source>
-       <dc:creator>Unknown</dc:creator>
-       <dc:rights>LGPL</dc:rights>
-       <test by="CDK"/>
+       <mimetype property="dc:format">chemical/x-mdl-molfile</mimetype>
+       <program property="dc:source">CDK</program>
+       <copyright>
+         <owner property="dc:creator">Unknown</owner>
+         <license property="dc:rights">LGPL</license>
+       </copyright>
     </file>
 
     <file name="withcharges.mol" valid="yes">
-       <dc:format>chemical/x-mdl-molfile</dc:format>
-       <dc:source>CDK</dc:source>
-       <dc:creator>Unknown</dc:creator>
-       <dc:rights>LGPL</dc:rights>
-       <test by="CDK"/>
+       <mimetype property="dc:format">chemical/x-mdl-molfile</mimetype>
+       <program property="dc:source">CDK</program>
+       <copyright>
+         <owner property="dc:creator">Unknown</owner>
+         <license property="dc:rights">LGPL</license>
+       </copyright>
     </file>
 
   </chemfiles>

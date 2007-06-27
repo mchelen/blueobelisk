@@ -34,18 +34,16 @@
         </choice>
       </attribute>
       <ref name="dc.group"/>
-      <zeroOrMore>
-        <element name="test">
-          <attribute name="by"/>
-        </element>
-      </zeroOrMore>
     </element>
   </define>
 
-  <define name="dc.group">
+  <define name="dc.group" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <interleave>
       <!-- the MIME type -->
-      <element name="format" ns="http://purl.org/dc/elements/1.1/">
+      <element name="mimetype">
+        <attribute name="property">
+          <choice><value>dc:format</value></choice>
+        </attribute>
         <choice>
           <value>chemical/x-asn-pubchem</value>
           <value>chemical/x-hin</value>
@@ -55,12 +53,31 @@
         </choice>
       </element>
       <!-- the person who created the test file -->
-      <element name="creator" ns="http://purl.org/dc/elements/1.1/"><text/></element>
-      <!-- OSI licence -->
-      <element name="rights" ns="http://purl.org/dc/elements/1.1/"><text/></element>
+      <element name="copyright">
+        <interleave>
+          <element name="owner">
+            <attribute name="property">
+              <choice><value>dc:creator</value></choice>
+            </attribute>
+            <text/>
+          </element>
+          <!-- OSI licence -->
+          <element name="license">
+            <attribute name="property">
+              <choice><value>dc:rights</value></choice>
+            </attribute>
+            <text/>
+          </element>
+        </interleave>
+      </element>
       <optional>
         <!-- the program with which the test file was created -->
-        <element name="source" ns="http://purl.org/dc/elements/1.1/"><text/></element>
+        <element name="program">
+          <attribute name="property">
+            <choice><value>dc:source</value></choice>
+          </attribute>
+          <text/>
+        </element>
       </optional>
     </interleave>
   </define>

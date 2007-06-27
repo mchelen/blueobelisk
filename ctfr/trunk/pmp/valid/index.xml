@@ -3,11 +3,12 @@
   <chemfiles>
 
     <file name="two_aceticacid.pmp" valid="yes">
-       <dc:format>chemical/x-pmp</dc:format>
-       <dc:source>Cerius2 Polymorph Predictor</dc:source>
-       <dc:creator>Unknown</dc:creator>
-       <dc:rights>LGPL</dc:rights>
-       <test by="CDK"/>
+       <mimetype property="dc:format">chemical/x-pmp</mimetype>
+       <program property="dc:source">Cerius2 Polymorph Predictor</program>
+       <copyright>
+         <owner property="dc:creator">Unknown</owner>
+         <license property="dc:rights">LGPL</license>
+       </copyright>
     </file>
 
   </chemfiles>

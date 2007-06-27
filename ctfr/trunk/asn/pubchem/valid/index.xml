@@ -3,11 +3,12 @@
   <chemfiles>
 
     <file name="cid1.asn" valid="yes">
-       <dc:format>chemical/x-asn-pubchem</dc:format>
-       <dc:source>PubChem</dc:source>
-       <dc:creator>Unknown</dc:creator>
-       <dc:rights>PublicDomain</dc:rights>
-       <test by="CDK"/>
+       <mimetype property="dc:format">chemical/x-asn-pubchem</mimetype>
+       <program property="dc:source">PubChem</program>
+       <copyright>
+         <owner property="dc:creator">Unknown</owner>
+         <license property="dc:rights">PublicDomain</license>
+       </copyright>
     </file>
 
   </chemfiles>

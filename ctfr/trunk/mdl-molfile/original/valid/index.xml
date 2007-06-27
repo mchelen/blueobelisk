@@ -3,11 +3,12 @@
   <chemfiles>
 
     <file name="Strychnine_nichtOK.mol" valid="yes">
-       <dc:format>chemical/x-mdl-molfile</dc:format>
-       <dc:source>ACD/Labs</dc:source>
-       <dc:creator>Unknown</dc:creator>
-       <dc:rights>LGPL</dc:rights>
-       <test by="CDK"/>
+       <mimetype property="dc:format">chemical/x-mdl-molfile</mimetype>
+       <program property="dc:source">ACD/Labs</program>
+       <copyright>
+         <owner property="dc:creator">Unknown</owner>
+         <license property="dc:rights">LGPL</license>
+       </copyright>
     </file>
 
   </chemfiles>
