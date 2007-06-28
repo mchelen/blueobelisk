@@ -977,7 +977,7 @@ function print_inchi($paper, $filters = array()) {
 
         # print title of paper
         if (!$paper['inchi']) {$paper['inchi'] = "Unknown InChI";}
-        print "<div class='paperbox_title'>";
+        print "<div class='paperbox_title' about=\"#".$paper['name']."\">";
         #$title_link = linkto("paper.php", $GLOBALS['page_vars'], array("paper_id" => $paper['paper_id']));
         #if ($filters['link_through']) {$title_link = $paper['url'];}
         #print "<a href='$title_link'>".$paper['inchi']."</a>";
@@ -986,7 +986,7 @@ function print_inchi($paper, $filters = array()) {
         if ($paper['name']) {
 		print "<span class=\"chem:compound\">".$paper['name']."</span>";
         } else {
-        	print "<span class=\"chem:inchi\">".$paper['inchi']."</span>";
+        	print "<span property=\"chem:inchi\" class=\"chem:inchi\">".$paper['inchi']."</span>";
         }
         print "</div>";
 
@@ -1011,9 +1011,9 @@ function print_inchi($paper, $filters = array()) {
         $pti = $_GET['path_to_interface'];
         $base_url = $_GET['base_url'];
         if (($filters['show_abstract']) && ($paper['cid'])) {
-                print "<div class='paperbox_identifiers'>";
+                print "<div class='paperbox_identifiers' about=\"#".$paper['name']."\">";
 	                if ($paper['name']) {
-        	                print "<span class='chem:inchi'>".$paper['inchi']."</span><br />";
+        	                print "<span property='chem:inchi' class=\"chem:inchi\">".$paper['inchi']."</span><br />";
                 	}
                 print "</div>";
                 print "<div class='paperbox_abstract'>";
