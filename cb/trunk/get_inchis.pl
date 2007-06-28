@@ -40,15 +40,17 @@ foreach my $post (keys(%posts)) {
 	my $tree = HTML::TreeBuilder->new_from_content($content);
 
         # support for <span class="smiles|inchi"> (microformat) and
-        #   <span class="chem:smiles|inchi">
+        #   <span class="chem:smiles|inchi"> and proper RDFa like
+        #   <span property="chem:inchi">
 
 	my @links = $tree->look_down("_tag", "span");
 
 	foreach my $link (@links) {
 		my $class = $link->attr("class");
+                my $property = $link->attr("property");
 		my $inchi = $link->as_text;
 
-		if ( ($class =~ /inchi/i) || ($class =~ /chem:inchi/i) )  {
+		if ( ($class =~ /inchi/i) || ($class =~ /chem:inchi/i) || ($property =~ /chem:inchi/i))  {
                         if ($inchi =~ /^InChI=[^\s]/) {
                                 my $id_inchi_hash = md5_hex($post_id.$inchi);
                                 my $insert = $db->prepare("INSERT INTO inchis (id_inchi_hash, blog_id, post_id, inchi, added_on) VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP())");
@@ -69,7 +71,7 @@ foreach my $post (keys(%posts)) {
                         }
 		}
 
-		elsif ( ($class =~ /smiles/i) || ($class =~ /chem:smiles/i) )  {
+		elsif ( ($class =~ /smiles/i) || ($class =~ /chem:smiles/i) || ($property =~ /chem:smiles/i))  {
 			# print "post: $post\n";
 			# print "  found smiles: $inchi\n";
 
