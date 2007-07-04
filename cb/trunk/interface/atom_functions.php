@@ -233,7 +233,7 @@ function post_atom_entry($post, $filters = array()) {
 	$return .= 
 "
 <entry>
-	<title><![CDATA[".$post['title']."]]></title>
+	<title><![CDATA[".$post['title']." (".$post['blog_name'].")]]></title>
 	<author><name>".$post['blog_name']."</name></author>
 	<link rel='alternate' href=\"".$post['url']."\"/>
 	$image
