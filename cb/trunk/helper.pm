@@ -10,6 +10,7 @@ package helper;
 use lib (".");
 use strict;
 use DBI;
+use CGI;
 use config qw(%config urlencode log log_error do_sleep urldecode $DEBUG parse_post_xml url_breakdown trim);
 use XML::Simple;
 
@@ -189,7 +190,7 @@ sub download_url {
 
 sub search_pubmed {
 	my $text = urlencode("\"".$_[0]."\"");
-	my $search_url = sprintf("http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&tool=%s&email=%s&term=%s", $config{"name"}, $config{"email"}, $text);
+	my $search_url = sprintf("http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&tool=%s&email=%s&term=%s", CGI::escape($config{"name"}), $config{"email"}, $text);
 
 	my $agent = $config{"user_agent"};
 	my $results = `curl -s -L -m 30 -A "$agent" '$search_url'`;
