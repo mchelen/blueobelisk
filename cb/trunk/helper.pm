@@ -215,7 +215,7 @@ sub search_pubmed {
 
 sub search_pubmed_doi {
 	my $doi = $_[0];
-	my $search_url = sprintf("http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&tool=%s&email=%s&term=%s", $config{"name"}, $config{"email"}, $doi);
+	my $search_url = sprintf("http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&tool=%s&email=%s&term=%s", CGI::escape($config{"name"}), $config{"email"}, $doi);
 
 	my $agent = $config{"user_agent"};
 	my $results = `curl -s -L -m 30 -A "$agent" '$search_url'`;
@@ -239,7 +239,7 @@ sub get_pubmed_metadata {
 	my $pubmed_id = $_[0];
 	my %results;
 	
-	my $entrez_url = sprintf("http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&tool=%s&email=%s&retmode=xml&id=%s", $config{"name"}, $config{"email"}, $pubmed_id);
+	my $entrez_url = sprintf("http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&tool=%s&email=%s&retmode=xml&id=%s", CGI::escape($config{"name"}), $config{"email"}, $pubmed_id);
 
 	my $agent = $config{"user_agent"};
 	my $results = `curl -s -L -m 30 -A "$agent" '$entrez_url'`;
@@ -256,8 +256,11 @@ sub get_pubmed_metadata {
 	$results =~ s/>(\s+)</></g;
 
 	$results{"pubmed_id"} = $pubmed_id;
-
+	
 	if ($results =~ /<Journal>(?:.*?)<Year>(.*?)<\/Year>(?:.*?)<\/Journal>/i) {$results{"pubdate_year"} = $1;}
+	# For JACS, the year is specified differently
+	if ($results =~ /<Journal>(?:.*?)<MedlineDate>(\d{4})(.*?)<\/MedlineDate>(?:.*?)<\/Journal>/i) {$results{"pubdate_year"} = $1;}
+	# For JACS, the month is specified differently (FIX ME)
 	if ($results =~ /<Journal>(?:.*?)<Month>(.*?)<\/Month>(?:.*?)<\/Journal>/i) {$results{"pubdate_month"} = $1;}
 	if ($results =~ /<Journal>(?:.*?)<Day>(.*?)<\/Day>(?:.*?)<\/Journal>/i) {$results{"pubdate_day"} = $1;}
 	if ($results =~ /<Journal>(?:.*?)<Title>(.*?)<\/Title>(?:.*?)<\/Journal>/i) {$results{"journal"} = $1;}
