@@ -258,9 +258,11 @@ sub get_pubmed_metadata {
 	$results{"pubmed_id"} = $pubmed_id;
 	
 	if ($results =~ /<Journal>(?:.*?)<Year>(.*?)<\/Year>(?:.*?)<\/Journal>/i) {$results{"pubdate_year"} = $1;}
-	# For JACS, the year is specified differently
-	if ($results =~ /<Journal>(?:.*?)<MedlineDate>(\d{4})(.*?)<\/MedlineDate>(?:.*?)<\/Journal>/i) {$results{"pubdate_year"} = $1;}
-	# For JACS, the month is specified differently (FIX ME)
+	# For JACS, the year and month is specified differently
+	my %months = ("Jan", 1, "Feb", 2, "Mar", 3, "Apr", 4, "May", 5,
+	              "Jun", 6, "Jul", 7, "Aug", 8, "Sep", 9, "Oct", 10,
+		      "Nov", 11, "Dec", 12);
+	if ($results =~ /<Journal>(?:.*?)<MedlineDate>(\d{4}) (\w{3})(.*?)<\/MedlineDate>(?:.*?)<\/Journal>/i) {$results{"pubdate_year"} = $1; $results{"pubdate_month"} = $months{$2};}
 	if ($results =~ /<Journal>(?:.*?)<Month>(.*?)<\/Month>(?:.*?)<\/Journal>/i) {$results{"pubdate_month"} = $1;}
 	if ($results =~ /<Journal>(?:.*?)<Day>(.*?)<\/Day>(?:.*?)<\/Journal>/i) {$results{"pubdate_day"} = $1;}
 	if ($results =~ /<Journal>(?:.*?)<Title>(.*?)<\/Title>(?:.*?)<\/Journal>/i) {$results{"journal"} = $1;}
