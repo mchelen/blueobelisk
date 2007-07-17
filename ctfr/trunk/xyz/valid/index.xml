@@ -1,0 +1,21 @@
+<dir name="xyz/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <file name="viagra_withComment.xyz" valid="yes">
+     <mimetype property="dc:format">chemical/x-xyz</mimetype>
+     <program property="dc:source">Unknown</program>
+     <copyright>
+       <owner property="dc:creator">Unknown</owner>
+       <license property="dc:rights">LGPL</license>
+     </copyright>
+  </file>
+
+  <file name="viagra.xyz" valid="yes">
+     <mimetype property="dc:format">chemical/x-xyz</mimetype>
+     <program property="dc:source">Unknown</program>
+     <copyright>
+       <owner property="dc:creator">Unknown</owner>
+       <license property="dc:rights">LGPL</license>
+     </copyright>
+  </file>
+
+</dir>
