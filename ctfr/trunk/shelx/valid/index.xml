@@ -1,0 +1,12 @@
+<dir name="shelx/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <file name="frame_1.res" valid="yes">
+     <mimetype property="dc:format">chemical/x-shelx</mimetype>
+     <program property="dc:source">CrystClust</program>
+     <copyright>
+       <owner property="dc:creator">Egon Willighagen</owner>
+       <license property="dc:rights">LGPL</license>
+     </copyright>
+  </file>
+
+</dir>
