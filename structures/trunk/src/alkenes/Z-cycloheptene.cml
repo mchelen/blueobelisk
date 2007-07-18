@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_Z-cycloheptene">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_Z-cycloheptene">
  <formula concise=" C 7 H 12 "/>
  <identifier version="InChI/1">
   <basic>1/C7H12/c1-2-4-6-7-5-3-1/h1-2H,3-7H2</basic>

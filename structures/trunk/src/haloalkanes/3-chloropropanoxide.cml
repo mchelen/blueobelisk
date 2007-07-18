@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_3-chloropropanoxide">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_3-chloropropanoxide">
  <formula concise=" C 3 H 5 O 1 Cl 1 "/>
  <identifier version="InChI/1">
   <basic>1/C3H5ClO/c4-1-3-2-5-3/h3H,1-2H2/t3-/m0/s1</basic>

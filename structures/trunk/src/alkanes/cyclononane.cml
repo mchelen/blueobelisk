@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_cyclononane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_cyclononane">
  <formula concise=" C 9 H 18 "/>
  <identifier version="InChI/1">
   <basic>1/C9H18/c1-2-4-6-8-9-7-5-3-1/h1-9H2</basic>

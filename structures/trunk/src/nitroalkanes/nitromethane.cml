@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_nitromethane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_nitromethane">
  <formula concise=" C 1 H 3 N 1 O 2 "/>
  <identifier version="InChI/1">
   <basic>1/CH4NO2/c1-2(3)4/h1H3,(H,3,4)</basic>

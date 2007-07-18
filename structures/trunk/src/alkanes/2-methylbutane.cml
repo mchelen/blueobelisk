@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_2-methylbutane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2-methylbutane">
  <formula concise=" C 5 H 12 "/>
  <identifier version="InChI/1">
   <basic>1/C5H12/c1-4-5(2)3/h5H,4H2,1-3H3</basic>

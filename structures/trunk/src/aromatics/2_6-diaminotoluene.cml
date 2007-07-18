@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_2_6-diaminotoluene">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2_6-diaminotoluene">
  <formula concise=" C 7 H 10 N 2 "/>
  <identifier version="InChI/1">
   <basic>1/C7H10N2/c1-5-6(8)3-2-4-7(5)9/h2-4H,8-9H2,1H3</basic>

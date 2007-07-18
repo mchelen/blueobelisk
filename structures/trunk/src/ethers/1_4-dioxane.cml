@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_1_4-dioxane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1_4-dioxane">
  <formula concise=" C 4 H 8 O 2 "/>
  <identifier version="InChI/1">
   <basic>1/C4H8O2/c1-2-6-4-3-5-1/h1-4H2</basic>

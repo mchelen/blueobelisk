@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_1-chloro-1_1_2_2_2-pentafluoroethane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1-chloro-1_1_2_2_2-pentafluoroethane">
  <formula concise=" C 2 F 5 Cl 1 "/>
  <identifier version="InChI/1">
   <basic>1/C2ClF5/c3-1(4,5)2(6,7)8</basic>

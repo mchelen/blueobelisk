@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_1_3_5-trimethylbenzene">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1_3_5-trimethylbenzene">
  <formula concise=" C 9 H 12 "/>
  <identifier version="InChI/1">
   <basic>1/C9H12/c1-7-4-8(2)6-9(3)5-7/h4-6H,1-3H3</basic>

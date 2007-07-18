@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_pyrrolidine">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_pyrrolidine">
  <formula concise=" C 4 H 9 N 1 "/>
  <identifier version="InChI/1">
   <basic>1/C4H9N/c1-2-4-5-3-1/h5H,1-4H2</basic>

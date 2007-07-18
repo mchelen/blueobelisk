@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_pentan-3-ol">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_pentan-3-ol">
  <formula concise=" C 5 H 12 O 1 "/>
  <identifier version="InChI/1">
   <basic>1/C5H12O/c1-3-5(6)4-2/h5-6H,3-4H2,1-2H3</basic>

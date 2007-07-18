@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_prop-2-enal">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_prop-2-enal">
  <formula concise=" C 3 H 4 O 1 "/>
  <identifier version="InChI/1">
   <basic>1/C3H4O/c1-2-3-4/h2-3H,1H2</basic>

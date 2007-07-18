@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_1_3-oxazole">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1_3-oxazole">
  <formula concise=" C 3 H 3 N 1 O 1 "/>
  <identifier version="InChI/1">
   <basic>1/C3H3NO/c1-2-5-3-4-1/h1-3H</basic>

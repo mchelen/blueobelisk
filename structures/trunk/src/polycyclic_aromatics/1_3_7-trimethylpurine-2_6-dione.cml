@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_1_3_7-trimethylpurine-2_6-dione">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1_3_7-trimethylpurine-2_6-dione">
  <formula concise=" C 8 H 10 N 4 O 2 "/>
  <identifier version="InChI/1">
   <basic>1/C8H10N4O2/c1-10-4-9-6-5(10)7(13)12(3)8(14)11(6)2/h4H,1-3H3</basic>

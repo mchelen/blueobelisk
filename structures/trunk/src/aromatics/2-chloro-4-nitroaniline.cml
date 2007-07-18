@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_2-chloro-4-nitroaniline">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2-chloro-4-nitroaniline">
  <formula concise=" C 6 H 5 N 2 O 2 Cl 1 "/>
  <identifier version="InChI/1">
   <basic>1/C6H6ClN2O2/c7-5-3-4(9(10)11)1-2-6(5)8/h1-3H,8H2,(H,10,11)</basic>

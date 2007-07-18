@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_decanoic_acid">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_decanoic_acid">
  <formula concise=" C 10 H 20 O 2 "/>
  <identifier version="InChI/1">
   <basic>1/C10H20O2/c1-2-3-4-5-6-7-8-9-10(11)12/h2-9H2,1H3,(H,11,12)</basic>

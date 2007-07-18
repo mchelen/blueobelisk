@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_bromoethane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_bromoethane">
  <formula concise=" C 2 H 5 Br 1 "/>
  <identifier version="InChI/1">
   <basic>1/C2H5Br/c1-2-3/h2H2,1H3</basic>

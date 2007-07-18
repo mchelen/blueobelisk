@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_oxamide">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_oxamide">
  <formula concise=" C 2 H 4 N 2 O 2 "/>
  <identifier version="InChI/1">
   <basic>1/C2H4N2O2/c3-1(5)2(4)6/h(H2,3,5)(H2,4,6)</basic>

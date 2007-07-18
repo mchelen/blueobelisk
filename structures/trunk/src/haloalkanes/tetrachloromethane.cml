@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_tetrachloromethane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_tetrachloromethane">
  <formula concise=" C 1 Cl 4 "/>
  <identifier version="InChI/1">
   <basic>1/CCl4/c2-1(3,4)5</basic>

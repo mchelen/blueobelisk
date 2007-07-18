@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_methanesulfonic_acid">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_methanesulfonic_acid">
  <formula concise=" C 1 H 4 O 3 S 1 "/>
  <identifier version="InChI/1">
   <basic>1/CH4O3S/c1-5(2,3)4/h1H3,(H,2,3,4)</basic>

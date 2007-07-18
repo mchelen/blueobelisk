@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_2-hydroxy-3-1R-3-oxo-1-phenylbutyl_chromen-4-one">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2-hydroxy-3-1R-3-oxo-1-phenylbutyl_chromen-4-one">
  <formula concise=" C 19 H 16 O 4 "/>
  <identifier version="InChI/1">
   <basic>1/C19H16O4/c1-12(20)11-15(13-7-3-2-4-8-13)17-18(21)14-9-5-6-10-16(14)23-19(17)22/h2-10,15,22H,11H2,1H3/t15-/m1/s1</basic>

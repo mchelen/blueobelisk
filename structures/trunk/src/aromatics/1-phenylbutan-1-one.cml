@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_1-phenylbutan-1-one">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1-phenylbutan-1-one">
  <formula concise=" C 10 H 12 O 1 "/>
  <identifier version="InChI/1">
   <basic>1/C10H12O/c1-2-6-10(11)9-7-4-3-5-8-9/h3-5,7-8H,2,6H2,1H3</basic>

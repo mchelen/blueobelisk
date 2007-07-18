@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_2-amino-3_7-dihydropurin-6-one">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2-amino-3_7-dihydropurin-6-one">
  <formula concise=" C 5 H 5 N 5 O 1 "/>
  <identifier version="InChI/1">
   <basic>1/C5H5N5O/c6-5-9-3-2(4(11)10-5)7-1-8-3/h1H,(H4,6,7,8,9,10,11)</basic>

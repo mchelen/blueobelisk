@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_9Z_12Z_15Z-octadeca-9_12_15-trienoic_acid">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_9Z_12Z_15Z-octadeca-9_12_15-trienoic_acid">
  <formula concise=" C 18 H 30 O 2 "/>
  <identifier version="InChI/1">
   <basic>1/C18H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h3-4,6-7,9-10H,2,5,8,11-17H2,1H3,(H,19,20)/b4-3-,7-6-,10-9-</basic>

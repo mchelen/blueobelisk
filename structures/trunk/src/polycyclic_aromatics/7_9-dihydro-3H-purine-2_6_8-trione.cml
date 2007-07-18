@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_7_9-dihydro-3H-purine-2_6_8-trione">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_7_9-dihydro-3H-purine-2_6_8-trione">
  <formula concise=" C 5 H 4 N 4 O 3 "/>
  <identifier version="InChI/1">
   <basic>1/C5H4N4O3/c10-3-1-2(7-4(11)6-1)8-5(12)9-3/h(H4,6,7,8,9,10,11,12)</basic>

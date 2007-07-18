@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_1_1_1-trichloroacetonitrile">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1_1_1-trichloroacetonitrile">
  <formula concise=" C 2 N 1 Cl 3 "/>
  <identifier version="InChI/1">
   <basic>1/C2Cl3N/c3-2(4,5)1-6</basic>

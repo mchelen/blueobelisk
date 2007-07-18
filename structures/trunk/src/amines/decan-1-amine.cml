@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_decan-1-amine">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_decan-1-amine">
  <formula concise=" C 10 H 23 N 1 "/>
  <identifier version="InChI/1">
   <basic>1/C10H23N/c1-2-3-4-5-6-7-8-9-10-11/h2-11H2,1H3</basic>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_4-amino-3H-pyrimidin-2-one">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_4-amino-3H-pyrimidin-2-one">
  <formula concise=" C 4 H 5 N 3 O 1 "/>
  <identifier version="InChI/1">
   <basic>1/C4H5N3O/c5-3-1-2-6-4(8)7-3/h1-2H,(H3,5,6,7,8)</basic>

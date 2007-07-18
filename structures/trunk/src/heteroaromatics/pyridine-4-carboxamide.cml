@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_pyridine-4-carboxamide">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_pyridine-4-carboxamide">
  <formula concise=" C 6 H 6 N 2 O 1 "/>
  <identifier version="InChI/1">
   <basic>1/C6H6N2O/c7-6(9)5-1-3-8-4-2-5/h1-4H,(H2,7,9)</basic>

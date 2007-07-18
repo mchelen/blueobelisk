@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_N-methylmethanamine">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_N-methylmethanamine">
  <formula concise=" C 2 H 7 N 1 "/>
  <identifier version="InChI/1">
   <basic>1/C2H7N/c1-3-2/h3H,1-2H3</basic>

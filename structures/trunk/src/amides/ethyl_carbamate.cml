@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_ethyl_carbamate">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_ethyl_carbamate">
  <formula concise=" C 3 H 7 N 1 O 2 "/>
  <identifier version="InChI/1">
   <basic>1/C3H7NO2/c1-2-6-3(4)5/h2H2,1H3,(H2,4,5)</basic>

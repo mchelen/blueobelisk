@@ -5,6 +5,8 @@ Ajouter Nitrophenylalanine
 Ajouter Apiol
 Ajouter Norbornane
 Ajouter Serotonin
+Ajouter Benzodiazépine
+Ajouter Crotonaldehyde
 
 Verifier la structure du steroid (stereochimie)
 Créer un index IUPAC et un index de InChI
@@ -21,3 +23,4 @@ Ameliorer la structure de la linolein (elle n'a pas pu passer MOPAC/PM3)
 
 Add doc to python modules
 
+change CML namespace http://cmlexplained.blogspot.com/2007/06/there-can-be-only-one-namespace.html

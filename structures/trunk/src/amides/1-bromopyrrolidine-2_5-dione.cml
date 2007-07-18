@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_1-bromopyrrolidine-2_5-dione">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1-bromopyrrolidine-2_5-dione">
  <formula concise=" C 4 H 4 N 1 O 2 Br 1 "/>
  <identifier version="InChI/1">
   <basic>1/C4H4BrNO2/c5-6-3(7)1-2-4(6)8/h1-2H2</basic>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_2R-2-amino-4-methylsulfanyl-butanoic_acid">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2R-2-amino-4-methylsulfanyl-butanoic_acid">
  <formula concise=" C 5 H 11 N 1 O 2 S 1 "/>
  <identifier version="InChI/1">
   <basic>1/C5H11NO2S/c1-9-3-2-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)/t4-/m1/s1</basic>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_1-chlorononane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1-chlorononane">
  <formula concise=" C 9 H 19 Cl 1 "/>
  <identifier version="InChI/1">
   <basic>1/C9H19Cl/c1-2-3-4-5-6-7-8-9-10/h2-9H2,1H3</basic>

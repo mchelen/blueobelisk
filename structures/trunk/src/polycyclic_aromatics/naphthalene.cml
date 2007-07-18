@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_naphthalene">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_naphthalene">
  <formula concise=" C 10 H 8 "/>
  <identifier version="InChI/1">
   <basic>1/C10H8/c1-2-6-10-8-4-3-7-9(10)5-1/h1-8H</basic>

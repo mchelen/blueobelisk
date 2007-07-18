@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_4-acetamidophenyl_2-hydroxybenzoate">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_4-acetamidophenyl_2-hydroxybenzoate">
  <formula concise=" C 15 H 13 N 1 O 4 "/>
  <identifier version="InChI/1">
   <basic>1/C15H13NO4/c1-10(17)16-11-6-8-12(9-7-11)20-15(19)13-4-2-3-5-14(13)18/h2-9,18H,1H3,(H,16,17)</basic>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_cis-decahydronaphthalene">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_cis-decahydronaphthalene">
  <formula concise=" C 10 H 18 "/>
  <identifier version="InChI/1">
   <basic>1/C10H18/c1-2-6-10-8-4-3-7-9(10)5-1/h9-10H,1-8H2/t9-,10+</basic>

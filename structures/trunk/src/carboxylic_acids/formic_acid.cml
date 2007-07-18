@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_formic_acid">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_formic_acid">
  <formula concise=" C 1 H 2 O 2 "/>
  <identifier version="InChI/1">
   <basic>1/CH2O2/c2-1-3/h1H,(H,2,3)</basic>

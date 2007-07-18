@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_morpholine">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_morpholine">
  <formula concise=" C 4 H 9 N 1 O 1 "/>
  <identifier version="InChI/1">
   <basic>1/C4H9NO/c1-3-6-4-2-5-1/h5H,1-4H2</basic>

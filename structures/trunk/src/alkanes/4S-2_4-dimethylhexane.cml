@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_4S-2_4-dimethylhexane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_4S-2_4-dimethylhexane">
  <formula concise=" C 8 H 18 "/>
  <identifier version="InChI/1">
   <basic>1/C8H18/c1-5-8(4)6-7(2)3/h7-8H,5-6H2,1-4H3/t8-/m0/s1</basic>

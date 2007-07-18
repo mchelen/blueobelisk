@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_hexadecahydro-1H-cyclopenta_a_phenanthrene">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_hexadecahydro-1H-cyclopenta_a_phenanthrene">
  <formula concise=" C 17 H 28 "/>
  <identifier version="InChI/1">
   <basic>1/C17H28/c1-2-6-14-12(4-1)8-10-17-15-7-3-5-13(15)9-11-16(14)17/h12-17H,1-11H2/t12-,13-,14+,15+,16+,17-/m0/s1</basic>

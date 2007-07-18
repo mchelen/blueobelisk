@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_chromen-2-one">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_chromen-2-one">
  <formula concise=" C 9 H 6 O 2 "/>
  <identifier version="InChI/1">
   <basic>1/C9H6O2/c10-9-6-5-7-3-1-2-4-8(7)11-9/h1-6H</basic>

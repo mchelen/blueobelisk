@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_propanenitrile">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_propanenitrile">
  <formula concise=" C 3 H 5 N 1 "/>
  <identifier version="InChI/1">
   <basic>1/C3H5N/c1-2-3-4/h2H2,1H3</basic>

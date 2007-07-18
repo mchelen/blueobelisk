@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_tris_4-cyanophenyl_methane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_tris_4-cyanophenyl_methane">
  <formula concise=" C 22 H 13 N 3 "/>
  <identifier version="InChI/1">
   <basic>1/C22H13N3/c23-13-16-1-7-19(8-2-16)22(20-9-3-17(14-24)4-10-20)21-11-5-18(15-25)6-12-21/h1-12,22H</basic>

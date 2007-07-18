@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_but-3-en-2-one">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_but-3-en-2-one">
  <formula concise=" C 4 H 6 O 1 "/>
  <identifier version="InChI/1">
   <basic>1/C4H6O/c1-3-4(2)5/h3H,1H2,2H3</basic>

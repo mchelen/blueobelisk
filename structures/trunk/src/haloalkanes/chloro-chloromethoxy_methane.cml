@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_chloro-chloromethoxy_methane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_chloro-chloromethoxy_methane">
  <formula concise=" C 2 H 4 O 1 Cl 2 "/>
  <identifier version="InChI/1">
   <basic>1/C2H4Cl2O/c3-1-5-2-4/h1-2H2</basic>

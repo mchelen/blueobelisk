@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_2S-2_6-diaminohexanoic_acid">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2S-2_6-diaminohexanoic_acid">
  <formula concise=" C 6 H 14 N 2 O 2 "/>
  <identifier version="InChI/1">
   <basic>1/C6H14N2O2/c7-4-2-1-3-5(8)6(9)10/h5H,1-4,7-8H2,(H,9,10)/t5-/m0/s1</basic>

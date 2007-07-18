@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_4-bromo-5-methyl-2-propan-2-yl-phenol">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_4-bromo-5-methyl-2-propan-2-yl-phenol">
  <formula concise=" C 10 H 13 O 1 Br 1 "/>
  <identifier version="InChI/1">
   <basic>1/C10H13BrO/c1-6(2)8-5-9(11)7(3)4-10(8)12/h4-6,12H,1-3H3</basic>

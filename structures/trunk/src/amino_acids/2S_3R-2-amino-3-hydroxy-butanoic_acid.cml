@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_2S_3R-2-amino-3-hydroxy-butanoic_acid">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2S_3R-2-amino-3-hydroxy-butanoic_acid">
  <formula concise=" C 4 H 9 N 1 O 3 "/>
  <identifier version="InChI/1">
   <basic>1/C4H9NO3/c1-2(6)3(5)4(7)8/h2-3,6H,5H2,1H3,(H,7,8)/t2-,3+/m1/s1</basic>

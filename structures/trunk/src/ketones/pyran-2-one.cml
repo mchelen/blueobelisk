@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_pyran-2-one">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_pyran-2-one">
  <formula concise=" C 5 H 4 O 2 "/>
  <identifier version="InChI/1">
   <basic>1/C5H4O2/c6-5-3-1-2-4-7-5/h1-4H</basic>

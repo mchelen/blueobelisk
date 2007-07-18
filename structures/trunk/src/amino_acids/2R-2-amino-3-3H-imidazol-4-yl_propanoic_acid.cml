@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_2R-2-amino-3-3H-imidazol-4-yl_propanoic_acid">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2R-2-amino-3-3H-imidazol-4-yl_propanoic_acid">
  <formula concise=" C 6 H 9 N 3 O 2 "/>
  <identifier version="InChI/1">
   <basic>1/C6H9N3O2/c7-5(6(10)11)1-4-2-8-3-9-4/h2-3,5H,1,7H2,(H,8,9)(H,10,11)/t5-/m1/s1</basic>

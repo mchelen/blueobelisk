@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_1_4-diazabicyclo_2_2_2_octane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1_4-diazabicyclo_2_2_2_octane">
  <formula concise=" C 6 H 12 N 2 "/>
  <identifier version="InChI/1">
   <basic>1/C6H12N2/c1-2-8-5-3-7(1)4-6-8/h1-6H2</basic>

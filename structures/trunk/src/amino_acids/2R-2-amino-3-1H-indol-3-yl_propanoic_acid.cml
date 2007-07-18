@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_2R-2-amino-3-1H-indol-3-yl_propanoic_acid">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2R-2-amino-3-1H-indol-3-yl_propanoic_acid">
  <formula concise=" C 11 H 12 N 2 O 2 "/>
  <identifier version="InChI/1">
   <basic>1/C11H12N2O2/c12-9(11(14)15)5-7-6-13-10-4-2-1-3-8(7)10/h1-4,6,9,13H,5,12H2,(H,14,15)/t9-/m1/s1</basic>

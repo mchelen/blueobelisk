@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_chloromethane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_chloromethane">
  <formula concise=" C 1 H 3 Cl 1 "/>
  <identifier version="InChI/1">
   <basic>1/CH3Cl/c1-2/h1H3</basic>

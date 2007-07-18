@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_dichloromethane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_dichloromethane">
  <formula concise=" C 1 H 2 Cl 2 "/>
  <identifier version="InChI/1">
   <basic>1/CH2Cl2/c2-1-3/h1H2</basic>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_9H-xanthene">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_9H-xanthene">
  <formula concise=" C 13 H 10 O 1 "/>
  <identifier version="InChI/1">
   <basic>1/C13H10O/c1-3-7-12-10(5-1)9-11-6-2-4-8-13(11)14-12/h1-8H,9H2</basic>

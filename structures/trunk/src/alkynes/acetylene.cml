@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_acetylene">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_acetylene">
  <formula concise=" C 2 H 2 "/>
  <identifier version="InChI/1">
   <basic>1/C2H2/c1-2/h1-2H</basic>

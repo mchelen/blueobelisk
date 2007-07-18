@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_cyclodecane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_cyclodecane">
  <formula concise=" C 10 H 20 "/>
  <identifier version="InChI/1">
   <basic>1/C10H20/c1-2-4-6-8-10-9-7-5-3-1/h1-10H2</basic>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_proprane-2-thiol">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_proprane-2-thiol">
  <formula concise=" C 3 H 8 S 1 "/>
  <identifier version="InChI/1">
   <basic>1/C3H8S/c1-3(2)4/h3-4H,1-2H3</basic>

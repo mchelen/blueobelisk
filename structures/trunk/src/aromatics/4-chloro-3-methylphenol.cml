@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_4-chloro-3-methylphenol">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_4-chloro-3-methylphenol">
  <formula concise=" C 7 H 7 O 1 Cl 1 "/>
  <identifier version="InChI/1">
   <basic>1/C7H7ClO/c1-5-4-6(9)2-3-7(5)8/h2-4,9H,1H3</basic>

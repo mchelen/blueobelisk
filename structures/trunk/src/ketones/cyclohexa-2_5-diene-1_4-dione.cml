@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_cyclohexa-2_5-diene-1_4-dione">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_cyclohexa-2_5-diene-1_4-dione">
  <formula concise=" C 6 H 4 O 2 "/>
  <identifier version="InChI/1">
   <basic>1/C6H4O2/c7-5-1-2-6(8)4-3-5/h1-4H</basic>

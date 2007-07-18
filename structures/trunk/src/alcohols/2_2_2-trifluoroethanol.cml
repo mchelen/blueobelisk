@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_2_2_2-trifluoroethanol">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2_2_2-trifluoroethanol">
  <formula concise=" C 2 H 3 O 1 F 3 "/>
  <identifier version="InChI/1">
   <basic>1/C2H3F3O/c3-2(4,5)1-6/h6H,1H2</basic>

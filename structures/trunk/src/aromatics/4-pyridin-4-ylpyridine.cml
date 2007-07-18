@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_4-pyridin-4-ylpyridine">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_4-pyridin-4-ylpyridine">
  <formula concise=" C 10 H 8 N 2 "/>
  <identifier version="InChI/1">
   <basic>1/C10H8N2/c1-5-11-6-2-9(1)10-3-7-12-8-4-10/h1-8H</basic>

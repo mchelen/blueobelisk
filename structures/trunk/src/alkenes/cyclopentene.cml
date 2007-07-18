@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_cyclopentene">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_cyclopentene">
  <formula concise=" C 5 H 8 "/>
  <identifier version="InChI/1">
   <basic>1/C5H8/c1-2-4-5-3-1/h1-2H,3-5H2</basic>

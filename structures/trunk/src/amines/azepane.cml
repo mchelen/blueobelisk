@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<molecule xmlns="http://www.xml-cml.org/schema/cml2/core" id="CS_azepane">
+<molecule xmlns="http://www.xml-cml.org/schema" id="CS_azepane">
  <formula concise=" C 6 H 13 N 1 "/>
  <identifier version="InChI/1">
   <basic>1/C6H13N/c1-2-4-6-7-5-3-1/h7H,1-6H2</basic>
