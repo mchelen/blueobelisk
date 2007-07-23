@@ -1,0 +1,12 @@
+<dir name="cml/cml1/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <file name="chemSketch.cml" valid="yes">
+     <mimetype property="dc:format">chemical/x-cml</mimetype>
+     <program property="dc:source">ACD/ChemSketch</program>
+     <copyright>
+       <owner property="dc:creator">Robert Lancashire</owner>
+       <license property="dc:rights">MIT</license>
+     </copyright>
+  </file>
+
+</dir>
