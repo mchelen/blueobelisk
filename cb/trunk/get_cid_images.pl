@@ -31,7 +31,6 @@ while (my $row = $sql->fetchrow_hashref()) {
     `/usr/bin/convert -resize 64x64 $cid.png $cid.out.png`;
     `mv $cid.out.png $cid.png`;
     `mv $cid.png $imageDir$cid.png`;
-    `rm $cid.png`;
   } else {
     print "Already got image for CID $cid\n";
   }
