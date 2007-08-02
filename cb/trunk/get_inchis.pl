@@ -76,7 +76,7 @@ foreach my $post (keys(%posts)) {
 			# print "  found smiles: $inchi\n";
 
 			my $smiles = $inchi;
-			my $inchi = `bash /home/egonw/bin/smi2inchi "$smiles"`;
+			my $inchi = `bash /home/egonw/bin/smi2inchi "$smiles" | grep InChI`;
 			$inchi =~ s/\n|\r//g;
 
 			# print "  -> inchi: $inchi\n";
