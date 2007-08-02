@@ -22,13 +22,16 @@ my $shoehorn = 0;
 
 # get existing names
 my %titles;
-my $sql = $db->prepare("SELECT url, post_id, blog_id FROM links WHERE id_inchi_hash IS NULL");
+my $sql = $db->prepare("SELECT links.url, posts.post_id, posts.blog_id FROM links, posts WHERE posts.post_id = links.post_id AND id_inchi_hash IS NULL AND active = 1");
+#my $sql = $db->prepare("SELECT url, post_id, blog_id FROM links WHERE id_inchi_hash IS NULL");
 $sql->execute();
 while (my $row = $sql->fetchrow_hashref()) {
   my $url = $row->{"url"};
   my $post_id = $row->{"post_id"};
   my $blog_id = $row->{"blog_id"};
-  if ($url =~ m/wikipedia.org\/wiki/ && !($url =~ m/google.com/)) {
+  if ($url =~ m/wikipedia.org\/wiki/ && !($url =~ m/google.com/) &&
+      !($url =~ m/wiki\/InChI/i) && !($url =~ m/wiki\/Simplified/) &&
+      !($url =~ m/wiki\/Template/i)) {
     # figure out name
     my $name = "";
     if ($url =~ m#/wiki/(.*)#) {
