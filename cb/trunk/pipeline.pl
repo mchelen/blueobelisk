@@ -14,6 +14,7 @@ system("perl update_posts.pl"); # put new posts into the database
 system("perl update_feeds.pl"); # update feed names, descriptions etc.
 system("perl get_links.pl"); # get all URLs from posts
 system("perl get_inchis.pl"); # get all InChIs from posts
+system("perl parse_wp_links.pl");
 system("perl get_cids.pl"); # get CIDs from PubChem for the InChI's
 system("perl get_cid_images.pl"); # get images for the CIDs
 system("perl get_cid_cml.pl");
