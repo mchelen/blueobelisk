@@ -23,4 +23,4 @@ Ameliorer la structure de la linolein (elle n'a pas pu passer MOPAC/PM3)
 
 Add doc to python modules
 
-change CML namespace http://cmlexplained.blogspot.com/2007/06/there-can-be-only-one-namespace.html
+Fix build tools according to new identifiers syntax

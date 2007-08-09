@@ -1,39 +1,35 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <molecule xmlns="http://www.xml-cml.org/schema" id="CS_ethene">
- <formula concise=" C 2 H 4 "/>
- <identifier version="InChI/1">
-  <basic>1/C2H4/c1-2/h1-2H2</basic>
- </identifier>
- <name convention="IUPAC">Ethene</name>
- <atomArray>
-  <atom id="a1" elementType="H" x3="1.161030" y3="0.066068" z3="1.023885"/>
-  <atom id="a2" elementType="C" x3="0.657896" y3="-0.004459" z3="0.063979"/>
-  <atom id="a3" elementType="H" x3="1.335190" y3="-0.083013" z3="-0.781426"/>
-  <atom id="a4" elementType="C" x3="-0.657835" y3="0.004458" z3="-0.063847"/>
-  <atom id="a5" elementType="H" x3="-1.335485" y3="0.083007" z3="0.781272"/>
-  <atom id="a6" elementType="H" x3="-1.160796" y3="-0.066061" z3="-1.023863"/>
- </atomArray>
- <bondArray>
-  <bond atomRefs2="a1 a2" order="1"/>
-  <bond atomRefs2="a2 a3" order="1"/>
-  <bond atomRefs2="a2 a4" order="2"/>
-  <bond atomRefs2="a4 a5" order="1"/>
-  <bond atomRefs2="a4 a6" order="1"/>
- </bondArray>
- <list>
+  <formula concise=" C 2 H 4 "/>
+  <identifier convention="iupac:inchi" value="1/C2H4/c1-2/h1-2H2"/>
+  <name convention="IUPAC">Ethene</name>
+  <atomArray>
+    <atom id="a1" elementType="H" x3="1.161030" y3="0.066068" z3="1.023885"/>
+    <atom id="a2" elementType="C" x3="0.657896" y3="-0.004459" z3="0.063979"/>
+    <atom id="a3" elementType="H" x3="1.335190" y3="-0.083013" z3="-0.781426"/>
+    <atom id="a4" elementType="C" x3="-0.657835" y3="0.004458" z3="-0.063847"/>
+    <atom id="a5" elementType="H" x3="-1.335485" y3="0.083007" z3="0.781272"/>
+    <atom id="a6" elementType="H" x3="-1.160796" y3="-0.066061" z3="-1.023863"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="1"/>
+    <bond atomRefs2="a2 a4" order="2"/>
+    <bond atomRefs2="a4 a5" order="1"/>
+    <bond atomRefs2="a4 a6" order="1"/>
+  </bondArray>
   <propertyList>
-   <property dictRef="cml:molwt" title="molecular weight">
-    <scalar dataType="xsd:decimal" dictRef="cml:molwt" units="unit:g">28.0532</scalar>
-   </property>
-   <property dictRef="chemwt:exact_molwt" title="exact molecular weight">
-    <scalar dataType="xsd:decimal" dictRef="chemwt:exact_molwt" units="unit:g">28.0313001</scalar>
-   </property>
-   <property dictRef="cml:mpt" title="melting point">
-    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:mpt" units="unit:celsius">-169</scalar>
-   </property>
-   <property dictRef="cml:bpt" title="boiling point">
-    <scalar dataType="xsd:decimal" errorValue="1.0" dictRef="cml:bpt" units="unit:celsius">-104</scalar>
-   </property>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="unit:g">28.0532</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="unit:g">28.0313001</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="unit:celsius">-169</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="unit:celsius">-104</scalar>
+    </property>
   </propertyList>
- </list>
 </molecule>

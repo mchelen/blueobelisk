@@ -1,3 +1,22 @@
+2007-08-08 10:58:37 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Update each file to UTF-8 (<?xml version="1.0" encoding="UTF-8"?> and
+  recode ISO-8859-1..UTF-8)
+
+2007-08-06 14:20:21 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Update all files with new name for exact mass (monoisotopic mass)
+
+* Chage bpt and mpt to bp and mp
+
+* Uppercase for the first letter of the first word in each property title
+
+* Update indentation
+
+* Change xsd:decimal to xsd:double
+
+* Fix InChi identifiers
+
 2007-07-18 18:30:15 Jerome Pansanel <j.pansanel@pansanel.net>
 
 * Fix cml namespace for the 524 structures
