@@ -23,7 +23,7 @@ while (my $row = $sql->fetchrow_hashref()) {
   my $hasCIDSQL = $db->prepare("SELECT inchi FROM compounds WHERE inchi='$inchi'");
   $hasCIDSQL->execute();
   if ($hasCIDSQL->fetchrow_hashref()) {
-    print "Already got CID for $inchi\n";
+    # print "Already got CID for $inchi\n";
   } else {
     print "Need to fetch CID for $inchi\n";
     my $url =  "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?CMD=search&DB=pccompound&term=\%22$inchi\%22[InChI]";
