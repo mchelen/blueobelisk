@@ -24,7 +24,7 @@ my $sql = $db->prepare("SELECT cid FROM compounds WHERE cid != ''");
 $sql->execute();
 while (my $row = $sql->fetchrow_hashref()) {
   my $cid = $row->{"cid"};
-  if (!(-e "$imageDir".$cid.".png")) {
+  if (($cid != -1) && !(-e "$imageDir".$cid.".png")) {
     print "Need to grab an image for CID $cid\n";
     my $imageUrl = "http://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=$cid";
     `wget -q -O $cid.png "$imageUrl"`;
@@ -32,7 +32,7 @@ while (my $row = $sql->fetchrow_hashref()) {
     `mv $cid.out.png $cid.png`;
     `mv $cid.png $imageDir$cid.png`;
   } else {
-    print "Already got image for CID $cid\n";
+    # print "Already got image for CID $cid\n";
   }
 }
 
