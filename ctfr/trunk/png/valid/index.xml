@@ -1,0 +1,12 @@
+<dir name="png/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <file name="rosiglitazone.png" valid="yes">
+     <mimetype property="dc:format">image/png</mimetype>
+     <program property="dc:source">Firefly</program>
+     <copyright>
+       <owner property="dc:creator">Rich Apodaca</owner>
+       <license property="dc:rights">Unknown</license>
+     </copyright>
+  </file>
+
+</dir>
