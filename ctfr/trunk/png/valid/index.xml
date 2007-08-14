@@ -9,4 +9,13 @@
      </copyright>
   </file>
 
+  <file name="caffeine.png" valid="yes">
+     <mimetype property="dc:format">image/png</mimetype>
+     <program property="dc:source">GChemPaint</program>
+     <copyright>
+       <owner property="dc:creator">Jean Bréfort</owner>
+       <license property="dc:rights">Public Domain</license>
+     </copyright>
+  </file>
+
 </dir>
