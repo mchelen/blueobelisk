@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_tris_4-aminophenyl_methanol">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_tris_4-aminophenyl_methanol">
   <formula concise=" C 19 H 19 N 3 O 1 "/>
   <identifier convention="iupac:inchi" value="1/C19H19N3O/c20-16-7-1-13(2-8-16)19(23,14-3-9-17(21)10-4-14)15-5-11-18(22)12-6-15/h1-12,23H,20-22H2"/>
   <name convention="IUPAC">Tris(4-aminophenyl)methanol</name>

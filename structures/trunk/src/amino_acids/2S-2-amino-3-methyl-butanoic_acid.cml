@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2S-2-amino-3-methyl-butanoic_acid">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_2S-2-amino-3-methyl-butanoic_acid">
   <formula concise=" C 5 H 11 N 1 O 2 "/>
   <identifier convention="iupac:inchi" value="1/C5H11NO2/c1-3(2)4(6)5(7)8/h3-4H,6H2,1-2H3,(H,7,8)/t4-/m0/s1"/>
   <name convention="IUPAC">(2S)-2-Amino-3-methyl-butanoic acid</name>

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1_4-diazabicyclo_2_2_2_octane">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1_4-diazabicyclo_2_2_2_octane">
   <formula concise=" C 6 H 12 N 2 "/>
   <identifier convention="iupac:inchi" value="1/C6H12N2/c1-2-8-5-3-7(1)4-6-8/h1-6H2"/>
   <name convention="IUPAC">1,4-Diazabicyclo[2.2.2]octane</name>

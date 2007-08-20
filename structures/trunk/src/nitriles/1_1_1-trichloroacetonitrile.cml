@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1_1_1-trichloroacetonitrile">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1_1_1-trichloroacetonitrile">
   <formula concise=" C 2 N 1 Cl 3 "/>
   <identifier convention="iupac:inchi" value="1/C2Cl3N/c3-2(4,5)1-6"/>
   <name convention="IUPAC">1,1,1-Trichloroacetonitrile</name>

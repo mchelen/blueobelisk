@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_acepromazine">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_acepromazine">
   <formula concise=" C 19 H 22 N 2 O 1 S 1 "/>
   <identifier convention="iupac:inchi" value="1/C19H22N2OS/c1-14(22)15-9-10-19-17(13-15)21(12-6-11-20(2)3)16-7-4-5-8-18(16)23-19/h4-5,7-10,13H,6,11-12H2,1-3H3"/>
   <name convention="IUPAC">1-[10-(3-Dimethylaminopropyl)phenothiazin-2-yl]ethanone</name>

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1H-indene">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1H-indene">
   <formula concise=" C 9 H 8 "/>
   <identifier convention="iupac:inchi" value="1/C9H8/c1-2-5-9-7-3-6-8(9)4-1/h1-6H,7H2"/>
   <name convention="IUPAC">1H-Indene</name>

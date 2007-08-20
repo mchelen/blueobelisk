@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_9H-xanthene">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_9H-xanthene">
   <formula concise=" C 13 H 10 O 1 "/>
   <identifier convention="iupac:inchi" value="1/C13H10O/c1-3-7-12-10(5-1)9-11-6-2-4-8-13(11)14-12/h1-8H,9H2"/>
   <name convention="IUPAC">9H-Xanthene</name>

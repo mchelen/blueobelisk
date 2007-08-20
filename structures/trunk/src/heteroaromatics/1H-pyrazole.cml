@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1H-pyrazole">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1H-pyrazole">
   <formula concise=" C 3 H 4 N 2 "/>
   <identifier convention="iupac:inchi" value="1/C3H4N2/c1-2-4-5-3-1/h1-3H,(H,4,5)"/>
   <name convention="IUPAC">1H-Pyrazole</name>

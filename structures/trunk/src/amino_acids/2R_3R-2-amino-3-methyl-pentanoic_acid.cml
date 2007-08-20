@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2R_3R-2-amino-3-methyl-pentanoic_acid">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_2R_3R-2-amino-3-methyl-pentanoic_acid">
   <formula concise=" C 6 H 13 N 1 O 2 "/>
   <identifier convention="iupac:inchi" value="1/C6H13NO2/c1-3-4(2)5(7)6(8)9/h4-5H,3,7H2,1-2H3,(H,8,9)/t4-,5-/m1/s1"/>
   <name convention="IUPAC">(2R,3R)-2-Amino-3-methyl-pentanoic acid</name>

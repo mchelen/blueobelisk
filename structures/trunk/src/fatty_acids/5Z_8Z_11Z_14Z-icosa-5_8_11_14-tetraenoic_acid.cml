@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_5Z_8Z_11Z_14Z-icosa-5_8_11_14-tetraenoic_acid">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_5Z_8Z_11Z_14Z-icosa-5_8_11_14-tetraenoic_acid">
   <formula concise=" C 20 H 32 O 2 "/>
   <identifier convention="iupac:inchi" value="1/C20H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(21)22/h6-7,9-10,12-13,15-16H,2-5,8,11,14,17-19H2,1H3,(H,21,22)/b7-6-,10-9-,13-12-,16-15-"/>
   <name convention="IUPAC">(5Z,8Z,11Z,14Z)-Icosa-5,8,11,14-tetraenoic acid</name>

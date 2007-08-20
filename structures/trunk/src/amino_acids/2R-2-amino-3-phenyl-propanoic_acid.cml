@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2R-2-amino-3-phenyl-propanoic_acid">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_2R-2-amino-3-phenyl-propanoic_acid">
   <formula concise=" C 9 H 11 N 1 O 2 "/>
   <identifier convention="iupac:inchi" value="1/C9H11NO2/c10-8(9(11)12)6-7-4-2-1-3-5-7/h1-5,8H,6,10H2,(H,11,12)/t8-/m1/s1"/>
   <name convention="IUPAC">(2R)-2-Amino-3-phenyl-propanoic acid</name>

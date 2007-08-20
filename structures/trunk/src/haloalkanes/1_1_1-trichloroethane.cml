@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1_1_1-trichloroethane">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1_1_1-trichloroethane">
   <formula concise=" C 2 H 3 Cl 3 "/>
   <identifier convention="iupac:inchi" value="1/C2H3Cl3/c1-2(3,4)5/h1H3"/>
   <name convention="IUPAC">1,1,1-Trichloroethane</name>

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_tris_4-cyanophenyl_methane">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_tris_4-cyanophenyl_methane">
   <formula concise=" C 22 H 13 N 3 "/>
   <identifier convention="iupac:inchi" value="1/C22H13N3/c23-13-16-1-7-19(8-2-16)22(20-9-3-17(14-24)4-10-20)21-11-5-18(15-25)6-12-21/h1-12,22H"/>
   <name convention="IUPAC">Tris(4-cyanophenyl)methane</name>

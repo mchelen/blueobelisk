@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_5-chloro-2-2_4-dichlorophenoxy_phenol">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_5-chloro-2-2_4-dichlorophenoxy_phenol">
   <formula concise=" C 12 H 7 O 2 Cl 3 "/>
   <identifier convention="iupac:inchi" value="1/C12H7Cl3O2/c13-7-1-3-11(9(15)5-7)17-12-4-2-8(14)6-10(12)16/h1-6,16H"/>
   <name convention="IUPAC">5-Chloro-2-(2,4-dichlorophenoxy)phenol</name>

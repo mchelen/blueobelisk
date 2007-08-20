@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_9Z_12Z_15Z-octadeca-9_12_15-trienoic_acid">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_9Z_12Z_15Z-octadeca-9_12_15-trienoic_acid">
   <formula concise=" C 18 H 30 O 2 "/>
   <identifier convention="iupac:inchi" value="1/C18H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h3-4,6-7,9-10H,2,5,8,11-17H2,1H3,(H,19,20)/b4-3-,7-6-,10-9-"/>
   <name convention="IUPAC">(9Z,12Z,15Z)-Octadeca-9,12,15-trienoic acid</name>

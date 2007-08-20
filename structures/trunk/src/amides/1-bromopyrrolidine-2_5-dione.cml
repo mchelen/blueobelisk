@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1-bromopyrrolidine-2_5-dione">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1-bromopyrrolidine-2_5-dione">
   <formula concise=" C 4 H 4 N 1 O 2 Br 1 "/>
   <identifier convention="iupac:inchi" value="1/C4H4BrNO2/c5-6-3(7)1-2-4(6)8/h1-2H2"/>
   <name convention="IUPAC">1-Bromopyrrolidine-2,5-dione</name>

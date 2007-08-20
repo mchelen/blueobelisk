@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_octan-1-ol">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_octan-1-ol">
   <formula concise=" C 8 H 18 O 1 "/>
   <identifier convention="iupac:inchi" value="1/C8H18O/c1-2-3-4-5-6-7-8-9/h9H,2-8H2,1H3"/>
   <name convention="IUPAC">Octan-1-ol</name>

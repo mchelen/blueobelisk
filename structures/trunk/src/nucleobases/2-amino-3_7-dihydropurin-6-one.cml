@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2-amino-3_7-dihydropurin-6-one">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_2-amino-3_7-dihydropurin-6-one">
   <formula concise=" C 5 H 5 N 5 O 1 "/>
   <identifier convention="iupac:inchi" value="1/C5H5N5O/c6-5-9-3-2(4(11)10-5)7-1-8-3/h1H,(H4,6,7,8,9,10,11)"/>
   <name convention="IUPAC">2-Amino-3,7-dihydropurin-6-one</name>

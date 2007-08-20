@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_7_9-dihydro-3H-purine-2_6_8-trione">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_7_9-dihydro-3H-purine-2_6_8-trione">
   <formula concise=" C 5 H 4 N 4 O 3 "/>
   <identifier convention="iupac:inchi" value="1/C5H4N4O3/c10-3-1-2(7-4(11)6-1)8-5(12)9-3/h(H4,6,7,8,9,10,11,12)"/>
   <name convention="IUPAC">7,9-Dihydro-3H-purine-2,6,8-trione</name>

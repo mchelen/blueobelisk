@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1_1_1_2_2_2-hexafluoroethane">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1_1_1_2_2_2-hexafluoroethane">
   <formula concise=" C 2 F 6 "/>
   <identifier convention="iupac:inchi" value="1/C2F6/c3-1(4,5)2(6,7)8"/>
   <name convention="IUPAC">1,1,1,2,2,2-Hexafluoroethane</name>

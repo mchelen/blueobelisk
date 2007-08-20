@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2-phenylethanol">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_2-phenylethanol">
   <formula concise=" C 8 H 10 O 1 "/>
   <identifier convention="iupac:inchi" value="1/C8H10O/c9-7-6-8-4-2-1-3-5-8/h1-5,9H,6-7H2"/>
   <name convention="IUPAC">2-Phenylethanol</name>

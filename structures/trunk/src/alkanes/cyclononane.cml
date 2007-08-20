@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_cyclononane">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_cyclononane">
   <formula concise=" C 9 H 18 "/>
   <identifier convention="iupac:inchi" value="1/C9H18/c1-2-4-6-8-9-7-5-3-1/h1-9H2"/>
   <name convention="IUPAC">Cyclononane</name>

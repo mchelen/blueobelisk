@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_2S-pyrrolidine-2-carboxylic_acid">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_2S-pyrrolidine-2-carboxylic_acid">
   <formula concise=" C 5 H 9 N 1 O 2 "/>
   <identifier convention="iupac:inchi" value="1/C5H9NO2/c7-5(8)4-2-1-3-6-4/h4,6H,1-3H2,(H,7,8)/t4-/m0/s1"/>
   <name convention="IUPAC">(2S)-Pyrrolidine-2-carboxylic acid</name>

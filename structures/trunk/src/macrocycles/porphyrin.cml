@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_porphyrin">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_porphyrin">
   <formula concise=" C 20 H 14 N 4 "/>
   <identifier convention="iupac:inchi" value="1/C20H14N4/c1-2-14-10-16-5-6-18(23-16)12-20-8-7-19(24-20)11-17-4-3-15(22-17)9-13(1)21-14/h1-12,21,24H/b13-9-,14-10-,15-9-,16-10-,17-11-,18-12-,19-11-,20-12-"/>
   <name convention="IUPAC">Porphyrin</name>

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1S_2R-1_2-diphenylethane-1_2-diol">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1S_2R-1_2-diphenylethane-1_2-diol">
   <formula concise=" C 14 H 14 O 2 "/>
   <identifier convention="iupac:inchi" value="1/C14H14O2/c15-13(11-7-3-1-4-8-11)14(16)12-9-5-2-6-10-12/h1-10,13-16H/t13-,14+"/>
   <name convention="IUPAC">(1S,2R)-1,2-Diphenylethane-1,2-diol</name>

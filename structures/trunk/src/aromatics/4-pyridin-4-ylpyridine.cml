@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_4-pyridin-4-ylpyridine">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_4-pyridin-4-ylpyridine">
   <formula concise=" C 10 H 8 N 2 "/>
   <identifier convention="iupac:inchi" value="1/C10H8N2/c1-5-11-6-2-9(1)10-3-7-12-8-4-10/h1-8H"/>
   <name convention="IUPAC">4-Pyridin-4-ylpyridine</name>

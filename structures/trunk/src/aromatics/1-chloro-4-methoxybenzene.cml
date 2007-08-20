@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<molecule xmlns="http://www.xml-cml.org/schema" id="CS_1-chloro-4-methoxybenzene">
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1-chloro-4-methoxybenzene">
   <formula concise=" C 7 H 7 O 1 Cl 1 "/>
   <identifier convention="iupac:inchi" value="1/C7H7ClO/c1-9-7-4-2-6(8)3-5-7/h2-5H,1H3"/>
   <name convention="IUPAC">1-Chloro-4-methoxybenzene</name>
