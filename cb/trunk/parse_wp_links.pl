@@ -20,10 +20,19 @@ my $db = DBI->connect($connection_string, $config{"db_user"}, $config{"db_passwo
 # do a brute force update of the link page titles, using the cache?
 my $shoehorn = 0;
 
+my $offline = 0;
+foreach my $arg (@ARGV) {
+  $offline = 1 if ($arg eq "--offline");
+}
+
 # get existing names
 my %titles;
-my $sql = $db->prepare("SELECT links.url, posts.post_id, posts.blog_id FROM links, posts WHERE posts.post_id = links.post_id AND id_inchi_hash IS NULL AND active = 1");
-#my $sql = $db->prepare("SELECT url, post_id, blog_id FROM links WHERE id_inchi_hash IS NULL");
+my $sql;
+if ($offline) {
+  $sql = $db->prepare("SELECT url, post_id, blog_id FROM links WHERE id_inchi_hash IS NULL");
+} else {
+  $sql = $db->prepare("SELECT links.url, posts.post_id, posts.blog_id FROM links, posts WHERE posts.post_id = links.post_id AND id_inchi_hash IS NULL AND active = 1");
+}
 $sql->execute();
 while (my $row = $sql->fetchrow_hashref()) {
   my $url = $row->{"url"};
@@ -44,6 +53,10 @@ while (my $row = $sql->fetchrow_hashref()) {
     my $inchi = "";
     my $cid = "";
     #if ($url =~ m/caffeine/i) {
+      # remove URL # part
+      if ($url =~ m/(.*)#.*/) {
+        $url = $1;
+      }
       print "WP URL: $url\n";
       `wget -q -O wp.html "$url"`;
       my @content = `cat wp.html`;
