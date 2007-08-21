@@ -1,0 +1,12 @@
+<dir name="mdl-sdfile/v2000/valid" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <file name="ligs3d.sdf" valid="yes">
+    <mimetype property="dc:format">chemical/x-mdl-sdfile</mimetype>
+    <program property="dc:source">PyMOL(ChemPy)</program>
+    <copyright>
+      <owner property="dc:creator">DeLano</owner>
+      <license property="dc:rights">Python license</license>
+    </copyright>
+  </file>
+  
+</dir>
