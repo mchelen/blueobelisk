@@ -40,7 +40,7 @@
     </property>
     <property dictRef="cml:mp" title="Melting point">
     <!-- decomposition -->
-      <scalar dataType="xsd:double" errorValue="1.O" dictRef="cml:mp" units="unit:celsius">240</scalar>
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="unit:celsius">240</scalar>
     </property>
   </propertyList>
 </molecule>
