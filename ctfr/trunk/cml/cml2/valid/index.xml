@@ -9,7 +9,7 @@
      </copyright>
   </file>
 
-  <file name="linolein.cml" valid="yes">
+  <file name="oxidane.cml" valid="yes">
      <mimetype property="dc:format">chemical/x-cml</mimetype>
      <program property="dc:source">BO Chemical Structures 2.0.1 scripts with OpenBabel2</program>
      <copyright>
@@ -18,9 +18,9 @@
      </copyright>
   </file>
 
-  <file name="oxidane.cml" valid="yes">
+  <file name="oxolane.cml" valid="yes">
      <mimetype property="dc:format">chemical/x-cml</mimetype>
-     <program property="dc:source">BO Chemical Structures 2.0.1 scripts with OpenBabel2</program>
+     <program property="dc:source">BO Chemical Structures 2.0.1, updated version of a valid CML file</program>
      <copyright>
        <owner property="dc:creator">jpansanel</owner>
        <license property="dc:rights">BSD</license>
