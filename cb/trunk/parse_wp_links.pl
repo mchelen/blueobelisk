@@ -57,7 +57,7 @@ while (my $row = $sql->fetchrow_hashref()) {
       if ($url =~ m/(.*)#.*/) {
         $url = $1;
       }
-      print "WP URL: $url\n";
+      print "WP URL: $url";
       `wget -q -O wp.html "$url"`;
       my @content = `cat wp.html`;
       my $readingInChI = 0;
@@ -120,7 +120,7 @@ while (my $row = $sql->fetchrow_hashref()) {
     }
 
     if ($likelyChemical) {
-      print "Chemical?: $url -> ";
+      print " -> Chemical?: $url -> ";
       if ($inchi) {
         print "$inchi";
         if (!$cid) {
@@ -136,7 +136,6 @@ while (my $row = $sql->fetchrow_hashref()) {
       } else {
         print "but no InChI/CID";
       }
-      print "\n";
       if ($inchi) {
         my $id_inchi_hash = md5_hex($post_id.$inchi);
 
@@ -165,6 +164,7 @@ while (my $row = $sql->fetchrow_hashref()) {
         }
       }
     }
+    print "\n";
   }
 }
 
