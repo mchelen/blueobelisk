@@ -98,13 +98,13 @@
   </bondArray>
   <propertyList>
     <property dictRef="cml:molwt" title="Molecular weight">
-      <scalar dataType="xsd:double" dictRef="cml:molwt" units="unit:g">264.3154</scalar>
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">264.3154</scalar>
     </property>
     <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
-      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="unit:g">264.1572885</scalar>
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">264.1572885</scalar>
     </property>
     <property dictRef="cml:mp" title="Melting point">
-      <scalar dataType="xsd:double" errorValue="2.0" dictRef="cml:mp" units="unit:celsius">38</scalar>
+      <scalar dataType="xsd:double" errorValue="2.0" dictRef="cml:mp" units="units:celsius">38</scalar>
     </property>
   </propertyList>
 </molecule>

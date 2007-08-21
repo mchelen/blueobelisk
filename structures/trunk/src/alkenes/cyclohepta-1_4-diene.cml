@@ -48,10 +48,10 @@
   </bondArray>
   <propertyList>
     <property dictRef="cml:molwt" title="Molecular weight">
-      <scalar dataType="xsd:double" dictRef="cml:molwt" units="unit:g">94.1543</scalar>
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">94.1543</scalar>
     </property>
     <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
-      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="unit:g">94.0782503</scalar>
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">94.0782503</scalar>
     </property>
   </propertyList>
 </molecule>
