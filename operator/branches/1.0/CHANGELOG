@@ -1,0 +1,7 @@
+version 1.0 (2007-07-16)
+------------------------
+- first release
+- for Operator 0.8 beta 2
+- support for RDFa
+- support for SMILES and InChI
+- links to eMolecules, Google, PubChem, ChemSpider
