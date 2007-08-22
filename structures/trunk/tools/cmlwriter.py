@@ -78,21 +78,21 @@ class CMLWriter:
     xhtmlout.addBody('                    <li>' + self.l10n.translate('IUPAC name: ', lang) + self.cml.name + '</li>')
     xhtmlout.addBody('                    <li>' + self.l10n.translate('Formula: ', lang) + self.parseFormula(self.cml.formula) + '</li>')
     xhtmlout.addBody('                    <li>' + self.l10n.translate('Molecular weight: ', lang) + self.cml.weight + ' g/mol</li>')
-    xhtmlout.addBody('                    <li>' + self.l10n.translate('Exact weight: ', lang) + self.cml.exact_weight + ' g/mol</li>')
-    if self.cml.mptSet:
-      if self.cml.mpt.count(">"):
-        mpt = self.cml.mpt.replace(">","").strip()
-        mptK = str(int(mpt) + 273)
+    xhtmlout.addBody('                    <li>' + self.l10n.translate('Monoisotopic Weight: ', lang) + self.cml.monoisotopic_weight + ' g/mol</li>')
+    if self.cml.mpSet:
+      if self.cml.mp.count(">"):
+        mp = self.cml.mp.replace(">","").strip()
+        mpK = str(int(mp) + 273)
       else:
-        mptK = str(int(self.cml.mpt) + 273)
-      xhtmlout.addBody('                    <li>' + self.l10n.translate('Melting point: ', lang) + self.cml.mpt + ' &deg;C ('+ mptK + ' K)</li>')
-    if self.cml.bptSet:
-      if self.cml.bpt.count(">"):
-        bpt = self.cml.bpt.replace(">","").strip()
-        bptK = str(int(bpt) + 273)
+        mpK = str(int(self.cml.mp) + 273)
+      xhtmlout.addBody('                    <li>' + self.l10n.translate('Melting point: ', lang) + self.cml.mp + ' &deg;C ('+ mpK + ' K)</li>')
+    if self.cml.bpSet:
+      if self.cml.bp.count(">"):
+        bp = self.cml.bp.replace(">","").strip()
+        bpK = str(int(bp) + 273)
       else:
-        bptK = str(int(self.cml.bpt) + 273)
-      xhtmlout.addBody('                    <li>' + self.l10n.translate('Boiling point: ', lang) + self.cml.bpt  + ' &deg;C (' + bptK + ' K)</li>')
+        bpK = str(int(self.cml.bp) + 273)
+      xhtmlout.addBody('                    <li>' + self.l10n.translate('Boiling point: ', lang) + self.cml.bp  + ' &deg;C (' + bpK + ' K)</li>')
     if entry_details.synDict.has_key('en') or entry_details.synDict.has_key(lang):
       xhtmlout.addBody('                    <li>' + self.l10n.translate('Synonyms:', lang) )
       xhtmlout.addBody('                      <ul>')

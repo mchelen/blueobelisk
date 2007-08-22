@@ -4,23 +4,20 @@ class CMLHandler(xml.sax.handler.ContentHandler):
   def __init__(self):
     self.id = "" 
     self.formula = ""
-    self.inIdentifier = False
     self.inchi = "InChI="
     self.smiles = ""
-    self.inInChI = False
-    self.inBasic = False
     self.name = ""
     self.inName = False
     self.weight = ""
     self.inWeight = False
-    self.exact_weight = ""
-    self.inExactWeight = False
-    self.mpt = ""
-    self.mptSet = False
-    self.inMpt = False
-    self.bpt = "" 
-    self.inBpt = False
-    self.bptSet = False
+    self.monoisotopic_weight = ""
+    self.inMonoisotopicWeight = False
+    self.mp = ""
+    self.mpSet = False
+    self.inMp = False
+    self.bp = "" 
+    self.inBp = False
+    self.bpSet = False
 
   def startElement(self, name, attributes):
     if name == "molecule":
@@ -31,11 +28,8 @@ class CMLHandler(xml.sax.handler.ContentHandler):
 
     if name == "identifier":
       self.inIdentifier = True
-      if attributes.has_key("version") and attributes["version"] == "InChI/1":
-        self.inInChI = True
-
-    if name == "basic":
-      self.inBasic = True
+      if attributes["convention"] == "iupac:inchi":
+        self.inchi += attributes["value"]
 
     if name == "name":
       self.inName = True
@@ -43,12 +37,12 @@ class CMLHandler(xml.sax.handler.ContentHandler):
     if name == "scalar":
       if attributes["dictRef"] == "cml:molwt":
         self.inWeight = True
-      if attributes["dictRef"] == "chemwt:exact_molwt":
-        self.inExactWeight = True
-      if attributes["dictRef"] == "cml:mpt":
-        self.inMpt = True
-      elif attributes["dictRef"] == "cml:bpt":
-        self.inBpt = True
+      if attributes["dictRef"] == "cml:monoisotopicwt":
+        self.inMonoisotopicWeight = True
+      if attributes["dictRef"] == "cml:mp":
+        self.inMp = True
+      elif attributes["dictRef"] == "cml:bp":
+        self.inBp = True
 
   def characters(self, data):
     if self.inName:
@@ -57,41 +51,27 @@ class CMLHandler(xml.sax.handler.ContentHandler):
     if self.inWeight:
       self.weight += data
 
-    if self.inExactWeight:
-      self.exact_weight += data
+    if self.inMonoisotopicWeight:
+      self.monoisotopic_weight += data
 
-    if self.inMpt:
-      self.mpt += data
+    if self.inMp:
+      self.mp += data
 
-    if self.inBpt:
-      self.bpt += data
-
-    if self.inBasic and self.inInChI:
-      self.inchi += data
+    if self.inBp:
+      self.bp += data
 
   def endElement(self,name):
-    if name == "identifier":
-      self.Idenfitier = False
-
-    if name == "basic":
-      self.inBasic = False
-      if self.inInChI:
-        self.inInChI = False
-
     if name == "name":
       self.inName = False
-
-    if name == "inchi":
-      self.inInChI = False
 
     if name == "scalar":
       if self.inWeight:
         self.inWeight = False
-      elif self.inExactWeight:
-        self.inExactWeight = False
-      elif self.inMpt:
-        self.inMpt = False
-        self.mptSet = True
-      elif self.inBpt:
-        self.inBpt = False
-        self.bptSet = True
+      elif self.inMonoisotopicWeight:
+        self.inMonoisotopicWeight = False
+      elif self.inMp:
+        self.inMp = False
+        self.mpSet = True
+      elif self.inBp:
+        self.inBp = False
+        self.bpSet = True
