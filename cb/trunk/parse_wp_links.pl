@@ -29,18 +29,20 @@ foreach my $arg (@ARGV) {
 my %titles;
 my $sql;
 if ($offline) {
-  $sql = $db->prepare("SELECT url, post_id, blog_id FROM links WHERE id_inchi_hash IS NULL");
+  $sql = $db->prepare("SELECT links.url, posts.post_id, posts.blog_id FROM links, posts WHERE posts.post_id = links.post_id AND id_inchi_hash IS NULL");
 } else {
   $sql = $db->prepare("SELECT links.url, posts.post_id, posts.blog_id FROM links, posts WHERE posts.post_id = links.post_id AND id_inchi_hash IS NULL AND active = 1");
 }
 $sql->execute();
+my $box;
 while (my $row = $sql->fetchrow_hashref()) {
   my $url = $row->{"url"};
   my $post_id = $row->{"post_id"};
   my $blog_id = $row->{"blog_id"};
   if ($url =~ m/wikipedia.org\/wiki/ && !($url =~ m/google.com/) &&
       !($url =~ m/wiki\/InChI/i) && !($url =~ m/wiki\/Simplified/) &&
-      !($url =~ m/wiki\/Template/i)) {
+      !($url =~ m/wiki\/Template/i) && !($url =~ m/wiki\/PubChem/) &&
+      !($url =~ m/wiki\/SMILES/i)) {
     # figure out name
     my $name = "";
     if ($url =~ m#/wiki/(.*)#) {
@@ -52,14 +54,16 @@ while (my $row = $sql->fetchrow_hashref()) {
     my $likelyChemical = 0;
     my $inchi = "";
     my $cid = "";
-    #if ($url =~ m/caffeine/i) {
+    next if (!($url =~ m/Pyrene/i));
+
+    print "WP URL: $url";
       # remove URL # part
       if ($url =~ m/(.*)#.*/) {
         $url = $1;
       }
-      print "WP URL: $url";
       `wget -q -O wp.html "$url"`;
       my @content = `cat wp.html`;
+      $box = "";
       my $readingInChI = 0;
       foreach my $line (@content) {
         if ($line =~ m#(InChI=1/[^\s]*)#) {
@@ -74,6 +78,9 @@ while (my $row = $sql->fetchrow_hashref()) {
         }
         if ($line =~ m#href="/wiki/Chemical_formula"#) {
           $likelyChemical = 1;
+        }
+        if ($line =~ m/id="drugInfoBox"/) {
+          $box = "DrugBox";
         }
         if ($readingInChI == 1) {
           #print "line: $line";
@@ -90,7 +97,6 @@ while (my $row = $sql->fetchrow_hashref()) {
           }
         }
       }
-    #} # closes m/Mauveine/ or likewise
     
     # do we know anything about this compound
     my $compoundKnown = 0;
@@ -145,13 +151,19 @@ while (my $row = $sql->fetchrow_hashref()) {
         print " adding inchi: $inchi\n";
 
         my $query = "UPDATE links SET id_inchi_hash = '$id_inchi_hash' WHERE url = '$url' AND blog_id = '$blog_id' AND post_id = '$post_id'";
-        #print "Q: $query\n";
-        my $insert = $db->prepare($query);         
-        $insert->execute();
+        if ($offline) {
+          print "Q: $query\n";
+        } else {
+          my $insert = $db->prepare($query);         
+          $insert->execute();
+        }
         $query = "INSERT INTO inchis (id_inchi_hash, blog_id, post_id, inchi, added_on) VALUES (?, ?, ?, ?,CURRENT_TIMESTAMP())";
-        #print "Q: $query\n";
-        $insert = $db->prepare($query);
-        $insert->execute($id_inchi_hash, $blog_id, $post_id, $inchi);
+        if ($offline) {
+          print "Q: $query\n";
+        } else {
+          my $insert = $db->prepare($query);
+          $insert->execute($id_inchi_hash, $blog_id, $post_id, $inchi);
+        }
 
         print "known: $compoundKnown\n";
         if ($compoundKnown != 0) {
@@ -159,8 +171,12 @@ while (my $row = $sql->fetchrow_hashref()) {
         } else {
           print "  Adding to compounds table...\n";
           $query = "INSERT INTO compounds (cid, inchi, name, added_on) VALUES (?, ?, ?, CURRENT_TIMESTAMP())";
-          my $insert = $db->prepare($query);
-          $insert->execute($cid, $inchi, $name);
+          if ($offline) {
+            print "  query: $query\n";
+          } else {
+            my $insert = $db->prepare($query);
+            $insert->execute($cid, $inchi, $name);
+          }
         }
       }
     }
