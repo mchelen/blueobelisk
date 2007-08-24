@@ -54,7 +54,7 @@ while (my $row = $sql->fetchrow_hashref()) {
     my $likelyChemical = 0;
     my $inchi = "";
     my $cid = "";
-    next if (!($url =~ m/Pyrene/i));
+    #next if (!($url =~ m/Pyrene/i));
 
     print "WP URL: $url";
       # remove URL # part
