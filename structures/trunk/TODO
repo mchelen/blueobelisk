@@ -7,15 +7,10 @@ Ajouter Norbornane
 Ajouter Serotonin
 Ajouter Benzodiazépine
 Ajouter Crotonaldehyde
+Add maleic derivatives
 
 Verifier la structure du steroid (stereochimie)
 Créer un index IUPAC et un index de InChI
-
-Améliorer check_mol.py :
-  -> verifie la syntaxe xml de chaque fichier
-  -> verifie que bp > mp
-  -> recalcule éventuellement certaines valeurs (masse, ...)
-  -> balise vide
 
 Ajouter un executable pour lancer automatiquement le navigateur avec l'info.
 
@@ -23,4 +18,4 @@ Ameliorer la structure de la linolein (elle n'a pas pu passer MOPAC/PM3)
 
 Add doc to python modules
 
-Fix build tools according to new identifiers syntax
+Check l10n for Monoisotopic weight

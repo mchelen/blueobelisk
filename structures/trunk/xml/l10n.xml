@@ -112,10 +112,10 @@
     <msg xml:lang='nl'>Moleculair gewicht:</msg>
   </msgset>
   <msgset>
-    <msgid>Exact weight: </msgid>
-    <msg>Exact weight: </msg>
-    <msg xml:lang='de'>Exakte Masse: </msg>
-    <msg xml:lang='fr'>Masse exacte : </msg>
+    <msgid>Monoisotopic weight: </msgid>
+    <msg>Monoisotopic weight: </msg>
+    <msg xml:lang='de'>Monoisotopisch Masse: </msg>
+    <msg xml:lang='fr'>Masse monoisotopique : </msg>
     <msg xml:lang='nl'>Exacte massa:</msg>
   </msgset>
   <msgset>
