@@ -10,7 +10,10 @@ use strict;
 
 system("perl get_feeds.pl"); # download feeds
 system("python parse_feed.py"); # extract posts from feeds, put into flatfiles
+# blogs <= 75 : dreamhost kills long processes, so split up
 system("perl update_posts.pl"); # put new posts into the database
+# blogs > 75
+system("perl update_posts_2.pl");
 system("perl update_feeds.pl"); # update feed names, descriptions etc.
 system("perl get_links.pl"); # get all URLs from posts
 system("perl get_inchis.pl"); # get all InChIs from posts
@@ -34,8 +37,8 @@ system("perl handle_acs.pl");
 system("perl handle_pubmed.pl");
 system("perl handle_biomed.pl");
 
-system("perl get_connotea_cache.pl"); # get cache of recent items from Connotea
-system("perl get_connotea_tags.pl"); # match tags and comments to items in our database
+#system("perl get_connotea_cache.pl"); # get cache of recent items from Connotea
+#system("perl get_connotea_tags.pl"); # match tags and comments to items in our database
 system("perl generate_summaries.pl"); # generate summary tables to speed up front-end
 system("perl get_bursts.pl"); # get wordbursts
 system("perl geolocate_terms.pl"); # geolocate terms associated with conference posts

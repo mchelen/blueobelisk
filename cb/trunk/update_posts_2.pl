@@ -36,7 +36,7 @@ my $deactivate = $db->prepare("UPDATE posts SET active=0");
 $deactivate->execute();
 
 # now read the posts we've got on disk from active feeds
-my $sql = $db->prepare("SELECT blog_id, title, feed_url FROM blogs WHERE active=1 AND blog_id < 76");
+my $sql = $db->prepare("SELECT blog_id, title, feed_url FROM blogs WHERE active=1 AND blog_id > 75");
 $sql->execute();
 while (my $row = $sql->fetchrow_hashref()) {
 	my $blog_id = $row->{"blog_id"};
