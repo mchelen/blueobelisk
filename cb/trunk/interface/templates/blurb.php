@@ -10,8 +10,12 @@
 <li>See the buzz surrounding <a href='%s'>different websites</a>
 <li>Browse different subject areas - <a href='%s'>chemoinformatics</a>, <a href='%s'>organic chemistry</a>, ... see the 'Explore' options on the top right hand side of the page for more.
 </ul>
-<p>Chemical blogspace is hosted by the <a href='http://almost.cubic.uni-koeln.de/jrg/'>Research Group for Molecular Informatics</a> at the CUBIC in Cologne,
-and powered by <a href='http://www.postgenomic.com/'>PostGenomic.com</a>.",
+<p>Chemical blogspace was created by the Research Group for Molecular
+Informatics at the CUBIC in Cologne, and powered by the 
+<a href='http://postgenomic.com/'>PostGenomic.com</a> software by 
+Euan Adie. It is now hosted by OpenMolecules.net, courtesy of 
+<a href='http://geoffhutchison.net/'>Geoff Hutchison</a> and the 
+<a href='http://www.chem.pitt.edu/'>University of Pittsburgh</a>.",
 linkto("blogs.php", $page_vars),
 linkto("papers.php", $page_vars, array("area" => "books")),
 linkto("papers.php", $page_vars),
