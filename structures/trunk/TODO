@@ -1,21 +1,22 @@
 Add Carbohydrates (monosaccharides and disaccharides)
 Add ATP
-Ajouter Statine
-Ajouter Nitrophenylalanine
-Ajouter Apiol
-Ajouter Norbornane
-Ajouter Serotonin
-Ajouter Benzodiazépine
-Ajouter Crotonaldehyde
-Add maleic derivatives
+Add Statine
+Add Nitrophenylalanine
+Add Apiol
+Add Norbornane
+Add Serotonin
+Add Benzodiazépine
+Add Crotonaldehyde et crotonic acid
 
-Verifier la structure du steroid (stereochimie)
-Créer un index IUPAC et un index de InChI
+Check steroid sterochemistry
 
-Ajouter un executable pour lancer automatiquement le navigateur avec l'info.
-
-Ameliorer la structure de la linolein (elle n'a pas pu passer MOPAC/PM3)
+Try to get a better minimisation of linolein.
 
 Add doc to python modules
 
 Check l10n for Monoisotopic weight
+
+Add RDF / RSS
+ http://chemicalblogspace.blogspot.com/search?q=RDF
+  http://chem-bla-ics.blogspot.com/search?q=RDF
+  http://chem-file.sourceforge.net/data/carboxylic_acids/index_en.html
