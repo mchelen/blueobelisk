@@ -1,0 +1,33 @@
+#!/usr/bin/perl
+#
+# Copyright (C) 2007 Egon Willighagen <egonw@users.sf.net>
+# Licensed: GPL v3
+#
+use diagnostics;
+use strict;
+
+my $foaf = $ARGV[0];
+my $wgetexec = "@WGET_EXECUTABLE@";
+my $mdsumexec = "@MD5SUM_EXECUTABLE@";
+my $strigicmd = "@STRIGICMD_EXECUTABLE@";
+
+my $cachedir = "cache";
+my $indexdir = "index";
+
+print "Downloading $foaf ...\n";
+
+my $mdsum = `echo "$foaf" | $mdsumexec - | cut -d' ' -f1`;
+$mdsum =~ s/[\n|\r|\s]//g;
+
+`mkdir -p $cachedir/$mdsum`;
+`$wgetexec -q -O $cachedir/$mdsum/me.xrdf $foaf`;
+
+if (!(-e "$indexdir")) {
+  # OK, first call of strigi cmd
+  print "Creating a new index...\n";
+  `$strigicmd create -t clucene -d $indexdir $cachedir`;
+} else {
+  # OK, there already exists an index, just need to update
+  print "Updating the existing index...\n";
+  `$strigicmd update -t clucene -d $indexdir $cachedir`;
+}

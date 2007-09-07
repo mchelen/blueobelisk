@@ -1,0 +1,2 @@
+
+INSTALL(PROGRAMS foafdigger DESTINATION bin)
