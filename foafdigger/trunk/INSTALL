@@ -9,9 +9,10 @@ INSTALL
 
 To install and use FOAFdigger you need:
 
-- Strigi
+- Strigi (>= 0.5.5)
 - md5sum
 - wget
+- Perl
 - cmake
 
 Install with:
@@ -19,3 +20,30 @@ Install with:
 $ cmake -DCMAKE_INSTALL_PREFIX=/usr/local ..
 $ make
 $ make install
+
+RUNNING FOAFdigger
+----------------------
+
+foafdigger [FOAF-URL]
+
+For example,
+
+foafdigger http://blueobelisk.sourceforge.net/people/egonw/foaf.xrdf
+
+This will create a cache/ directory in which the raw files are found,
+and in index/ directory with the Strigi index.
+
+MINING THE NETWORK
+----------------------
+
+Mining the index is done using strigicmd. For example, to find all files
+that mention me, run:
+
+strigicmd query -t clucene -d index Egon
+
+Or, to find all documents which contain information about a object with
+the title 'Bioclipse', run:
+
+strigicmd query -t clucene -d index content.title:Bioclipse
+
+The XESAM query language is supported by Strigi 0.5.6 or better.
