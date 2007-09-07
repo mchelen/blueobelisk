@@ -1,0 +1,21 @@
+
+FOAFdigger
+---------------------
+
+FOAFdigger is a utility to mine your FOAF network with Strigi.
+
+INSTALL
+---------------------
+
+To install and use FOAFdigger you need:
+
+- Strigi
+- md5sum
+- wget
+- cmake
+
+Install with:
+
+$ cmake -DCMAKE_INSTALL_PREFIX=/usr/local ..
+$ make
+$ make install
