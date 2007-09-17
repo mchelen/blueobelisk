@@ -1,4 +1,6 @@
-MESSAGE( STATUS "Generating fatty_acids Makefile")
+SET( CHEM_GROUP "fatty_acids" )
+
+MESSAGE( STATUS "Generating ${CHEM_GROUP} Makefile")
 
 #
 # Generic variables
@@ -20,35 +22,17 @@ FOREACH( lang ${AVAILABLE_LANG} )
 ENDFOREACH( lang )
 
 #
-# CML files handle
+# CML file handle
 #
 # Set the prefix list of the cml files
-SET( cml_prefix
-     4Z_7Z_10Z_13Z_16Z_19Z-docosa-4_7_10_13_16_19-hexaenoic_acid
-     5Z_8Z_11Z_14Z_17Z-icosa-5_8_11_14_17-pentaenoic_acid
-     5Z_8Z_11Z_14Z-icosa-5_8_11_14-tetraenoic_acid
-     6Z_9Z_12Z-octadeca-6_9_12-trienoic_acid
-     9Z_12Z_15Z-octadeca-9_12_15-trienoic_acid
-     9Z_12Z-octadeca-9_12-dienoic_acid
-     decanoic_acid
-     dodecanoic_acid
-     heptanoic_acid
-     hexadecanoic_acid
-     hexanoic_acid
-     octadecanoic_acid
-     octanoic_acid
-     pentanoic_acid
-     tetradecanoic_acid
-     Z-octadec-9-enoic_acid
-)
+FILE(GLOB cml_SRCS *.cml)
 # Generate the names of html cml files
-SET( cml_files "" )
-FOREACH( cml ${cml_prefix} )
-  SET( cml_files ${cml_files} "${cml}.cml" )
+FOREACH( cml_FILENAME ${cml_SRCS} )
+  GET_FILENAME_COMPONENT(cml_WE ${cml_FILENAME} NAME_WE)
   FOREACH( lang ${AVAILABLE_LANG} )
-      SET( xhtml_files ${xhtml_files} "${cml}_${lang}.html" )
+      SET( xhtml_files ${xhtml_files} "${cml_WE}_${lang}.html" )
   ENDFOREACH( lang )
-ENDFOREACH( cml )
+ENDFOREACH( cml_FILENAME )
 
 #
 # Custom file conversion
@@ -58,20 +42,21 @@ IF(OPENBABEL2_EXECUTABLE_FOUND)
   SET( mol_files "" )
   SET( smi_files "" )
 
-  FOREACH( cml ${cml_prefix} )
+  FOREACH( cml_FILENAME ${cml_SRCS} )
+    GET_FILENAME_COMPONENT(cml_WE ${cml_FILENAME} NAME_WE)
     # add custom command to build mol files
-    ADD_CUSTOM_COMMAND( OUTPUT ${cml}.mol
-                        COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml}.cml -omol ${cml}.mol
+    ADD_CUSTOM_COMMAND( OUTPUT ${cml_WE}.mol
+                        COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml_FILENAME} -omol ${cml_WE}.mol
                         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
     )
-    SET( mol_files ${mol_files} ${cml}.mol )
+    SET( mol_files ${mol_files} ${cml_WE}.mol )
     # add custom command to build smile files
-    ADD_CUSTOM_COMMAND( OUTPUT ${cml}.smi
-                        COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml}.cml -osmi ${cml}.smi
+    ADD_CUSTOM_COMMAND( OUTPUT ${cml_WE}.smi
+                        COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml_FILENAME} -osmi ${cml_WE}.smi
                         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
     )
-    SET( smi_files ${smi_files} ${cml}.smi )
-  ENDFOREACH( cml )
+    SET( smi_files ${smi_files} ${cml_WE}.smi )
+  ENDFOREACH( cml_FILENAME )
 
   # Add custom target for mol files
   ADD_CUSTOM_TARGET( mdl_mol ALL
@@ -81,8 +66,8 @@ IF(OPENBABEL2_EXECUTABLE_FOUND)
   ADD_CUSTOM_TARGET( smiles ALL
                      DEPENDS ${smi_files}
   )
-  INSTALL( FILES ${mol_files} DESTINATION ${SHARE_HOME}/fatty_acids )
-  INSTALL( FILES ${smi_files} DESTINATION ${SHARE_HOME}/fatty_acids )
+  INSTALL( FILES ${mol_files} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )
+  INSTALL( FILES ${smi_files} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )
 ENDIF(OPENBABEL2_EXECUTABLE_FOUND)
 
 #
@@ -101,5 +86,5 @@ ADD_CUSTOM_TARGET( xhtml ALL
 #
 # Install target command
 #
-INSTALL( FILES ${xhtml_files} DESTINATION ${SHARE_HOME}/fatty_acids )
-INSTALL( FILES ${cml_files} DESTINATION ${SHARE_HOME}/fatty_acids )
+INSTALL( FILES ${xhtml_files} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )
+INSTALL( FILES ${cml_SRCS} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )

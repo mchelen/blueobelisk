@@ -1,4 +1,6 @@
-MESSAGE( STATUS "Generating esters Makefile")
+SET( CHEM_GROUP "esters" )
+
+MESSAGE( STATUS "Generating ${CHEM_GROUP} Makefile")
 
 #
 # Generic variables
@@ -20,45 +22,17 @@ FOREACH( lang ${AVAILABLE_LANG} )
 ENDFOREACH( lang )
 
 #
-# CML files handle
+# CML file handle
 #
 # Set the prefix list of the cml files
-SET( cml_prefix
-     butyl_acetate
-     butyl_butanoate
-     butyl_formate
-     butyl_pentanoate
-     butyl_propanoate
-     ethyl_acetate
-     ethyl_butanoate
-     ethyl_formate
-     ethyl_pentanoate
-     ethyl_propanoate
-     linolein
-     methyl_acetate
-     methyl_butanoate
-     methyl_formate
-     methyl_pentanoate
-     methyl_propanoate
-     pentyl_acetate
-     pentyl_butanoate
-     pentyl_formate
-     pentyl_pentanoate
-     pentyl_propanoate
-     propyl_acetate
-     propyl_butanoate
-     propyl_formate
-     propyl_pentanoate
-     propyl_propanoate
-)
+FILE(GLOB cml_SRCS *.cml)
 # Generate the names of html cml files
-SET( cml_files "" )
-FOREACH( cml ${cml_prefix} )
-  SET( cml_files ${cml_files} "${cml}.cml" )
+FOREACH( cml_FILENAME ${cml_SRCS} )
+  GET_FILENAME_COMPONENT(cml_WE ${cml_FILENAME} NAME_WE)
   FOREACH( lang ${AVAILABLE_LANG} )
-      SET( xhtml_files ${xhtml_files} "${cml}_${lang}.html" )
+      SET( xhtml_files ${xhtml_files} "${cml_WE}_${lang}.html" )
   ENDFOREACH( lang )
-ENDFOREACH( cml )
+ENDFOREACH( cml_FILENAME )
 
 #
 # Custom file conversion
@@ -68,20 +42,21 @@ IF(OPENBABEL2_EXECUTABLE_FOUND)
   SET( mol_files "" )
   SET( smi_files "" )
 
-  FOREACH( cml ${cml_prefix} )
+  FOREACH( cml_FILENAME ${cml_SRCS} )
+    GET_FILENAME_COMPONENT(cml_WE ${cml_FILENAME} NAME_WE)
     # add custom command to build mol files
-    ADD_CUSTOM_COMMAND( OUTPUT ${cml}.mol
-                        COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml}.cml -omol ${cml}.mol
+    ADD_CUSTOM_COMMAND( OUTPUT ${cml_WE}.mol
+                        COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml_FILENAME} -omol ${cml_WE}.mol
                         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
     )
-    SET( mol_files ${mol_files} ${cml}.mol )
+    SET( mol_files ${mol_files} ${cml_WE}.mol )
     # add custom command to build smile files
-    ADD_CUSTOM_COMMAND( OUTPUT ${cml}.smi
-                        COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml}.cml -osmi ${cml}.smi
+    ADD_CUSTOM_COMMAND( OUTPUT ${cml_WE}.smi
+                        COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml_FILENAME} -osmi ${cml_WE}.smi
                         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
     )
-    SET( smi_files ${smi_files} ${cml}.smi )
-  ENDFOREACH( cml )
+    SET( smi_files ${smi_files} ${cml_WE}.smi )
+  ENDFOREACH( cml_FILENAME )
 
   # Add custom target for mol files
   ADD_CUSTOM_TARGET( mdl_mol ALL
@@ -91,8 +66,8 @@ IF(OPENBABEL2_EXECUTABLE_FOUND)
   ADD_CUSTOM_TARGET( smiles ALL
                      DEPENDS ${smi_files}
   )
-  INSTALL( FILES ${mol_files} DESTINATION ${SHARE_HOME}/esters )
-  INSTALL( FILES ${smi_files} DESTINATION ${SHARE_HOME}/esters )
+  INSTALL( FILES ${mol_files} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )
+  INSTALL( FILES ${smi_files} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )
 ENDIF(OPENBABEL2_EXECUTABLE_FOUND)
 
 #
@@ -111,5 +86,5 @@ ADD_CUSTOM_TARGET( xhtml ALL
 #
 # Install target command
 #
-INSTALL( FILES ${xhtml_files} DESTINATION ${SHARE_HOME}/esters )
-INSTALL( FILES ${cml_files} DESTINATION ${SHARE_HOME}/esters )
+INSTALL( FILES ${xhtml_files} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )
+INSTALL( FILES ${cml_SRCS} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )

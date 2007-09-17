@@ -1,4 +1,4 @@
-SET( CHEM_GROUP "aldehydes" )
+SET( CHEM_GROUP "acid_anhydrides" )
 
 MESSAGE( STATUS "Generating ${CHEM_GROUP} Makefile")
 

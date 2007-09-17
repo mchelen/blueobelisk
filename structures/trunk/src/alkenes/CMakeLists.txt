@@ -1,4 +1,6 @@
-MESSAGE( STATUS "Generating alkenes Makefile")
+SET( CHEM_GROUP "alkenes" )
+
+MESSAGE( STATUS "Generating ${CHEM_GROUP} Makefile")
 
 #
 # Generic variables
@@ -20,62 +22,17 @@ FOREACH( lang ${AVAILABLE_LANG} )
 ENDFOREACH( lang )
 
 #
-# CML files handle
+# CML file handle
 #
 # Set the prefix list of the cml files
-SET( cml_prefix
-     2-methylbut-2-ene
-     2-methylbuta-1_3-diene
-     3E-penta-1_3-diene
-     3Z_3-ethylhepta-1_3-diene
-     3Z-penta-1_3-diene
-     but-1-ene
-     cyclohepta-1_3_5-triene
-     cyclohepta-1_3-diene
-     cyclohepta-1_4-diene
-     cyclohexa-1_3-diene
-     cyclohexa-1_4-diene
-     cyclohexene
-     cycloocta-1_3_5_7-tetraene
-     cycloocta-1_3_5-triene
-     cycloocta-1_3-diene
-     cyclopenta-1_3-diene
-     cyclopentene
-     E-but-2-ene
-     E-hept-2-ene
-     E-hept-3-ene
-     E-hex-2-ene
-     E-hex-3-ene
-     E-oct-2-ene
-     E-oct-3-ene
-     E-oct-4-ene
-     E-pent-2-ene
-     ethene
-     hept-1-ene
-     hex-1-ene
-     oct-1-ene
-     pent-1-ene
-     propene
-     Z-but-2-ene
-     Z-cycloheptene
-     Z-cyclooctene
-     Z-hept-2-ene
-     Z-hept-3-ene
-     Z-hex-2-ene
-     Z-hex-3-ene
-     Z-oct-2-ene
-     Z-oct-3-ene
-     Z-oct-4-ene
-     Z-pent-2-ene
-)
+FILE(GLOB cml_SRCS *.cml)
 # Generate the names of html cml files
-SET( cml_files "" )
-FOREACH( cml ${cml_prefix} )
-  SET( cml_files ${cml_files} "${cml}.cml" )
+FOREACH( cml_FILENAME ${cml_SRCS} )
+  GET_FILENAME_COMPONENT(cml_WE ${cml_FILENAME} NAME_WE)
   FOREACH( lang ${AVAILABLE_LANG} )
-      SET( xhtml_files ${xhtml_files} "${cml}_${lang}.html" )
+      SET( xhtml_files ${xhtml_files} "${cml_WE}_${lang}.html" )
   ENDFOREACH( lang )
-ENDFOREACH( cml )
+ENDFOREACH( cml_FILENAME )
 
 #
 # Custom file conversion
@@ -85,20 +42,21 @@ IF(OPENBABEL2_EXECUTABLE_FOUND)
   SET( mol_files "" )
   SET( smi_files "" )
 
-  FOREACH( cml ${cml_prefix} )
+  FOREACH( cml_FILENAME ${cml_SRCS} )
+    GET_FILENAME_COMPONENT(cml_WE ${cml_FILENAME} NAME_WE)
     # add custom command to build mol files
-    ADD_CUSTOM_COMMAND( OUTPUT ${cml}.mol
-                        COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml}.cml -omol ${cml}.mol
+    ADD_CUSTOM_COMMAND( OUTPUT ${cml_WE}.mol
+                        COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml_FILENAME} -omol ${cml_WE}.mol
                         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
     )
-    SET( mol_files ${mol_files} ${cml}.mol )
+    SET( mol_files ${mol_files} ${cml_WE}.mol )
     # add custom command to build smile files
-    ADD_CUSTOM_COMMAND( OUTPUT ${cml}.smi
-                        COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml}.cml -osmi ${cml}.smi
+    ADD_CUSTOM_COMMAND( OUTPUT ${cml_WE}.smi
+                        COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml_FILENAME} -osmi ${cml_WE}.smi
                         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
     )
-    SET( smi_files ${smi_files} ${cml}.smi )
-  ENDFOREACH( cml )
+    SET( smi_files ${smi_files} ${cml_WE}.smi )
+  ENDFOREACH( cml_FILENAME )
 
   # Add custom target for mol files
   ADD_CUSTOM_TARGET( mdl_mol ALL
@@ -108,8 +66,8 @@ IF(OPENBABEL2_EXECUTABLE_FOUND)
   ADD_CUSTOM_TARGET( smiles ALL
                      DEPENDS ${smi_files}
   )
-  INSTALL( FILES ${mol_files} DESTINATION ${SHARE_HOME}/alkenes )
-  INSTALL( FILES ${smi_files} DESTINATION ${SHARE_HOME}/alkenes )
+  INSTALL( FILES ${mol_files} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )
+  INSTALL( FILES ${smi_files} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )
 ENDIF(OPENBABEL2_EXECUTABLE_FOUND)
 
 #
@@ -128,5 +86,5 @@ ADD_CUSTOM_TARGET( xhtml ALL
 #
 # Install target command
 #
-INSTALL( FILES ${xhtml_files} DESTINATION ${SHARE_HOME}/alkenes )
-INSTALL( FILES ${cml_files} DESTINATION ${SHARE_HOME}/alkenes )
+INSTALL( FILES ${xhtml_files} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )
+INSTALL( FILES ${cml_SRCS} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )
