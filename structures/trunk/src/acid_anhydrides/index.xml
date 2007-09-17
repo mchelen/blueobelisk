@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Acid anhydrides</title>
+  <title xml:lang="fr">Anhydrides d'acide</title>
+  <title xml:lang="de">Säureanhydride</title>
+  <title xml:lang="nl">Carbonzuuranhydride</title>
+  <entry id="CS_3-methylfuran-2_5-dione">
+    <name xml:lang="en">3-Methylfuran-2,5-dione</name>
+    <name xml:lang="fr">3-Méthylfuran-2,5-dione</name>
+    <filename>3-methylfuran-2_5-dione</filename>
+    <synonym xml:lang="en">Citraconic anhydride</synonym>
+    <synonym xml:lang="en">2-Methylmaleic anhydride</synonym>
+    <synonym xml:lang="fr">Anhydride citraconique</synonym>
+    <synonym xml:lang="fr">Anhydride 2-méthylmaléique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-09-17</date>
+  </entry>
+  <entry id="CS_furan-2_5-dione">
+    <name xml:lang="en">Furan-2,5-dione</name>
+    <name xml:lang="fr">Furan-2,5-dione</name>
+    <filename>furan-2_5-dione</filename>
+    <synonym xml:lang="en">Maleic anhydride</synonym>
+    <synonym xml:lang="fr">Anhydride maléique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-09-17</date>
+  </entry>
+</index>
