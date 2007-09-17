@@ -6,6 +6,15 @@
   <title xml:lang="de">Chemische Strukturen</title>
   <title xml:lang="nl">Molekulaire Structuren</title>
   <entry>
+    <name xml:lang="en">Acid anhydrides</name>
+    <name xml:lang="fr">Anhydrides d'acide</name>
+    <name xml:lang="de">Säureanhydride</name>
+    <name xml:lang="nl">Carbonzuuranhydride</name>
+    <dirname>acid_anhydrides</dirname>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-09-17</date>
+  </entry>
+  <entry>
     <name xml:lang="en">Alcohols</name>
     <name xml:lang="fr">Alcools</name>
     <name xml:lang="de">Alkohole</name>
