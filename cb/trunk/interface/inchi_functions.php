@@ -122,7 +122,7 @@ function get_inchis($sort_by = "added_on", $filters = array()) {
 	}
         if ($filters['inchi']) {
                 $inchi = $filters['inchi'];
-                $where_clause .= " AND inchi = \"$inchi\"";
+                $where_clause .= " AND inchis.inchi = \"$inchi\"";
         }
         if ($filters['id']) {
                 $id = $filters['id'];
@@ -148,7 +148,7 @@ function get_inchis($sort_by = "added_on", $filters = array()) {
 
 	$query = $query.$where_clause.$group_by.$having_clause.$order_by.$limit_by;	
 
-        # print "DEBUG: query = $query<br />\n";	
+        # print "<!-- DEBUG: query = $query --><br />\n";	
 	$results = mysql_query($query);
 
 	$rows = mysql_num_rows($results);
