@@ -1035,6 +1035,7 @@ function print_inchi($paper, $filters = array()) {
                         	print "[<a href='images/compounds/".$paper['cid'].".cml'>CML</a>]";
                         }
                 }
+                print "[<a href='http://rdf.openmolecules.net/?".$paper['inchi']."' type=\"application/rdf+xml\">RDF</a>]";
                 print "<div class='paperbox_footer'>&nbsp;</div>";
                 print "</div>";
         }
