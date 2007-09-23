@@ -1012,9 +1012,12 @@ function print_inchi($paper, $filters = array()) {
         $base_url = $_GET['base_url'];
         if (($filters['show_abstract']) && ($paper['cid'])) {
                 print "<div class='paperbox_identifiers' about=\"#".$paper['name']."\">";
-	                if ($paper['name']) {
+	                if ($paper['inchi']) {
         	                print "<span property='chem:inchi' class=\"chem:inchi\">".$paper['inchi']."</span><br />";
                 	}
+                        if ($paper['inchikey']) {
+                                print "<span property='chem:inchikey' class=\"chem:inchikey\">InChIKey=".$paper['inchikey']."</$pan><br />\n";
+                        }
                 print "</div>";
                 print "<div class='paperbox_abstract'>";
                 if ($paper['cid']) {
