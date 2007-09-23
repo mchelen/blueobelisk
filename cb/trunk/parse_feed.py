@@ -82,6 +82,9 @@ def parse_file(file):
 	
   # first get feed information.
   title = get_feed_attr(feed['feed'],'title').encode(ENCODING, ENCODING_ERRORS)
+  if DEBUG:
+    print title
+
   link =  get_feed_attr(feed['feed'],'link').encode(ENCODING, ENCODING_ERRORS)
   description = get_feed_attr(feed['feed'],'description').encode(ENCODING, ENCODING_ERRORS)
   summary = get_feed_attr(feed['feed'],'summary').encode(ENCODING, ENCODING_ERRORS)
