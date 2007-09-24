@@ -21,6 +21,7 @@ system("perl parse_wp_links.pl");
 system("perl get_cids.pl"); # get CIDs from PubChem for the InChI's
 system("perl get_cid_images.pl"); # get images for the CIDs
 system("perl get_cid_cml.pl");
+system("perl get_inchikey.pl");
 system("perl clean_links.pl"); # clean up URLs
 
 if ($config{"collect_links"}) {
