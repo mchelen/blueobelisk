@@ -177,6 +177,12 @@ function get_inchis($sort_by = "added_on", $filters = array()) {
                         $paper['cid'] = $detail['cid'];
                         $paper['cbid'] = $detail['cbid'];
                 }
+                $query = "SELECT SQL_CALC_FOUND_ROWS * FROM inchis WHERE inchi = '".$paper['inchi']."'";
+                # print "DEBUG query: " . $query . "<br />";
+                $compoundDetails = mysql_query($query);
+                while ($detail = mysql_fetch_assoc($compoundDetails)) {
+                        $paper['inchikey'] = $detail['inchikey'];
+                }
                 # print "DEBUG: ".$paper['id']."\n";
 
 		array_push($papers, $paper);
