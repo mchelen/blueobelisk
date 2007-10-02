@@ -4,14 +4,147 @@
   <title xml:lang="en">Carbohydrates</title>
   <title xml:lang="fr">Carbohydrates</title>
   <title xml:lang="de">Kohlenhydrate</title>
-  <entry id="CS_2S_3R-butane-1_2_3_4-tetrol">
-    <name xml:lang="en">(2S,3R)-Butane-1,2,3,4-tetrol</name>
-    <name xml:lang="de">(2S,3R)-Butan-1,2,3,4-tetrol</name>
-    <filename>2S_3R-butane-1_2_3_4-tetrol</filename>
-    <synonym xml:lang="en">meso-Erythritol</synonym>
-    <synonym xml:lang="en">(2S,3R)-1,2,3,4-Tetrahydroxybutane</synonym>
-    <synonym xml:lang="de">(2S,3R)-1,2,3,4-Tetrahydroxybutan</synonym>
+  <entry id="CS_d-allose">
+    <name xml:lang="en">D-Allose</name>
+    <filename>d-allose</filename>
     <authors>Jerome Pansanel</authors>
-    <date>2006-07-13</date>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-altrose">
+    <name xml:lang="en">D-Altrose</name>
+    <filename>d-altrose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-arabinose">
+    <name xml:lang="en">D-Arabinose</name>
+    <filename>d-arabinose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-erythrose">
+    <name xml:lang="en">D-Erythrose</name>
+    <name xml:lang="fr">D-Érythrose</name>
+    <filename>d-erythrose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-erythrulose">
+    <name xml:lang="en">D-Erythrulose</name>
+    <name xml:lang="fr">D-Érythrulose</name>
+    <filename>d-erythrulose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-fructose">
+    <name xml:lang="en">D-Fructose</name>
+    <filename>d-fructose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-galactose">
+    <name xml:lang="en">D-Galactose</name>
+    <filename>d-galactose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-glucose">
+    <name xml:lang="en">D-Glucose</name>
+    <filename>d-glucose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-glyceraldehyde">
+    <name xml:lang="en">D-Glyceraldehyde</name>
+    <name xml:lang="fr">D-Glycéraldéhyde</name>
+    <filename>d-glyceraldehyde</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-gulose">
+    <name xml:lang="en">D-Gulose</name>
+    <filename>d-gulose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-idose">
+    <name xml:lang="en">D-Idose</name>
+    <filename>d-idose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_dihydroxyacetone">
+    <name xml:lang="en">Dihydroxyacetone</name>
+    <name xml:lang="fr">Dihydroxyacétone</name>
+    <filename>dihydroxyacetone</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-lyxose">
+    <name xml:lang="en">D-Lyxose</name>
+    <filename>d-lyxose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-mannose">
+    <name xml:lang="en">D-Mannose</name>
+    <filename>d-mannose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-psicose">
+    <name xml:lang="en">D-Psicose</name>
+    <filename>d-psicose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-ribose">
+    <name xml:lang="en">D-Ribose</name>
+    <filename>d-ribose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-ribulose">
+    <name xml:lang="en">D-Ribulose</name>
+    <filename>d-ribulose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-sorbose">
+    <name xml:lang="en">D-Sorbose</name>
+    <filename>d-sorbose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-tagatose">
+    <name xml:lang="en">D-Tagatose</name>
+    <filename>d-tagatose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-talose">
+    <name xml:lang="en">D-Talose</name>
+    <filename>d-talose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-threose">
+    <name xml:lang="en">D-Threose</name>
+    <name xml:lang="en">D-Thréose</name>
+    <filename>d-threose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-xylose">
+    <name xml:lang="en">D-Xylose</name>
+    <filename>d-xylose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-xylulose">
+    <name xml:lang="en">D-Xylulose</name>
+    <filename>d-xylulose</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
   </entry>
 </index>
