@@ -42,11 +42,5 @@
     <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
       <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">90.0316941</scalar>
     </property>
-    <property dictRef="cml:mp" title="Melting point">
-      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius"></scalar>
-    </property>
-    <property dictRef="cml:bp" title="Boiling point">
-      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius"></scalar>
-    </property>
   </propertyList>
 </molecule>
