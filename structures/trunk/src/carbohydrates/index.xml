@@ -7,18 +7,21 @@
   <entry id="CS_d-allose">
     <name xml:lang="en">D-Allose</name>
     <filename>d-allose</filename>
+    <synonym xml:lang="en">D-allo-Hexose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-altrose">
     <name xml:lang="en">D-Altrose</name>
     <filename>d-altrose</filename>
+    <synonym xml:lang="en">D-altro-Hexose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-arabinose">
     <name xml:lang="en">D-Arabinose</name>
     <filename>d-arabinose</filename>
+    <synonym xml:lang="en">D-arabino-Pentose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
@@ -26,6 +29,7 @@
     <name xml:lang="en">D-Erythrose</name>
     <name xml:lang="fr">D-Érythrose</name>
     <filename>d-erythrose</filename>
+    <synonym xml:lang="en">D-erythro-Tetrose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
@@ -33,24 +37,31 @@
     <name xml:lang="en">D-Erythrulose</name>
     <name xml:lang="fr">D-Érythrulose</name>
     <filename>d-erythrulose</filename>
+    <synonym xml:lang="en">D-glycero-2-Tetrulose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-fructose">
     <name xml:lang="en">D-Fructose</name>
     <filename>d-fructose</filename>
+    <synonym xml:lang="en">D-arabino-2-Hexulose</synonym>
+    <synonym xml:lang="en">D-Levulose</synonym>
+    <synonym xml:lang="en">Fruit Sugar</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-galactose">
     <name xml:lang="en">D-Galactose</name>
     <filename>d-galactose</filename>
+    <synonym xml:lang="en">D-galacto-Hexose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-glucose">
     <name xml:lang="en">D-Glucose</name>
     <filename>d-glucose</filename>
+    <synonym xml:lang="en">D-gluco-Hexose</synonym>
+    <synonym xml:lang="en">Dextrose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
@@ -58,18 +69,23 @@
     <name xml:lang="en">D-Glyceraldehyde</name>
     <name xml:lang="fr">D-Glycéraldéhyde</name>
     <filename>d-glyceraldehyde</filename>
+    <synonym xml:lang="en">D-glycero-Triose</synonym>
+    <synonym xml:lang="en">D-Glycerose</synonym>
+    <synonym xml:lang="en"></synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-gulose">
     <name xml:lang="en">D-Gulose</name>
     <filename>d-gulose</filename>
+    <synonym xml:lang="en">D-gulo-Hexose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-idose">
     <name xml:lang="en">D-Idose</name>
     <filename>d-idose</filename>
+    <synonym xml:lang="en">D-ido-Hexose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
@@ -77,54 +93,64 @@
     <name xml:lang="en">Dihydroxyacetone</name>
     <name xml:lang="fr">Dihydroxyacétone</name>
     <filename>dihydroxyacetone</filename>
+    <synonym xml:lang="en">DHA</synonym>
+    <synonym xml:lang="en">Glycerone</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-lyxose">
     <name xml:lang="en">D-Lyxose</name>
     <filename>d-lyxose</filename>
+    <synonym xml:lang="en">D-lyxo-Pentose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-mannose">
     <name xml:lang="en">D-Mannose</name>
     <filename>d-mannose</filename>
+    <synonym xml:lang="en">D-manno-Hexose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-psicose">
     <name xml:lang="en">D-Psicose</name>
     <filename>d-psicose</filename>
+    <synonym xml:lang="en">D-ribo-2-Hexulose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-ribose">
     <name xml:lang="en">D-Ribose</name>
     <filename>d-ribose</filename>
+    <synonym xml:lang="en">D-ribo-Pentose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-ribulose">
     <name xml:lang="en">D-Ribulose</name>
     <filename>d-ribulose</filename>
+    <synonym xml:lang="en">D-erythro-2-Pentulose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-sorbose">
     <name xml:lang="en">D-Sorbose</name>
     <filename>d-sorbose</filename>
+    <synonym xml:lang="en">D-xylo-2-Hexulose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-tagatose">
     <name xml:lang="en">D-Tagatose</name>
     <filename>d-tagatose</filename>
+    <synonym xml:lang="en">D-lyxo-2-Hexulose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-talose">
     <name xml:lang="en">D-Talose</name>
     <filename>d-talose</filename>
+    <synonym xml:lang="en">D-talo-Hexose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
@@ -132,18 +158,22 @@
     <name xml:lang="en">D-Threose</name>
     <name xml:lang="en">D-Thréose</name>
     <filename>d-threose</filename>
+    <synonym xml:lang="en">D-threo-Tetrose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-xylose">
     <name xml:lang="en">D-Xylose</name>
     <filename>d-xylose</filename>
+    <synonym xml:lang="en">D-xylo-Pentose</synonym>
+    <synonym xml:lang="en">Wood Sugar</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
   <entry id="CS_d-xylulose">
     <name xml:lang="en">D-Xylulose</name>
     <filename>d-xylulose</filename>
+    <synonym xml:lang="en">D-threo-2-Pentulose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>
