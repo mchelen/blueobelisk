@@ -6,6 +6,11 @@
 use diagnostics;
 use strict;
 
+if ($#ARGV != 0) {
+  print "foafdigger [foaf.xrdf]\n";
+  exit 0;
+}
+
 my $foaf = $ARGV[0];
 my $wgetexec = "@WGET_EXECUTABLE@";
 my $mdsumexec = "@MD5SUM_EXECUTABLE@";
