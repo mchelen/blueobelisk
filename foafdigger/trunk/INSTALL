@@ -14,6 +14,11 @@ To install and use FOAFdigger you need:
 - wget
 - Perl
 - cmake
+- XML::XPathContext (perl module)
+
+Ubuntu users would do:
+
+sudo aptitude install cmake wget perl-base strigi-utils coreutils libxml-libxml-perl
 
 Install with:
 

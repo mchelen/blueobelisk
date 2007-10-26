@@ -5,6 +5,7 @@
 #
 use diagnostics;
 use strict;
+use XML::LibXML::XPathContext;
 
 if ($#ARGV != 0) {
   print "foafdigger [foaf.xrdf]\n";
@@ -17,22 +18,76 @@ my $mdsumexec = "@MD5SUM_EXECUTABLE@";
 my $strigicmd = "@STRIGICMD_EXECUTABLE@";
 
 my $cachedir = "cache";
-my $indexdir = "index";
 
-print "Downloading $foaf ...\n";
+my $cachedFOAFdir = downloadFOAF($foaf, $cachedir);
+# first order friends
+my @firstFriends = extractLinkedFOAFs($cachedFOAFdir);
+foreach my $friend (@firstFriends) {
+  my $cachedFFdir = downloadFOAF($friend->nodeValue, $cachedFOAFdir);
+}
 
-my $mdsum = `echo "$foaf" | $mdsumexec - | cut -d' ' -f1`;
-$mdsum =~ s/[\n|\r|\s]//g;
+#indexFOAFCache();
 
-`mkdir -p $cachedir/$mdsum`;
-`$wgetexec -q -O $cachedir/$mdsum/me.xrdf $foaf`;
+print "Done.\n";
+exit 0;
 
-if (!(-e "$indexdir")) {
-  # OK, first call of strigi cmd
-  print "Creating a new index...\n";
-  `$strigicmd create -t clucene -d $indexdir $cachedir`;
-} else {
-  # OK, there already exists an index, just need to update
-  print "Updating the existing index...\n";
-  `$strigicmd update -t clucene -d $indexdir $cachedir`;
+sub indexFOAFCache {
+  my $indexdir = "index";
+  if (!(-e "$indexdir")) {
+    # OK, first call of strigi cmd
+    print "Creating a new index...\n";
+    `$strigicmd create -t clucene -d $indexdir $cachedir`;
+  } else {
+    # OK, there already exists an index, just need to update
+    print "Updating the existing index...\n";
+    `$strigicmd update -t clucene -d $indexdir $cachedir`;
+  }
+}
+
+sub downloadFOAF {
+  my $foaf = $_[0];
+  my $cachedir = $_[1];
+
+  print "Downloading $foaf ...\n";
+
+  my $mdsum = `echo "$foaf" | $mdsumexec - | cut -d' ' -f1`;
+  $mdsum =~ s/[\n|\r|\s]//g;
+
+  $cachedir = "$cachedir/$mdsum";
+  `mkdir -p $cachedir`;
+  my $cachedFOAF = "$cachedir/me.xrdf";
+  `echo "$foaf" > $cachedir/url`;
+  `$wgetexec -q -O $cachedFOAF $foaf`;
+
+  $cachedir;
+}
+
+sub extractLinkedFOAFs {
+
+  my $cachedFOAF = $_[0] . "/me.xrdf";
+
+  print "Extracting Friends ...\n";
+  my $foafNodes = XML::LibXML->new->parse_file($cachedFOAF);
+  my $xc = XML::LibXML::XPathContext->new($foafNodes);
+
+  $xc->registerNs('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
+  $xc->registerNs('rdfs', 'http://www.w3.org/2000/01/rdf-schema#');
+  $xc->registerNs('foaf', 'http://xmlns.com/foaf/0.1/');
+  $xc->registerNs('dc', 'http://purl.org/dc/elements/1.1/');
+
+#     <foaf:knows>
+#       <foaf:Person rdf:ID="ArjohnKampman">
+#         <foaf:name>Arjohn Kampman</foaf:name>
+#         <rdfs:seeAlso rdf:resource="http://www.openrdf.org/people/foaf-arjohn.rdf" />
+#       </foaf:Person>
+#     </foaf:knows>
+
+  my @rdfResources = $xc->findnodes('//foaf:knows/foaf:Person/rdfs:seeAlso/@rdf:resource');
+  print "Found #friends: " . scalar @rdfResources . "\n";
+
+  foreach my $resource (@rdfResources) {
+    print "Resource found: " . $resource->nodeValue . "\n";
+  }
+
+  @rdfResources;
 }
