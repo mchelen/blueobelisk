@@ -21,6 +21,22 @@
   </tr>
 </table>
 
+<p style="text-align: center; font-style: italic;">
+Contributors:<br>
+ Richard Apodaca,
+ Noel O'Boyle,
+ Andrew Dalke,
+ John van Drie,
+ Peter Ertl,<br>
+ Geoff Hutchison,
+ Craig A. James,
+ Greg Landrum,
+ Chris Morley,
+ Egon Willighagen,
+ Hans De Winter
+</p>
+
+
 <a name="1"></a><h2>1. Introduction</h2>
 
 <table class="et" width="60%">
@@ -46,7 +62,6 @@ for specifying chemical structure.  It is hosted under the banner of the
 <a href="http://blueobelisk.sourceforge.net">Blue Obelisk</a>
 project, with the intent to solicit contributions and comments from the
 entire computational chemistry community.</p>
-
 
 
 <a name="1.2"></a><h3>1.2 Motivation</h3>
@@ -84,6 +99,15 @@ are atoms, and the <i>edges</i> are semi-rigid bonds that can be single, double,
 triple according to the rules of 
 <a href="http://en.wikipedia.org/wiki/Valence_bond_theory">valence bond theory</a>.</p>
 
+<p>This simple mental model has little resemblance to the underlying quantum-mechanical reality of
+electrons, protons and neutrons, yet it has proved to be a remarkably useful approximation of how
+atoms behave in close proximity to one another.  However, the valence model is an imperfect
+representation of molecular structure, and the SMILES language inherits these imperfections.
+Chemical bonds are often tautomeric, aromatic or otherwise fractional rather than neat integer
+multiples.  Delocalized bonds, bond-centered bonds, hydrogen bonds and various other inter-atom
+forces that are well characterized by a quantum-mechanics description simply don't fit into the
+valence model.</p>
+
 <table class="et" width="60%">
   <tr>
     <td class="ec">
@@ -93,14 +117,9 @@ triple according to the rules of
   </tr>
 </table>
 
-<p>This simple mental model has little resemblance to the underlying quantum-mechanical reality of
-electrons, protons and neutrons, yet it has proved to be a remarkably useful approximation of how
-atoms behave in close proximity to one another.  However, the valence model is an imperfect
-representation of molecular structure, and the SMILES language inherits these imperfections.
-Chemical bonds are often tautomeric, aromatic or otherwise fractional rather than neat integer
-multiples.  Delocalized bonds, bond-centered bonds, hydrogen bonds and various other inter-atom
-forces that are well characterized by a quantum-mechanics description simply don't fit into the
-valence model.</p>
+<p>McLeod and Peter's quip captures the deficiencies of SMILES well: if you
+<i>can't</i> build a molecule from a modeling kit, the deficiencies of SMILES and other
+connection-table formats become apparent.</p>
 
 <table width="100%" cellspacing="0">
   <tr>

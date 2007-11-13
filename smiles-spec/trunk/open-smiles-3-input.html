@@ -270,14 +270,12 @@ represented using parentheses.</p>
 </table>
 
 <p>The SMILES branch/chain rules allow nested parenthetical expressions (branches) to an arbitrary
-depth.  Some SMILES strings in standard databases contain over 30 levels of branches, and much
-deeper nesting is possible.  A general purpose parser must handle at least 100 levels, and should
-handle 1000 or more.  For example, the following SMILES, though peculiar, is legal:
-</p>
+depth.  For example, the following SMILES, though peculiar, is legal:</p>
 
 <table class="et">
   <tr> <td class="ecbc">C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C))))))))))))))))))))C</td><td class="ec">C22H46</td> </tr>
 </table>
+</p>
 
 
 <a name="3.4"></a><h3>3.4 Rings</h3>
@@ -363,8 +361,6 @@ example, the following are not allowed:</p>
 
 <a name="3.5"></a><h3>3.5 Aromaticity</h3>
 
-<a name="3.5.1"></a><h4>3.5.1 Aromaticity in SMILES</h4>
-
 <p>Aromaticity can be represented in one of two ways in a SMILES.<p>
 
 <ul>
@@ -384,14 +380,17 @@ aromatic or anti-aromatic ring system.  For example:</p>
 </table>
 
 <p>The Kekul&eacute; form is always acceptable for SMILES input.  For output, the aromatic form
-(using lowercase letters) is preferred.  The lowercase symbols eliminate the arbitrary choice of how
-to assign the single and double bonds, and provide a <a href="#4">normalized form</a> that more
-accurately reflects the electronic configuration.</p>
+(using lowercase letters) <a href="open-smiles-4-output.html#4.3.5">is preferred</a>.  The lowercase
+symbols eliminate the arbitrary choice of how to assign the single and double bonds, and provide a
+<a href="#4">normalized form</a> that more accurately reflects the electronic configuration.</p>
 
 <p>In an aromatic system, all of the aromatic atoms must be sp<sup>2</sup> hybridized, and the
 number of <a href="http://en.wikipedia.org/wiki/Pi_electron" title="Pi_electron">Pi electrons</a>
 must meet <a href="http://en.wikipedia.org/wiki/H%C3%BCckel's_rule">H&uuml;ckel's 4N+2
-criterion</a>.</p>
+criterion</a>. When parsing a SMILES, a parser must note the aromatic designation of each atom on
+input, then when the parsing is complete, the SMILES software must verify that electrons can be
+assigned without violating the valence rules, consistent with the sp<sup>2</sup> markings, the
+specified or implied hydrogens, external bonds, and charges on the atoms.</p>
 
 <p>This meaning of <i>aromaticity</i> for SMILES is strictly for
 <a href="http://www.emolecules.com/doc/cheminformatics-101.htm">cheminformatics</a> purposes.  It is
@@ -401,48 +400,11 @@ aromatic, but in some cases it will not.  The SMILES definition of aromaticity i
 facilitate <a href="#4">normalization</a> of SMILES, not to predict chemical properties.
 </p>
 
-<a name="3.5.2"></a><h4>3.5.2 Definition of Aromaticity</h4>
-
-<p><i>This definition of aromaticity needs considerable work.  For a good summary of the question of
-aromaticity, see:</i></p>
-
-<p style="padding-left:2em;">
-<a href="http://wiki.cubic.uni-koeln.de/cdkwiki/doku.php?id=smiles_aromaticity">http://wiki.cubic.uni-koeln.de/cdkwiki/doku.php?id=smiles_aromaticity</a></p>
-
-<p><i>The definition below is the one that Daylight has described in public meetings, but I believe
-there are more subtle rules that Daylight actually use in their SMILES Toolkit. -- CJ</i></p>
-
-<p>The formal meaning of a lowercase "aromatic" element in a SMILES string is that the atom is
-in the sp<sup>2</sup> electronic state.  When generating a normalized SMILES, all sp<sup>2</sup>
-atoms are written using a lowercase first character of the atomic symbol.  When parsing a SMILES,
-a parser must note the sp<sup>2</sup> designation of each atom on input, then when the parsing is
-complete, the SMILES software must verify that electrons can be assigned without violating the
-valence rules, consistent with the sp<sup>2</sup> markings, the specified or implied
-hydrogens, external bonds, and charges on the atoms.</p>
-
-<p>This implies that the lowercase atomic symbols do <i>not</i> necessarily represent aromatic
-atoms.  For example:</p>
-
-<table class="et">
-  <tr>
-    <td class="ec"><img src="2-4-hexadiene.gif"></td>
-    <td class="ecbc"> CccccC<br>CC=CC=CC </td>
-    <td class="ec"> 2,4-hexadiene<br><i>(both SMILES are valid)</i> </td>
-  </tr>
-  <tr>
-    <td class="ec"><img src="cyclobutadiene.gif"></td>
-    <td class="ecbc"> c1ccc1<br>C1=CC=C1 </td>
-    <td class="ec"> cyclobutadiene<br><i>(both SMILES are valid)</i> </td>
-  </tr>
-  <tr>
-    <td class="ec">&nbsp;</td>
-    <td class="ecbc"> CcccC</td>
-    <td class="ec"> Invalid SMILES<br>electrons can't be assigned </td>
-  </tr>
-</table>
-
-<p>Even numbers of adjacent lower case "c" or "n" are interpreted as conjugated chains. So cccc is
-1,3 butadiene, Ccc is propene, C1ccccC1 is 1,3 cyclohexadiene and CnnC is azomethane.</p>
+<p><i>Note: Some SMILES parsers interpret a lowercase letter as sp<sup>2</sup> anywhere it appears;
+for example, <span class="sm">CccccC</span> would be interpreted as <span
+class="sm">CC=CC=CC</span>.  The OpenSMILES specification does not allow this interpretation unless
+<a href="open-smiles-5-nonstandard.html">nonstandard parsing</a> is explicitely allowed by the
+user.</i></p>
 
 
 <a name="3.6"></a><h3>3.6 More about Hydrogen</h3>
@@ -549,9 +511,9 @@ molecules of a combinatorial library using string concatenation.</p>
 
 <hr>
 
-<a name="3"></a><h3>3.9 Stereochemistry</h2>
+<a name="3.9"></a><h3>3.9 Stereochemistry</h2>
 
-<a name="3.1"></a><h4>3.9.1 Scope of Stereochemistry in SMILES</h4>
+<a name="3.9.1"></a><h4>3.9.1 Scope of Stereochemistry in SMILES</h4>
 
 <p>A SMILES string can specify the cis/trans configuration around a double bond,
 and can specify the chiral configuration of specific atoms in a molecule.</p>
@@ -567,7 +529,7 @@ stereochemistry that cannot be encoded into a SMILES include:
 </ul>
 
 
-<a name="3.1.2"></a><h4>3.9.2 Tetrahedral Centers</h4>
+<a name="3.9.2"></a><h4>3.9.2 Tetrahedral Centers</h4>
 
 <p>SMILES uses an atom-centered chirality specification, in which the atom's left-to-right order in
 the SMILES string itself is used as the basis for the chirality marking.
@@ -617,7 +579,7 @@ above with a hydrogen atom, its SMILES would be:</p>
   <tr> <td class="ecbc">  N[C@H](O)C</td></tr>
 </table>
 
-<a name="3.3"></a><h4>3.9.3 Cis/Trans configuration of Double Bonds</h4>
+<a name="3.9.3"></a><h4>3.9.3 Cis/Trans configuration of Double Bonds</h4>
 
 <p>The configuration of atoms around double bonds is specified by the bond symbols '/' and '\'.
 These symbols always come in pairs, and indicate cis or trans with a visual "same side" or
@@ -709,7 +671,7 @@ of double bonds:</p>
 </table>
 
 
-<a name="3.4"></a><h4>3.9.4 Tetrahedral Allene-like Systems</h4>
+<a name="3.9.4"></a><h4>3.9.4 Tetrahedral Allene-like Systems</h4>
 
 <p>Extended tetrahedral configurations can be specified for conjugated allenes with an even number
 of double bonds.  The normal tetrahedral rules using '@' and '@@' apply, but the "neighbor" atoms
@@ -756,7 +718,7 @@ notations '@' and '@@' correspond to '@AL1' and '@AL2', respectively.</p>
 
 <p><i>NEED COMPLETE DOCUMENTATION for SP, TB and OH.</i></p>
 
-<a href="3.10"></a><h3>SMILES Strings</h3>
+<a name="3.10"></a><h3>3.10 Parsing Termination</h3>
 
 <p>A SMILES string is terminated by a whitespace terminator character (space, tab, newline,
 carriage-return), or by the end of the string.</p>
@@ -764,6 +726,43 @@ carriage-return), or by the end of the string.</p>
 <p>Other data or information, such as a name, properties, registration number, etc., may follow the
 SMILES on a line after the whitespace character.  SMILES parsers will ignore this data, although
 applications that use the SMILES parser will often make use of it.</p>
+
+
+<a name="3.11"></a><h3>3.11 Programming Practices</h3>
+
+<p>OpenSMILES is designed to facilitate exchange of chemical information.  To achieve that goal, it
+SMILES parsers should impose as few limits as possible on the language.</p>
+
+<p>There is no formal limit to the length of a SMILES string; SMILES of over 1 million characters
+have been assembled for various purposes.  There is no requirement that a SMILES parser must be able
+to parse these exceptionally long SMILES, but as a guideline, all implementations of SMILES parsers
+should, at a minimum, accept and correctly parse SMILES strings of 100,000 characters.  If a SMILES
+parser encounters a string that is too long to parse, it should generate a relevant error
+message.</p>
+
+<p>There is no formal limit to the number of rings a molecule can contain.  There are only
+100 ring-closure numbers, but since numbers can be reused, a molecule can potentially have more
+than 100 rings.  SMILES parsers should accept and correctly parse molecules with at least 1000 rings;
+it is preferable to place no limits on the number of rings a molecule can contain.</p>
+
+<p>Branches (parentheses) can be nested to an arbitrary depth.  Some SMILES strings in standard
+databases contain over 30 levels of branches, and much deeper nesting is possible.  A general
+purpose parser must handle at least 100 levels; it is preferrable to place no limits on nesting
+depth for parentheses.</p>
+
+<p>There is no formal limit on the number of bonds an atom can have.  SMILES parsers should allow at
+least ten bonds to each atom; it is preferrable to place no limits on the number of bonds to each
+atom.</p>
+
+<p>There is no limit to the number of "dot-disconnected" fragments in a SMILES.  A SMILES of 100,000
+atoms could in principle contain no bonds at all; SMILES parsers should place no limits on the
+number of fragments allowed (except that it is limited to the number of atoms the parser can
+manage).</p>
+
+<p>Programmers are <i>strongly</i> encouraged to provide detailed and clear error messages.  If
+possible, the error message should show exactly which character or "phrase" of the SMILES string
+triggered the error message.</p>
+
 
 <br>
 

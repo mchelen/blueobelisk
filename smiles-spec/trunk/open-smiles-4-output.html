@@ -506,15 +506,6 @@ terminators, respectively).  A SMILES parser must accept either line terminator.
 the SMILES file, or a line that begins with a whitespace character, should be completely ignored by
 a SMILES parser.</p>
 
-<p>There is no formal limit to the length of a SMILES string; SMILES of
-over 1 million characters have been assembled for various purposes.  There
-is no requirement that a SMILES parser must be able to parse these
-exceptionally long SMILES, but as a guideline, all implementations of
-SMILES parsers should, at a minimum, accept and correctly parse SMILES
-strings of 100,000 characters.  If a SMILES parser encounters a string that
-is too long to parse, it must generate a reasonable error message and
-continue parsing with the next line of the SMILES file.</p>
-
 
 <table width="100%" cellspacing="0">
   <tr>
