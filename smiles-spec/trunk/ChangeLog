@@ -43,3 +43,6 @@
 
 	* Added LICENSE.txt, with the contents of the GFDL.
 	
+	* Fixed error in 4.3.4, "Only use dot bonds ...", ring digits
+	  shouldn't have been mentioned.
+	
