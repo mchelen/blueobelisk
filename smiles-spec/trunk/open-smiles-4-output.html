@@ -64,6 +64,12 @@ un-normalized SMILES are:</p>
 <p>The "standard form" of a SMILES is designed to produce a compact SMILES,
 and one that is human readable (for smaller molecules).</p>
 
+<p>In addition, a normalized SMILES has the important property that it
+matches itself as a 
+<a href="http://www.daylight.com/dayhtml/doc/theory/theory.smarts.html">SMARTS</a>
+string.  This is a very important feature of normalized SMILES in
+cheminformatics systems.</p>
+
 <p><i>Note: In the example below, the "Wrong" SMILES examples are all valid SMILES, but are "wrong"
 in the sense that they are not the preferred form for standard normalization.</i></p>
 
@@ -177,9 +183,10 @@ in the sense that they are not the preferred form for standard normalization.</i
     <td class="ecbc">
       C-C
     </td>
-    <td class="ec" rowspan="2">
-      Never write '-' (single bond) or ':' (aromatic bond).  Bonds are single or aromatic by
-      default (as appropriate), and it is never necessary to include them in a SMILES.
+    <td class="ec" rowspan="3">
+      Only write '-' (single bond) when it is between two aromatic atoms.  Never
+      write the ':' (aromatic bond) symbol.  Bonds are single or aromatic by
+      default (as appropriate).
     </td>
   </tr>
   <tr>
@@ -190,6 +197,16 @@ in the sense that they are not the preferred form for standard normalization.</i
       c:1:c:c:c:c:c:1
     </td>
   </tr>
+
+  <tr>
+    <td class="ecbc">
+      c1ccccc1-c2ccccc2
+    </td>
+    <td class="ecbc">
+      c1ccccc1c2ccccc2
+    </td>
+  </tr>
+
 
 </table>
 

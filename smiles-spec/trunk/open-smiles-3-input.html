@@ -53,7 +53,7 @@ href="http://www.webelements.com">Web Elements</a>).</p>
 
 <p>Hydrogens inside of brackets are specified as "Hn" where "n" is a number such as "H3".  If no
 "Hn" is specified, it is identical to <span class="sm">H0</span>. If <span class="sm">H</span> is
-specified without a number, a count of 1 is implied.  For example, <span class="sm">[C]</span> and
+specified without a number, it is identical to <span class="sm">H1</span>.  For example, <span class="sm">[C]</span> and
 <span class="sm">[CH0]</span> are identical, and <span class="sm">[CH]</span> and <span
 class="sm">[CH1]</span> are identical.</p>
 
@@ -84,7 +84,7 @@ number is missing, it means either +1 or -1 as appropriate.</p>
 
 
 <p>For backwards compatibility, a general-purpose SMILES parser should
-accept the symbols "--" and "++" to mean charges of -2 and +2 but this
+accept the symbols "--" and "++" to mean charges of -2 and +2, but this
 is a deprecated form and should be avoided.</p>
 
 <p>Examples:</p>
@@ -97,7 +97,7 @@ is a deprecated form and should be avoided.</p>
   <tr><td class="ecbc"> [Cu++] </td> <td class="ec"> copper cation     </td> <td class="ec"> +2 charge, H0 implied (deprecated form)</td></tr>
 </table>
 
-<p><i>Question: do we need to allow two digit charges, like "+10"?</i></p>
+<p><i>Question: do we need to allow two-digit charges, like "+10"?</i></p>
 
 
 <a name="3.1.4"></a><h4>3.1.4 Isotopes</h4>
@@ -119,8 +119,8 @@ isotope value <span class="sm">0</span> also indicates an isotope of zero, that 
 class="sm">[0S]</span> is <i>not</i> the same as <span class="sm">[S]</span>.</p>
 
 <p>There is no requirement that the isotope is a genuine isotope of the element.  Thus, <span
-class="sm">[36Cl]</span> is allowed even though <span class="sm">[35Cl]</span> and <span
-class="sm">[37Cl]</span> are the actual known stable isotopes of chlorine.</p>
+class="sm">[36Cl]</span> is allowed even though <sup>35</sup>Cl and
+<sup>37</sup>Cl are the actual known stable isotopes of chlorine.</p>
 
 <p>A general-purpose SMILES parser must accept at least three digits for the isotope and values
 from <span class="sm">0</span> to <span class="sm">999</span>.</p>
@@ -132,7 +132,7 @@ from <span class="sm">0</span> to <span class="sm">999</span>.</p>
 <b>B</b>, <b>C</b>, <b>N</b>,<b>O</b>, <b>P</b>, <b>S</b>, <b>F</b>,
 <b>Cl</b>, <b>Br</b>, <b>I</b>, and <b>*</b> (the "wildcard" atom) can be
 written using the only the atomic symbol (that is, without the square
-brackets, H-count, etc.).  When an atom is specified this way has the
+brackets, H-count, etc.).  An atom is specified this way has the
 following properties:</p>
 
 <ul>
@@ -213,10 +213,6 @@ same atom class.</p>
 The atom class is interpreted as a number, so both "[CH2:5]"
 and "[NH4+:005]" have an atom class of 5.</p>
 
-<p>A SMILES parser must accept at least four digits for
-the class number, and the values 0 to 9999.</p>
-
-
 <a name="3.2"></a><h3>3.2 Bonds</h3>
 
 <p>Atoms that are adjacent in a SMILES string are assumed to
@@ -281,18 +277,19 @@ depth.  For example, the following SMILES, though peculiar, is legal:</p>
 <a name="3.4"></a><h3>3.4 Rings</h3>
 
 <p>In a SMILES string such as "C1CCCCC1", the first occurance of a ring-closure
-number (an "rnum") creates an "open bond".  When that same rnum is encountered
+number (an "rnum") creates an "open bond" to the atom that preceeds the
+ring-closure number (the "rnum").  When that same rnum is encountered
 later in the string, a bond is made between the two atoms, which typically
-forms a cyclic structure.
+forms a cyclic structure.</p>
 
 <table class="et">
   <tr> <td class="ec"><img src="cyclohexane.gif"></td> <td class="ecbc"> C1CCCCC1 </td> <td class="ec"> cyclohexane</td> </tr>
   <tr> <td class="ec"><img src="perhydroisoquinoline.gif"></td> <td class="ecbc"> N1CC2CCCC2CC1 </td> <td class="ec"> perhydroisoquinoline </td> </tr>
 </table>
 
-<p>  If a bond symbol is present between the atom and
-rnum, it can be present on <i>either or both</i> bonded atoms.  However, if
-it appears on both bonded atoms, the two bond symbols must be the same.</p>
+<p> If a bond symbol is present between the atom and rnum, it can be
+present on <i>either or both</i> bonded atoms.  However, if it appears on
+both bonded atoms, the two bond symbols must be the same.</p>
 
 <table class="et">
   <tr> <td rowspan="3" class="ec"><img src="cyclohexane.gif"></td> <td class="ecbc"> C=1CCCCC=1 </td> <td class="ec"> cyclohexene</td> </tr>
@@ -346,7 +343,7 @@ valid SMILES.</p>
 atom:<p>
 
 <table class="et">
-  <tr> <td class="ec"><img src="spiro.gif"></td> <td class="ecbc"> C12(CCCCC1)CCCCC2 </td> <td class="ec"> name? </td> </tr>
+  <tr> <td class="ec"><img src="spiro.gif"></td> <td class="ecbc"> C12(CCCCC1)CCCCC2 </td> <td class="ec"> spiro[5.5]undecane </td> </tr>
 </table>
 
 <p>Two atoms cannot be joined by more than one bond, and an atom cannot be bonded to itself.  For
@@ -377,6 +374,7 @@ aromatic or anti-aromatic ring system.  For example:</p>
   <tr> <td class="ec"><img src="benzene.gif"></td> <td class="ecbc"> c1ccccc1<br>C1=CC=CC=C1 </td> <td class="ec"> benzene </td> </tr>
   <tr> <td class="ec"><img src="indane.gif"></td> <td class="ecbc"> c1ccc2CCCc2c1<br>C1=CC=CC(CCC2)=C12 </td> <td class="ec"> indane </td> </tr>
   <tr> <td class="ec"><img src="furan.gif"></td> <td class="ecbc"> c1occc1<br>C1OC=CC=C1<br> </td> <td class="ec"> furan </td> </tr>
+  <tr> <td class="ec"><img src="cyclobutadiene.gif"></td> <td class="ecbc"> c1ccc1<br>C1=CC=C1<br> </td> <td class="ec"> cyclobutadiene </td> </tr>
 </table>
 
 <p>The Kekul&eacute; form is always acceptable for SMILES input.  For output, the aromatic form
@@ -391,6 +389,15 @@ criterion</a>. When parsing a SMILES, a parser must note the aromatic designatio
 input, then when the parsing is complete, the SMILES software must verify that electrons can be
 assigned without violating the valence rules, consistent with the sp<sup>2</sup> markings, the
 specified or implied hydrogens, external bonds, and charges on the atoms.</p>
+
+<p>The aromatic-bond symbol ':' can be used between aromatic atoms, but it is never necessary; a
+bond between two aromatic atoms is assumed to be aromatic unless it is explicitely represented as a
+single bond '-'.  However, a single bond (nonaromatic bond) between two aromatic atoms <i>must</i>
+be explicitely represented.  For example:</p>
+
+<table class="et">
+  <tr> <td class="ec"><img src="biphenyl.gif"></td> <td class="ecbc"> c1ccccc1-c2ccccc2 </td> <td class="ec"> biphenyl </td> </tr>
+</table>
 
 <p>This meaning of <i>aromaticity</i> for SMILES is strictly for
 <a href="http://www.emolecules.com/doc/cheminformatics-101.htm">cheminformatics</a> purposes.  It is
@@ -482,7 +489,8 @@ can also be written:</p>
 </table>
 
 <p>The second example above is an odd, but legal, use of parentheses and the dot bond, since the
-syntax allows a dot anywhere a regular bond could appear.</p>
+syntax allows a dot most places a regular bond could appear (the exception
+is that a dot can't appear before a ring-closure digit).</p>
 
 <p>Although dot-bonds are commonly used to represent compounds with disconnected parts, a dot-bond
 does <i>not</i> in itself mean that there are disconnected parts in the compound.   See the
@@ -495,9 +503,10 @@ class="sm">C.1CCCCC.1</span> is illegal.</p>
 
 <p>A ring-number specifications ("rnum") is most commonly used to specify a ring-closure bond, but
 when used with the "." dot-bond symbol, it can also specify a non-ring bond.  Two rnums in a SMILES
-mean that the two atoms are bonded.  A dot-bond "." means that the atoms to which it is adjacent in
-the SMILES string are <i>not</i> bonded to each other.  By combining these two constructs, one can
-"piece together" fragments of SMILES into a whole molecule.  The following SMILES illustrate this:
+mean that the two atoms that preceed the rnums are bonded.  A dot-bond "." means that the atoms to
+which it is adjacent in the SMILES string are <i>not</i> bonded to each other.  By combining these
+two constructs, one can "piece together" fragments of SMILES into a whole molecule.  The following
+SMILES illustrate this:
 </p>
 
 <table class="et">
@@ -739,6 +748,9 @@ to parse these exceptionally long SMILES, but as a guideline, all implementation
 should, at a minimum, accept and correctly parse SMILES strings of 100,000 characters.  If a SMILES
 parser encounters a string that is too long to parse, it should generate a relevant error
 message.</p>
+
+<p>A SMILES parser should accept at least four digits for the <a href="#3.1.7">atom class</a>,
+and the values 0 to 9999.</p>
 
 <p>There is no formal limit to the number of rings a molecule can contain.  There are only
 100 ring-closure numbers, but since numbers can be reused, a molecule can potentially have more
