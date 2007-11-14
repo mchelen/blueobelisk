@@ -27,4 +27,19 @@
 	* Created make_toc.pl, a perl script to regenerate the table of
 	  contents by scanning the HTML files.  Added
 	  open-smiles-toc-template.html, which is used by the perl script.
+
+2007-11-13  Craig A. James <craig_james@emolecules.com>
+
+	* Many more changes, too many to enumerate.  Completed work on the
+	  first major revision.  Most important change: aromticity
+	  defined.
+	
+2007-11-13  Craig A. James <craig_james@emolecules.com>
+
+	* Fixed error, SMILES for ortho-substituted phenol was wrong.
+	
+	* Added GNU license notice to make_toc.pl, changed copyright
+	  notice.
+
+	* Added LICENSE.txt, with the contents of the GFDL.
 	

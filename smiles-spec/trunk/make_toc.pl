@@ -10,7 +10,10 @@
 #
 #	<a name="2.4.1"></a><h4>2.4.1 Some Title</h4>
 #	
-# Copyright (c) 2007, eMolecules, Inc.
+# Copyright (c) 2007, Craig A. James
+#
+# This program may be used under the terms of the GNU General Public
+# License version 2.
 #======================================================================
 
 use strict;
