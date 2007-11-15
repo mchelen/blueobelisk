@@ -46,3 +46,8 @@
 	* Fixed error in 4.3.4, "Only use dot bonds ...", ring digits
 	  shouldn't have been mentioned.
 	
+2007-11-14  Craig A. James <craig_james@emolecules.com>
+
+	* Fixed incorrect cis/trans example in 3.9.3.  C(\F)=C\F changed
+	  to C(\F)=C/F.  Found by Peter Ertl.
+	
