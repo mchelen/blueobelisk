@@ -28,11 +28,18 @@ foreach my $arg (@ARGV) {
 # get existing names
 my %titles;
 my $sql;
+my $query;
 if ($offline) {
-  $sql = $db->prepare("SELECT links.url, posts.post_id, posts.blog_id FROM links, posts WHERE posts.post_id = links.post_id AND id_inchi_hash IS NULL");
+  print "OFFLINE\n";
+  $query = "SELECT links.url, posts.post_id, posts.blog_id FROM links, posts WHERE id_inchi_hash IS NULL AND posts.post_id = links.post_id AND links.url LIKE '\%wikipedia\%'";
 } else {
-  $sql = $db->prepare("SELECT links.url, posts.post_id, posts.blog_id FROM links, posts WHERE posts.post_id = links.post_id AND id_inchi_hash IS NULL AND active = 1");
+  $query = "SELECT links.url, posts.post_id, posts.blog_id FROM links, posts WHERE posts.active = 1 AND id_inchi_hash IS NULL AND posts.post_id = links.post_id AND id_inchi_hash IS NULL AND links.url LIKE '\%wikipedia\%'";
 }
+$sql = $db->prepare($query);
+
+#print $query . "\n";
+#exit(0);
+
 $sql->execute();
 my $box;
 while (my $row = $sql->fetchrow_hashref()) {
