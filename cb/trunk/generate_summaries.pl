@@ -17,14 +17,10 @@ my $connection_string = sprintf("dbi:mysql:%s:%s", $config{"db_name"}, $config{"
 my $db = DBI->connect($connection_string, $config{"db_user"}, $config{"db_password"}) or log_error("Couldn't connect to the database.\n");
 
 # let's only summarize links from the past x days.
-my $age_limit = 90;
+my $age_limit = 30;
 
 # we have two "summary" tables, for links and posts
 my $sql = $db->prepare("DELETE FROM links_summary");
-$sql->execute();
-my $sql = $db->prepare("DELETE FROM posts_summary");
-$sql->execute();
-my $sql = $db->prepare("DELETE FROM papers_summary");
 $sql->execute();
 
 # repopulate the tables with data
@@ -39,6 +35,10 @@ links.url_hash, GROUP_CONCAT(DISTINCT CONCAT(p2.title,'===',p2.url,'===',p2.post
 ");
 $sql->execute($age_limit);
 
+print "Done repopulation links...\n";
+
+my $sql = $db->prepare("DELETE FROM posts_summary");
+$sql->execute();
 my $sql = $db->prepare("
 INSERT INTO posts_summary 
 (post_id, blog_id, title, url, url_hash, summary, filename, author, pubdate, added_on, blog_name, blog_image, linked_by)	
@@ -46,6 +46,10 @@ SELECT posts.post_id, posts.blog_id, posts.title, posts.url, posts.url_hash, pos
 ");
 $sql->execute();
 
+print "Done repopulation posts...\n";
+
+my $sql = $db->prepare("DELETE FROM papers_summary");
+$sql->execute();
 my $sql = $db->prepare("
 INSERT INTO papers_summary
 (paper_id, isbn_id, image, doi_id, pubmed_id, arxiv_id, pii_id, journal, title, abstract, authors, pubdate, added_on, url, cited_by, reviewed, blog_ids)
@@ -70,3 +74,6 @@ GROUP_CONCAT(DISTINCT links.blog_id SEPARATOR ',') AS blog_ids
 FROM papers LEFT JOIN links ON links.paper_id = papers.paper_id GROUP BY papers.paper_id;
 ");
 $sql->execute();
+
+print "Done repopulation papers...\n";
+
