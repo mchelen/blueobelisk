@@ -22,7 +22,7 @@ while (my $row = $sql->fetchrow_hashref()) {
   my $inchi = $row->{"inchi"};
   print "Need to create InChIKey for $inchi\n";
   my $url =  "http://www.chemspider.com/inchi.asmx/InChIToInChIKey?inchi=$inchi";
-  `wget -q -O /tmp/tmp.html "$url"`;
+  `wget -q -O /tmp/tmp.html --timeout=5 "$url"`;
   my $pcHtml = `cat /tmp/tmp.html`;
   # print $pcHtml;
   `rm /tmp/tmp.html`;
