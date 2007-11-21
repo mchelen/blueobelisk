@@ -51,3 +51,8 @@
 	* Fixed incorrect cis/trans example in 3.9.3.  C(\F)=C\F changed
 	  to C(\F)=C/F.  Found by Peter Ertl.
 	
+2007-11-21  Craig A. James <craig_james@emolecules.com>
+
+	* Appendix 7.3: Corrected URL for Marvin Toolkit (correction from
+	  Alex Allerdyce).
+	
