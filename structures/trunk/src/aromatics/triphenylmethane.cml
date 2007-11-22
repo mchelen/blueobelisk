@@ -7,7 +7,7 @@
           id="CS_benzhydrylbenzene">
   <formula concise=" C 19 H 16 "/>
   <identifier convention="iupac:inchi" value="1/C19H16/c1-4-10-16(11-5-1)19(17-12-6-2-7-13-17)18-14-8-3-9-15-18/h1-15,19H"/>
-  <name convention="IUPAC">Benzhydrylbenzene</name>
+  <name convention="IUPAC">Triphenylmethane</name>
   <atomArray>
     <atom id="a1" elementType="C" x3="-0.285799" y3="3.152353" z3="-1.388056"/>
     <atom id="a2" elementType="C" x3="0.072251" y3="1.882799" z3="-0.947995"/>
