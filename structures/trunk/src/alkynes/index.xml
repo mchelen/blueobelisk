@@ -2,33 +2,44 @@
 <!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
 <index>
   <title xml:lang="en">Alkynes</title>
-  <title xml:lang="fr">Alcynes</title>
   <title xml:lang="de">Alkine</title>
+  <title xml:lang="fr">Alcynes</title>
   <entry id="CS_acetylene">
     <name xml:lang="en">Acetylene</name>
+    <name xml:lang="de">Acetylen</name>
+    <name xml:lang="fr">Acétylène</name>
     <filename>acetylene</filename>
     <synonym xml:lang="en">Ethyne</synonym>
+    <synonym xml:lang="fr">Ethyne</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>
   </entry>
   <entry id="CS_but-1-yne">
     <name xml:lang="en">But-1-yne</name>
+    <name xml:lang="de">But-1-yn</name>
+    <name xml:lang="fr">But-1-yne</name>
     <filename>but-1-yne</filename>
     <synonym xml:lang="en">1-Butyne</synonym>
     <synonym xml:lang="de">1-Butin</synonym>
+    <synonym xml:lang="fr">1-Butyne</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>
   </entry>
   <entry id="CS_but-2-yne">
     <name xml:lang="en">But-2-yne</name>
+    <name xml:lang="de">But-2-yn</name>
+    <name xml:lang="fr">But-2-yne</name>
     <filename>but-2-yne</filename>
     <synonym xml:lang="en">2-Butyne</synonym>
     <synonym xml:lang="de">2-Butin</synonym>
+    <synonym xml:lang="fr">2-Butyne</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>
   </entry>
   <entry id="CS_propyne">
     <name xml:lang="en">Propyne</name>
+    <name xml:lang="de">Propyn</name>
+    <name xml:lang="fr">Propyne</name>
     <filename>propyne</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>
