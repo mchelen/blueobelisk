@@ -23,7 +23,7 @@
   <entry id="CS_benzoic_acid">
     <name xml:lang="en">Benzoic acid</name>
     <name xml:lang="de">Benzoesäure</name>
-    <name xml:lang="fr">Acide benzoique</name>
+    <name xml:lang="fr">Acide benzoïque</name>
     <filename>benzoic_acid</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -134,7 +134,7 @@
     <name xml:lang="fr">(1S,2R)-1,2-Diphényléthane-1,2-diol</name>
     <filename>1S_2R-1_2-diphenylethane-1_2-diol</filename>
     <synonym xml:lang="en">meso-Hydrobenzoin</synonym>
-    <synonym xml:lang="fr">méso-Hydrobenzoin</synonym>
+    <synonym xml:lang="fr">méso-Hydrobenzoïne</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
