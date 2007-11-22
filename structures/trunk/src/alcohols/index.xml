@@ -9,6 +9,7 @@
     <name xml:lang="fr">2-Méthylpropan-1-ol</name>
     <filename>2-methylpropan-1-ol</filename>
     <synonym xml:lang="en">Isobutanol</synonym>
+    <synonym xml:lang="fr">Isobutanol</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -17,85 +18,100 @@
     <name xml:lang="fr">2-Méthylpropan-2-ol</name>
     <filename>2-methylpropan-2-ol</filename>
     <synonym xml:lang="en">tert-Butanol</synonym>
+    <synonym xml:lang="fr">tert-Butanol</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_2R_3R_4R_5S-hexane-1_2_3_4_5_6-hexol">
     <name xml:lang="en">(2R,3R,4R,5S)-Hexane-1,2,3,4,5,6-hexol</name>
     <name xml:lang="de">(2R,3R,4R,5S)-Hexan-1,2,3,4,5,6-hexol</name>
+    <name xml:lang="fr">(2R,3R,4R,5S)-Hexane-1,2,3,4,5,6-hexol</name>
     <filename>2R_3R_4R_5S-hexane-1_2_3_4_5_6-hexol</filename>
     <synonym xml:lang="en">D-Sorbitol</synonym>
+    <synonym xml:lang="fr">D-Sorbitol</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_2R-butan-2-ol">
     <name xml:lang="en">(2R)-Butan-2-ol</name>
+    <name xml:lang="fr">(2R)-Butan-2-ol</name>
     <filename>2R-butan-2-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_2S-butan-2-ol">
     <name xml:lang="en">(2S)-Butan-2-ol</name>
+    <name xml:lang="fr">(2S)-Butan-2-ol</name>
     <filename>2S-butan-2-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_2S-heptan-2-ol">
     <name xml:lang="en">(2S)-Heptan-2-ol</name>
+    <name xml:lang="fr">(2S)-Heptan-2-ol</name>
     <filename>2S-heptan-2-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_2S-hexan-2-ol">
     <name xml:lang="en">(2S)-Hexan-2-ol</name>
+    <name xml:lang="fr">(2S)-Hexan-2-ol</name>
     <filename>2S-hexan-2-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_2S-octan-2-ol">
     <name xml:lang="en">(2S)-Octan-2-ol</name>
+    <name xml:lang="fr">(2S)-Octan-2-ol</name>
     <filename>2S-octan-2-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_2S-pentan-2-ol">
     <name xml:lang="en">(2S)-Pentan-2-ol</name>
+    <name xml:lang="fr">(2S)-Pentan-2-ol</name>
     <filename>2S-pentan-2-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_3S-heptan-3-ol">
     <name xml:lang="en">(3S)-Heptan-3-ol</name>
+    <name xml:lang="fr">(3S)-Heptan-3-ol</name>
     <filename>3S-heptan-3-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_3S-hexan-3-ol">
     <name xml:lang="en">(3S)-Hexan-3-ol</name>
+    <name xml:lang="fr">(3S)-Hexan-3-ol</name>
     <filename>3S-hexan-3-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_3S-octan-3-ol">
     <name xml:lang="en">(3S)-Octan-3-ol</name>
+    <name xml:lang="fr">(3S)-Octan-3-ol</name>
     <filename>3S-octan-3-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_4R-octan-4-ol">
     <name xml:lang="en">(4R)-Octan-4-ol</name>
+    <name xml:lang="fr">(4R)-Octan-4-ol</name>
     <filename>4R-octan-4-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_butan-1-ol">
     <name xml:lang="en">Butan-1-ol</name>
+    <name xml:lang="fr">Butan-1-ol</name>
     <filename>butan-1-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_ethane-1_2-diol">
     <name xml:lang="en">Ethane-1,2-diol</name>
+    <name xml:lang="fr">Ethane-1,2-diol</name>
     <filename>ethane-1_2-diol</filename>
     <synonym xml:lang="en">Ethylene glycol</synonym>
     <synonym xml:lang="de">Ethylenglykol</synonym>
@@ -105,25 +121,28 @@
   </entry>
   <entry id="CS_ethanol">
     <name xml:lang="en">Ethanol</name>
-    <name xml:lang="fr">Éthanol</name>
+    <name xml:lang="fr">Ethanol</name>
     <filename>ethanol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_heptan-1-ol">
     <name xml:lang="en">Heptan-1-ol</name>
+    <name xml:lang="fr">Heptan-1-ol</name>
     <filename>heptan-1-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_heptan-4-ol">
     <name xml:lang="en">Heptan-4-ol</name>
+    <name xml:lang="fr">Heptan-4-ol</name>
     <filename>heptan-4-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_hexan-1-ol">
     <name xml:lang="en">Hexan-1-ol</name>
+    <name xml:lang="fr">Hexan-1-ol</name>
     <filename>hexan-1-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -137,37 +156,44 @@
   </entry>
   <entry id="CS_octan-1-ol">
     <name xml:lang="en">Octan-1-ol</name>
+    <name xml:lang="fr">Octan-1-ol</name>
     <filename>octan-1-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_pentan-1-ol">
     <name xml:lang="en">Pentan-1-ol</name>
+    <name xml:lang="fr">Pentan-1-ol</name>
     <filename>pentan-1-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_pentan-3-ol">
     <name xml:lang="en">Pentan-3-ol</name>
+    <name xml:lang="fr">Pentan-3-ol</name>
     <filename>pentan-3-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_propan-1-ol">
     <name xml:lang="en">Propan-1-ol</name>
+    <name xml:lang="fr">Propan-1-ol</name>
     <filename>propan-1-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_propan-2-ol">
     <name xml:lang="en">Propan-2-ol</name>
+    <name xml:lang="fr">Propan-2-ol</name>
     <filename>propan-2-ol</filename>
     <synonym xml:lang="en">Isopropanol</synonym>
+    <synonym xml:lang="fr">Isopropanol</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_propane-1_2_3-triol">
     <name xml:lang="en">Propane-1,2,3-triol</name>
+    <name xml:lang="fr">Propane-1,2,3-triol</name>
     <filename>propane-1_2_3-triol</filename>
     <synonym xml:lang="en">Glycerol</synonym>
     <synonym xml:lang="de">Glycerin</synonym>
@@ -198,9 +224,11 @@
   </entry>
   <entry id="CS_nonan-1-ol">
     <name xml:lang="en">Nonan-1-ol</name>
+    <name xml:lang="fr">Nonan-1-ol</name>
     <filename>nonan-1-ol</filename>
     <synonym xml:lang="en">Nonyl alcohol</synonym>
     <synonym xml:lang="de">Nonylalkohol</synonym>
+    <synonym xml:lang="fr">Alcohol nonylique</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
@@ -213,24 +241,28 @@
   </entry>
   <entry id="CS_but-2-yne-1_4-diol">
     <name xml:lang="en">But-2-yne-1,4-diol</name>
+    <name xml:lang="fr">But-2-yne-1,4-diol</name>
     <filename>but-2-yne-1_4-diol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>
   </entry>
   <entry id="CS_cyclohexanol">
     <name xml:lang="en">Cyclohexanol</name>
+    <name xml:lang="fr">Cyclohexanol</name>
     <filename>cyclohexanol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>
   </entry>
   <entry id="CS_cyclopentanol">
     <name xml:lang="en">Cyclopentanol</name>
+    <name xml:lang="fr">Cyclopentanol</name>
     <filename>cyclopentanol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>
   </entry>
   <entry id="CS_1_1_1_3_3_3-hexafluoropropan-2-ol">
     <name xml:lang="en">1,1,1,3,3,3-Hexafluoropropan-2-ol</name>
+    <name xml:lang="fr">1,1,1,3,3,3-Hexafluoropropan-2-ol</name>
     <filename>1_1_1_3_3_3-hexafluoropropan-2-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-21</date>
@@ -257,6 +289,7 @@
   </entry>
   <entry id="CS_Z-hex-3-en-1-ol">
     <name xml:lang="en">(Z)-Hex-3-en-1-ol</name>
+    <name xml:lang="fr">(Z)-Hex-3-en-1-ol</name>
     <filename>Z-hex-3-en-1-ol</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-21</date>
@@ -267,7 +300,7 @@
     <name xml:lang="fr">(2S,3R)-Butane-1,2,3,4-tétrol</name>
     <filename>2S_3R-butane-1_2_3_4-tetrol</filename>
     <synonym xml:lang="en">meso-Erythritol</synonym>
-    <synonym xml:lang="fr">méso-Érythritol</synonym>
+    <synonym xml:lang="fr">méso-Erythritol</synonym>
     <synonym xml:lang="en">(2S,3R)-1,2,3,4-Tetrahydroxybutane</synonym>
     <synonym xml:lang="fr">(2S,3R)-1,2,3,4-Tétrahydroxybutane</synonym>
     <synonym xml:lang="de">(2S,3R)-1,2,3,4-Tetrahydroxybutan</synonym>
