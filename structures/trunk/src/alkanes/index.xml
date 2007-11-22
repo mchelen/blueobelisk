@@ -31,6 +31,7 @@
   <entry id="CS_2_3-dimethylbutane">
     <name xml:lang="en">2,3-Dimethylbutane</name>
     <name xml:lang="de">2,3-Dimethylbutan</name>
+    <name xml:lang="fr">2,3-Diméthylbutane</name>
     <filename>2_3-dimethylbutane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -38,6 +39,7 @@
   <entry id="CS_2-methylbutane">
     <name xml:lang="en">2-Methylbutane</name>
     <name xml:lang="de">2-Methylbutan</name>
+    <name xml:lang="fr">2-Méthylbutane</name>
     <filename>2-methylbutane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -45,6 +47,7 @@
   <entry id="CS_2-methylheptane">
     <name xml:lang="en">2-Methylheptane</name>
     <name xml:lang="de">2-Methylheptan</name>
+    <name xml:lang="fr">2-Méthylheptane</name>
     <filename>2-methylheptane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -52,6 +55,7 @@
   <entry id="CS_2-methylhexane">
     <name xml:lang="en">2-Methylhexane</name>
     <name xml:lang="de">2-Methylhexan</name>
+    <name xml:lang="fr">2-Méthylhexane</name>
     <filename>2-methylhexane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -59,6 +63,7 @@
   <entry id="CS_2-methylpentane">
     <name xml:lang="en">2-Methylpentane</name>
     <name xml:lang="de">2-Methylpentan</name>
+    <name xml:lang="fr">2-Méthylpentane</name>
     <filename>2-methylpentane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -66,22 +71,26 @@
   <entry id="CS_2-methylpropane">
     <name xml:lang="en">2-Methylpropane</name>
     <name xml:lang="de">2-Methylpropan</name>
+    <name xml:lang="fr">2-Methylpropan</name>
     <filename>2-methylpropane</filename>
     <synonym xml:lang="en">Isobutane</synonym>
     <synonym xml:lang="de">Isobutan</synonym>
+    <synonym xml:lang="fr">Isobutane</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_3-ethylhexane">
     <name xml:lang="en">3-Ethylhexane</name>
+    <name xml:lang="de">3-Ethylhexan</name>
+    <name xml:lang="fr">3-Ethylhexane</name>
     <filename>3-ethylhexane</filename>
-    <synonym xml:lang="de">3-Ethylhexan</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_3-ethylpentane">
     <name xml:lang="en">3-Ethylpentane</name>
     <name xml:lang="de">3-Ethylpentan</name>
+    <name xml:lang="fr">3-Ethylpentane</name>
     <filename>3-ethylpentane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -89,6 +98,7 @@
   <entry id="CS_3-methylpentane">
     <name xml:lang="en">3-Methylpentane</name>
     <name xml:lang="de">3-Methylpentan</name>
+    <name xml:lang="fr">3-Méthylpentane</name>
     <filename>3-methylpentane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -96,6 +106,7 @@
   <entry id="CS_3R_4S-3_4-dimethylhexane">
     <name xml:lang="en">(3R,4S)-3,4-Dimethylhexane</name>
     <name xml:lang="de">(3R,4S)-3,4-Dimethylhexan</name>
+    <name xml:lang="fr">(3R,4S)-3,4-Diméthylhexane</name>
     <filename>3R_4S-3_4-dimethylhexane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -103,6 +114,7 @@
   <entry id="CS_3S-2_3-dimethylpentane">
     <name xml:lang="en">(3S)-2,3-Dimethylpentane</name>
     <name xml:lang="de">(3S)-2,3-Dimethylpentan</name>
+    <name xml:lang="fr">(3S)-2,3-Diméthylpentane</name>
     <filename>3S-2_3-dimethylpentane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -110,6 +122,7 @@
   <entry id="CS_3S-3-methylheptane">
     <name xml:lang="en">(3S)-3-Methylheptane</name>
     <name xml:lang="de">(3S)-3-Methylheptan</name>
+    <name xml:lang="fr">(3S)-3-Méthylheptane</name>
     <filename>3S-3-methylheptane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -117,6 +130,7 @@
   <entry id="CS_4S-2_4-dimethylhexane">
     <name xml:lang="en">(4S)-2,4-Dimethylhexane</name>
     <name xml:lang="de">(4S)-2,4-Dimethylhexan</name>
+    <name xml:lang="fr">(4S)-2,4-Diméthylhexane</name>
     <filename>4S-2_4-dimethylhexane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -124,6 +138,7 @@
   <entry id="CS_butane">
     <name xml:lang="en">Butane</name>
     <name xml:lang="de">Butan</name>
+    <name xml:lang="fr">Butane</name>
     <filename>butane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -131,6 +146,7 @@
   <entry id="CS_cyclodecane">
     <name xml:lang="en">Cyclodecane</name>
     <name xml:lang="de">Cyclodecan</name>
+    <name xml:lang="fr">Cyclodécane</name>
     <filename>cyclodecane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -138,6 +154,7 @@
   <entry id="CS_cycloheptane">
     <name xml:lang="en">Cycloheptane</name>
     <name xml:lang="de">Cycloheptan</name>
+    <name xml:lang="fr">Cycloheptane</name>
     <filename>cycloheptane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -145,6 +162,7 @@
   <entry id="CS_cyclononane">
     <name xml:lang="en">Cyclononane</name>
     <name xml:lang="de">Cyclononan</name>
+    <name xml:lang="fr">Cyclononane</name>
     <filename>cyclononane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -152,6 +170,7 @@
   <entry id="CS_cyclooctane">
     <name xml:lang="en">Cyclooctane</name>
     <name xml:lang="de">Cyclooctan</name>
+    <name xml:lang="fr">Cyclooctane</name>
     <filename>cyclooctane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -159,6 +178,7 @@
   <entry id="CS_cyclopentane">
     <name xml:lang="en">Cyclopentane</name>
     <name xml:lang="de">Cyclopentan</name>
+    <name xml:lang="fr">Cyclopentane</name>
     <filename>cyclopentane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -166,6 +186,7 @@
   <entry id="CS_cyclohexane">
     <name xml:lang="en">Cyclohexane</name>
     <name xml:lang="de">Cyclohexan</name>
+    <name xml:lang="fr">Cyclohexane</name>
     <filename>cyclohexane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -173,6 +194,7 @@
   <entry id="CS_decane">
     <name xml:lang="en">Decane</name>
     <name xml:lang="de">Decan</name>
+    <name xml:lang="fr">Décane</name>
     <filename>decane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -180,6 +202,7 @@
   <entry id="CS_dodecane">
     <name xml:lang="en">Dodecane</name>
     <name xml:lang="de">Dodecan</name>
+    <name xml:lang="fr">Dodécane</name>
     <filename>dodecane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -187,6 +210,7 @@
   <entry id="CS_eicosane">
     <name xml:lang="en">Eicosane</name>
     <name xml:lang="de">Eicosan</name>
+    <name xml:lang="fr">Eicosane</name>
     <filename>eicosane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -194,6 +218,7 @@
   <entry id="CS_ethane">
     <name xml:lang="en">Ethane</name>
     <name xml:lang="de">Ethan</name>
+    <name xml:lang="fr">Ethane</name>
     <filename>ethane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -201,6 +226,7 @@
   <entry id="CS_heptane">
     <name xml:lang="en">Heptane</name>
     <name xml:lang="de">Heptan</name>
+    <name xml:lang="fr">Heptane</name>
     <filename>heptane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -208,6 +234,7 @@
   <entry id="CS_hexadecane">
     <name xml:lang="en">Hexadecane</name>
     <name xml:lang="de">Hexadecan</name>
+    <name xml:lang="fr">Hexadécane</name>
     <filename>hexadecane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -215,6 +242,7 @@
   <entry id="CS_hexane">
     <name xml:lang="en">Hexane</name>
     <name xml:lang="de">Hexan</name>
+    <name xml:lang="fr">Hexane</name>
     <filename>hexane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -222,6 +250,7 @@
   <entry id="CS_methane">
     <name xml:lang="en">Methane</name>
     <name xml:lang="de">Methan</name>
+    <name xml:lang="fr">Methane</name>
     <filename>methane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -229,6 +258,7 @@
   <entry id="CS_methylcyclohexane">
     <name xml:lang="en">Methylcyclohexane</name>
     <name xml:lang="de">Methylcyclohexan</name>
+    <name xml:lang="fr">Méthylcyclohexane</name>
     <filename>methylcyclohexane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -236,13 +266,15 @@
   <entry id="CS_methylcyclopentane">
     <name xml:lang="en">Methylcyclopentane</name>
     <name xml:lang="de">Methylcyclopentan</name>
+    <name xml:lang="en">Méthylcyclopentane</name>
     <filename>methylcyclopentane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_nonane">
     <name xml:lang="en">Nonane</name>
-    <name xml:lang="de">>Nonan</name>
+    <name xml:lang="de">Nonan</name>
+    <name xml:lang="fr">Nonane</name>
     <filename>nonane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -250,6 +282,7 @@
   <entry id="CS_octane">
     <name xml:lang="en">Octane</name>
     <name xml:lang="de">Octan</name>
+    <name xml:lang="fr">Octane</name>
     <filename>octane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -257,6 +290,7 @@
   <entry id="CS_pentane">
     <name xml:lang="en">Pentane</name>
     <name xml:lang="de">Pentan</name>
+    <name xml:lang="fr">Pentane</name>
     <filename>pentane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -264,6 +298,7 @@
   <entry id="CS_propane">
     <name xml:lang="en">Propane</name>
     <name xml:lang="de">Propan</name>
+    <name xml:lang="fr">Propane</name>
     <filename>propane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -271,6 +306,7 @@
   <entry id="CS_tetracosane">
     <name xml:lang="en">Tetracosane</name>
     <name xml:lang="de">Tetracosan</name>
+    <name xml:lang="fr">Tétracosane</name>
     <filename>tetracosane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -278,6 +314,7 @@
   <entry id="CS_undecane">
     <name xml:lang="en">Undecane</name>
     <name xml:lang="de">Undecan</name>
+    <name xml:lang="fr">Undécane</name>
     <filename>undecane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -285,6 +322,7 @@
   <entry id="CS_3R-3-ethyl-2_5-dimethylhexane">
     <name xml:lang="en">(3R)-3-Ethyl-2,5-dimethylhexane</name>
     <name xml:lang="de">(3R)-3-Ethyl-2,5-dimethylhexan</name>
+    <name xml:lang="fr">(3R)-3-Ethyl-2,5-diméthylhexane</name>
     <filename>3R-3-ethyl-2_5-dimethylhexane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
@@ -292,6 +330,7 @@
   <entry id="CS_pentadecane">
     <name xml:lang="en">Pentadecane</name>
     <name xml:lang="de">Pentadecan</name>
+    <name xml:lang="fr">Pentadécane</name>
     <filename>pentadecane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
@@ -299,20 +338,23 @@
   <entry id="CS_tetradecane">
     <name xml:lang="en">Tetradecane</name>
     <name xml:lang="de">Tetradecan</name>
+    <name xml:lang="fr">Tétradécane</name>
     <filename>tetradecane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_tridecane">
     <name xml:lang="en">Tridecane</name>
+    <name xml:lang="de">Tridecan</name>
+    <name xml:lang="fr">Tridécane</name>
     <filename>tridecane</filename>
-    <synonym xml:lang="de">Tridecan</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_1S_2S-1-ethyl-2-methylcyclopentane">
     <name xml:lang="en">(1S,2S)-1-Ethyl-2-methylcyclopentane</name>
     <name xml:lang="de">(1S,2S)-1-Ethyl-2-methylcyclopentan</name>
+    <name xml:lang="fr">(1S,2S)-1-Ethyl-2-méthylcyclopentane</name>
     <filename>1S_2S-1-ethyl-2-methylcyclopentane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-10-15</date>
