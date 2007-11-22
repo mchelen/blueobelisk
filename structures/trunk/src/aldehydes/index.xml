@@ -10,7 +10,7 @@
     <filename>2-methylpropanal</filename>
     <synonym xml:lang="en">Isobutyraldehyde</synonym>
     <synonym xml:lang="de">Isobutyraldehyd</synonym>
-    <synonym xml:lang="fr">Isobutyraldéhyde</synonym>
+    <synonym xml:lang="fr">Aldéhyde isobutyrique</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -21,6 +21,7 @@
     <synonym xml:lang="en">2-Methylbutyraldehyde</synonym>
     <synonym xml:lang="de">2-Methylbutyraldehyd</synonym>
     <synonym xml:lang="fr">2-Méthylbutyraldéhyde</synonym>
+    <synonym xml:lang="fr">Aldéhyde 2-méthylbutyrique</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -30,6 +31,7 @@
     <filename>3-methylbutanal</filename>
     <synonym xml:lang="en">Isovaleraldehyde</synonym>
     <synonym xml:lang="de">Isovaleraldehyd</synonym>
+    <synonym xml:lang="fr">Aldéhyde isovalérique</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -41,6 +43,7 @@
     <synonym xml:lang="en">n-Butyraldehyde</synonym>
     <synonym xml:lang="de">n-Butyraldehyd</synonym>
     <synonym xml:lang="fr">n-Butyraldéhyde</synonym>
+    <synonym xml:lang="fr">Aldéhyde butyrique</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -94,6 +97,7 @@
     <synonym xml:lang="en">n-Valeraldehyde</synonym>
     <synonym xml:lang="de">n-Valeraldehyd</synonym>
     <synonym xml:lang="fr">n-Valéraldéhyde</synonym>
+    <synonym xml:lang="fr">Aldéhyde valérique</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -104,6 +108,7 @@
     <synonym xml:lang="en">Proprionaldehyde</synonym>
     <synonym xml:lang="de">Proprionaldehyd</synonym>
     <synonym xml:lang="fr">Proprionaldéhyde</synonym>
+    <synonym xml:lang="fr">Aldéhyde proprionique</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
