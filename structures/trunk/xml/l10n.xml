@@ -79,7 +79,7 @@
   <msgset>
     <msgid>Structure Download</msgid>
     <msg>Structure Download</msg>
-    <msg xml:lang='de'>Struktur Laden</msg>
+    <msg xml:lang='de'>Struktur laden</msg>
     <msg xml:lang='fr'>Téléchargement de la structure</msg>
     <msg xml:lang='nl'>De structuur downloaden</msg>
   </msgset>
@@ -100,7 +100,7 @@
   <msgset>
     <msgid>Formula: </msgid>
     <msg>Formula: </msg>
-    <msg xml:lang='de'>Formula: </msg>
+    <msg xml:lang='de'>Formel: </msg>
     <msg xml:lang='fr'>Formule brute : </msg>
     <msg xml:lang='nl'>Molecuulformule:</msg>
   </msgset>
@@ -114,7 +114,7 @@
   <msgset>
     <msgid>Monoisotopic weight: </msgid>
     <msg>Monoisotopic weight: </msg>
-    <msg xml:lang='de'>Monoisotopische Masse: </msg>
+    <msg xml:lang='de'>Monoisotopisches Gewicht: </msg>
     <msg xml:lang='fr'>Masse monoisotopique : </msg>
     <msg xml:lang='nl'>Exacte massa:</msg>
   </msgset>
