@@ -4,10 +4,10 @@
           xmlns:units="http://www.xml-cml.org/units/units"
           xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
           xmlns:iupac="http://www.iupac.org"
-          id="CS_2R-2-amino-4-carbamoyl-butanoic_acid">
+          id="CS_2R-2-amino-4-carbamoylbutanoic_acid">
   <formula concise=" C 5 H 10 N 2 O 3 "/>
   <identifier convention="iupac:inchi" value="1/C5H10N2O3/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H2,7,8)(H,9,10)/t3-/m1/s1"/>
-  <name convention="IUPAC">(2R)-2-Amino-4-carbamoyl-butanoic acid</name>
+  <name convention="IUPAC">(2R)-2-Amino-4-carbamoylbutanoic acid</name>
   <atomArray>
     <atom id="a1" elementType="C" x3="1.800804" y3="-0.610574" z3="-1.722456"/>
     <atom id="a2" elementType="C" x3="0.848519" y3="-0.952214" z3="-0.575150"/>

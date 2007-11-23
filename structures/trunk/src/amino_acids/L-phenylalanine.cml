@@ -4,10 +4,10 @@
           xmlns:units="http://www.xml-cml.org/units/units"
           xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
           xmlns:iupac="http://www.iupac.org"
-          id="CS_2S-2-amino-3-phenyl-propanoic_acid">
+          id="CS_2S-2-amino-3-phenylpropanoic_acid">
   <formula concise=" C 9 H 11 N 1 O 2 "/>
   <identifier convention="iupac:inchi" value="1/C9H11NO2/c10-8(9(11)12)6-7-4-2-1-3-5-7/h1-5,8H,6,10H2,(H,11,12)/t8-/m0/s1"/>
-  <name convention="IUPAC">(2S)-2-Amino-3-phenyl-propanoic acid</name>
+  <name convention="IUPAC">(2S)-2-Amino-3-phenylpropanoic acid</name>
   <atomArray>
     <atom id="a1" elementType="N" x3="1.049085" y3="-2.055661" z3="-0.142277"/>
     <atom id="a2" elementType="C" x3="1.464179" y3="-0.692396" z3="-0.548019"/>
