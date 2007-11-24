@@ -2,37 +2,51 @@
 <!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
 <index>
   <title xml:lang="en">Drugs</title>
-  <title xml:lang="fr">Drogues</title>
   <title xml:lang="de">Drogen</title>
+  <title xml:lang="fr">Drogues</title>
   <entry id="CS_4-acetamidophenyl_2-hydroxybenzoate">
     <name xml:lang="en">(4-Acetamidophenyl) 2-hydroxybenzoate</name>
+    <name xml:lang="de">(4-Acetamidophenyl) 2-hydroxybenzoate</name>
+    <name xml:lang="fr">2-Hydroxybenzoate de 4-acétamidophényle</name>
     <filename>4-acetamidophenyl_2-hydroxybenzoate</filename>
     <synonym xml:lang="en">Acetaminosalol</synonym>
+    <synonym xml:lang="fr">Acétaminosalol</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>
   </entry>
   <entry id="CS_N-4-hydroxyphenyl_acetamide">
     <name xml:lang="en">N-(4-Hydroxyphenyl)acetamide</name>
+    <name xml:lang="fr">N-(4-Hydroxyphenyl)acétamide</name>
     <filename>N-4-hydroxyphenyl_acetamide</filename>
     <synonym xml:lang="en">Acetaminophen</synonym>
     <synonym xml:lang="en">Paracetamol</synonym>
+    <synonym xml:lang="fr">Acétaminophène</synonym>
+    <synonym xml:lang="fr">Paracétamol</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>
   </entry>
   <entry id="CS_acepromazine">
     <name xml:lang="en">Acepromazine</name>
+    <name xml:lang="de">Acepromazin</name>
+    <name xml:lang="fr">Acépromazine</name>
     <filename>acepromazine</filename>
     <synonym xml:lang="en">Acetylpromazine</synonym>
+    <synonym xml:lang="de">Acetylpromazin</synonym>
+    <synonym xml:lang="fr">Acétylpromazine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>
   </entry>
-  <entry id="CS_2S-1-phenylpropan-2-amine">
-    <name xml:lang="en">(2S)-1-Phenylpropan-2-amine</name>
-    <filename>2S-1-phenylpropan-2-amine</filename>
+  <entry id="CS_S-1-phenylpropan-2-amine">
+    <name xml:lang="en">D-Amphetamine</name>
+    <name xml:lang="de">D-Amphetamin</name>
+    <name xml:lang="fr">D-Amphétamine</name>
+    <filename>D-amphetamine</filename>
+    <synonym xml:lang="en">(S)-1-Phenylpropan-2-amine</synonym>
     <synonym xml:lang="en">Dextroamphetamine</synonym>
-    <synonym xml:lang="en">D-Amphetamine</synonym>
+    <synonym xml:lang="de">(S)-1-Phenylpropan-2-amin</synonym>
+    <synonym xml:lang="de">Dextroamphetamin</synonym>
+    <synonym xml:lang="fr">(S)-1-Phénylpropan-2-amine</synonym>
     <synonym xml:lang="fr">Dextroamphétamine</synonym>
-    <synonym xml:lang="fr">D-Amphétamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-24</date>
   </entry>
