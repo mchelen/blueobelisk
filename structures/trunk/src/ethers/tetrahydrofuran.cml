@@ -4,10 +4,10 @@
           xmlns:units="http://www.xml-cml.org/units/units"
           xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
           xmlns:iupac="http://www.iupac.org"
-          id="CS_oxolane">
+          id="CS_oxacyclopentane">
   <formula concise=" C 4 H 8 O 1 "/>
   <identifier convention="iupac:inchi" value="1/C4H8O/c1-2-4-5-3-1/h1-4H2"/>
-  <name convention="IUPAC">Oxolan</name>
+  <name convention="IUPAC">Oxacyclopentane</name>
   <atomArray>
     <atom id="a1" elementType="C" x3="-0.033912" y3="1.093367" z3="-0.034874"/>
     <atom id="a2" elementType="C" x3="-1.325423" y3="0.275155" z3="0.023821"/>
