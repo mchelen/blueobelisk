@@ -4,10 +4,10 @@
           xmlns:units="http://www.xml-cml.org/units/units"
           xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
           xmlns:iupac="http://www.iupac.org"
-          id="CS_2S-2-hydroxypropanoic_acid">
+          id="CS_S-2-hydroxypropanoic_acid">
   <formula concise=" C 3 H 6 O 3 "/>
   <identifier convention="iupac:inchi" value="1/C3H6O3/c1-2(4)3(5)6/h2,4H,1H3,(H,5,6)/t2-/m0/s1"/>
-  <name convention="IUPAC">(2S)-2-Hydroxypropanoic acid</name>
+  <name convention="IUPAC">(S)-2-Hydroxypropanoic acid</name>
   <atomArray>
     <atom id="a1" elementType="H" x3="1.861831" y3="-0.439178" z3="0.591343"/>
     <atom id="a2" elementType="C" x3="1.236657" y3="-0.579950" z3="-0.299237"/>
