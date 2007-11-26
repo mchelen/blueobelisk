@@ -46,7 +46,7 @@ while (my $row = $sql->fetchrow_hashref()) {
 
 	my $posts_dir = "posts/".$hash;
 
-	print STDERR "Doing $title\n";
+	print STDERR "\nDoing $title";
         print STDERR " -> hash: $hash\n";
 
 	my @posts = glob($posts_dir."/post_*");
@@ -180,7 +180,7 @@ sub fix_permalink {
 			if ($real_url =~ /http:\/\/(scienceblogs.*)/) {
 				$real_url = "http://www.$1";
 			}
-			print STDERR "$url redirected to [$real_url]\n";
+			#print STDERR "$url redirected to [$real_url]\n";
 			return $real_url;
 		} else {
 			if ($header =~ /HTTP\/1\.1 404/i) {
