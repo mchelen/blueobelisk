@@ -2,157 +2,191 @@
 <!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
 <index>
   <title xml:lang="en">Ketones</title>
-  <title xml:lang="fr">Cétones</title>
   <title xml:lang="de">Ketone</title>
+  <title xml:lang="fr">Cétones</title>
   <entry id="CS_butanone">
     <name xml:lang="en">Butanone</name>
+    <name xml:lang="fr">Butanone</name>
     <filename>butanone</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_heptan-2-one">
     <name xml:lang="en">Heptan-2-one</name>
+    <name xml:lang="fr">Heptan-2-one</name>
     <filename>heptan-2-one</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_heptan-3-one">
     <name xml:lang="en">Heptan-3-one</name>
+    <name xml:lang="fr">Heptan-3-one</name>
     <filename>heptan-3-one</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_heptan-4-one">
     <name xml:lang="en">Heptan-4-one</name>
+    <name xml:lang="fr">Heptan-4-one</name>
     <filename>heptan-4-one</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_hexan-2-one">
     <name xml:lang="en">Hexan-2-one</name>
+    <name xml:lang="fr">Hexan-2-one</name>
     <filename>hexan-2-one</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_hexan-3-one">
     <name xml:lang="en">Hexan-3-one</name>
+    <name xml:lang="fr">Hexan-3-one</name>
     <filename>hexan-3-one</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_octan-2-one">
     <name xml:lang="en">Octan-2-one</name>
+    <name xml:lang="fr">Octan-2-one</name>
     <filename>octan-2-one</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_octan-3-one">
     <name xml:lang="en">Octan-3-one</name>
+    <name xml:lang="fr">Octan-3-one</name>
     <filename>octan-3-one</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_octan-4-one">
     <name xml:lang="en">Octan-4-one</name>
+    <name xml:lang="fr">Octan-4-one</name>
     <filename>octan-4-one</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_pentan-2-one">
     <name xml:lang="en">Pentan-2-one</name>
+    <name xml:lang="fr">Pentan-2-one</name>
     <filename>pentan-2-one</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_pentan-3-one">
     <name xml:lang="en">Pentan-3-one</name>
+    <name xml:lang="fr">Pentan-3-one</name>
     <filename>pentan-3-one</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_propanone">
-    <name xml:lang="en">Propanone</name>
-    <filename>propanone</filename>
-    <synonym xml:lang="en">Aceton</synonym>
-    <synonym xml:lang="fr">Acétone</synonym>
-    <synonym xml:lang="fr">Diméthylcétone</synonym>
-    <synonym xml:lang="de">Aceton</synonym>
+    <name xml:lang="en">Acetone</name>
+    <name xml:lang="de">Aceton</name>
+    <name xml:lang="fr">Acétone</name>
+    <filename>acetone</filename>
+    <synonym xml:lang="en">Propanone</synonym>
+    <synonym xml:lang="en">Dimethyl ketone</synonym>
+    <synonym xml:lang="de">Propanon</synonym>
     <synonym xml:lang="de">Dimethylketon</synonym>
+    <synonym xml:lang="fr">Propanone</synonym>
+    <synonym xml:lang="fr">Diméthylcétone</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_cyclohexa-2_5-diene-1_4-dione">
-    <name xml:lang="en">Cyclohexa-2,5-diene-1,4-dione</name>
-    <filename>cyclohexa-2_5-diene-1_4-dione</filename>
+    <name xml:lang="en">p-Benzoquinone</name>
+    <name xml:lang="fr">p-Benzoquinone</name>
+    <filename>p-benzoquinone</filename>
+    <synonym xml:lang="en">Cyclohexa-2,5-diene-1,4-dione</synonym>
+    <synonym xml:lang="fr">Cyclohexa-2,5-diène-1,4-dione</synonym>
     <synonym xml:lang="en">Quinone</synonym>
-    <synonym xml:lang="en">p-Benzoquinone</synonym>
+    <synonym xml:lang="fr">Quinone</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-29</date>
   </entry>
   <entry id="CS_cyclohexa-2_4-diene-1_6-dione">
-    <name xml:lang="en">Cyclohexa-2,4-diene-1,6-dione</name>
-    <filename>cyclohexa-2_4-diene-1_6-dione</filename>
+    <name xml:lang="en">o-Benzoquinone</name>
+    <name xml:lang="fr">o-Benzoquinone</name>
+    <filename>o-benzoquinone</filename>
+    <synonym xml:lang="en">Cyclohexa-2,4-diene-1,6-dione</synonym>
+    <synonym xml:lang="fr">Cyclohexa-2,4-diène-1,6-dione</synonym>
     <synonym xml:lang="en">o-Quinone</synonym>
-    <synonym xml:lang="en">o-Benzoquinone</synonym>
+    <synonym xml:lang="fr">o-Quinone</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-29</date>
   </entry>
   <entry id="CS_cyclopentanone">
     <name xml:lang="en">Cyclopentanone</name>
+    <name xml:lang="fr">Cyclopentanone</name>
     <filename>cyclopentanone</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
   </entry>
   <entry id="CS_pyran-2-one">
     <name xml:lang="en">Pyran-2-one</name>
+    <name xml:lang="fr">Pyran-2-one</name>
     <filename>pyran-2-one</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
   </entry>
   <entry id="CS_pyran-4-one">
     <name xml:lang="en">Pyran-4-one</name>
+    <name xml:lang="fr">Pyran-4-one</name>
     <filename>pyran-4-one</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
   </entry>
   <entry id="CS_1_1_1_3_3_3-hexafluoropropanone">
-    <name xml:lang="en">1,1,1,3,3,3-Hexafluoropropanone</name>
-    <filename>1_1_1_3_3_3-hexafluoropropanone</filename>
-    <synonym xml:lang="en">Hexafluoroacetone</synonym>
+    <name xml:lang="en">Hexafluoroacetone</name>
+    <name xml:lang="fr">Hexafluoroacétone</name>
+    <filename>hexafluoroacetone</filename>
+    <synonym xml:lang="en">1,1,1,3,3,3-Hexafluoropropanone</synonym>
+    <synonym xml:lang="fr">1,1,1,3,3,3-Hexafluoropropanone</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_Z-4-hydroxypent-3-en-2-one">
-    <name xml:lang="en">(Z)-4-Hydroxypent-3-en-2-one</name>
     <filename>Z-4-hydroxypent-3-en-2-one</filename>
+    <name xml:lang="en">(Z)-4-Hydroxypent-3-en-2-one</name>
+    <name xml:lang="fr">(Z)-4-Hydroxypent-3-en-2-one</name>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_but-3-en-2-one">
-    <name xml:lang="en">But-3-en-2-one</name>
-    <filename>but-3-en-2-one</filename>
+    <name xml:lang="en">Methyl vinyl ketone</name>
+    <name xml:lang="fr">Méthyl vinyl cétone</name>
+    <filename>methyl_vinyl_ketone</filename>
+    <synonym xml:lang="en">But-3-en-2-one</synonym>
     <synonym xml:lang="en">3-Buten-2-one</synonym>
-    <synonym xml:lang="en">Methyl vinyl ketone</synonym>
+    <synonym xml:lang="fr">But-3-èn-2-one</synonym>
+    <synonym xml:lang="fr">3-Butèn-2-one</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_cyclohex-2-en-1-one">
     <name xml:lang="en">Cyclohex-2-en-1-one</name>
+    <name xml:lang="fr">Cyclohex-2-èn-1-one</name>
     <filename>cyclohex-2-en-1-one</filename>
     <synonym xml:lang="en">2-Cyclohexen-1-one</synonym>
+    <synonym xml:lang="fr">2-Cyclohexèn-1-one</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_cyclohexanone">
     <name xml:lang="en">Cyclohexanone</name>
+    <name xml:lang="fr">Cyclohexanone</name>
     <filename>cyclohexanone</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_cyclopent-2-en-1-one">
     <name xml:lang="en">Cyclopent-2-en-1-one</name>
+    <name xml:lang="fr">Cyclopent-2-èn-1-one</name>
     <filename>cyclopent-2-en-1-one</filename>
     <synonym xml:lang="en">2-Cyclopenten-1-one</synonym>
+    <synonym xml:lang="fr">2-Cyclopentèn-1-one</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
