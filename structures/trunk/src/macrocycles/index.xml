@@ -2,12 +2,12 @@
 <!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
 <index>
   <title xml:lang="en">Macrocycles</title>
-  <title xml:lang="fr">Macrocycles</title>
   <title xml:lang="de">Makrozyklen</title>
+  <title xml:lang="fr">Macrocycles</title>
   <entry id="CS_porphyrin">
-    <name xml:lang="en">Porphyrin</name>
-    <filename>porphyrin</filename>
-    <synonym xml:lang="en">Porphine</synonym>
+    <name xml:lang="en">Porphin</name>
+    <name xml:lang="fr">Porphine</name>
+    <filename>porphin</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-21</date>
   </entry>
