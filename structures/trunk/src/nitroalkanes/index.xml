@@ -2,8 +2,8 @@
 <!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
 <index>
   <title xml:lang="en">Nitroalkanes</title>
-  <title xml:lang="fr">Nitroalcanes</title>
   <title xml:lang="de">Nitroalkan</title>
+  <title xml:lang="fr">Nitroalcanes</title>
   <entry id="CS_nitroethane">
     <name xml:lang="en">Nitroethane</name>
     <name xml:lang="fr">Nitroéthane</name>
