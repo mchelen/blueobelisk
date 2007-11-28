@@ -2,45 +2,52 @@
 <!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
 <index>
   <title xml:lang="en">Amines</title>
-  <title xml:lang="fr">Amines</title>
   <title xml:lang="de">Amines</title>
+  <title xml:lang="fr">Amines</title>
   <entry id="CS_azane">
-    <name xml:lang="en">Azane</name>
-    <filename>azane</filename>
-    <synonym xml:lang="en">Ammonia</synonym>
-    <synonym xml:lang="fr">Ammoniaque</synonym>
-    <synonym xml:lang="de">Ammoniak</synonym>
+    <name xml:lang="en">Ammonia</name>
+    <name xml:lang="de">Ammoniak</name>
+    <name xml:lang="fr">Ammoniaque</name>
+    <filename>ammonia</filename>
+    <synonym xml:lang="en">Azane</synonym>
+    <synonym xml:lang="fr">Azane</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_morpholine">
     <name xml:lang="en">Morpholine</name>
     <name xml:lang="de">Morpholin</name>
+    <name xml:lang="fr">Morpholine</name>
     <filename>morpholine</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_N_N-diethylethanamine">
-    <name xml:lang="en">N,N-Diethylethanamine</name>
-    <name xml:lang="de">N,N-Diethylethanamin</name>
-    <filename>N_N-diethylethanamine</filename>
-    <synonym xml:lang="en">Triethylamine</synonym>
-    <synonym xml:lang="fr">Triéthylamine</synonym>
+    <name xml:lang="en">Triethylamine</name>
+    <name xml:lang="de">Triethylamin</name>
+    <name xml:lang="fr">Triéthylamine</name>
+    <filename>triethylamine</filename>
+    <synonym xml:lang="en">N,N-Diethylethanamine</synonym>
+    <synonym xml:lang="de">N,N-Diethylethanamin</synonym>
+    <synonym xml:lang="fr">N,N-Diéthyléthanamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_N_N-dimethylmethanamine">
-    <name xml:lang="en">N,N-Dimethylmethanamine</name>
-    <name xml:lang="de">N,N-Dimethylmethanamin</name>
-    <filename>N_N-dimethylmethanamine</filename>
-    <synonym xml:lang="en">Trimethylamine</synonym>
-    <synonym xml:lang="fr">Triméthylamine</synonym>
+    <name xml:lang="en">Trimethylamine</name>
+    <name xml:lang="de">Trimethylamin</name>
+    <name xml:lang="fr">Triméthylamine</name>
+    <filename>trimethylamine</filename>
+    <synonym xml:lang="en">N,N-Dimethylethanamine</synonym>
+    <synonym xml:lang="de">N,N-Dimethylethanamin</synonym>
+    <synonym xml:lang="fr">N,N-Diméthyléthanamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_piperazine">
     <name xml:lang="en">Piperazine</name>
     <name xml:lang="de">Piperazin</name>
+    <name xml:lang="fr">Pipérazine</name>
     <filename>piperazine</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -48,6 +55,7 @@
   <entry id="CS_piperidine">
     <name xml:lang="en">Piperidine</name>
     <name xml:lang="de">Piperidin</name>
+    <name xml:lang="fr">Pipéridine</name>
     <filename>piperidine</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -55,104 +63,169 @@
   <entry id="CS_pyrrolidine">
     <name xml:lang="en">Pyrrolidine</name>
     <name xml:lang="de">Pyrrolidin</name>
+    <name xml:lang="fr">Pyrrolidine</name>
     <filename>pyrrolidine</filename>
     <synonym xml:lang="en">Azacyclopentane</synonym>
     <synonym xml:lang="en">Tetrahydropyrrole</synonym>
+    <synonym xml:lang="fr">Azacyclopentane</synonym>
+    <synonym xml:lang="fr">Tétrahydropyrrole</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-26</date>
   </entry>
   <entry id="CS_butan-1-amine">
-    <name xml:lang="en">Butan-1-amine</name>
-    <name xml:lang="de">Butan-1-amin</name>
-    <filename>butan-1-amine</filename>
+    <name xml:lang="en">1-Aminobutane</name>
+    <name xml:lang="de">1-Aminobutan</name>
+    <name xml:lang="fr">1-Aminobutane</name>
+    <filename>1-aminobutane</filename>
+    <synonym xml:lang="en">Butan-1-amine</synonym>
     <synonym xml:lang="en">n-Butylamine</synonym>
+    <synonym xml:lang="de">Butan-1-amin</synonym>
+    <synonym xml:lang="de">n-Butylamin</synonym>
+    <synonym xml:lang="fr">Butan-1-amine</synonym>
+    <synonym xml:lang="fr">n-Butylamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_decan-1-amine">
-    <name xml:lang="en">Decan-1-amine</name>
-    <name xml:lang="de">Decan-1-amin</name>
-    <filename>decan-1-amine</filename>
+    <name xml:lang="en">1-Aminodecane</name>
+    <name xml:lang="de">1-Aminodecan</name>
+    <name xml:lang="fr">1-Aminodécane</name>
+    <filename>1-aminodecane</filename>
+    <synonym xml:lang="en">Decan-1-amine</synonym>
     <synonym xml:lang="en">n-Decylamine</synonym>
+    <synonym xml:lang="de">Decan-1-amin</synonym>
+    <synonym xml:lang="de">n-Decylamin</synonym>
+    <synonym xml:lang="fr">Décan-1-amine</synonym>
+    <synonym xml:lang="fr">n-Décylamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_ethanamine">
-    <name xml:lang="en">Ethanamine</name>
-    <name xml:lang="de">Ethanamin</name>
-    <filename>ethanamine</filename>
-    <synonym xml:lang="en">Ethylamine</synonym>
+    <name xml:lang="en">Ethylamine</name>
+    <name xml:lang="de">Ethylamin</name>
+    <name xml:lang="fr">Ethylamine</name>
+    <filename>ethylamine</filename>
+    <synonym xml:lang="en">Ethanamine</synonym>
+    <synonym xml:lang="de">Ethanamin</synonym>
+    <synonym xml:lang="fr">Ethanamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_heptan-1-amine">
-    <name xml:lang="en">Heptan-1-amine</name>
-    <name xml:lang="de">Heptan-1-amin</name>
-    <filename>heptan-1-amine</filename>
+    <name xml:lang="en">1-Aminopentane</name>
+    <name xml:lang="de">1-Aminopentan</name>
+    <name xml:lang="fr">1-Aminopentane</name>
+    <filename>1-aminopentane</filename>
+    <synonym xml:lang="en">Heptan-1-amine</synonym>
     <synonym xml:lang="en">n-Heptylamine</synonym>
+    <synonym xml:lang="de">Heptan-1-amin</synonym>
+    <synonym xml:lang="de">n-Heptylamin</synonym>
+    <synonym xml:lang="fr">Heptan-1-amine</synonym>
+    <synonym xml:lang="fr">n-Heptylamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_hexan-1-amine">
-    <name xml:lang="en">Hexan-1-amine</name>
-    <name xml:lang="de">Hexan-1-amin</name>
-    <filename>hexan-1-amine</filename>
+    <name xml:lang="en">1-Aminohexane</name>
+    <name xml:lang="de">1-Aminohexan</name>
+    <name xml:lang="fr">1-Aminohexane</name>
+    <filename>1-aminohexane</filename>
+    <synonym xml:lang="en">Hexan-1-amine</synonym>
     <synonym xml:lang="en">n-Hexylamine</synonym>
+    <synonym xml:lang="de">Hexan-1-amin</synonym>
+    <synonym xml:lang="de">n-Hexylamin</synonym>
+    <synonym xml:lang="fr">Hexan-1-amine</synonym>
+    <synonym xml:lang="fr">n-Hexylamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_methanamine">
-    <name xml:lang="en">Methanamine</name>
-    <name xml:lang="de">Methanamin</name>
-    <filename>methanamine</filename>
-    <synonym xml:lang="en">Methylamine</synonym>
+    <name xml:lang="en">Methylamine</name>
+    <name xml:lang="de">Methylamin</name>
+    <name xml:lang="fr">Méthylamine</name>
+    <filename>methylamine</filename>
+    <synonym xml:lang="en">Methanamine</synonym>
+    <synonym xml:lang="de">Methanamin</synonym>
+    <synonym xml:lang="fr">Méthanamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_nonan-1-amine">
-    <name xml:lang="en">Nonan-1-amine</name>
-    <name xml:lang="de">Nonan-1-amin</name>
-    <filename>nonan-1-amine</filename>
+    <name xml:lang="en">1-Aminononane</name>
+    <name xml:lang="de">1-Aminononan</name>
+    <name xml:lang="fr">1-Aminononane</name>
+    <filename>1-aminononane</filename>
+    <synonym xml:lang="en">Nonan-1-amine</synonym>
     <synonym xml:lang="en">n-Nonylamine</synonym>
+    <synonym xml:lang="de">Nonan-1-amin</synonym>
+    <synonym xml:lang="de">n-Nonylamine</synonym>
+    <synonym xml:lang="fr">Nonan-1-amine</synonym>
+    <synonym xml:lang="fr">n-Nonylamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_octan-1-amine">
-    <name xml:lang="en">Octan-1-amine</name>
-    <name xml:lang="de">Octan-1-amin</name>
-    <filename>octan-1-amine</filename>
+    <name xml:lang="en">1-Aminooctane</name>
+    <name xml:lang="de">1-Aminooctan</name>
+    <name xml:lang="fr">1-Aminooctane</name>
+    <filename>1-aminooctane</filename>
+    <synonym xml:lang="en">Octan-1-amine</synonym>
     <synonym xml:lang="en">n-Octylamine</synonym>
+    <synonym xml:lang="de">Octan-1-amin</synonym>
+    <synonym xml:lang="de">n-Octylamin</synonym>
+    <synonym xml:lang="fr">Octan-1-amine</synonym>
+    <synonym xml:lang="fr">n-Octylamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_pentan-1-amine">
-    <name xml:lang="en">Pentan-1-amine</name>
-    <name xml:lang="de">Pentan-1-amin</name>
-    <filename>pentan-1-amine</filename>
+    <name xml:lang="en">1-Aminopentane</name>
+    <name xml:lang="de">1-Aminopentan</name>
+    <name xml:lang="fr">1-Aminopentane</name>
+    <filename>1-aminopentane</filename>
+    <synonym xml:lang="en">Pentan-1-amine</synonym>
     <synonym xml:lang="en">n-Pentylamine</synonym>
     <synonym xml:lang="en">n-Amylamine</synonym>
+    <synonym xml:lang="de">Pentan-1-amin</synonym>
+    <synonym xml:lang="de">n-Pentylamin</synonym>
+    <synonym xml:lang="fr">Pentan-1-amine</synonym>
+    <synonym xml:lang="fr">n-Pentylamine</synonym>
+    <synonym xml:lang="fr">n-Amylamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_propan-1-amine">
-    <name xml:lang="en">Propan-1-amine</name>
-    <name xml:lang="de">Propan-1-amin</name>
-    <filename>propan-1-amine</filename>
+    <name xml:lang="en">1-Aminopropane</name>
+    <name xml:lang="de">1-Aminopropane</name>
+    <name xml:lang="fr">1-Aminopropane</name>
+    <filename>1-aminopropane</filename>
+    <synonym xml:lang="en">Propan-1-amine</synonym>
     <synonym xml:lang="en">n-Propylamine</synonym>
+    <synonym xml:lang="de">Propan-1-amin</synonym>
+    <synonym xml:lang="de">n-Propylamin</synonym>
+    <synonym xml:lang="fr">Propan-1-amine</synonym>
+    <synonym xml:lang="fr">n-Propylamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_propan-2-amine">
-    <name xml:lang="en">Propan-2-amine</name>
-    <name xml:lang="de">Propan-2-amin</name>
-    <filename>propan-2-amine</filename>
+    <name xml:lang="en">2-Aminopropane</name>
+    <name xml:lang="de">2-Aminopropane</name>
+    <name xml:lang="fr">2-Aminopropane</name>
+    <filename>2-aminopropane</filename>
+    <synonym xml:lang="en">Propan-2-amine</synonym>
     <synonym xml:lang="en">Isopropylamine</synonym>
+    <synonym xml:lang="de">Propan-2-amin</synonym>
+    <synonym xml:lang="de">Isopropylamin</synonym>
+    <synonym xml:lang="fr">Propan-2-amine</synonym>
+    <synonym xml:lang="fr">Isopropylamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_azepane">
     <name xml:lang="en">Azepane</name>
     <name xml:lang="de">Azepan</name>
+    <name xml:lang="fr">Azépane</name>
     <filename>azepane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
@@ -160,86 +233,147 @@
   <entry id="CS_1H-azepine">
     <name xml:lang="en">1H-Azepine</name>
     <name xml:lang="de">1H-Azepin</name>
+    <name xml:lang="fr">1H-Azépine</name>
     <filename>1H-azepine</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
   </entry>
   <entry id="CS_1_4-diazabicyclo_2_2_2_octane">
-    <name xml:lang="en">1,4-Diazabicyclo[2.2.2]octane</name>
-    <filename>1_4-diazabicyclo_2_2_2_octane</filename>
-    <synonym xml:lang="en">Triethylenediamine</synonym>
-    <synonym xml:lang="en">TED</synonym>
+    <name xml:lang="en">Triethylenediamine</name>
+    <name xml:lang="de">Triethylenediamin</name>
+    <name xml:lang="fr">Triéthylènediamine</name>
+    <filename>triethylenediamine</filename>
+    <synonym xml:lang="en">1,4-Diazabicyclo[2.2.2]octane</synonym>
+    <synonym xml:lang="de">1,4-Diazabicyclo[2.2.2]octan</synonym>
+    <synonym xml:lang="fr">1,4-Diazabicyclo[2.2.2]octane</synonym>
+    <synonym xml:lang="xx">TED</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_1R_2S-cyclohexane-1_2-diamine">
-    <name xml:lang="en">(1R,2S)-Cyclohexane-1,2-diamine</name>
-    <filename>1R_2S-cyclohexane-1_2-diamine</filename>
+    <name xml:lang="en">(1R,2S)-1,2-Diaminocyclohexane</name>
+    <name xml:lang="de">(1R,2S)-1,2-Diaminocyclohexan</name>
+    <name xml:lang="fr">(1R,2S)-1,2-Diaminocyclohexane</name>
+    <filename>1R_2S-1_2-diaminocyclohexane</filename>
+    <synonym xml:lang="en">(1R,2S)-Cyclohexane-1,2-diamine</synonym>
+    <synonym xml:lang="de">(1R,2S)-Cyclohexane-1,2-diamin</synonym>
+    <synonym xml:lang="fr">(1R,2S)-Cyclohexane-1,2-diamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_1S_2S-cyclohexane-1_2-diamine">
-    <name xml:lang="en">(1S,2S)-Cyclohexane-1,2-diamine</name>
-    <filename>1S_2S-cyclohexane-1_2-diamine</filename>
+    <name xml:lang="en">(1S,2S)-1,2-Diaminocyclohexane</name>
+    <name xml:lang="de">(1S,2S)-1,2-Diaminocyclohexan</name>
+    <name xml:lang="fr">(1S,2S)-1,2-Diaminocyclohexane</name>
+    <filename>1S_2S-1_2-diaminocyclohexane</filename>
+    <synonym xml:lang="en">(1S,2S)-Cyclohexane-1,2-diamine</synonym>
+    <synonym xml:lang="de">(1S,2S)-Cyclohexane-1,2-diamin</synonym>
+    <synonym xml:lang="fr">(1S,2S)-Cyclohexane-1,2-diamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_2-methylpropan-2-amine">
-    <name xml:lang="en">2-Methylpropan-2-amine</name>
-    <filename>2-methylpropan-2-amine</filename>
+    <name xml:lang="en">tert-Butylamine</name>
+    <name xml:lang="de">tert-Butylamin</name>
+    <name xml:lang="fr">tert-Butylamine</name>
+    <filename>tert-butylamine</filename>
+    <synonym xml:lang="en">2-Methylpropan-2-amine</synonym>
+    <synonym xml:lang="en">2-Amino-2-methylpropane</synonym>
+    <synonym xml:lang="de">2-Methylpropan-2-amin</synonym>
+    <synonym xml:lang="de">2-Amino-2-methylpropan</synonym>
+    <synonym xml:lang="fr">2-Méthylpropan-2-amine</synonym>
+    <synonym xml:lang="fr">2-amino-2-méthylpropane</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_2S-butan-2-amine">
-    <name xml:lang="en">(2S)-Butan-2-amine</name>
-    <filename>2S-butan-2-amine</filename>
-    <synonym xml:lang="en">(S)-(+)-sec-Butylamine</synonym>
+    <name xml:lang="en">(S)-sec-Butylamine</name>
+    <name xml:lang="de">(S)-sec-Butylamin</name>
+    <name xml:lang="fr">(S)-sec-Butylamine</name>
+    <filename>S-sec-butylamine</filename>
+    <synonym xml:lang="en">(S)-Butan-2-amine</synonym>
+    <synonym xml:lang="en">(S)-2-Aminobutane</synonym>
+    <synonym xml:lang="de">(S)-Butan-2-amin</synonym>
+    <synonym xml:lang="de">(S)-2-Aminobutan</synonym>
+    <synonym xml:lang="fr">(S)-Butan-2-amine</synonym>
+    <synonym xml:lang="fr">(S)-2-Aminobutane</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_cyclohexanamine">
-    <name xml:lang="en">Cyclohexanamine</name>
-    <filename>cyclohexanamine</filename>
+    <name xml:lang="en">Aminocyclohexane</name>
+    <name xml:lang="de">Aminocyclohexane</name>
+    <name xml:lang="fr">Aminocyclohexane</name>
+    <filename>aminocyclohexane</filename>
+    <synonym xml:lang="en">Cyclohexanamine</synonym>
     <synonym xml:lang="en">Cyclohexylamine</synonym>
+    <synonym xml:lang="de">Cyclohexanamin</synonym>
+    <synonym xml:lang="de">Cyclohexylamin</synonym>
+    <synonym xml:lang="fr">Cyclohexanamine</synonym>
+    <synonym xml:lang="fr">Cyclohexylamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_cyclopentamine">
-    <name xml:lang="en">Cyclopentamine</name>
-    <filename>cyclopentamine</filename>
+    <name xml:lang="en">Aminocyclopentane</name>
+    <name xml:lang="de">Aminocyclopentan</name>
+    <name xml:lang="fr">Aminocyclopentane</name>
+    <filename>aminocyclopentane</filename>
+    <synonym xml:lang="en">Cyclopentanamine</synonym>
     <synonym xml:lang="en">Cyclopentylamine</synonym>
+    <synonym xml:lang="de">Cyclopentanamin</synonym>
+    <synonym xml:lang="de">Cyclopentylamin</synonym>
+    <synonym xml:lang="fr">Cyclopentanamine</synonym>
+    <synonym xml:lang="fr">Cyclopentylamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
-  <entry id="CS_N_ethylethylamine">
-    <name xml:lang="en">N-Ethylethanamine</name>
-    <filename>N-ethylethanamine</filename>
-    <synonym xml:lang="en">Diethylamine</synonym>
-    <synonym xml:lang="fr">Diéthylamine</synonym>
+  <entry id="CS_N_ethylethanamine">
+    <name xml:lang="en">Diethylamine</name>
+    <name xml:lang="de">Diethylamin</name>
+    <name xml:lang="fr">Diéthylamine</name>
+    <filename>diethylamine</filename>
+    <synonym xml:lang="en">N-Ethylethanamine</synonym>
+    <synonym xml:lang="de">N-Ethylethanamin</synonym>
+    <synonym xml:lang="fr">N-Ethyléthanamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
-  <entry id="CS_N_methylmethylamine">
-    <name xml:lang="en">N-Methylmethanamine</name>
-    <filename>N-methylmethanamine</filename>
-    <synonym xml:lang="en">Dimethylamine</synonym>
-    <synonym xml:lang="fr">Diméthylamine</synonym>
+  <entry id="CS_N_methylmethanamine">
+    <name xml:lang="en">Dimethylamine</name>
+    <name xml:lang="de">Dimethylamin</name>
+    <name xml:lang="fr">Diméthylamine</name>
+    <filename>dimethylamine</filename>
+    <synonym xml:lang="en">N-Methylmethanamine</synonym>
+    <synonym xml:lang="de">N-Methylmethanamin</synonym>
+    <synonym xml:lang="fr">N-Méthylméthanamine</synonym>
+    <synonym xml:lang="xx">DMA</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_N_N_N2_N2-tetramethylethane-1_2-diamine">
     <name xml:lang="en">N,N,N',N'-Tetramethylethane-1,2-diamine</name>
+    <name xml:lang="de">N,N,N',N'-Tetramethylethane-1,2-diamin</name>
+    <name xml:lang="fr">N,N,N',N'-Tetramethylethane-1,2-diamine</name>
     <filename>N_N_N2_N2-tetramethylethane-1_2-diamine</filename>
     <synonym xml:lang="en">N,N,N',N'-Tetramethylethylenediamine</synonym>
-    <synonym xml:lang="en">TEMED</synonym>
+    <synonym xml:lang="de">N,N,N',N'-Tetramethylethylenediamin</synonym>
+    <synonym xml:lang="fr">N,N,N',N'-Tétraméthyléthylènediamine</synonym>
+    <synonym xml:lang="xx">TEMED</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_pentane-1_5-diamine">
-    <name xml:lang="en">Pentane-1,5-diamine</name>
-    <filename>pentane-1_5-diamine</filename>
-    <synonym xml:lang="en">1,5-Diaminopentane</synonym>
+    <name xml:lang="en">1,5-Diaminopentane</name>
+    <name xml:lang="de">1,5-Diaminopentane</name>
+    <name xml:lang="fr">1,5-Diaminopentane</name>
+    <filename>1_5-diaminopentane</filename>
+    <synonym xml:lang="en">Pentane-1,5-diamine</synonym>
     <synonym xml:lang="en">Cadaverine</synonym>
+    <synonym xml:lang="de">Pentane-1,5-diamin</synonym>
+    <synonym xml:lang="de">Cadaverin</synonym>
+    <synonym xml:lang="fr">Pentane-1,5-diamine</synonym>
+    <synonym xml:lang="fr">Cadavérine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>

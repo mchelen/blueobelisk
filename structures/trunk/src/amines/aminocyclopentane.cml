@@ -4,10 +4,10 @@
           xmlns:units="http://www.xml-cml.org/units/units"
           xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
           xmlns:iupac="http://www.iupac.org"
-          id="CS_cyclopentamine">
+          id="CS_cyclopentanamine">
   <formula concise=" C 5 H 11 N 1 "/>
   <identifier convention="iupac:inchi" value="1/C5H11N/c6-5-3-1-2-4-5/h5H,1-4,6H2"/>
-  <name convention="IUPAC">Cyclopentamine</name>
+  <name convention="IUPAC">Cyclopentanamine</name>
   <atomArray>
     <atom id="a1" elementType="C" x3="0.805482" y3="0.983574" z3="0.750243"/>
     <atom id="a2" elementType="C" x3="1.147350" y3="-0.427817" z3="0.279964"/>
