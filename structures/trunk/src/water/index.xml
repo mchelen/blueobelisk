@@ -2,14 +2,16 @@
 <!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
 <index>
   <title xml:lang="en">Water</title>
-  <title xml:lang="fr">Eau</title>
   <title xml:lang="de">Wasser</title>
+  <title xml:lang="fr">Eau</title>
   <entry id="CS_oxidane">
-    <name xml:lang="en">Oxidane</name>
-    <filename>oxidane</filename>
-    <synonym xml:lang="en">Water</synonym>
-    <synonym xml:lang="fr">Eau</synonym>
-    <synonym xml:lang="de">Wasser</synonym>
+    <name xml:lang="en">Water</name>
+    <name xml:lang="de">Wasser</name>
+    <name xml:lang="fr">Eau</name>
+    <filename>water</filename>
+    <synonym xml:lang="en">Oxidane</synonym>
+    <synonym xml:lang="de">Oxidan</synonym>
+    <synonym xml:lang="fr">Oxidane</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
