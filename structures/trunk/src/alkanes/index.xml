@@ -2,8 +2,8 @@
 <!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
 <index>
   <title xml:lang="en">Alkanes</title>
-  <title xml:lang="fr">Alcanes</title>
   <title xml:lang="de">Alkane</title>
+  <title xml:lang="fr">Alcanes</title>
   <entry id="CS_1R_2S-1_2-dimethylcyclopentane">
     <name xml:lang="en">(1R,2S)-1,2-Dimethylcyclopentane</name>
     <name xml:lang="de">(1R,2S)-1,2-Dimethylcyclopentan</name>
