@@ -2,8 +2,8 @@
 <!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
 <index>
   <title xml:lang="en">Alkenes</title>
-  <title xml:lang="fr">Alcènes</title>
   <title xml:lang="de">Alkene</title>
+  <title xml:lang="fr">Alcènes</title>
   <entry id="CS_but-1-ene">
     <name xml:lang="en">But-1-ene</name>
     <name xml:lang="de">But-1-en</name>
