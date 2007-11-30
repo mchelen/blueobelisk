@@ -29,7 +29,9 @@ class DataIndexWriter:
     return formula
   
   def WriteXHTML(self, title, lang):
-    size = len(self.data_list)
+    size = len(self.data_list)/3
+    if len(self.data_list) % 3:
+        size += 1
     xhtmlout = xhtmlwriter.XHTMLWriter()
     xhtmlout.setOutput(self.fout + "_" + lang + ".html")
     xhtmlout.setTitle(title)
@@ -53,7 +55,15 @@ class DataIndexWriter:
     xhtmlout.addBody('            <table>')
     for i in range(0, size):
       xhtmlout.addBody('              <tr>')
-      xhtmlout.addBody('                <td><a href="' + self.data_list[i][1] + "_" + lang + '.html">' + self.get_formula(self.data_list[i][0]) + '</a></td>')
+      xhtmlout.addBody('                <td><a href="' + self.data_list[i][1] + "_" + lang + '.html" title="'+ self.data_list[i][0][1] +'">' + self.get_formula(self.data_list[i][0][0]) + '</a></td>')
+      if 2*i+1 < len(self.data_list):
+          xhtmlout.addBody('                <td><a href="' + self.data_list[2*i+1][1] + "_" + lang + '.html" title="'+ self.data_list[i][0][1] +'">' + self.get_formula(self.data_list[i][0][0]) + '</a></td>')
+      else: 
+          xhtmlout.addBody('                <td></td>')
+      if 3*i+1 < len(self.data_list):
+          xhtmlout.addBody('                <td><a href="' + self.data_list[3*i+1][1] + "_" + lang + '.html" title="'+ self.data_list[i][0][1] +'">' + self.get_formula(self.data_list[i][0][0]) + '</a></td>')
+      else:
+          xhtmlout.addBody('                <td></td>')
       xhtmlout.addBody('              </tr>')
     xhtmlout.addBody('            </table>')
     xhtmlout.addBody('          </td>')

@@ -26,8 +26,8 @@ def get_formula_ar(file):
   return []
 
 def formulaCmp(tuple1, tuple2):
-  formula1 = tuple1[0]
-  formula2 = tuple2[0]
+  formula1 = tuple1[0][0]
+  formula2 = tuple2[0][0]
   if formula1 == formula2:
     return 0
   count = min( len(formula1), len(formula2) )
@@ -70,7 +70,7 @@ for dir in src_list:
       index_parser.parse("index.xml")
       for entry in index_handler.entryList.fileEntry:
         name_list.append( (entry.name["en"], "./" + dir +"/" + entry.path) )
-        formula_list.append( (get_formula_ar(entry.path), "./" + dir +"/" + entry.path) )
+        formula_list.append( [(get_formula_ar(entry.path), "./" + dir +"/" + entry.path), entry.name["en"] ])
     os.chdir(os.pardir)
 
 name_list.sort()

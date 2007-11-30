@@ -1,3 +1,11 @@
+"""CML2XHTML converter for Python
+
+This module provides a convenient way to transform CML to XHTML.
+
+Exported classes:
+    - CMLWriter
+        Write a XHTML file with the content of a CML file
+"""
 import xhtmlwriter
 import os
 
