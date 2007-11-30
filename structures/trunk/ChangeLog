@@ -1,3 +1,17 @@
+2007-11-30 13:52:33 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* RDF support is added
+
+* Many file have been renamed with the usual chemical name (insteed of IUPAC)
+
+* Some bug fixes
+
+* Some german translation issues have been fixed
+
+* Improved formula index
+
+* French translations are available for each compound
+
 2007-08-08 10:58:37 Jerome Pansanel <j.pansanel@pansanel.net>
 
 * Update each file to UTF-8 (<?xml version="1.0" encoding="UTF-8"?> and
