@@ -37,7 +37,7 @@
   <entry id="CS_2-2-hydroxyethylisoindole-1_3-dione">
     <name xml:lang="en">N-(2-Hydroxyethyl)phthalimide</name>
     <name xml:lang="fr">N-(2-Hydroxyéthyl)phthalimide</name>
-    <filename>N-2-hydroxyethylphthalimide.cml</filename>
+    <filename>N-2-hydroxyethylphthalimide</filename>
     <synonym xml:lang="en">2-(2-Hydroxyethyl)isoindole-1,3-dione</synonym>
     <synonym xml:lang="en">2-Phthalimidoethanol</synonym>
     <synonym xml:lang="fr">2-(2-Hydroxyéthyl)isoindole-1,3-dione</synonym>
@@ -213,7 +213,7 @@
   <entry id="CS_acenaphthene-1_2-dione">
     <name xml:lang="en">Acenaphthenequinone</name>
     <name xml:lang="fr">Acénaphthènequinone</name>
-    <filename>acenaphthene-1_2-dione</filename>
+    <filename>acenaphthenequinone</filename>
     <synonym xml:lang="en">Acenaphthene-1,2-dione</synonym>
     <synonym xml:lang="fr">Acénaphthène-1,2-dione</synonym>
     <authors>Jerome Pansanel</authors>
@@ -249,7 +249,7 @@
   <entry id="CS_2-hydroxy-3-1R-3-oxo-1-phenylbutyl_chromen-4-one">
     <name xml:lang="en">D-Warfarin</name>
     <name xml:lang="fr">D-Warfarine</name>
-    <filename>D-warfarine</filename>
+    <filename>D-warfarin</filename>
     <synonym xml:lang="en">2-hydroxy-3-[(1R)-3-oxo-1-phenylbutyl]chromen-4-one</synonym>
     <synonym xml:lang="fr">2-hydroxy-3-[(1R)-3-oxo-1-phénylbutyl]chromèn-4-one</synonym>
     <authors>Jerome Pansanel</authors>
