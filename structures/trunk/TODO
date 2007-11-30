@@ -1,17 +1,15 @@
-Add cyclic carbohydrates
-Add ATP
-Add Statine
-Add Nitrophenylalanine
-Add Apiol
-Add Norbornane
-Add Serotonin
-Add Benzodiazépine
-Add Crotonaldehyde et crotonic acid
-
-Check steroid sterochemistry
-
-Try to get a better minimisation of linolein.
-
+Current release
 Add doc to python modules
+Check XHTML
+Add ATP and GTP
+Add Nitrophenylalanine
+Add Norbornane
+Add Benzodiazépine
+Replace name xml:lang="xx" by an abbreviation tag
 
-Add cmlrss
+Next release
+Add Apiol
+Add Statine
+Add Serotonin
+Add cyclic carbohydrates
+Try to get a better minimisation of linolein.
