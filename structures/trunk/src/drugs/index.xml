@@ -50,4 +50,15 @@
     <authors>Jerome Pansanel</authors>
     <date>2006-11-24</date>
   </entry>
+  <entry id="CS_diazepam">
+    <name xml:lang="en">Diazepam</name>
+    <name xml:lang="fr">Diazépam</name>
+    <filename>diazepam</filename>
+    <synonym xml:lang="en">7-chloro-1-methyl-5-phenyl-1,3-dihydro-2H-1,4-benzodiazepin-2-one</synonym>
+    <synonym xml:lang="en">Valium</synonym>
+    <synonym xml:lang="fr">7-chloro-1-méthyl-5-phényl-1,3-dihydro-2H-1,4-benzodiazépin-2-one</synonym>
+    <synonym xml:lang="fr">Valium</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-12-03</date>
+  </entry>
 </index>
