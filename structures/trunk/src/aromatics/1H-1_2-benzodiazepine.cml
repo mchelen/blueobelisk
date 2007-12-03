@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+	  xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1H-1_2-benzodiazepine">
+  <formula concise=" C 9 H 8 N 2 "/>
+  <identifier convention="iupac:inchi" value="1/C9H8N2/c1-2-6-9-8(4-1)5-3-7-10-11-9/h1-7,11H"/>
+  <name convention="IUPAC">1H-1,2-Benzodiazepine</name>
+ <name>1H-1_2-benzodiazepine.gpr</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="1.870774" y3="0.002348" z3="-0.025621"/>
+    <atom id="a2" elementType="C" x3="2.247153" y3="-1.320933" z3="-0.209613"/>
+    <atom id="a3" elementType="C" x3="1.287525" y3="-2.326820" z3="-0.172563"/>
+    <atom id="a4" elementType="C" x3="-0.046885" y3="-2.008048" z3="0.038928"/>
+    <atom id="a5" elementType="C" x3="-0.434347" y3="-0.674233" z3="0.223143"/>
+    <atom id="a6" elementType="C" x3="0.531517" y3="0.347105" z3="0.193390"/>
+    <atom id="a7" elementType="C" x3="0.227043" y3="1.761378" z3="0.391863"/>
+    <atom id="a8" elementType="C" x3="-0.919624" y3="2.377433" z3="0.082441"/>
+    <atom id="a9" elementType="C" x3="-2.094218" y3="1.738496" z3="-0.495515"/>
+    <atom id="a10" elementType="N" x3="-2.485994" y3="0.516588" z3="-0.325194"/>
+    <atom id="a11" elementType="N" x3="-1.823175" y3="-0.381711" z3="0.535990"/>
+    <atom id="a12" elementType="H" x3="2.633774" y3="0.789615" z3="-0.050631"/>
+    <atom id="a13" elementType="H" x3="3.298929" y3="-1.572106" z3="-0.380689"/>
+    <atom id="a14" elementType="H" x3="1.583097" y3="-3.372179" z3="-0.310522"/>
+    <atom id="a15" elementType="H" x3="-0.791030" y3="-2.814380" z3="0.064826"/>
+    <atom id="a16" elementType="H" x3="1.051547" y3="2.355485" z3="0.810733"/>
+    <atom id="a17" elementType="H" x3="-1.020287" y3="3.457268" z3="0.250196"/>
+    <atom id="a18" elementType="H" x3="-2.742519" y3="2.339378" z3="-1.147808"/>
+    <atom id="a19" elementType="H" x3="-2.373279" y3="-1.214683" z3="0.526647"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="2"/>
+    <bond atomRefs2="a3 a4" order="1"/>
+    <bond atomRefs2="a4 a5" order="2"/>
+    <bond atomRefs2="a5 a6" order="1"/>
+    <bond atomRefs2="a6 a1" order="2"/>
+    <bond atomRefs2="a6 a7" order="1"/>
+    <bond atomRefs2="a7 a8" order="2"/>
+    <bond atomRefs2="a8 a9" order="1"/>
+    <bond atomRefs2="a9 a10" order="2"/>
+    <bond atomRefs2="a10 a11" order="1"/>
+    <bond atomRefs2="a11 a5" order="1"/>
+    <bond atomRefs2="a1 a12" order="1"/>
+    <bond atomRefs2="a2 a13" order="1"/>
+    <bond atomRefs2="a3 a14" order="1"/>
+    <bond atomRefs2="a4 a15" order="1"/>
+    <bond atomRefs2="a7 a16" order="1"/>
+    <bond atomRefs2="a8 a17" order="1"/>
+    <bond atomRefs2="a9 a18" order="1"/>
+    <bond atomRefs2="a11 a19" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">144.1732</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">144.0687483</scalar>
+    </property>
+  </propertyList>
+</molecule>
