@@ -71,4 +71,13 @@
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
+  <entry id="CS_bicyclo_2_2_1_heptane">
+    <name xml:lang="en">Norbornane</name>
+    <name xml:lang="fr">Norbornane</name>
+    <filename>norbornane</filename>
+    <synonym xml:lang="en">Bicyclo[2.2.1]heptane</synonym>
+    <synonym xml:lang="fr">Bicyclo[2.2.1]heptane</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-12-03</date>
+  </entry>
 </index>
