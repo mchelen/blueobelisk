@@ -495,4 +495,13 @@
     <authors>Jerome Pansanel</authors>
     <date>2006-06-26</date>
   </entry>
+  <entry id="CS_S-2-amino-3-4-nitrophenylpropanoic_acid">
+    <name xml:lang="en">L-4-Nitrophenylalanine</name>
+    <name xml:lang="fr">L-4-Nitrophénylalanine</name>
+    <filename>L-4-nitrophenylalanine</filename>
+    <synonym xml:lang="en">(S)-2-Amino-3-(4-nitrophenyl)propanoic acid</synonym>
+    <synonym xml:lang="fr">Acide (S)-2-Amino-3-(4-nitrophényl)propanoïque</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-12-03</date>
+  </entry>
 </index>
