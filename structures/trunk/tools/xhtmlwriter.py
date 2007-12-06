@@ -24,7 +24,7 @@ class XHTMLWriter:
     out = codecs.open(self.fout, encoding='utf-8', mode='w')
     out.write('<?xml version="1.0" encoding="UTF-8"?>' + "\n")
     out.write('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">' + "\n")
-    out.write('<html xmlns="http://www.w3.org/1999/xhtml" xmlns:chem="http://www.blueobelisk.org/chemistryblogs/">' + "\n")
+    out.write('<html xmlns="http://www.w3.org/1999/xhtml">' + "\n")
     out.write('  <head>' + "\n")
     out.write('    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />' + "\n")
     out.write('    <title>'+self.title+'</title>' + "\n")

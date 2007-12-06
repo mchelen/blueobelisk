@@ -55,13 +55,13 @@ class DataIndexWriter:
     xhtmlout.addBody('            <table>')
     for i in range(0, size):
       xhtmlout.addBody('              <tr>')
-      xhtmlout.addBody('                <td><a href="' + self.data_list[i][1] + "_" + lang + '.html" title="'+ self.data_list[i][0][1] +'">' + self.get_formula(self.data_list[i][0][0]) + '</a></td>')
+      xhtmlout.addBody('                <td><a href="' + self.data_list[i][0][1] + "_" + lang + '.html" title="'+ self.data_list[i][1] +'">' + self.get_formula(self.data_list[i][0][0]) + '</a></td>')
       if 2*i+1 < len(self.data_list):
-          xhtmlout.addBody('                <td><a href="' + self.data_list[2*i+1][1] + "_" + lang + '.html" title="'+ self.data_list[i][0][1] +'">' + self.get_formula(self.data_list[i][0][0]) + '</a></td>')
+          xhtmlout.addBody('                <td><a href="' + self.data_list[2*i+1][0][1] + "_" + lang + '.html" title="'+ self.data_list[i][1] +'">' + self.get_formula(self.data_list[i][0][0]) + '</a></td>')
       else: 
           xhtmlout.addBody('                <td></td>')
       if 3*i+1 < len(self.data_list):
-          xhtmlout.addBody('                <td><a href="' + self.data_list[3*i+1][1] + "_" + lang + '.html" title="'+ self.data_list[i][0][1] +'">' + self.get_formula(self.data_list[i][0][0]) + '</a></td>')
+          xhtmlout.addBody('                <td><a href="' + self.data_list[3*i+1][0][1] + "_" + lang + '.html" title="'+ self.data_list[i][1] +'">' + self.get_formula(self.data_list[i][0][0]) + '</a></td>')
       else:
           xhtmlout.addBody('                <td></td>')
       xhtmlout.addBody('              </tr>')
