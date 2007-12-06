@@ -3,8 +3,7 @@
 This module provides an xml handler for CML file.
 
 Exported classes:
-    - CMLHandler
-        CML file handler
+    CMLHandler - CML file handler.
 """ 
 
 import xml.sax.handler
@@ -21,7 +20,7 @@ class CMLHandler(xml.sax.handler.ContentHandler):
     def __init__(self):
         """Creates an instance of the CMLHandler class.
 
-	Set the object attributes with default values.
+        Set the object attributes with default values.
         """
         self.id = "" 
         self.formula = ""
@@ -41,17 +40,15 @@ class CMLHandler(xml.sax.handler.ContentHandler):
         self.bpSet = False
 
     def startElement(self, name, attributes):
-        """Signals the start of an element in non-namespace mode.
+        """Signals the start of an element.
 
-	Set some variables depending the element and the attribut
+        The function set a variable depending on the element and the
+        attributes.
 
-	Param:
-	    - name
-	        contains the raw CML name of the element type as a string
-	    - attributes
-	         contains an instance of the Attributes class 
-	         containing the attributes of the elements.
-	"""
+        Parameters:
+            name - contains the raw CML name of the element type as a string.
+            attributes - contains an instance of the Attributes class.
+        """
         if name == "molecule":
             self.id = attributes["id"]
 
@@ -78,13 +75,13 @@ class CMLHandler(xml.sax.handler.ContentHandler):
 
     def characters(self, data):
         """Receives notification of character data.
-	
-	The Parse will call this method to report each chunk of character data. 
+        
+        The parser will call this method to report each chunk of character
+        data.
 
-	Param:
-	    - data
-	        contains the chunk of character data.
-	"""
+        Parameters:
+            data - contains the chunk of character data.
+        """
         if self.inName:
             self.name += data
 
@@ -101,12 +98,11 @@ class CMLHandler(xml.sax.handler.ContentHandler):
             self.bp += data
 
     def endElement(self,name):
-        """Signals the end of an element in non-namespace mode.
+        """Signals the end of an element.
 
-	Param:
-	    - name
-	        contains the name of the element type.
-	"""
+        Parameters:
+            name - contains the name of the element type.
+        """
         if name == "name":
             self.inName = False
 

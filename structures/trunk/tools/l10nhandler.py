@@ -1,8 +1,7 @@
 """L10N file handler for Python.
 
 Exported classes:
-    - L10NHandler
-        L10N file handler
+    L10NHandler - L10N file handler.
 """
 
 import xml.sax.handler
@@ -10,8 +9,8 @@ import xml.sax.handler
 class L10NHandler(xml.sax.handler.ContentHandler):
     """Class for receiving logical L10N content events.
 
-    It supports L10N entities as defined in the by the 2.0 version.
-    For more details, see http://www.xml-cml.org/
+    It supports L10N entities as defined in the following file:
+    xml/l10n.dtd
 
     The order of event in this class mirrors the order of the information in
     the document.
@@ -19,8 +18,8 @@ class L10NHandler(xml.sax.handler.ContentHandler):
     def __init__(self):
         """Creates an instance of the L10NHandler class.
 
-        Set the object attributes with default values.
-"""
+        The function set the object attributes with default values.
+        """
         self.msgDict = {}
         self.msgid = ""
         self.inMsgid = False
@@ -29,16 +28,14 @@ class L10NHandler(xml.sax.handler.ContentHandler):
         self.inMsg = False
 
     def startElement(self, name, attributes):
-        """Signals the start of an element in non-namespace mode.
+        """Signals the start of an element.
 
-        Set some variables depending the element and the attribut
+        The function set a variable depending on the element and the
+        attribut.
 
-        Param:
-            - name
-                contains the raw CML name of the element type as a string
-            - attributes
-                contains an instance of the Attributes class
-                containing the attributes of the elements.
+        Parameters:
+            name - contains the raw CML name of the element type as a string.
+            attributes - contains an instance of the Attributes class.
         """
         if name == "msgid":
             self.inMsgid = True
@@ -53,11 +50,11 @@ class L10NHandler(xml.sax.handler.ContentHandler):
     def characters(self, data):
         """Receives notification of character data.
 
-        The Parse will call this method to report each chunk of character data.
+        The parser will call this method to report each chunk of character
+        data.
 
-        Param:
-            - data
-                contains the chunk of character data.
+        Parameters:
+            data - contains the chunk of character data.
         """
         if self.inMsgid:
             self.msgid += data
@@ -68,10 +65,8 @@ class L10NHandler(xml.sax.handler.ContentHandler):
     def endElement(self,name):
         """Signals the end of an element in non-namespace mode.
 
-        Param:
-            - name
-                contains the name of the element type.
-
+        Parameters:
+            name - contains the name of the element type.
         """
         if name == "msgid":
             self.inMsgid = False
@@ -89,15 +84,13 @@ class L10NHandler(xml.sax.handler.ContentHandler):
     def translate(self, msgid, lang):
         """Translates a string
 
-	Param:
-	    - msgid
-                contains the msgid to translate
-	    - lang
-	        contains the destination language
-	
-	Return:
-	    - the translated string if the translation is available
-	    - the msgid in other cases
+        Parameters:
+            msgid - contains the msgid to translate.
+            lang - contains the destination language.
+        
+        Returns:
+            a string - either the translated string if the translation is
+                       available or the msgid in other cases.
         """
         if self.msgDict.has_key(msgid) and self.msgDict[msgid].has_key(lang):
             return self.msgDict[msgid][lang]

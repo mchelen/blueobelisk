@@ -1,139 +1,192 @@
+"""Index file handler for Python.
+
+Exported classes:
+    Entry - a entry class.
+    IndexHandler - Index file handler.
+"""
+
 import xml.sax.handler
 
-class EntryList:
-  def __init__(self):
-    self.fileEntry = []
-    self.dirEntry = []
- 
 class Entry:
-  def __init__(self):
-    self.id = ""
-    self.name = {}
-    self.path = ""
-    self.synDict = {}
-    self.authors = ""
-    self.date = ""
+    """Class for common index entry.
+
+    It contains each feature of an entry element.
+    """
+    def __init__(self):
+        """Creates an instance of the Entry class.
+
+        Set the object attributes with default values.
+        """
+        self.id = ""
+        self.name = {}
+        self.path = ""
+        self.synDict = {}
+        self.abbreviation = []
+        self.authors = ""
+        self.date = ""
 
 class IndexHandler(xml.sax.handler.ContentHandler):
-  def __init__(self):
-    self.title = {}
-    self.titleLang = ""
-    self.inTitle = False
-    self.entry = None 
-    self.entryList = EntryList() 
-    self.inEntry = False
-    self.nameLang = ""
-    self.inName = False
-    self.inDirname = False
-    self.inFilename = False
-    self.type = None
-    self.synonym = ""
-    self.synLang = ""
-    self.inSynonym = False
-    self.inAuthors = False
-    self.inDate = False
+    """Class for receiving logical Index content events.
 
-  def startElement(self, name, attributes):
-    if name == "title":
-      self.inTitle = True
-      if attributes.has_key("xml:lang"):
-        self.titleLang = unicode.encode(attributes["xml:lang"])
-        if self.titleLang == "":
-          self.titleLang = "en"
-      else:
-        self.titleLang = "en"
-      self.title[self.titleLang] = ""
+    It supports Index entities as defined in the project's DTD.
+    For more details, see xml/index.dtd
+    """
+    def __init__(self):
+        """Creates an instance of the IndexHandler class.
 
-    if name == "entry":
-      self.inEntry = True
-      self.entry = Entry()
+        Set the object attributes with default values.
+        """
+        self.title = {}
+        self.titleLang = ""
+        self.inTitle = False
+        self.entry = None 
+        self.entryList = {'dir': [], 'file': []}
+        self.inEntry = False
+        self.nameLang = ""
+        self.inName = False
+        self.inDirname = False
+        self.inFilename = False
+        self.type = None
+        self.synonym = ""
+        self.synLang = ""
+        self.inSynonym = False
+        self.abbreviation = ""
+        self.inAbbreviation = False
+        self.inAuthors = False
+        self.inDate = False
 
-    if name == "name":
-      self.inName = True
-      if attributes.has_key("xml:lang"):
-        self.nameLang = unicode.encode(attributes["xml:lang"])
-        if self.nameLang == "":
-          self.nameLang = "en"
-      else:
-        self.nameLang = "en"
-      self.entry.name[self.nameLang] = ""
+    def startElement(self, name, attributes):
+        """Signals the start of an element.
 
-    if name == "dirname":
-      self.inDirname = True
-      self.type = "dir"
+        The function set a variable depending on the element and the attribut.
 
-    if name == "filename":
-      self.inFilename = True
-      self.type = "file"
+        Parameters:
+            name - contains the element name as a string.
+            attributes -  contains an instance of the Attributes class.
+        """
+        if name == "title":
+            self.inTitle = True
+            if attributes.has_key("xml:lang"):
+                self.titleLang = unicode.encode(attributes["xml:lang"])
+                if self.titleLang == "":
+                    self.titleLang = "en"
+            else:
+                self.titleLang = "en"
+            self.title[self.titleLang] = ""
 
-    if name == "synonym":
-      self.inSynonym = True
-      if attributes.has_key("xml:lang"):
-        self.synLang = unicode.encode(attributes["xml:lang"])
-        if self.synLang == "":
-          self.synLang = "en"
-      else:
-        self.synLang ="en"
-      if not self.entry.synDict.has_key(self.synLang):
-        self.entry.synDict[self.synLang] = []
+        if name == "entry":
+            self.inEntry = True
+            self.entry = Entry()
 
-    if name == "authors":
-      self.inAuthors = True
+        if name == "name":
+            self.inName = True
+            if attributes.has_key("xml:lang"):
+                self.nameLang = unicode.encode(attributes["xml:lang"])
+                if self.nameLang == "":
+                    self.nameLang = "en"
+            else:
+                self.nameLang = "en"
+            self.entry.name[self.nameLang] = ""
 
-    if name == "date":
-      self.inDate = True
+        if name == "dirname":
+            self.inDirname = True
+            self.type = "dir"
 
-  def characters(self, data):
-    if self.inTitle:
-      self.title[self.titleLang] += data
-    if self.inName:
-      self.entry.name[self.nameLang] += data
-    if self.inDirname:
-      self.entry.path += data
-    if self.inFilename:
-      self.entry.path += data
-    if self.inSynonym:
-      self.synonym += data
-    if self.inAuthors:
-      self.entry.authors += data
-    if self.inDate:
-      self.entry.date += data
+        if name == "filename":
+            self.inFilename = True
+            self.type = "file"
 
-  def endElement(self,name):
-    if name == "title":
-      self.inTitle = False
-      self.titleLang = ""
+        if name == "synonym":
+            self.inSynonym = True
+            if attributes.has_key("xml:lang"):
+                self.synLang = unicode.encode(attributes["xml:lang"])
+                if self.synLang == "":
+                    self.synLang = "en"
+            else:
+                self.synLang ="en"
+            if not self.entry.synDict.has_key(self.synLang):
+                self.entry.synDict[self.synLang] = []
 
-    elif name == "entry":
-      if self.type == "file":
-        self.entryList.fileEntry.append(self.entry)
-      else:
-        self.entryList.dirEntry.append(self.entry)
-      self.entry = None
-      self.inEntry = False 
+        if name == "abbreviation":
+            self.inAbbreviation = True
 
-    elif name == "name":
-      self.inName = False
-      self.nameLang = ""
+        if name == "authors":
+            self.inAuthors = True
 
-    elif name == "dirname":
-      self.inDirname = False
+        if name == "date":
+            self.inDate = True
 
-    elif name == "filename":
-      self.inFilename = False
+    def characters(self, data):
+        """Receives notification of character data.
 
-    elif name == "synonym":
-      try:
-        self.entry.synDict[self.synLang].append(self.synonym)
-      except:
-        print self.synLang
-	print self.entry.synDict
-      self.synonym = ""
-      self.inSynonym = False
-      self.synLang = ""
+        The parser will call this method to report each chunk of character
+        data.
 
-    elif name == "authors":
-      self.inAuthors = False
+        Parameters:
+            data - contains the chunk of character data.
+        """
+        if self.inTitle:
+            self.title[self.titleLang] += data
+        elif self.inName:
+            self.entry.name[self.nameLang] += data
+        elif self.inDirname:
+            self.entry.path += data
+        elif self.inFilename:
+            self.entry.path += data
+        elif self.inSynonym:
+            self.synonym += data
+        elif self.inAbbreviation:
+            self.abbreviation += data
+        elif self.inAuthors:
+            self.entry.authors += data
+        elif self.inDate:
+            self.entry.date += data
 
-    elif name == "date":
-      self.inDate = False 
+    def endElement(self,name):
+        """Signals the end of an element.
+
+        Parameters:
+            name - contains the name of the element type.
+        """
+        if name == "title":
+            self.inTitle = False
+            self.titleLang = ""
+
+        elif name == "entry":
+            if self.type == "file":
+                self.entryList["file"].append(self.entry)
+            else:
+                self.entryList["dir"].append(self.entry)
+            self.entry = None
+            self.inEntry = False 
+
+        elif name == "name":
+            self.inName = False
+            self.nameLang = ""
+
+        elif name == "dirname":
+            self.inDirname = False
+
+        elif name == "filename":
+            self.inFilename = False
+
+        elif name == "synonym":
+            try:
+                self.entry.synDict[self.synLang].append(self.synonym)
+            except:
+                print self.synLang
+                print self.entry.synDict
+            self.synonym = ""
+            self.inSynonym = False
+            self.synLang = ""
+
+        elif name == "abbreviation":
+            self.inAbbreviation = False
+            self.entry.abbreviation.append(self.abbreviation)
+            self.abbreviation = ""
+
+        elif name == "authors":
+            self.inAuthors = False
+
+        elif name == "date":
+            self.inDate = False 

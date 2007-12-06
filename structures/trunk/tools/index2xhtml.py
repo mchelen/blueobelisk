@@ -40,7 +40,7 @@ if os.path.isfile("index.xml"):
     index = indexwriter.IndexWriter("index_" + lang + ".html",index_handler,l10n_handler)
     index.WriteXHTML(index_handler.title,lang,level)
   # Add dir entry to the index file
-  for index_entry in index_handler.entryList.fileEntry:
+  for index_entry in index_handler.entryList["file"]:
     if index_entry.path != "" and os.path.isfile(index_entry.path + ".cml"):
       cml_parser = xml.sax.make_parser()
       cml_handler = cmlhandler.CMLHandler()

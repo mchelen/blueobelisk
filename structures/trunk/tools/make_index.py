@@ -68,7 +68,7 @@ for dir in src_list:
       index_handler = indexhandler.IndexHandler()
       index_parser.setContentHandler(index_handler)
       index_parser.parse("index.xml")
-      for entry in index_handler.entryList.fileEntry:
+      for entry in index_handler.entryList["file"]:
         name_list.append( (entry.name["en"], "./" + dir +"/" + entry.path) )
         formula_list.append( [(get_formula_ar(entry.path), "./" + dir +"/" + entry.path), entry.name["en"] ])
     os.chdir(os.pardir)
