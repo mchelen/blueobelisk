@@ -12,7 +12,7 @@
     <filename>uracil</filename>
     <synonym xml:lang="en">1H-Pyrimidine-2,4-dione</synonym>
     <synonym xml:lang="fr">1H-Pyrimidine-2,4-dione</synonym>
-    <synonym xml:lang="xx">U</synonym>
+    <abbrev>U</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-09-28</date>
   </entry>
@@ -24,7 +24,7 @@
     <filename>guanine</filename>
     <synonym xml:lang="en">2-Amino-3,7-dihydropurin-6-one</synonym>
     <synonym xml:lang="fr">2-Amino-3,7-dihydropurin-6-one</synonym>
-    <synonym xml:lang="xx">G</synonym>
+    <abbrev>G</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-09-28</date>
   </entry>
@@ -47,7 +47,7 @@
     <filename>thymine</filename>
     <synonym xml:lang="en">5-Methyl-1H-pyrimidine-2,4-dione</synonym>
     <synonym xml:lang="fr">5-Methyl-1H-pyrimidine-2,4-dione</synonym>
-    <synonym xml:lang="xx">T</synonym>
+    <abbrev>T</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-09-28</date>
   </entry>
@@ -59,7 +59,7 @@
     <filename>adenine</filename>
     <synonym xml:lang="en">7H-Purin-6-amine</synonym>
     <synonym xml:lang="fr">7H-Purin-6-amine</synonym>
-    <synonym xml:lang="xx">A</synonym>
+    <abbrev>A</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-09-28</date>
   </entry>

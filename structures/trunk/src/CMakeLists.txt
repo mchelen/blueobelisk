@@ -1,4 +1,4 @@
-MESSAGE( STATUS "Generating src Makefile")
+MESSAGE( STATUS "-- src --")
 
 SET(level "0")
 SET(index_prefix "index")
@@ -12,7 +12,7 @@ ENDFOREACH( lang )
 ADD_CUSTOM_COMMAND( OUTPUT ${xhtml_files}
                     COMMAND ${PYTHON_EXECUTABLE} ${PYHANDLER}
                     ${CMAKE_SOURCE_DIR}
-		    "index.xml" ${level}
+		    "${CMAKE_CURRENT_SOURCE_DIR}/index.xml" ${level}
 		    ${AVAILABLE_LANG}
 )
 

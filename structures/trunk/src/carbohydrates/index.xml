@@ -113,7 +113,7 @@
     <filename>dihydroxyacetone</filename>
     <synonym xml:lang="en">Glycerone</synonym>
     <synonym xml:lang="fr">Glycérone</synonym>
-    <synonym xml:lang="xx">DHA</synonym>
+    <abbrev>DHA</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>

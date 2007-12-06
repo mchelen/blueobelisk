@@ -221,8 +221,8 @@
     <synonym xml:lang="en">2-Aminoacetic acid</synonym>
     <synonym xml:lang="de">2-Aminoessigsäure</synonym>
     <synonym xml:lang="fr">Acide 2-aminoacétique</synonym>
-    <synonym xml:lang="xx">Gly</synonym>
-    <synonym xml:lang="xx">G</synonym>
+    <abbrev>Gly</abbrev>
+    <abbrev>G</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -234,8 +234,8 @@
     <synonym xml:lang="en">(2S)-2-Aminopropanoic acid</synonym>
     <synonym xml:lang="de">(2S)-2-Aminopropansäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-2-aminopropanoïque</synonym>
-    <synonym xml:lang="xx">Ala</synonym>
-    <synonym xml:lang="xx">A</synonym>
+    <abbrev>Ala</abbrev>
+    <abbrev>A</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -247,8 +247,8 @@
     <synonym xml:lang="en">(2S)-2-Amino-5-(diaminomethylideneamino)pentanoic acid</synonym>
     <synonym xml:lang="de">(2S)-2-Amino-5-(diaminomethylideneamino)pentansäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-2-amino-5-(diaminométhylidèneamino)pentanoïque</synonym>
-    <synonym xml:lang="xx">Arg</synonym>
-    <synonym xml:lang="xx">R</synonym>
+    <abbrev>Arg</abbrev>
+    <abbrev>R</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -260,8 +260,8 @@
     <synonym xml:lang="en">(2S)-2-Amino-3-carbamoylpropanoic acid</synonym>
     <synonym xml:lang="de">(2S)-2-Amino-3-carbamoylpropansäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-2-amino-3-carbamoylpropanoïque</synonym>
-    <synonym xml:lang="xx">Asn</synonym>
-    <synonym xml:lang="xx">N</synonym>
+    <abbrev>Asn</abbrev>
+    <abbrev>N</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -273,8 +273,8 @@
     <synonym xml:lang="en">(2S)-2-Aminobutanedioic acid</synonym>
     <synonym xml:lang="de">(2S)-2-Aminobutansäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-2-aminobutanedioïque</synonym>
-    <synonym xml:lang="xx">Asp</synonym>
-    <synonym xml:lang="xx">D</synonym>
+    <abbrev>Asp</abbrev>
+    <abbrev>D</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -286,8 +286,8 @@
     <synonym xml:lang="en">(2R)-2-Amino-3-sulfanylpropanoic acid</synonym>
     <synonym xml:lang="de">(2R)-2-Amino-3-sulfanylpropansäure</synonym>
     <synonym xml:lang="fr">Acide (2R)-2-amino-3-sulfanylpropanoïque</synonym>
-    <synonym xml:lang="xx">Cys</synonym>
-    <synonym xml:lang="xx">C</synonym>
+    <abbrev>Cys</abbrev>
+    <abbrev>C</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -299,8 +299,8 @@
     <synonym xml:lang="en">(2S)-2-Aminopentanedioic acid</synonym>
     <synonym xml:lang="de">(2S)-2-Aminopentandisäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-2-aminopentanedioïque</synonym>
-    <synonym xml:lang="xx">Glu</synonym>
-    <synonym xml:lang="xx">E</synonym>
+    <abbrev>Glu</abbrev>
+    <abbrev>E</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -312,8 +312,8 @@
     <synonym xml:lang="en">(2S)-2-Amino-4-carbamoylbutanoic acid</synonym>
     <synonym xml:lang="de">(2S)-2-Amino-4-carbamoylbutansäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-2-amino-4-carbamoylbutanoïque</synonym>
-    <synonym xml:lang="xx">Gln</synonym>
-    <synonym xml:lang="xx">Q</synonym>
+    <abbrev>Gln</abbrev>
+    <abbrev>Q</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -325,8 +325,8 @@
     <synonym xml:lang="en">(2S)-2-Amino-3-(3H-imidazol-4-yl)propanoic acid</synonym>
     <synonym xml:lang="de">(2S)-2-Amino-3-(3H-imidazol-4-yl)propansäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-2-amino-3-(3H-imidazol-4-yl)propanoïque</synonym>
-    <synonym xml:lang="xx">His</synonym>
-    <synonym xml:lang="xx">H</synonym>
+    <abbrev>His</abbrev>
+    <abbrev>H</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -338,8 +338,8 @@
     <synonym xml:lang="en">(2S,3S)-2-Amino-3-methylpentanoic acid</synonym>
     <synonym xml:lang="de">(2S,3S)-2-Amino-3-methylpentansäure</synonym>
     <synonym xml:lang="fr">Acide (2S,3S)-2-amino-3-méthylpentanoïque</synonym>
-    <synonym xml:lang="xx">Ile</synonym>
-    <synonym xml:lang="xx">I</synonym>
+    <abbrev>Ile</abbrev>
+    <abbrev>I</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -351,8 +351,8 @@
     <synonym xml:lang="en">(2S)-2-Amino-4-methylpentanoic acid</synonym>
     <synonym xml:lang="de">(2S)-2-Amino-4-methylpentansäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-2-amino-4-méthylpentanoïque</synonym>
-    <synonym xml:lang="xx">Leu</synonym>
-    <synonym xml:lang="xx">L</synonym>
+    <abbrev>Leu</abbrev>
+    <abbrev>L</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -364,8 +364,8 @@
     <synonym xml:lang="en">(2S)-2,6-Diaminohexanoic acid</synonym>
     <synonym xml:lang="de">(2S)-2,6-Diaminohexansäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-2,6-diaminohexanoïque</synonym>
-    <synonym xml:lang="xx">Lys</synonym>
-    <synonym xml:lang="xx">K</synonym>
+    <abbrev>Lys</abbrev>
+    <abbrev>K</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -377,8 +377,8 @@
     <synonym xml:lang="en">(2S)-2-Amino-4-methylsulfanylbutanoic acid</synonym>
     <synonym xml:lang="de">(2S)-2-Amino-4-methylsulfanylbutansäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-2-amino-4-méthylsulfanylbutanoïque</synonym>
-    <synonym xml:lang="xx">Met</synonym>
-    <synonym xml:lang="xx">M</synonym>
+    <abbrev>Met</abbrev>
+    <abbrev>M</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -390,8 +390,8 @@
     <synonym xml:lang="en">(2S)-2-Amino-3-phenylpropanoic acid</synonym>
     <synonym xml:lang="de">(2S)-2-Amino-3-phenylpropansäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-2-amino-3-phénylpropanoïque</synonym>
-    <synonym xml:lang="xx">Phe</synonym>
-    <synonym xml:lang="xx">F</synonym>
+    <abbrev>Phe</abbrev>
+    <abbrev>F</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -403,8 +403,8 @@
     <synonym xml:lang="en">(2S)-Pyrrolidine-2-carboxylic acid</synonym>
     <synonym xml:lang="de">(2S)-Pyrrolidine-2-carbonsäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-pyrrolidine-2-carboxylique</synonym>
-    <synonym xml:lang="xx">Pro</synonym>
-    <synonym xml:lang="xx">P</synonym>
+    <abbrev>Pro</abbrev>
+    <abbrev>P</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -416,8 +416,8 @@
     <synonym xml:lang="en">(2S)-2-Amino-3-hydroxypropanoic acid</synonym>
     <synonym xml:lang="de">(2S)-2-Amino-3-hydroxypropansäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-2-amino-3-hydroxypropanoïque</synonym>
-    <synonym xml:lang="xx">Ser</synonym>
-    <synonym xml:lang="xx">S</synonym>
+    <abbrev>Ser</abbrev>
+    <abbrev>S</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -429,8 +429,8 @@
     <synonym xml:lang="en">(2S,3R)-2-Amino-3-hydroxybutanoic acid</synonym>
     <synonym xml:lang="de">(2S,3R)-2-Amino-3-hydroxybutansäure</synonym>
     <synonym xml:lang="fr">Acide (2S,3R)-2-amino-3-hydroxybutanoïque</synonym>
-    <synonym xml:lang="xx">Thr</synonym>
-    <synonym xml:lang="xx">T</synonym>
+    <abbrev>Thr</abbrev>
+    <abbrev>T</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -442,8 +442,8 @@
     <synonym xml:lang="en">(2S)-2-Amino-3-(1H-indol-3-yl)propanoic acid</synonym>
     <synonym xml:lang="de">(2S)-2-Amino-3-(1H-indol-3-yl)propansäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-2-amino-3-(1H-indol-3-yl)propanoïque</synonym>
-    <synonym xml:lang="xx">Trp</synonym>
-    <synonym xml:lang="xx">W</synonym>
+    <abbrev>Trp</abbrev>
+    <abbrev>W</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -455,8 +455,8 @@
     <synonym xml:lang="en">(2S)-2-Amino-3-(4-hydroxyphenyl)propanoic acid</synonym>
     <synonym xml:lang="de">(2S)-2-Amino-3-(4-hydroxyphenyl)propansäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-2-amino-3-(4-hydroxyphényl)propanoïque</synonym>
-    <synonym xml:lang="xx">Tyr</synonym>
-    <synonym xml:lang="xx">Y</synonym>
+    <abbrev>Tyr</abbrev>
+    <abbrev>Y</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -468,8 +468,8 @@
     <synonym xml:lang="en">(2S)-2-Amino-3-methylbutanoic acid</synonym>
     <synonym xml:lang="de">(2S)-2-Amino-3-methylbutansäure</synonym>
     <synonym xml:lang="fr">Acide (2S)-2-amino-3-méthylbutanoïque</synonym>
-    <synonym xml:lang="xx">Val</synonym>
-    <synonym xml:lang="xx">V</synonym>
+    <abbrev>Val</abbrev>
+    <abbrev>V</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>

@@ -246,7 +246,7 @@
     <synonym xml:lang="en">1,4-Diazabicyclo[2.2.2]octane</synonym>
     <synonym xml:lang="de">1,4-Diazabicyclo[2.2.2]octan</synonym>
     <synonym xml:lang="fr">1,4-Diazabicyclo[2.2.2]octane</synonym>
-    <synonym xml:lang="xx">TED</synonym>
+    <abbrev>TED</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
@@ -347,7 +347,7 @@
     <synonym xml:lang="en">N-Methylmethanamine</synonym>
     <synonym xml:lang="de">N-Methylmethanamin</synonym>
     <synonym xml:lang="fr">N-Méthylméthanamine</synonym>
-    <synonym xml:lang="xx">DMA</synonym>
+    <abbrev>DMA</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
@@ -359,7 +359,7 @@
     <synonym xml:lang="en">N,N,N',N'-Tetramethylethylenediamine</synonym>
     <synonym xml:lang="de">N,N,N',N'-Tetramethylethylenediamin</synonym>
     <synonym xml:lang="fr">N,N,N',N'-Tétraméthyléthylènediamine</synonym>
-    <synonym xml:lang="xx">TEMED</synonym>
+    <abbrev>TEMED</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>

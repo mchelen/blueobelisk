@@ -10,7 +10,7 @@
     <filename>dimethyl_sulfoxide</filename>
     <synonym xml:lang="en">Methylsulfinylmethane</synonym>
     <synonym xml:lang="fr">Méthylsulfinylméthane</synonym>
-    <synonym xml:lang="xx">DMSO</synonym>
+    <abbrev>DMSO</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
