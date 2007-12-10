@@ -2,8 +2,9 @@
 <!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
 <index>
   <title xml:lang="en">Chemical Structures</title>
-  <title xml:lang="fr">Structures de molécules</title>
   <title xml:lang="de">Chemische Strukturen</title>
+  <title xml:lang="es">Estructuras de moléculas</title>
+  <title xml:lang="fr">Structures de molécules</title>
   <title xml:lang="nl">Molekulaire Structuren</title>
   <entry>
     <name xml:lang="en">Acid anhydrides</name>
@@ -16,8 +17,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Alcohols</name>
-    <name xml:lang="fr">Alcools</name>
     <name xml:lang="de">Alkohole</name>
+    <name xml:lang="es">Alcohols</name>
+    <name xml:lang="fr">Alcools</name>
     <name xml:lang="nl">Alcoholen</name>
     <dirname>alcohols</dirname>
     <authors>Jerome Pansanel</authors>
@@ -25,8 +27,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Aldehydes</name>
-    <name xml:lang="fr">Aldéhydes</name>
     <name xml:lang="de">Aldehyde</name>
+    <name xml:lang="es">Aldehídos</name>
+    <name xml:lang="fr">Aldéhydes</name>
     <name xml:lang="nl">Aldehyden</name>
     <dirname>aldehydes</dirname>
     <authors>Jerome Pansanel</authors>
@@ -34,8 +37,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Alkanes</name>
-    <name xml:lang="fr">Alcanes</name>
     <name xml:lang="de">Alkane</name>
+    <name xml:lang="es">Alcanos</name>
+    <name xml:lang="fr">Alcanes</name>
     <name xml:lang="nl">Alkanen</name>
     <dirname>alkanes</dirname>
     <authors>Jerome Pansanel</authors>
@@ -43,8 +47,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Alkenes</name>
-    <name xml:lang="fr">Alcènes</name>
     <name xml:lang="de">Alkene</name>
+    <name xml:lang="es">Alquenos</name>
+    <name xml:lang="fr">Alcènes</name>
     <name xml:lang="nl">Alkenen</name>
     <dirname>alkenes</dirname>
     <authors>Jerome Pansanel</authors>
@@ -52,8 +57,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Alkynes</name>
-    <name xml:lang="fr">Alcynes</name>
     <name xml:lang="de">Alkine</name>
+    <name xml:lang="es">Alquinos</name>
+    <name xml:lang="fr">Alcynes</name>
     <name xml:lang="nl">Alkynen</name>
     <dirname>alkynes</dirname>
     <authors>Jerome Pansanel</authors>
@@ -61,8 +67,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Amides</name>
-    <name xml:lang="fr">Amides</name>
     <name xml:lang="de">Amide</name>
+    <name xml:lang="es">Amidas</name>
+    <name xml:lang="fr">Amides</name>
     <name xml:lang="nl">Amides</name>
     <dirname>amides</dirname>
     <authors>Jerome Pansanel</authors>
@@ -70,8 +77,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Amines</name>
-    <name xml:lang="fr">Amines</name>
     <name xml:lang="de">Amine</name>
+    <name xml:lang="es">Aminas</name>
+    <name xml:lang="fr">Amines</name>
     <name xml:lang="nl">Amines</name>
     <dirname>amines</dirname>
     <authors>Jerome Pansanel</authors>
@@ -79,8 +87,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Amino acids</name>
-    <name xml:lang="fr">Acides aminés</name>
     <name xml:lang="de">Aminosäuren</name>
+    <name xml:lang="es">Aminoácidos</name>
+    <name xml:lang="fr">Acides aminés</name>
     <name xml:lang="nl">Aminozuren</name>
     <dirname>amino_acids</dirname>
     <authors>Jerome Pansanel</authors>
@@ -88,8 +97,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Aromatics</name>
-    <name xml:lang="fr">Aromatiques</name>
     <name xml:lang="de">Aromate</name>
+    <name xml:lang="es">Aromáticos</name>
+    <name xml:lang="fr">Aromatiques</name>
     <name xml:lang="nl">Aromaten</name>
     <dirname>aromatics</dirname>
     <authors>Jerome Pansanel</authors>
@@ -97,8 +107,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Carbamides</name>
-    <name xml:lang="fr">Carbamides</name>
     <name xml:lang="de">Carbamide</name>
+    <name xml:lang="es">Carbamidas</name>
+    <name xml:lang="fr">Carbamides</name>
     <name xml:lang="nl">Carbamides</name>
     <dirname>carbamides</dirname>
     <authors>Jerome Pansanel</authors>
@@ -106,8 +117,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Carbohydrates</name>
-    <name xml:lang="fr">Carbohydrates</name>
     <name xml:lang="de">Kohlenhydrate</name>
+    <name xml:lang="es">Hidratos de carbono</name>
+    <name xml:lang="fr">Carbohydrates</name>
     <name xml:lang="nl">Koolhydraten</name>
     <dirname>carbohydrates</dirname>
     <authors>Jerome Pansanel</authors>
@@ -115,8 +127,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Carboxylic acids</name>
-    <name xml:lang="fr">Acides carboxyliques</name>
     <name xml:lang="de">Carbonsäuren</name>
+    <name xml:lang="es">Ácidos carboxílicos</name>
+    <name xml:lang="fr">Acides carboxyliques</name>
     <name xml:lang="nl">Carbonzuren</name>
     <dirname>carboxylic_acids</dirname>
     <authors>Jerome Pansanel</authors>
@@ -124,8 +137,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Drugs</name>
-    <name xml:lang="fr">Drogues</name>
     <name xml:lang="de">Drogen</name>
+    <name xml:lang="es">Drogas</name>
+    <name xml:lang="fr">Drogues</name>
     <name xml:lang="nl">Drugs</name>
     <dirname>drugs</dirname>
     <authors>Jerome Pansanel</authors>
@@ -133,8 +147,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Esters</name>
-    <name xml:lang="fr">Esters</name>
     <name xml:lang="de">Ester</name>
+    <name xml:lang="es">Ésters</name>
+    <name xml:lang="fr">Esters</name>
     <name xml:lang="nl">Esters</name>
     <dirname>esters</dirname>
     <authors>Jerome Pansanel</authors>
@@ -142,8 +157,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Ethers</name>
-    <name xml:lang="fr">Ethers</name>
     <name xml:lang="de">Ether</name>
+    <name xml:lang="es">Éters</name>
+    <name xml:lang="fr">Ethers</name>
     <name xml:lang="nl">Ethers</name>
     <dirname>ethers</dirname>
     <authors>Jerome Pansanel</authors>
@@ -151,8 +167,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Fatty acids</name>
-    <name xml:lang="fr">Acides gras</name>
     <name xml:lang="de">Fettsäuren</name>
+    <name xml:lang="es">Ácidos grasos</name>
+    <name xml:lang="fr">Acides gras</name>
     <name xml:lang="nl">Vetzuren</name>
     <dirname>fatty_acids</dirname>
     <authors>Jerome Pansanel</authors>
@@ -160,8 +177,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Haloalkanes</name>
-    <name xml:lang="fr">Halogénures d'alkyle</name>
     <name xml:lang="de">Halogenalkane</name>
+    <name xml:lang="es">Haloalcanos</name>
+    <name xml:lang="fr">Halogénures d'alkyle</name>
     <name xml:lang="nl">Gehalogeneerde Alkanen</name>
     <dirname>haloalkanes</dirname>
     <authors>Jerome Pansanel</authors>
@@ -169,8 +187,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Heteroaromatics</name>
-    <name xml:lang="fr">Hétéroaromatiques</name>
     <name xml:lang="de">Heteroaromaten</name>
+    <name xml:lang="es">Heteroaromáticos</name>
+    <name xml:lang="fr">Hétéroaromatiques</name>
     <name xml:lang="nl">Heteroaromaten</name>
     <dirname>heteroaromatics</dirname>
     <authors>Jerome Pansanel</authors>
@@ -178,8 +197,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Ketones</name>
-    <name xml:lang="fr">Cétones</name>
     <name xml:lang="de">Ketone</name>
+    <name xml:lang="es">Cetonas</name>
+    <name xml:lang="fr">Cétones</name>
     <name xml:lang="nl">Ketonen</name>
     <dirname>ketones</dirname>
     <authors>Jerome Pansanel</authors>
@@ -187,8 +207,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Nitriles</name>
-    <name xml:lang="fr">Nitriles</name>
     <name xml:lang="de">Nitrile</name>
+    <name xml:lang="es">Nitrilos</name>
+    <name xml:lang="fr">Nitriles</name>
     <name xml:lang="nl">Nitrillen</name>
     <dirname>nitriles</dirname>
     <authors>Jerome Pansanel</authors>
@@ -196,8 +217,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Nitroalkanes</name>
-    <name xml:lang="fr">Nitroalcanes</name>
     <name xml:lang="de">Nitroalkane</name>
+    <name xml:lang="es">Nitroalcanos</name>
+    <name xml:lang="fr">Nitroalcanes</name>
     <name xml:lang="nl">Nitroalkanen</name>
     <dirname>nitroalkanes</dirname>
     <authors>Jerome Pansanel</authors>
@@ -205,8 +227,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Nucleobases</name>
-    <name xml:lang="fr">Nucléobases</name>
     <name xml:lang="de">Nukleobasen</name>
+    <name xml:lang="es">Bases nitrogenadas</name>
+    <name xml:lang="fr">Nucléobases</name>
     <name xml:lang="nl">Nucleotiden</name>
     <dirname>nucleobases</dirname>
     <authors>Jerome Pansanel</authors>
@@ -214,8 +237,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Polycyclic alkanes</name>
-    <name xml:lang="fr">Alcanes polycycliques</name>
     <name xml:lang="de">Polyzyklische Alkane</name>
+    <name xml:lang="es">Alcanos policíclicos</name>
+    <name xml:lang="fr">Alcanes polycycliques</name>
     <name xml:lang="nl">Polycyclische Alkanen</name>
     <dirname>polycyclic_alkanes</dirname>
     <authors>Jerome Pansanel</authors>
@@ -223,8 +247,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Polycyclic aromatics</name>
-    <name xml:lang="fr">Aromatiques polycycliques</name>
     <name xml:lang="de">Polyzyklische Aromaten</name>
+    <name xml:lang="es">Aromáticos policíclicos</name>
+    <name xml:lang="fr">Aromatiques polycycliques</name>
     <name xml:lang="nl">Polycyclische Aromaten</name>
     <dirname>polycyclic_aromatics</dirname>
     <authors>Jerome Pansanel</authors>
@@ -232,8 +257,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Sulfones</name>
-    <name xml:lang="fr">Sulfones</name>
     <name xml:lang="de">Sulfone</name>
+    <name xml:lang="es">Sulfonas</name>
+    <name xml:lang="fr">Sulfones</name>
     <name xml:lang="nl">Sulfonen</name>
     <dirname>sulfones</dirname>
     <authors>Jerome Pansanel</authors>
@@ -241,8 +267,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Sulfoxides</name>
-    <name xml:lang="fr">Sulfoxydes</name>
     <name xml:lang="de">Sulfoxide</name>
+    <name xml:lang="es">Sulfóxidos</name>
+    <name xml:lang="fr">Sulfoxydes</name>
     <name xml:lang="nl">Sulfoxides</name>
     <dirname>sulfoxides</dirname>
     <authors>Jerome Pansanel</authors>
@@ -250,8 +277,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Thioethers</name>
-    <name xml:lang="fr">Thioéthers</name>
     <name xml:lang="de">Thioether</name>
+    <name xml:lang="es">Tioéters</name>
+    <name xml:lang="fr">Thioéthers</name>
     <name xml:lang="nl">Thioethers</name>
     <dirname>thioethers</dirname>
     <authors>Jerome Pansanel</authors>
@@ -259,8 +287,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Thiols</name>
-    <name xml:lang="fr">Thiols</name>
     <name xml:lang="de">Thiole</name>
+    <name xml:lang="es">Tiols</name>
+    <name xml:lang="fr">Thiols</name>
     <name xml:lang="nl">Thiolen</name>
     <dirname>thiols</dirname>
     <authors>Jerome Pansanel</authors>
@@ -268,8 +297,9 @@
   </entry>
   <entry>
     <name xml:lang="en">Water</name>
-    <name xml:lang="fr">Eau</name>
     <name xml:lang="de">Wasser</name>
+    <name xml:lang="es">Agua</name>
+    <name xml:lang="fr">Eau</name>
     <name xml:lang="nl">Water</name>
     <dirname>water</dirname>
     <authors>Jerome Pansanel</authors>
