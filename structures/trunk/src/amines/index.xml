@@ -3,7 +3,9 @@
 <index>
   <title xml:lang="en">Amines</title>
   <title xml:lang="de">Amines</title>
+  <title xml:lang="es">Aminas</title>
   <title xml:lang="fr">Amines</title>
+  <title xml:lang="nl">Amines</title>
   <entry id="CS_azane">
     <name xml:lang="en">Ammonia</name>
     <name xml:lang="de">Ammoniak</name>
@@ -112,10 +114,10 @@
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_heptan-1-amine">
-    <name xml:lang="en">1-Aminopentane</name>
-    <name xml:lang="de">1-Aminopentan</name>
-    <name xml:lang="fr">1-Aminopentane</name>
-    <filename>1-aminopentane</filename>
+    <name xml:lang="en">1-Aminoheptane</name>
+    <name xml:lang="de">1-Aminoheptan</name>
+    <name xml:lang="fr">1-Aminoheptane</name>
+    <filename>1-aminoheptane</filename>
     <synonym xml:lang="en">Heptan-1-amine</synonym>
     <synonym xml:lang="en">n-Heptylamine</synonym>
     <synonym xml:lang="de">Heptan-1-amin</synonym>

@@ -2,8 +2,10 @@
 <!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
 <index>
   <title xml:lang="en">Ethers</title>
-  <title xml:lang="fr">Ethers</title>
   <title xml:lang="de">Ether</title>
+  <title xml:lang="es">Éters</title>
+  <title xml:lang="fr">Ethers</title>
+  <title xml:lang="nl">Ethers</title>
   <entry id="CS_1_4-dioxane">
     <name xml:lang="en">1,4-Dioxane</name>
     <name xml:lang="fr">1,4-Dioxane</name>

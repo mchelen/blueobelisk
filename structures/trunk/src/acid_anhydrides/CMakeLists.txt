@@ -1,6 +1,6 @@
 SET( CHEM_GROUP "acid_anhydrides" )
 
-MESSAGE( STATUS "-- ${CHEM_GROUP} --")
+MESSAGE( STATUS "Generating ${CHEM_GROUP} Makefile")
 
 #
 # Generic variables

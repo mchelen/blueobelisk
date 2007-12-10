@@ -1,4 +1,4 @@
-MESSAGE( STATUS "-- src --")
+MESSAGE( STATUS "Generating src Makefile")
 
 SET(level "0")
 SET(index_prefix "index")

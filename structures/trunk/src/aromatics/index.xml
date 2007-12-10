@@ -3,7 +3,9 @@
 <index>
   <title xml:lang="en">Aromatics</title>
   <title xml:lang="de">Aromate</title>
+  <title xml:lang="es">Aromáticos</title>
   <title xml:lang="fr">Aromatiques</title>
+  <title xml:lang="nl">Aromaten</title>
   <entry id="CS_aniline">
     <name xml:lang="en">Aniline</name>
     <name xml:lang="de">Anilin</name>

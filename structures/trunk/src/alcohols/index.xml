@@ -2,8 +2,10 @@
 <!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
 <index>
   <title xml:lang="en">Alcohols</title>
+  <title xml:lang="es">Alcohols</title>
   <title xml:lang="de">Alkohole</title>
   <title xml:lang="fr">Alcools</title>
+  <title xml:lang="nl">Alcoholen</title>
   <entry id="CS_2-methylpropan-1-ol">
     <name xml:lang="en">2-Methylpropan-1-ol</name>
     <name xml:lang="fr">2-Méthylpropan-1-ol</name>

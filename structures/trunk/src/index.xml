@@ -8,8 +8,9 @@
   <title xml:lang="nl">Molekulaire Structuren</title>
   <entry>
     <name xml:lang="en">Acid anhydrides</name>
-    <name xml:lang="fr">Anhydrides d'acide</name>
     <name xml:lang="de">Säureanhydride</name>
+    <name xml:lang="es">Anhídridos de ácido</name>
+    <name xml:lang="fr">Anhydrides d'acide</name>
     <name xml:lang="nl">Carbonzuuranhydride</name>
     <dirname>acid_anhydrides</dirname>
     <authors>Jerome Pansanel</authors>
@@ -206,6 +207,16 @@
     <date>2006-06-13</date>
   </entry>
   <entry>
+    <name xml:lang="en">Macrocycles</name>
+    <name xml:lang="de">Makrozyklen</name>
+    <name xml:lang="es">Macrociclos</name>
+    <name xml:lang="fr">MacrocyclesNitriles</name>
+    <name xml:lang="nl">Grote ringsystemen</name>
+    <dirname>macrocycles</dirname>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-05-29</date>
+  </entry>
+  <entry>
     <name xml:lang="en">Nitriles</name>
     <name xml:lang="de">Nitrile</name>
     <name xml:lang="es">Nitrilos</name>
@@ -228,7 +239,7 @@
   <entry>
     <name xml:lang="en">Nucleobases</name>
     <name xml:lang="de">Nukleobasen</name>
-    <name xml:lang="es">Bases nitrogenadas</name>
+    <name xml:lang="es">Nucleobases</name>
     <name xml:lang="fr">Nucléobases</name>
     <name xml:lang="nl">Nucleotiden</name>
     <dirname>nucleobases</dirname>

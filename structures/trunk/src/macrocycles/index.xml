@@ -3,7 +3,9 @@
 <index>
   <title xml:lang="en">Macrocycles</title>
   <title xml:lang="de">Makrozyklen</title>
+  <title xml:lang="es">Macrociclos</title>
   <title xml:lang="fr">Macrocycles</title>
+  <title xml:lang="nl">Grote ringsysteme</title>
   <entry id="CS_porphyrin">
     <name xml:lang="en">Porphin</name>
     <name xml:lang="fr">Porphine</name>
@@ -11,4 +13,4 @@
     <authors>Jerome Pansanel</authors>
     <date>2006-11-21</date>
   </entry>
-</index>
+o/indix>
