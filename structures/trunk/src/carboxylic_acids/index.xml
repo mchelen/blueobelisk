@@ -145,9 +145,9 @@
     <name xml:lang="de">Ameisensäure</name>
     <name xml:lang="fr">Acide formique</name>
     <filename>formic_acid</filename>
-    <authors>Jerome Pansanel</authors>
     <synonym xml:lang="en">Methanoic acid</synonym>
     <synonym xml:lang="fr">Acide méthanoïque</synonym>
+    <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
   <entry id="CS_isobutyric_acid">

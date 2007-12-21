@@ -406,9 +406,9 @@
     <name xml:lang="en">4-Pyridin-4-ylpyridine</name>
     <name xml:lang="fr">4-Pyridin-4-ylpyridine</name>
     <filename>4-pyridin-4-ylpyridine</filename>
-    <authors>Jerome Pansanel</authors>
     <synonym xml:lang="en">4,4'-Bipyridine</synonym>
     <synonym xml:lang="fr">4,4'-Bipyridine</synonym>
+    <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>
   </entry>
   <entry id="CS_N_N-dimethylaniline">

@@ -76,9 +76,9 @@
     <name xml:lang="en">1-Chloroheptane</name>
     <name xml:lang="fr">1-Chloroheptane</name>
     <filename>1-chloroheptane</filename>
-    <authors>Jerome Pansanel</authors>
     <synonym xml:lang="en">n-Heptyl chloride</synonym>
     <synonym xml:lang="fr">Chlorure n-heptylique</synonym>
+    <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_1-chlorohexane">

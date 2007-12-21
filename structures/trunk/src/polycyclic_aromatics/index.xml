@@ -125,8 +125,8 @@
     <name xml:lang="en">Coumarin</name>
     <name xml:lang="fr">Coumarine</name>
     <filename>coumarin</filename>
-    <name xml:lang="en">Chromen-2-one</name>
-    <name xml:lang="fr">Chromèn-2-one</name>
+    <synonym xml:lang="en">Chromen-2-one</synonym>
+    <synonym xml:lang="fr">Chromèn-2-one</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
   </entry>
