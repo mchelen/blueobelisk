@@ -3,7 +3,7 @@
 <!-- ENTITY DECLARATIONS -->
 
 <!-- Lang attribute value -->
-<!ENTITY % Lang "(en|fr|de|es)">
+<!ENTITY % Lang "(en|de|es|fr|nl)">
 
 <!-- Entry type -->
 <!ENTITY % entry.type "(dirname|filename)">
@@ -14,7 +14,7 @@
 <!ELEMENT index (title+,entry+)>
 <!ELEMENT title (#PCDATA)>
 <!ATTLIST title
-          xml:lang %Lang; "en"
+          xml:lang NMTOKEN #IMPLIED
  >
 
 <!-- Entry details -->
@@ -26,7 +26,7 @@
 <!-- Name describing the entry -->
 <!ELEMENT name (#PCDATA)>
 <!ATTLIST name 
-          xml:lang %Lang; "en"
+          xml:lang NMTOKEN #IMPLIED
  >
 
 <!-- name of the directory or the filename -->
