@@ -107,7 +107,7 @@ class IndexHandler(xml.sax.handler.ContentHandler):
             if not self.entry.synDict.has_key(self.synLang):
                 self.entry.synDict[self.synLang] = []
 
-        if name == "abbreviation":
+        if name == "abbrev":
             self.inAbbreviation = True
 
         if name == "authors":
@@ -180,7 +180,7 @@ class IndexHandler(xml.sax.handler.ContentHandler):
             self.inSynonym = False
             self.synLang = ""
 
-        elif name == "abbreviation":
+        elif name == "abbrev":
             self.inAbbreviation = False
             self.entry.abbreviation.append(self.abbreviation)
             self.abbreviation = ""

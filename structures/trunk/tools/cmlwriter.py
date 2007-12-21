@@ -84,7 +84,7 @@ class CMLWriter:
         xhtmlout.addBody('                    <li>' + self.l10n.translate('IUPAC name: ', lang) + self.cml.name + '</li>')
         xhtmlout.addBody('                    <li>' + self.l10n.translate('Formula: ', lang) + self.parseFormula(self.cml.formula) + '</li>')
         xhtmlout.addBody('                    <li>' + self.l10n.translate('Molecular weight: ', lang) + self.cml.weight + ' g/mol</li>')
-        xhtmlout.addBody('                    <li>' + self.l10n.translate('Monoisotopic Weight: ', lang) + self.cml.monoisotopic_weight + ' g/mol</li>')
+        xhtmlout.addBody('                    <li>' + self.l10n.translate('Monoisotopic weight: ', lang) + self.cml.monoisotopic_weight + ' g/mol</li>')
         if self.cml.mpSet:
           if self.cml.mp.count(">"):
             mp = self.cml.mp.replace(">","").strip()
@@ -99,17 +99,47 @@ class CMLWriter:
           else:
             bpK = str(int(self.cml.bp) + 273)
           xhtmlout.addBody('                    <li>' + self.l10n.translate('Boiling point: ', lang) + self.cml.bp  + ' &deg;C (' + bpK + ' K)</li>')
-        if entry_details.synDict.has_key('en') or entry_details.synDict.has_key(lang):
-          xhtmlout.addBody('                    <li>' + self.l10n.translate('Synonyms:', lang) )
-          xhtmlout.addBody('                      <ul>')
-          if entry_details.synDict.has_key(lang):
+	#########################################################
+	# Writing synonyms
+	#
+	# Write only if synonyms (localized or english) are
+	# available
+	#########################################################
+	if entry_details.synDict.has_key(lang):
+	    if len(entry_details.synDict[lang]) == 1:
+                xhtmlout.addBody('                    <li>' + self.l10n.translate('Synonym:', lang) )
+	    else:
+                xhtmlout.addBody('                    <li>' + self.l10n.translate('Synonyms:', lang) )
+            xhtmlout.addBody('                      <ul>')
             for synonym in entry_details.synDict[lang]:
-              xhtmlout.addBody('                      <li>' + synonym + '</li>')
-          elif entry_details.synDict.has_key('en'):
+                xhtmlout.addBody('                      <li>' + synonym + '</li>')
+            xhtmlout.addBody('                      </ul>')
+            xhtmlout.addBody('                    </li>')
+	elif entry_details.synDict.has_key('en'):
+	    if len(entry_details.synDict['en']) == 1:
+                xhtmlout.addBody('                    <li>' + self.l10n.translate('Synonym:', lang) )
+	    else:
+                xhtmlout.addBody('                    <li>' + self.l10n.translate('Synonyms:', lang) )
+            xhtmlout.addBody('                      <ul>')
             for synonym in entry_details.synDict['en']:
-              xhtmlout.addBody('                      <li>' + synonym + ' (<i>en</i>)</li>')
-          xhtmlout.addBody('                      </ul>')
-          xhtmlout.addBody('                    </li>')
+                xhtmlout.addBody('                      <li>' + synonym + ' (<i>en</i>)</li>')
+            xhtmlout.addBody('                      </ul>')
+            xhtmlout.addBody('                    </li>')
+	#########################################################
+	# Writing abbreviations 
+	#
+	# Write only if abbreviations are available
+	#########################################################
+	if len(entry_details.abbreviation):
+	    if len(entry_details.abbreviation) == 1:
+                xhtmlout.addBody('                    <li>' + self.l10n.translate('Abbreviation:', lang) )
+	    else:
+                xhtmlout.addBody('                    <li>' + self.l10n.translate('Abbreviations:', lang) )
+            xhtmlout.addBody('                      <ul>')
+            for abbreviation in entry_details.abbreviation:
+                xhtmlout.addBody('                      <li>' + abbreviation + '</li>')
+            xhtmlout.addBody('                      </ul>')
+            xhtmlout.addBody('                    </li>')
         xhtmlout.addBody('                  </ul>')
         xhtmlout.addBody('                </td>')
         xhtmlout.addBody('              </tr>')
@@ -156,7 +186,15 @@ class CMLWriter:
         xhtmlout.addBody('                <th>InChI</th>')
         xhtmlout.addBody('              </tr>')
         xhtmlout.addBody('              <tr>')
-        xhtmlout.addBody('                <td><span class="inchi">' + self.cml.inchi + '</span></td>')
+	if len(self.cml.inchi) > 80:
+	    htmlinchi = ""
+	    size = int(len(self.cml.inchi)/80)
+	    for i in range(0,size):
+	        htmlinchi += self.cml.inchi[i*80:(i+1)*80] + "<br />\n"
+            htmlinchi += self.cml.inchi[size*80:len(self.cml.inchi)]
+	else:
+	    htmlinchi = self.cml.inchi
+        xhtmlout.addBody('                <td><span class="inchi">' + htmlinchi + '</span></td>')
         xhtmlout.addBody('              </tr>')
         xhtmlout.addBody('            </table>')
         xhtmlout.addBody('          </td>')
@@ -169,7 +207,15 @@ class CMLWriter:
           xhtmlout.addBody('                <th>SMILES</th>')
           xhtmlout.addBody('              </tr>')
           xhtmlout.addBody('              <tr>')
-          xhtmlout.addBody('                <td><span class="smiles">' + smiles + '</span></td>')
+	  if len(smiles) > 80:
+	      htmlsmiles = ""
+  	      size = int(len(smiles)/80)
+ 	      for i in range(0,size):
+	          htmlsmiles += smiles[i*80:(i+1)*80] + "<br />\n"
+              htmlsmiles += smiles[size*80:len(smiles)]
+ 	  else:
+	      htmlsmiles = smiles
+          xhtmlout.addBody('                <td><span class="smiles">' + htmlsmiles + '</span></td>')
           xhtmlout.addBody('              </tr>')
           xhtmlout.addBody('            </table>')
           xhtmlout.addBody('          </td>')
