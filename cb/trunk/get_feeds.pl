@@ -22,6 +22,7 @@ while (my $row = $sql->fetchrow_hashref()) {
 	my $feed_url = $row->{"feed_url"};
 	$feed_url =~ s/\s//g;
 	my $active = $row->{"active"};
+        `echo "$feed_url" > $outfile.url`;
 
 	if (!$feed_url) {
 		# no feed URL - bah, mark feed as inactive
