@@ -11,9 +11,10 @@ use strict;
 system("perl get_feeds.pl"); # download feeds
 system("python parse_feed.py"); # extract posts from feeds, put into flatfiles
 # blogs <= 75 : dreamhost kills long processes, so split up
-system("perl update_posts.pl"); # put new posts into the database
-# blogs > 75
-system("perl update_posts_2.pl");
+system("perl update_posts.pl 0 50"); # put new posts into the database
+system("perl update_posts.pl 51 100");
+system("perl update_posts.pl 101 150");
+system("perl update_posts.pl 151 200");
 system("perl update_feeds.pl"); # update feed names, descriptions etc.
 system("perl get_links.pl"); # get all URLs from posts
 system("perl get_inchis.pl"); # get all InChIs from posts
