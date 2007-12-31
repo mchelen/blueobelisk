@@ -22,6 +22,7 @@ import feedparser
 import glob
 import md5
 import string
+import time
 from xml.sax import saxutils
 
 ENCODING = 'ascii'
@@ -70,6 +71,7 @@ def parse_file(file):
   if DEBUG:
     print "\n"
     print file
+    time.sleep(1)
 
   # the feed_id is the last 32 chars of the file (feed_ids are a constant length: they're an md5 hash)
   feed_id = file[len(file) - 32:len(file)]
@@ -184,7 +186,7 @@ else:
   files = glob.glob(FEED_DIR + "*")
 
 for file in files:
-  if ( (os.path.getsize(file) > 0) and (os.path.isfile(file)) ):
+  if ( (os.path.getsize(file) > 0) and (os.path.isfile(file)) and file.find(".url") == -1):
     parse_file(file)
   else:
     if DEBUG:
