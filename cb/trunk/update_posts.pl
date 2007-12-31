@@ -14,16 +14,28 @@ use Encode qw(encode);
 use HTML::Entities;
 use URI::Escape;
 
+my $minPostNumber = 5000;
+
+my $min = 0;
+my $max = 75;
+
+if (scalar(@ARGV) == 2) {
+  $min = $ARGV[0];
+  $max = $ARGV[1];
+}
+
 my $connection_string = sprintf("dbi:mysql:%s:%s", $config{"db_name"}, $config{"db_host"});
 my $db = DBI->connect($connection_string, $config{"db_user"}, $config{"db_password"}) or log_error("Couldn't connect to the database.\n");
 
 # get a list of posts that are already in the database
 my %posts;
 my %exists;
-my $sql = $db->prepare("SELECT url, filename, content_hash FROM posts");
+my $sqlString = "SELECT url, filename, content_hash FROM posts WHERE posts.post_id > $minPostNumber AND blog_id <= $max AND blog_id >= $min";
+my $sql = $db->prepare($sqlString);
 $sql->execute();
 while (my $row = $sql->fetchrow_hashref()) {
 	my $url = $row->{"url"};
+        # print "URL: $url\n";
 	my $filename = $row->{"filename"};
 	my $content_hash = $row->{"content_hash"};
 	
@@ -32,11 +44,12 @@ while (my $row = $sql->fetchrow_hashref()) {
 }
 
 # "deactivate" posts. Only posts currently read in from feeds will be left active (and searched for links, etc.)
-my $deactivate = $db->prepare("UPDATE posts SET active=0");
+my $deactivate = $db->prepare("UPDATE posts SET active=0 WHERE posts.post_id > $minPostNumber AND active = 1 AND blog_id <= $max AND blog_id >= $min");
 $deactivate->execute();
 
 # now read the posts we've got on disk from active feeds
-my $sql = $db->prepare("SELECT blog_id, title, feed_url FROM blogs WHERE active=1 AND blog_id < 76");
+my $sql = $db->prepare("SELECT blog_id, title, feed_url FROM blogs WHERE active=1 AND blog_id <= $max AND blog_id >= $min");
+
 $sql->execute();
 while (my $row = $sql->fetchrow_hashref()) {
 	my $blog_id = $row->{"blog_id"};
