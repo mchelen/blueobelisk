@@ -1,8 +1,38 @@
+2007-01-03 15:05:40 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Release 2.1
+
+2007-01-01 13:45:18 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Fix some html lines for xhtml1.0-strict compliancy
+
+* Many table element are replaced by div element
+
+* style.css is updated to fit new html
+
+2007-12-10 12:54:05 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Spanish translation available
+
+* Minor bug fixes
+
+2007-12-06 14:34:22 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Switch from RDFa to MicroFormat
+
+2007-12-03 11:38:40 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* New structures:
+    polycyclic_alkanes/norbornane.cml
+    drugs/diazepam.cml
+    aromatics/5-phenyl-1_3-dihydro-2H-1_4-benzodiazepin-2-one.cml
+    aromatics/1H-1_4-benzodiazepine.cml
+    aromatics/1H-1_2-benzodiazepine.cml
+    amino_acids/L-4-nitrophenylalanine.cml
+
 2007-11-30 13:52:33 Jerome Pansanel <j.pansanel@pansanel.net>
 
-* RDF support is added
-
-* Many file have been renamed with the usual chemical name (insteed of IUPAC)
+* RDFa support is added
 
 * Some bug fixes
 
@@ -11,6 +41,120 @@
 * Improved formula index
 
 * French translations are available for each compound
+
+2007-11-30 12:05:28 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Renamed structures:
+    water/water.cml
+    thiols/R_butane-2-thiol.cml
+    polycyclic_aromatics/caffeine.cml
+    polycyclic_aromatics/acenaphthenequinone.cml
+    polycyclic_aromatics/uric_acid.cml
+    polycyclic_aromatics/D-warfarin.cml
+    polycyclic_aromatics/2-Benzofuranyl_methyl_ketone.cml
+    polycyclic_aromatics/phthalimide.cml
+    polycyclic_aromatics/coumarin.cml
+    polycyclic_aromatics/chromone.cml
+    polycyclic_aromatics/N-2-hydroxyethylphthalimide.cml
+
+2007-11-28 12:01:44 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Renamed structures:
+    sulfones/p-toluenesulfonic_acid.cml
+    sulfoxides/dimethyl_sulfoxide.cml
+
+2007-11-27 17:45:46 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Renamed structures
+    polycyclic_alkanes/1R-camphor.cml
+    polycyclic_alkanes/1R-camphene.cml
+    nitriles/isobutyronitrile.cml
+    nitriles/butyronitrile.cml
+    nitriles/propionitrile.cml
+    macrocycles/porphin.cml
+    ketones/acetone.cml
+    ketones/p-benzoquinone.cml
+    ketones/o-benzoquinone.cml
+    ketones/hexafluoroacetone.cml
+    ketones/methyl_vinyl_ketone.cml
+    heteroaromatics/nicotinamide.cml
+    heteroaromatics/picolinic_acid.cml
+    heteroaromatics/picolinamide.cml
+    heteroaromatics/nicotinic_acid.cml
+    heteroaromatics/isonicotinamide.cml
+    heteroaromatics/isonicotinic_acid.cml
+
+2007-11-26 20:45:34 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Renamed structures:
+    haloalkanes/2-chloro-2-methylpropane.cml
+    nucleobases/*.cml
+
+2007-11-25 16:35:33 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Renamed structures:
+    fatty_acids/cervonic_acid.cml
+    fatty_acids/arachidonic_acid.cml
+    fatty_acids/linolenic_acid.cml
+    fatty_acids/stearic_acid.cml
+    fatty_acids/oleic_acid.cml
+    fatty_acids/lauric_acid.cml
+    fatty_acids/myristic_acid.cml
+    fatty_acids/palmitic_acid.cml
+    fatty_acids/linoleic_acid.cml
+
+2007-11-24 11:30:56 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Renamed structures:
+    drugs/D-amphetamine.cml
+    carboxylic_acids/D-lactic_acid.cml
+    carboxylic_acids/D-malic_acid.cml
+    carboxylic_acids/L-ascorbic_acid.cml
+    carboxylic_acids/L-lactic_acid.cml
+    carboxylic_acids/L-malic_acid.cml
+    ethers/dipropylether.cml
+    ethers/di-tert-butylether.cml
+    ethers/dibutylether.cml
+    ethers/diisopropylether.cml
+    ethers/diethylether.cml
+    ethers/dimethylether.cml
+    ethers/tetrahydrofuran.cml
+
+2007-11-23 23:10:13 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Renamed structures:
+    carboxylic_acids/L-tartaric_acid.cml
+    carboxylic_acids/D-tartaric_acid.cml
+    carboxylic_acids/citric_acid.cml
+    amino_acids/*.cml
+    amines/{many}.cml
+
+2007-10-03 13:39:45 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Many carbohydrate structures have been added:
+      carbohydrates/d-allose.cml
+      carbohydrates/d-altrose.cml
+      carbohydrates/d-arabinose.cml
+      carbohydrates/d-erythrose.cml
+      carbohydrates/d-erythrulose.cml
+      carbohydrates/d-fructose.cml
+      carbohydrates/d-galactose.cml
+      carbohydrates/d-glucose.cml
+      carbohydrates/d-glyceraldehyde.cml
+      carbohydrates/d-gulose.cml
+      carbohydrates/d-idose.cml
+      carbohydrates/d-lyxose.cml
+      carbohydrates/d-mannose.cml
+      carbohydrates/d-psicose.cml
+      carbohydrates/d-ribose.cml
+      carbohydrates/d-ribulose.cml
+      carbohydrates/d-sorbose.cml
+      carbohydrates/d-tagatose.cml
+      carbohydrates/d-talose.cml
+      carbohydrates/d-threose.cml
+      carbohydrates/d-xylose.cml
+      carbohydrates/d-xylulose.cml
+      carbohydrates/dihydroxyacetone.cml
 
 2007-08-08 10:58:37 Jerome Pansanel <j.pansanel@pansanel.net>
 

@@ -1,15 +1,11 @@
-Current release
-Add doc to python modules
-Check XHTML
-Add ATP and GTP
-Add Nitrophenylalanine
-Add Norbornane
-Add Benzodiazépine
-Replace name xml:lang="xx" by an abbreviation tag
-
-Next release
 Add Apiol
 Add Statine
 Add Serotonin
+Add ATP and GTP
 Add cyclic carbohydrates
 Try to get a better minimisation of linolein.
+Update the build system
+Check Acetylacetone name
+
+Comments:
+Is the translate function (tools/l10nhandler) in the right place ? It could be better used in the l10nwriter ?

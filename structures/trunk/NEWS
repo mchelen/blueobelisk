@@ -1,4 +1,17 @@
-Chemical Structures 2.0.1 
+Chemical Structures 2.1 (2008-01-03)
+
+What's new from 2.0.1:
+- New structures (carbohydrates, i.e.)
+- Many french translation added
+- Spanish translation available
+- The structure file is named according the usual name
+- More documentation in Python modules
+- MicroFormat support
+- New style for the html pages
+- All html pages are xhtml1.0-strict compliant
+- Bug fixes
+
+Chemical Structures 2.0.1 (2007-02-28) 
 
 What's new from 2.0.0:
 - Dutch translation has been added

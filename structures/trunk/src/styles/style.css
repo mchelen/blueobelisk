@@ -8,7 +8,34 @@ body
   padding: 0px; /* Fix Opera bug */
 }
 
-div.header
+h2
+{
+  font-size: 16px;
+  margin: 2px;
+  border-bottom: 1px solid black;
+}
+
+h3
+{
+  font-size: 14px;
+  margin: 2px;
+  border-bottom: 1px solid black;
+}
+
+ul#directory_list
+{
+  list-style: none;
+}
+
+ul#directory_list li
+{
+  padding: 5px;
+  margin: 2px;
+  background: #ddddff;
+  border: 1px dashed black;
+}
+
+div#header
 {
   height: 96px;
   margin: 4px 0px 0px 0px;
@@ -17,7 +44,7 @@ div.header
   background-image: url("../images/header_bg.png");
 }
 
-div.navigation
+div#menu
 {
   color: #ffffff;
   background: #336699;
@@ -27,7 +54,7 @@ div.navigation
   padding: 2px;
 }
 
-div.main
+div#main
 {
   background: #ffffff;
   margin-top: 4px;
@@ -36,33 +63,24 @@ div.main
   border: 1px solid black;
 }
 
-table.mainLayout
-{
-  margin-top: 4px;
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
-}
-
 tr
 {
   width: 100px;
   vertical-align: top;
 }
 
-div.left
+div.path
 {
   float: left;
 }
 
-div.right
+div.index
 {
   float: right;
 }
 
 table.data
 {
-  border-collapse: collapse;
   margin-right: auto;
   margin-left: auto;
   width: 100%;
@@ -71,27 +89,32 @@ table.data
 .data th
 {
   border: 1px solid black;
-  padding: 0.3em;
   background: #ddddff;
 }
 
 .data td
 {
-  border: 1px solid black;
   padding: 4px;
 }
 
-td#structure
+div#molecule div
+{
+  border: 1px dashed black;
+  margin: 5px;
+  padding: 5px;
+}
+
+div#structure
 {
   width: 300px;
 }
 
-.navigation a
+#menu a
 {
   color: #ffffff;
 }
 
-div.footer
+div#footer
 {
 
 }
@@ -103,4 +126,26 @@ img
   width: auto;
   border: 0px;
   vertical-align: text-bottom;
+}
+div#structure
+{
+}
+
+div#download
+{
+}
+
+div#inchi
+{
+  clear: both;
+}
+
+span.inchi
+{
+  font-family: courier, fixed, monospace;
+}
+
+span.smiles
+{
+  font-family: courier, fixed, monospace;
 }
