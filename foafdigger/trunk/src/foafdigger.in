@@ -1,11 +1,13 @@
 #!/usr/bin/perl
 #
-# Copyright (C) 2007 Egon Willighagen <egonw@users.sf.net>
+# Copyright (C) 2007-2008 Egon Willighagen <egonw@users.sf.net>
 # Licensed: GPL v3
 #
 use diagnostics;
 use strict;
 use XML::LibXML::XPathContext;
+
+my $maxfoafdepth = 3;
 
 if ($#ARGV != 0) {
   print "foafdigger [foaf.xrdf]\n";
@@ -19,17 +21,38 @@ my $strigicmd = "@STRIGICMD_EXECUTABLE@";
 
 my $cachedir = "cache";
 
-my $cachedFOAFdir = downloadFOAF($foaf, $cachedir);
-# first order friends
-my @firstFriends = extractLinkedFOAFs($cachedFOAFdir);
-foreach my $friend (@firstFriends) {
-  my $cachedFFdir = downloadFOAF($friend->nodeValue, $cachedFOAFdir);
-}
+my %friends;
 
+createFOAFCache($foaf, $cachedir, 0);
 #indexFOAFCache();
 
 print "Done.\n";
 exit 0;
+
+sub createFOAFCache {
+  my $foaf = $_[0];
+  my $cachedir = $_[1];
+  my $order = $_[2];
+
+  if ($order > $maxfoafdepth) {
+    print "Not processing friends of order $order.\n";
+    return;
+  }
+
+  my $cachedFOAFdir = downloadFOAF($foaf, $cachedir);
+  # first order friends
+  my @firstFriends = extractLinkedFOAFs($cachedFOAFdir);
+  $order++;
+  print "Order $order friends in $cachedFOAFdir: " . scalar(@firstFriends) . "\n";
+  foreach my $friend (@firstFriends) {
+    my $friendResource = $friend->nodeValue;
+    print "Checking friend $friendResource\n";
+    if ($friendResource =~ m/^http/) {
+      createFOAFCache($friendResource, $cachedFOAFdir, $order);
+    }
+  }
+
+}
 
 sub indexFOAFCache {
   my $indexdir = "index";
@@ -53,11 +76,17 @@ sub downloadFOAF {
   my $mdsum = `echo "$foaf" | $mdsumexec - | cut -d' ' -f1`;
   $mdsum =~ s/[\n|\r|\s]//g;
 
-  $cachedir = "$cachedir/$mdsum";
-  `mkdir -p $cachedir`;
-  my $cachedFOAF = "$cachedir/me.xrdf";
-  `echo "$foaf" > $cachedir/url`;
-  `$wgetexec -q -O $cachedFOAF $foaf`;
+  if ($friends{$mdsum}) {
+    print "Already downloaded this friend: $foaf\n";
+    $cachedir = $friends{$mdsum};
+  } else {
+    $cachedir = "$cachedir/$mdsum";
+    `mkdir -p $cachedir`;
+    my $cachedFOAF = "$cachedir/me.xrdf";
+    `echo "$foaf" > $cachedir/url`;
+    `$wgetexec -q -O $cachedFOAF $foaf`;
+    $friends{$mdsum} = $cachedir;
+  }
 
   $cachedir;
 }
@@ -66,7 +95,7 @@ sub extractLinkedFOAFs {
 
   my $cachedFOAF = $_[0] . "/me.xrdf";
 
-  print "Extracting Friends ...\n";
+  print "Extracting Friends from $cachedFOAF ...\n";
   my $foafNodes = XML::LibXML->new->parse_file($cachedFOAF);
   my $xc = XML::LibXML::XPathContext->new($foafNodes);
 
@@ -82,7 +111,7 @@ sub extractLinkedFOAFs {
 #       </foaf:Person>
 #     </foaf:knows>
 
-  my @rdfResources = $xc->findnodes('//foaf:knows/foaf:Person/rdfs:seeAlso/@rdf:resource');
+  my @rdfResources = $xc->findnodes('//foaf:Person/rdfs:seeAlso/@rdf:resource');
   print "Found #friends: " . scalar @rdfResources . "\n";
 
   foreach my $resource (@rdfResources) {
