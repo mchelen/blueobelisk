@@ -7,7 +7,7 @@ use diagnostics;
 use strict;
 use XML::LibXML::XPathContext;
 
-my $maxfoafdepth = 3;
+my $maxfoafdepth = 0;
 
 if ($#ARGV != 0) {
   print "foafdigger [foaf.xrdf]\n";
@@ -34,24 +34,28 @@ sub createFOAFCache {
   my $cachedir = $_[1];
   my $order = $_[2];
 
-  if ($order > $maxfoafdepth) {
-    print "Not processing friends of order $order.\n";
-    return;
-  }
-
   my $cachedFOAFdir = downloadFOAF($foaf, $cachedir);
   # first order friends
   my @firstFriends = extractLinkedFOAFs($cachedFOAFdir);
   $order++;
-  print "Order $order friends in $cachedFOAFdir: " . scalar(@firstFriends) . "\n";
-  foreach my $friend (@firstFriends) {
-    my $friendResource = $friend->nodeValue;
-    print "Checking friend $friendResource\n";
-    if ($friendResource =~ m/^http/) {
-      createFOAFCache($friendResource, $cachedFOAFdir, $order);
+  if ($order <= $maxfoafdepth) {
+    print "Order $order friends in $cachedFOAFdir: " . scalar(@firstFriends) . "\n";
+    foreach my $friend (@firstFriends) {
+      my $friendResource = $friend->nodeValue;
+      print "Checking friend $friendResource\n";
+      if ($friendResource =~ m/^http/) {
+        createFOAFCache($friendResource, $cachedFOAFdir, $order);
+      }
     }
+  } else {
+    print "Not processing friends of order $order.\n";
   }
-
+  `mkdir $cachedFOAFdir/interests`;
+  my @interests = extractLinkedInterests($cachedFOAFdir);
+  foreach my $interest (@interests) {
+    print "Checking interest " . $interest->nodeValue . "\n";
+    downloadResource($interest->nodeValue, $cachedFOAFdir);
+  }
 }
 
 sub indexFOAFCache {
@@ -91,6 +95,20 @@ sub downloadFOAF {
   $cachedir;
 }
 
+sub downloadResource {
+  my $resource = $_[0];
+  my $cachedir = $_[1];
+
+  print "Downloading $resource ...\n";
+
+  my $mdsum = `echo "$resource" | $mdsumexec - | cut -d' ' -f1`;
+  $mdsum =~ s/[\n|\r|\s]//g;
+
+  my $cachedFOAF = "$cachedir/interests/$mdsum";
+  `$wgetexec -q -O $cachedFOAF $resource`;
+  `echo $resource > $cachedFOAF.url`;
+}
+
 sub extractLinkedFOAFs {
 
   my $cachedFOAF = $_[0] . "/me.xrdf";
@@ -117,6 +135,27 @@ sub extractLinkedFOAFs {
   foreach my $resource (@rdfResources) {
     print "Resource found: " . $resource->nodeValue . "\n";
   }
+
+  @rdfResources;
+}
+
+sub extractLinkedInterests {
+
+  my $cachedFOAF = $_[0] . "/me.xrdf";
+
+  print "Extracting Interests from $cachedFOAF ...\n";
+  my $foafNodes = XML::LibXML->new->parse_file($cachedFOAF);
+  my $xc = XML::LibXML::XPathContext->new($foafNodes);
+
+  $xc->registerNs('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
+  $xc->registerNs('rdfs', 'http://www.w3.org/2000/01/rdf-schema#');
+  $xc->registerNs('foaf', 'http://xmlns.com/foaf/0.1/');
+  $xc->registerNs('dc', 'http://purl.org/dc/elements/1.1/');
+
+#     <foaf:interest rdf:resource="http://bla"/>
+
+  my @rdfResources = $xc->findnodes('//foaf:interest/@rdf:resource');
+  print "Found #interests: " . scalar @rdfResources . "\n";
 
   @rdfResources;
 }

@@ -29,23 +29,45 @@ sub queryFOAFCache {
   open(FOAFRESULTS,"<foaf.results.tmp");
   while (<FOAFRESULTS>) {
     my $line = $_;
-    if ($line =~ m/parentUrl:\s*(.*)/) {
+    if ($line =~ m/\"*(.*)\"\s*matched/) {
       my $file = $1;
       # print "Matching file: $file\n";
-      extractFOAFsName($file);
+      if ($file =~ m#(.*/)me.xrdf$#) {
+        my $name = extractFOAFsName($file);
+        my $uri = getURI($1 . "/url");
+        print "Matching friend: $name (see $uri)\n";
+      } elsif ($file =~ m#(.*)/interests/#) {
+        my $foafFile = $1 . "/me.xrdf";
+        my $name = extractFOAFsName($foafFile);
+        my $uri = getURI($file. ".url");
+        print "Friend with interest: $name (see $uri)\n";
+      }
     }
   }
   close(FOAFRESULTS);
   `rm foaf.results.tmp`;
 }
 
+sub getURI {
+
+  my $folder = $_[0];
+
+  my $uriFile = $folder;
+  my $uri = `cat $uriFile`;
+  $uri =~ s/\n|\r//g;
+
+  $uri;
+}
+
 sub extractFOAFsName {
 
-  my $cachedFOAF = $_[0] . "/me.xrdf";
+  my $cachedFOAF = $_[0];
 
   my $currentFolder = `pwd`;
   $currentFolder =~ s/\n|\r//g;
-  my $foafNodes = XML::LibXML->new->parse_file("file://$currentFolder/" .$cachedFOAF);
+  my $fullURI = "file://$currentFolder/" .$cachedFOAF;
+  # print "URI: $fullURI\n";
+  my $foafNodes = XML::LibXML->new->parse_file($fullURI);
   my $xc = XML::LibXML::XPathContext->new($foafNodes);
 
   $xc->registerNs('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
@@ -53,17 +75,41 @@ sub extractFOAFsName {
   $xc->registerNs('foaf', 'http://xmlns.com/foaf/0.1/');
   $xc->registerNs('dc', 'http://purl.org/dc/elements/1.1/');
 
+  my $notFoundName = 1;
+  my $foundName = "";
   my @rdfResources = $xc->findnodes('//foaf:primaryTopic/@rdf:resource');
   foreach my $resource (@rdfResources) {
-    my @personResources = $xc->findnodes('//foaf:Person/@rdf:about');
-    foreach my $personResource (@personResources) {
-      if ($personResource->nodeValue eq $resource->nodeValue) {
-        my $nameResources = $personResource->findnodes('../foaf:name');
-        print "Matching friend: $nameResources\n";
+    my $resourceURI = $resource->nodeValue;
+    if ($notFoundName) {
+      my @personResources = $xc->findnodes('//foaf:Person/@rdf:about');
+      foreach my $personResource (@personResources) {
+        my $personURI = $personResource->nodeValue;
+        if (!($personURI =~ m/\#/)) {
+          $personURI = "\#" . $personURI;
+        }
+        if ($personURI eq $resourceURI) {
+          my $nameResources = $personResource->findnodes('../foaf:name');
+          $notFoundName = 0;
+          $foundName = $nameResources;
+        }
+      }
+    }
+    if ($notFoundName) {
+      my @personResources = $xc->findnodes('//foaf:Person/@rdf:ID');
+      foreach my $personResource (@personResources) {
+        my $personURI = $personResource->nodeValue;
+        if (!($personURI =~ m/\#/)) {
+          $personURI = "\#" . $personURI;
+        }
+        if ($personURI eq $resourceURI) {
+          my $nameResources = $personResource->findnodes('../foaf:name');
+          $notFoundName = 0;
+          $foundName = $nameResources;
+        }
       }
     }
   }
 
-  @rdfResources;
+  $foundName;
 }
 
