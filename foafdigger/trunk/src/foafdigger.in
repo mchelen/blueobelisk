@@ -54,7 +54,13 @@ sub createFOAFCache {
   my @interests = extractLinkedInterests($cachedFOAFdir);
   foreach my $interest (@interests) {
     print "Checking interest " . $interest->nodeValue . "\n";
-    downloadResource($interest->nodeValue, $cachedFOAFdir);
+    downloadResource($interest->nodeValue, $cachedFOAFdir, "interests");
+  }
+  `mkdir $cachedFOAFdir/projects`;
+  my @projects = extractLinkedProjects($cachedFOAFdir);
+  foreach my $project (@projects) {
+    print "Checking project " . $project->textContent . "\n";
+    downloadResource($project->textContent, $cachedFOAFdir, "projects");
   }
 }
 
@@ -98,13 +104,14 @@ sub downloadFOAF {
 sub downloadResource {
   my $resource = $_[0];
   my $cachedir = $_[1];
+  my $subdir = $_[2];
 
   print "Downloading $resource ...\n";
 
   my $mdsum = `echo "$resource" | $mdsumexec - | cut -d' ' -f1`;
   $mdsum =~ s/[\n|\r|\s]//g;
 
-  my $cachedFOAF = "$cachedir/interests/$mdsum";
+  my $cachedFOAF = "$cachedir/$subdir/$mdsum";
   `$wgetexec -q -O $cachedFOAF $resource`;
   `echo $resource > $cachedFOAF.url`;
 }
@@ -158,4 +165,30 @@ sub extractLinkedInterests {
   print "Found #interests: " . scalar @rdfResources . "\n";
 
   @rdfResources;
+}
+
+sub extractLinkedProjects {
+
+  my $cachedFOAF = $_[0] . "/me.xrdf";
+
+  print "Extracting Projects from $cachedFOAF ...\n";
+  my $foafNodes = XML::LibXML->new->parse_file($cachedFOAF);
+  my $xc = XML::LibXML::XPathContext->new($foafNodes);
+
+  $xc->registerNs('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
+  $xc->registerNs('rdfs', 'http://www.w3.org/2000/01/rdf-schema#');
+  $xc->registerNs('foaf', 'http://xmlns.com/foaf/0.1/');
+  $xc->registerNs('dc', 'http://purl.org/dc/elements/1.1/');
+
+#     <foaf:interest rdf:resource="http://bla"/>
+
+  my @collection = ();
+  my @rdfResources = $xc->findnodes('//foaf:currentProject/@rdf:resource');
+  push(@collection, @rdfResources);
+  my @moreResources = $xc->findnodes('//foaf:currentProject/foaf:Project/foaf:homepage');
+  push(@collection, @moreResources);
+
+  print "Found #projects: " . scalar @collection . "\n";
+
+  @collection;
 }

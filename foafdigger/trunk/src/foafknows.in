@@ -40,7 +40,12 @@ sub queryFOAFCache {
         my $foafFile = $1 . "/me.xrdf";
         my $name = extractFOAFsName($foafFile);
         my $uri = getURI($file. ".url");
-        print "Friend with interest: $name (see $uri)\n";
+        print "Friend's interest: $name (see $uri)\n";
+      } elsif ($file =~ m#(.*)/projects/#) {
+        my $foafFile = $1 . "/me.xrdf";
+        my $name = extractFOAFsName($foafFile);
+        my $uri = getURI($file. ".url");
+        print "Friend's project: $name (see $uri)\n";
       }
     }
   }
