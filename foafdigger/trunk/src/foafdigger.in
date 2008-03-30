@@ -50,17 +50,29 @@ sub createFOAFCache {
   } else {
     print "Not processing friends of order $order.\n";
   }
-  `mkdir $cachedFOAFdir/interests`;
-  my @interests = extractLinkedInterests($cachedFOAFdir);
-  foreach my $interest (@interests) {
-    print "Checking interest " . $interest->nodeValue . "\n";
-    downloadResource($interest->nodeValue, $cachedFOAFdir, "interests");
+#   `mkdir $cachedFOAFdir/interests`;
+#   my @interests = extractLinkedInterests($cachedFOAFdir);
+#   foreach my $interest (@interests) {
+#     print "Checking interest " . $interest->nodeValue . "\n";
+#     downloadResource($interest->nodeValue, $cachedFOAFdir, "interests");
+#   }
+#   `mkdir $cachedFOAFdir/projects`;
+#   my @projects = extractLinkedProjects($cachedFOAFdir);
+#   foreach my $project (@projects) {
+#     print "Checking project " . $project->textContent . "\n";
+#     downloadResource($project->textContent, $cachedFOAFdir, "projects");
+#   }
+  `mkdir $cachedFOAFdir/other`;
+  my @others = extractLinkedOtherResources($cachedFOAFdir);
+  foreach my $other (@others) {
+    print "Checking other resource " . $other->nodeValue . "\n";
+    downloadResource($other->nodeValue, $cachedFOAFdir, "other");
   }
-  `mkdir $cachedFOAFdir/projects`;
-  my @projects = extractLinkedProjects($cachedFOAFdir);
-  foreach my $project (@projects) {
-    print "Checking project " . $project->textContent . "\n";
-    downloadResource($project->textContent, $cachedFOAFdir, "projects");
+  `mkdir $cachedFOAFdir/other`;
+  my @otherFields = extractLinkedOtherFieldResources($cachedFOAFdir);
+  foreach my $otherField (@otherFields) {
+    print "Checking other resource " . $otherField->textContent . "\n";
+    downloadResource($otherField->textContent, $cachedFOAFdir, "other");
   }
 }
 
@@ -191,4 +203,98 @@ sub extractLinkedProjects {
   print "Found #projects: " . scalar @collection . "\n";
 
   @collection;
+}
+
+sub extractLinkedOtherResources {
+
+  my $cachedFOAF = $_[0] . "/me.xrdf";
+
+  print "Extracting other resources from $cachedFOAF ...\n";
+  my $foafNodes = XML::LibXML->new->parse_file($cachedFOAF);
+  my $xc = XML::LibXML::XPathContext->new($foafNodes);
+
+  $xc->registerNs('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
+  $xc->registerNs('rdfs', 'http://www.w3.org/2000/01/rdf-schema#');
+  $xc->registerNs('foaf', 'http://xmlns.com/foaf/0.1/');
+  $xc->registerNs('dc', 'http://purl.org/dc/elements/1.1/');
+
+#     <foaf:interest rdf:resource="http://bla"/>
+
+  my @collection = ();
+  my $foafRecord = extractFOAFRecord($xc);
+  print "record: " . $foafRecord . "\n";
+  my @rdfResources = $foafRecord->findnodes('./foaf:weblog/@rdf:resource');
+  push(@collection, @rdfResources);
+  @rdfResources = $foafRecord->findnodes('./foaf:publications/@rdf:resource');
+  push(@collection, @rdfResources);
+
+  print "Found #other resources: " . scalar @collection . "\n";
+
+  @collection;
+}
+
+sub extractLinkedOtherFieldResources {
+
+  my $cachedFOAF = $_[0] . "/me.xrdf";
+
+  print "Extracting other resources from $cachedFOAF ...\n";
+  my $foafNodes = XML::LibXML->new->parse_file($cachedFOAF);
+  my $xc = XML::LibXML::XPathContext->new($foafNodes);
+
+  $xc->registerNs('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
+  $xc->registerNs('rdfs', 'http://www.w3.org/2000/01/rdf-schema#');
+  $xc->registerNs('foaf', 'http://xmlns.com/foaf/0.1/');
+  $xc->registerNs('dc', 'http://purl.org/dc/elements/1.1/');
+
+#     <foaf:interest rdf:resource="http://bla"/>
+
+  my @collection = ();
+  my $foafRecord = extractFOAFRecord($xc);
+  print "record: " . $foafRecord . "\n";
+  my @rdfResources = $foafRecord->findnodes('./foaf:homepage');
+  push(@collection, @rdfResources);
+
+  print "Found #other resources: " . scalar @collection . "\n";
+
+  @collection;
+}
+
+sub extractFOAFRecord {
+
+  my $xc= $_[0];
+
+  my $notFoundName = 1;
+  my @foundRecord;
+  my @rdfResources = $xc->findnodes('//foaf:primaryTopic/@rdf:resource');
+  foreach my $resource (@rdfResources) {
+    my $resourceURI = $resource->nodeValue;
+    if ($notFoundName) {
+      my @personResources = $xc->findnodes('//foaf:Person/@rdf:about');
+      foreach my $personResource (@personResources) {
+        my $personURI = $personResource->nodeValue;
+        if (!($personURI =~ m/\#/)) {
+          $personURI = "\#" . $personURI;
+        }
+        if ($personURI eq $resourceURI) {
+          $notFoundName = 0;
+          @foundRecord = $personResource->findnodes('..');
+        }
+      }
+    }
+    if ($notFoundName) {
+      my @personResources = $xc->findnodes('//foaf:Person/@rdf:ID');
+      foreach my $personResource (@personResources) {
+        my $personURI = $personResource->nodeValue;
+        if (!($personURI =~ m/\#/)) {
+          $personURI = "\#" . $personURI;
+        }
+        if ($personURI eq $resourceURI) {
+          $notFoundName = 0;
+          @foundRecord = $personResource->findnodes('..');
+        }
+      }
+    }
+  }
+
+  $foundRecord[0];
 }
