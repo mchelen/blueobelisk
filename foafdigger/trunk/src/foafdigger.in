@@ -7,7 +7,7 @@ use diagnostics;
 use strict;
 use XML::LibXML::XPathContext;
 
-my $maxfoafdepth = 0;
+my $maxfoafdepth = 3;
 
 if ($#ARGV != 0) {
   print "foafdigger [foaf.xrdf]\n";
@@ -50,18 +50,18 @@ sub createFOAFCache {
   } else {
     print "Not processing friends of order $order.\n";
   }
-#   `mkdir $cachedFOAFdir/interests`;
-#   my @interests = extractLinkedInterests($cachedFOAFdir);
-#   foreach my $interest (@interests) {
-#     print "Checking interest " . $interest->nodeValue . "\n";
-#     downloadResource($interest->nodeValue, $cachedFOAFdir, "interests");
-#   }
-#   `mkdir $cachedFOAFdir/projects`;
-#   my @projects = extractLinkedProjects($cachedFOAFdir);
-#   foreach my $project (@projects) {
-#     print "Checking project " . $project->textContent . "\n";
-#     downloadResource($project->textContent, $cachedFOAFdir, "projects");
-#   }
+  `mkdir $cachedFOAFdir/interests`;
+  my @interests = extractLinkedInterests($cachedFOAFdir);
+  foreach my $interest (@interests) {
+    print "Checking interest " . $interest->nodeValue . "\n";
+    downloadResource($interest->nodeValue, $cachedFOAFdir, "interests");
+  }
+  `mkdir $cachedFOAFdir/projects`;
+  my @projects = extractLinkedProjects($cachedFOAFdir);
+  foreach my $project (@projects) {
+    print "Checking project " . $project->textContent . "\n";
+    downloadResource($project->textContent, $cachedFOAFdir, "projects");
+  }
   `mkdir $cachedFOAFdir/other`;
   my @others = extractLinkedOtherResources($cachedFOAFdir);
   foreach my $other (@others) {
