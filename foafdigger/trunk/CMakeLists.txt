@@ -8,5 +8,6 @@ INCLUDE(FindStrigiCmd REQUIRED)
 INCLUDE(FindMd5sum REQUIRED)
 
 CONFIGURE_FILE(src/foafdigger.in src/foafdigger)
+CONFIGURE_FILE(src/foafknows.in src/foafknows)
 
 ADD_SUBDIRECTORY(src)

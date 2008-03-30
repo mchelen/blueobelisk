@@ -1,0 +1,39 @@
+#!/usr/bin/perl
+#
+# Copyright (C) 2007-2008 Egon Willighagen <egonw@users.sf.net>
+# Licensed: GPL v3
+#
+use diagnostics;
+use strict;
+use XML::LibXML::XPathContext;
+
+if ($#ARGV != 0) {
+  print "foafknows [name]\n";
+  exit 0;
+}
+
+my $name = $ARGV[0];
+my $strigicmd = "@STRIGICMD_EXECUTABLE@";
+
+my $cachedir = "cache";
+
+queryFOAFCache();
+
+print "Done.\n";
+exit 0;
+
+sub queryFOAFCache {
+  my $indexdir = "index";
+  print "Searching FOAF for $name...\n";
+  `$strigicmd query -t clucene -d index $name > foaf.results.tmp`;
+  open(FOAFRESULTS,"<foaf.results.tmp");
+  while (<FOAFRESULTS>) {
+    my $line = $_;
+    if ($line =~ m/parentUrl:(.*)/) {
+      my $file = $1;
+      print "Matching file: $file\n";
+    }
+  }
+  close(FOAFRESULTS);
+  `rm foaf.results.tmp`;
+}
