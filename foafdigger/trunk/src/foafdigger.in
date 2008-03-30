@@ -24,7 +24,7 @@ my $cachedir = "cache";
 my %friends;
 
 createFOAFCache($foaf, $cachedir, 0);
-#indexFOAFCache();
+indexFOAFCache();
 
 print "Done.\n";
 exit 0;
