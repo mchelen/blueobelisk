@@ -199,6 +199,8 @@ sub extractLinkedProjects {
   push(@collection, @rdfResources);
   my @moreResources = $xc->findnodes('//foaf:currentProject/foaf:Project/foaf:homepage');
   push(@collection, @moreResources);
+  @moreResources = $xc->findnodes('//foaf:currentProject/foaf:Project/foaf:homepage/@rdf:resource');
+  push(@collection, @moreResources);
 
   print "Found #projects: " . scalar @collection . "\n";
 
@@ -222,13 +224,17 @@ sub extractLinkedOtherResources {
 
   my @collection = ();
   my $foafRecord = extractFOAFRecord($xc);
-  print "record: " . $foafRecord . "\n";
-  my @rdfResources = $foafRecord->findnodes('./foaf:weblog/@rdf:resource');
-  push(@collection, @rdfResources);
-  @rdfResources = $foafRecord->findnodes('./foaf:publications/@rdf:resource');
-  push(@collection, @rdfResources);
+  if ($foafRecord) {
+    print "record: " . $foafRecord . "\n";
+    my @rdfResources = $foafRecord->findnodes('./foaf:weblog/@rdf:resource');
+    push(@collection, @rdfResources);
+    @rdfResources = $foafRecord->findnodes('./foaf:publications/@rdf:resource');
+    push(@collection, @rdfResources);
 
-  print "Found #other resources: " . scalar @collection . "\n";
+    print "Found #other resources: " . scalar @collection . "\n";
+  } else {
+    print "Could not find the root FOAF node...\n";
+  }
 
   @collection;
 }
@@ -250,11 +256,15 @@ sub extractLinkedOtherFieldResources {
 
   my @collection = ();
   my $foafRecord = extractFOAFRecord($xc);
-  print "record: " . $foafRecord . "\n";
-  my @rdfResources = $foafRecord->findnodes('./foaf:homepage');
-  push(@collection, @rdfResources);
+  if ($foafRecord) {
+    print "record: " . $foafRecord . "\n";
+    my @rdfResources = $foafRecord->findnodes('./foaf:homepage');
+    push(@collection, @rdfResources);
 
-  print "Found #other resources: " . scalar @collection . "\n";
+    print "Found #other resources: " . scalar @collection . "\n";
+  } else {
+    print "Could not find the root FOAF node...\n";
+  }
 
   @collection;
 }
