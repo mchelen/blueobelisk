@@ -7,7 +7,7 @@
           id="CS_2_4_6-trimethylaniline">
   <formula concise=" C 9 H 13 N 1 "/>
   <identifier convention="iupac:inchi" value="1/C9H13N/c1-6-4-7(2)9(10)8(3)5-6/h4-5H,10H2,1-3H3"/>
-  <name convention="IUPAC">2,4,6-trimethylaniline</name>
+  <name convention="IUPAC">2,4,6-Trimethylaniline</name>
   <atomArray>
     <atom id="a1" elementType="C" x3="0.392801" y3="1.056179" z3="0.095407"/>
     <atom id="a2" elementType="C" x3="1.288947" y3="-0.026486" z3="-0.010681"/>

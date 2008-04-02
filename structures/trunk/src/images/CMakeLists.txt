@@ -10,6 +10,7 @@ SET( images_files
      header_bg.png
      header.png
      download.png
+     favicon.ico
 )
 
 INSTALL( FILES ${images_files} DESTINATION ${SHARE_HOME}/images )

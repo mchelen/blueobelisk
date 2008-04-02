@@ -7,7 +7,7 @@
           id="CS_4_bis_4-dimethylaminophenyl_methylene-2_5-cyclohexadien-1-iminium">
   <formula concise=" C 23 H 26 N 3 "/>
   <identifier convention="iupac:inchi" value="1/C23H26N3/c1-25(2)21-13-7-18(8-14-21)23(17-5-11-20(24)12-6-17)19-9-15-22(16-10-19)26(3)4/h5-16H,24H2,1-4H3"/>
-  <name convention="IUPAC">4-[bis(4-dimethylaminophenyl)methylene]-2,5-cyclohexadien-1-iminium</name>
+  <name convention="IUPAC">4-[Bis(4-dimethylaminophenyl)methylene]-2,5-cyclohexadien-1-iminium</name>
   <atomArray>
     <atom id="a1" elementType="C" x3="2.430187" y3="-1.737586" z3="-1.074968"/>
     <atom id="a2" elementType="C" x3="3.237364" y3="-2.846243" z3="-1.210663"/>

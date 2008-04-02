@@ -8,7 +8,6 @@
   <formula concise=" C 9 H 8 N 2 "/>
   <identifier convention="iupac:inchi" value="1/C9H8N2/c1-2-6-9-8(4-1)5-3-7-10-11-9/h1-7,11H"/>
   <name convention="IUPAC">1H-1,2-Benzodiazepine</name>
- <name>1H-1_2-benzodiazepine.gpr</name>
   <atomArray>
     <atom id="a1" elementType="C" x3="1.870774" y3="0.002348" z3="-0.025621"/>
     <atom id="a2" elementType="C" x3="2.247153" y3="-1.320933" z3="-0.209613"/>

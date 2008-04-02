@@ -7,7 +7,7 @@
           id="CS_linolein">
   <formula concise=" C 57 H 98 O 6 "/>
   <identifier convention="iupac:inchi" value="1/C57H98O6/c1-4-7-10-13-16-19-22-25-28-31-34-37-40-43-46-49-55(58)61-52-54(63-57(60)51-48-45-42-39-36-33-30-27-24-21-18-15-12-9-6-3)53-62-56(59)50-47-44-41-38-35-32-29-26-23-20-17-14-11-8-5-2/h16-21,25-30,54H,4-15,22-24,31-53H2,1-3H3/b19-16-,20-17-,21-18-,28-25-,29-26-,30-27-"/>
-  <name convention="IUPAC">2,3-bis[[(9Z,12Z)-octadeca-9,12-dienoyl]oxy]propyl (9Z,12Z)-octadeca-9,12-dienoate</name>
+  <name convention="IUPAC">2,3-Bis[[(9Z,12Z)-octadeca-9,12-dienoyl]oxy]propyl (9Z,12Z)-octadeca-9,12-dienoate</name>
   <atomArray>
     <atom id="a1" elementType="C" x3="-2.675457" y3="5.861986" z3="0.796561"/>
     <atom id="a2" elementType="C" x3="-2.489032" y3="4.660240" z3="1.762001"/>
