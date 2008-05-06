@@ -105,36 +105,26 @@ dd {
     margin-left: 3em;
 }
 
-.ec {
+.ec, .ecc, .ecb, .ecbc, .ect {
     padding-left: 0.4em;
     padding-right: 0.4em;
     background-color: #F8F8F8;
     border: 1px solid #999999;
 }
-
+.ecc  {
+     text-align: center;
+}
 .ecb  {
     font-weight: bold;
-    padding-left: 0.4em;
-    padding-right: 0.4em;
-    background-color: #F8F8F8;
-    border: 1px solid #999999;
 }
-
 .ecbc  {
     font-family: Courier;
     font-weight: bold;
-    padding-left: 0.4em;
-    padding-right: 0.4em;
-    background-color: #F8F8F8;
-    border: 1px solid #999999;
 }
 .ect  {
     font-weight: bold;
-    padding-left: 0.4em;
-    padding-right: 0.4em;
     color: #FFFFFF;
     background-color: #666666;
-    border: 1px solid #999999;
 }
 
 .toc_2, .toc_2 a:link, .toc_2 a:active, .toc_2 a:hover, .toc_2 a:visited

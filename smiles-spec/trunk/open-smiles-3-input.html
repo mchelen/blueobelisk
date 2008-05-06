@@ -355,8 +355,24 @@ example, the following are not allowed:</p>
   <tr> <td class="ecbc"> C11        </td> <td class="ec"> <i>illegal, atom bonded to itself</i></td> </tr>
 </table>
 
-
 <a name="3.5"></a><h3>3.5 Aromaticity</h3>
+
+<a name="3.5.1"></a><h4>3.5.1 The Meaning of "Aromaticity" in SMILES</h4>
+
+<p>"Aromaticity" in SMILES is primarily for
+<a href="http://www.emolecules.com/doc/cheminformatics-101.htm">cheminformatics</a> purposes.
+In a cheminformatics system, we'd like to have a single representation for each molecule.  The
+Kekul&eacute; form masks the inherent uniformity of the bonds in an aromatic ring.  SMILES uses a
+simplified definition of aromaticity that facilitates substructure and exact-structure
+searches, as well as <a href="open-smiles-4-output.html#4.1"> normalization</a> and
+<a href="open-smiles-4-output.html#4.4">canonicalization</a> of SMILES.</p>
+
+<p>The definition of "aromaticity" in SMILES is <i>not</i> intended to imply anything about the
+physical or chemical properties of a substance.  In many or most cases, the SMILES definition of
+aromaticity will match the chemist's notion of what is aromatic, but in some cases it will not.</p>
+
+
+<a name="3.5.2"></a><h4>3.5.2 Kekul&eacute; and Aromatic Representations</h4>
 
 <p>Aromaticity can be represented in one of two ways in a SMILES.<p>
 
@@ -382,6 +398,49 @@ aromatic or anti-aromatic ring system.  For example:</p>
 symbols eliminate the arbitrary choice of how to assign the single and double bonds, and provide a
 <a href="#4">normalized form</a> that more accurately reflects the electronic configuration.</p>
 
+<a name="3.5.3"></a><h4>3.5.3 Extended Hueckel's Rule</h4>
+
+<p>A single, isolated ring that meets the following criteria is aromatic:</p>
+
+<ul>
+  <li>All atoms must be sp<sup>2</sup> hybridized.</li>
+  <li>The number of availabile "shared" <a href="http://en.wikipedia.org/wiki/Pi_electron" title="Pi_electron">
+      &#960; electrons</a> must equal 4N+2 where N = 1, 2 or 3 (
+     <a href="http://en.wikipedia.org/wiki/H%C3%BCckel's_rule">H&uuml;ckel's rule</a>).</li>
+</ul>
+
+<p>Each element that can participate in an aromatic ring is defined to have the following
+number of &#960; electrons:</p>
+
+<table class="et">
+  <tr> <td class="ec"> configuration </td><td class="ec">&#960; electrons</td> <td class="ec" colspan="2">Example</td> </tr>
+
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-c-1.gif"> </td><td class="ecc">1</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-c-2.gif"> </td><td class="ecc">1</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-c-3.gif"> </td><td class="ecc">1</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-c-4.gif"> </td><td class="ecc">1</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-c-5.gif"> </td><td class="ecc">1</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-cO-1.gif"> </td><td class="ecc">0-1</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-cO-2.gif"> </td><td class="ecc">0</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-cO-3.gif"> </td><td class="ecc">1</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-n-1.gif"> </td><td class="ecc">1</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-n-2.gif"> </td><td class="ecc">1</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-n-3.gif"> </td><td class="ecc">1</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-n-4.gif"> </td><td class="ecc">1</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-n-5.gif"> </td><td class="ecc">1</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-n-6.gif"> </td><td class="ecc">1-2</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-n-7.gif"> </td><td class="ecc">1</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-o.gif"> </td><td class="ecc">2</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-se.gif"> </td><td class="ecc">2</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+  <tr> <td class="ecc"><img width="64" height="64" src="sp2/sp2-s.gif"> </td><td class="ecc">2</td> <td class="ecbc">c1ccccc1</td> <td class="ecc"><img src="x.gif"></td> </tr>
+
+</table>
+
+
+
+<a name="3.5.4"></a><h4>3.5.4 Aromaticity Algorithm</h4>
+
+
 <p>In an aromatic system, all of the aromatic atoms must be sp<sup>2</sup> hybridized, and the
 number of <a href="http://en.wikipedia.org/wiki/Pi_electron" title="Pi_electron">Pi electrons</a>
 must meet <a href="http://en.wikipedia.org/wiki/H%C3%BCckel's_rule">H&uuml;ckel's 4N+2
@@ -399,13 +458,6 @@ be explicitely represented.  For example:</p>
   <tr> <td class="ec"><img src="biphenyl.gif"></td> <td class="ecbc"> c1ccccc1-c2ccccc2 </td> <td class="ec"> biphenyl </td> </tr>
 </table>
 
-<p>This meaning of <i>aromaticity</i> for SMILES is strictly for
-<a href="http://www.emolecules.com/doc/cheminformatics-101.htm">cheminformatics</a> purposes.  It is
-<i>not</i> intended to imply anything about the physical or chemical properties of a substance.  In
-many or most cases, the SMILES definition of aromaticity will match the chemist's notion of what is
-aromatic, but in some cases it will not.  The SMILES definition of aromaticity is designed to
-facilitate <a href="#4">normalization</a> of SMILES, not to predict chemical properties.
-</p>
 
 <p><i>Note: Some SMILES parsers interpret a lowercase letter as sp<sup>2</sup> anywhere it appears;
 for example, <span class="sm">CccccC</span> would be interpreted as <span
@@ -463,7 +515,7 @@ hydrogens.  For example:</p>
 <table class="et">
   <tr> <td class="ecbc"> [CH4]       </td> <td class="ec"> methane </td> </tr>
   <tr> <td class="ecbc"> [H][CH2][H] </td> <td class="ec"> methane </td> </tr>
-  <tr> <td class="ecbc"> [2H][CH3]C  </td> <td class="ec"> deuteroethane </td> </tr>
+  <tr> <td class="ecbc"> [2H][CH2]C  </td> <td class="ec"> deuteroethane </td> </tr>
 </table>
 
 
