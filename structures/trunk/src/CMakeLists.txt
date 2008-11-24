@@ -1,65 +1,73 @@
-MESSAGE( STATUS "Generating src Makefile")
+message(STATUS "Generating src Makefile")
 
-SET(level "0")
-SET(index_prefix "index")
+set(level "0")
+add_custom_target(index ALL)
+set(index_files "")
+set(main_index_files "")
 
-FOREACH( lang ${AVAILABLE_LANG} )
-  SET( xhtml_files ${xhtml_files} "${index_prefix}_${lang}.html" )
-  SET( data_index_files ${data_index_files} "name_index_${lang}.html" )
-  SET( data_index_files ${data_index_files} "formula_index_${lang}.html" )
-ENDFOREACH( lang )
+#################################################################
+#                       Index file handle                       #
+#################################################################
+foreach(lang ${AVAILABLE_LANG})
+  set(index_files ${index_files} "index_${lang}.html")
+endforeach(lang)
 
-ADD_CUSTOM_COMMAND( OUTPUT ${xhtml_files}
-                    COMMAND ${PYTHON_EXECUTABLE} ${PYHANDLER}
-                    ${CMAKE_SOURCE_DIR}
-		    "${CMAKE_CURRENT_SOURCE_DIR}/index.xml" ${level}
-		    ${AVAILABLE_LANG}
+#################################################################
+#                    Main index file handle                     #
+#################################################################
+foreach(lang ${AVAILABLE_LANG})
+  set(main_index_files ${main_index_files} "name_index_${lang}.html")
+  set(main_index_files ${main_index_files} "formula_index_${lang}.html")
+endforeach(lang)
+
+#################################################################
+#                       Build XHTML files                       #
+#################################################################
+add_custom_command(TARGET index
+                   COMMAND ${PYTHON_EXECUTABLE} ${MAKEINDEXFILES} ${CMAKE_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/index.xml ${level} ${AVAILABLE_LANG}
+                   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-ADD_CUSTOM_COMMAND( OUTPUT ${data_index_files}
-                    COMMAND ${PYTHON_EXECUTABLE} ${PYDATAINDEXER}
-		    ${CMAKE_CURRENT_SOURCE_DIR}
-		    ${AVAILABLE_LANG}
-)
+#################################################################
+#                         Install files                         #
+#################################################################
+install(FILES ${index_files} DESTINATION ${SHARE_HOME})
+install(FILES ${main_index_files} DESTINATION ${SHARE_HOME})
 
-ADD_CUSTOM_TARGET( xhtml ALL
-                   DEPENDS ${xhtml_files} ${data_index_files} 
-)
-
-INSTALL(FILES ${xhtml_files} DESTINATION ${SHARE_HOME})
-INSTALL(FILES ${data_index_files} DESTINATION ${SHARE_HOME})
-
-ADD_SUBDIRECTORY( acid_anhydrides )
-ADD_SUBDIRECTORY( alcohols )
-ADD_SUBDIRECTORY( aldehydes )
-ADD_SUBDIRECTORY( alkanes )
-ADD_SUBDIRECTORY( alkenes )
-ADD_SUBDIRECTORY( alkynes )
-ADD_SUBDIRECTORY( amides )
-ADD_SUBDIRECTORY( amines )
-ADD_SUBDIRECTORY( amino_acids )
-ADD_SUBDIRECTORY( aromatics )
-ADD_SUBDIRECTORY( carbamides )
-ADD_SUBDIRECTORY( carbohydrates )
-ADD_SUBDIRECTORY( carboxylic_acids )
-ADD_SUBDIRECTORY( drugs )
-ADD_SUBDIRECTORY( esters )
-ADD_SUBDIRECTORY( ethers )
-ADD_SUBDIRECTORY( fatty_acids )
-ADD_SUBDIRECTORY( haloalkanes )
-ADD_SUBDIRECTORY( heteroaromatics )
-ADD_SUBDIRECTORY( images )
-ADD_SUBDIRECTORY( jmol )
-ADD_SUBDIRECTORY( ketones )
-ADD_SUBDIRECTORY( macrocycles )
-ADD_SUBDIRECTORY( nitriles )
-ADD_SUBDIRECTORY( nitroalkanes )
-ADD_SUBDIRECTORY( nucleobases )
-ADD_SUBDIRECTORY( polycyclic_alkanes )
-ADD_SUBDIRECTORY( polycyclic_aromatics )
-ADD_SUBDIRECTORY( styles )
-ADD_SUBDIRECTORY( sulfones )
-ADD_SUBDIRECTORY( sulfoxides )
-ADD_SUBDIRECTORY( thioethers )
-ADD_SUBDIRECTORY( thiols )
-ADD_SUBDIRECTORY( water )
+#################################################################
+#                       Add subdirectories                      #
+#################################################################
+add_subdirectory(acid_anhydrides)
+#add_subdirectory(alcohols)
+#add_subdirectory(aldehydes)
+#add_subdirectory(alkanes)
+#add_subdirectory(alkenes)
+#add_subdirectory(alkynes)
+#add_subdirectory(amides)
+#add_subdirectory(amines)
+#add_subdirectory(amino_acids)
+#add_subdirectory(aromatics)
+#add_subdirectory(carbamides)
+#add_subdirectory(carbohydrates)
+#add_subdirectory(carboxylic_acids)
+#add_subdirectory(drugs)
+#add_subdirectory(esters)
+#add_subdirectory(ethers)
+#add_subdirectory(fatty_acids)
+#add_subdirectory(haloalkanes)
+#add_subdirectory(heteroaromatics)
+#add_subdirectory(images)
+#add_subdirectory(jmol)
+#add_subdirectory(ketones)
+#add_subdirectory(macrocycles)
+#add_subdirectory(nitriles)
+#add_subdirectory(nitroalkanes)
+#add_subdirectory(nucleobases)
+#add_subdirectory(polycyclic_alkanes)
+#add_subdirectory(polycyclic_aromatics)
+#add_subdirectory(styles)
+#add_subdirectory(sulfones)
+#add_subdirectory(sulfoxides)
+#add_subdirectory(thioethers)
+#add_subdirectory(thiols)
+#add_subdirectory(water)
