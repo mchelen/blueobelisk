@@ -1,90 +1,70 @@
-SET( CHEM_GROUP "macrocycles" )
+#################################################################
+#                   Local variables settings                    #
+#################################################################
+set(CHEM_GROUP "macrocycles")
 
-MESSAGE( STATUS "Generating ${CHEM_GROUP} Makefile")
+message(STATUS "Generating ${CHEM_GROUP} Makefile")
 
-#
-# Generic variables
-#
-# Directory deepness. Required for the link to images, styles and jmol
-SET( level "1" )
-# Set xhtml_files empty
-SET( xhtml_files "" )
+set(level "1")
+set(index_files "")
+set(chemical_structure_files "")
+set(chemical_data_files "")
 
-#
-# Index file handle
-#
-# Set the prefix of the index file
-SET( index_prefix "index" )
-# Generate the names of html index files
-SET( index_file "${index_prefix}.xml" )
-FOREACH( lang ${AVAILABLE_LANG} )
-  SET( xhtml_files ${xhtml_files} "${index_prefix}_${lang}.html" )
-ENDFOREACH( lang )
+add_custom_target(${CHEM_GROUP} ALL)
 
-#
-# CML file handle
-#
-# Set the prefix list of the cml files
-FILE(GLOB cml_SRCS *.cml)
-# Generate the names of html cml files
-FOREACH( cml_FILENAME ${cml_SRCS} )
-  GET_FILENAME_COMPONENT(cml_WE ${cml_FILENAME} NAME_WE)
-  FOREACH( lang ${AVAILABLE_LANG} )
-      SET( xhtml_files ${xhtml_files} "${cml_WE}_${lang}.html" )
-  ENDFOREACH( lang )
-ENDFOREACH( cml_FILENAME )
+#################################################################
+#                       Index file handle                       #
+#################################################################
+foreach(lang ${AVAILABLE_LANG})
+  set(index_files ${index_files} "index_${lang}.html")
+endforeach(lang)
 
-#
-# Custom file conversion
-#
-IF(OPENBABEL2_EXECUTABLE_FOUND)
-  # Initialize all variables
-  SET( mol_files "" )
-  SET( smi_files "" )
-
-  FOREACH( cml_FILENAME ${cml_SRCS} )
-    GET_FILENAME_COMPONENT(cml_WE ${cml_FILENAME} NAME_WE)
+#################################################################
+#                     Structure file handle                     #
+#################################################################
+file(GLOB cml_SRCS *.cml)
+set(chemical_structure_files ${cml_SRCS})
+if(OPENBABEL2_EXECUTABLE_FOUND)
+  foreach(cml_FILE ${cml_SRCS})
+    get_filename_component(cml_WE ${cml_FILE} NAME_WE)
+    set(mol_FILE "${cml_WE}.mol")
+    set(smi_FILE "${cml_WE}.smi")
     # add custom command to build mol files
-    ADD_CUSTOM_COMMAND( OUTPUT ${cml_WE}.mol
-                        COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml_FILENAME} -omol ${cml_WE}.mol
-                        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
-    )
-    SET( mol_files ${mol_files} ${cml_WE}.mol )
-    # add custom command to build smile files
-    ADD_CUSTOM_COMMAND( OUTPUT ${cml_WE}.smi
-                        COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml_FILENAME} -osmi ${cml_WE}.smi
-                        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
-    )
-    SET( smi_files ${smi_files} ${cml_WE}.smi )
-  ENDFOREACH( cml_FILENAME )
+    add_custom_command(TARGET ${CHEM_GROUP}
+                       COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml_FILE} -omol ${mol_FILE}
+                       WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} 
+   )
+    set(chemical_structure_files ${chemical_structure_files} ${mol_FILE})
+    add_custom_command(TARGET ${CHEM_GROUP}
+                       COMMAND ${OPENBABEL2_EXECUTABLE} -icml ${cml_FILE} -osmi ${smi_FILE}
+                       WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} 
+   )
+    set(chemical_structure_files ${chemical_structure_files} ${smi_FILE})
+  endforeach(cml_FILE)
+endif(OPENBABEL2_EXECUTABLE_FOUND)
 
-  # Add custom target for mol files
-  ADD_CUSTOM_TARGET( mdl_mol ALL
-                     DEPENDS ${mol_files}
-  )
-  # Add custom target for smiles
-  ADD_CUSTOM_TARGET( smiles ALL
-                     DEPENDS ${smi_files}
-  )
-  INSTALL( FILES ${mol_files} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )
-  INSTALL( FILES ${smi_files} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )
-ENDIF(OPENBABEL2_EXECUTABLE_FOUND)
 
-#
-# Build target command
-#
-ADD_CUSTOM_COMMAND( OUTPUT ${xhtml_files}
-                    COMMAND ${PYTHON_EXECUTABLE} ${PYHANDLER}
-                    ${CMAKE_SOURCE_DIR}
-                    ${index_file} ${level}
-                    ${AVAILABLE_LANG}
-)
-ADD_CUSTOM_TARGET( xhtml ALL
-                   DEPENDS ${xhtml_files}
+#################################################################
+#                   Chemical datafile handle                    #
+#################################################################
+foreach(cml_FILE ${cml_SRCS})
+  get_filename_component(cml_WE ${cml_FILE} NAME_WE)
+  foreach(lang ${AVAILABLE_LANG})
+      set(chemical_data_files ${chemical_data_files} "${cml_WE}_${lang}.html")
+  endforeach(lang)
+endforeach(cml_FILE)
+
+#################################################################
+#                       Build XHTML files                       #
+#################################################################
+add_custom_command(TARGET ${CHEM_GROUP}
+                   COMMAND ${PYTHON_EXECUTABLE} ${MAKEXHTMLFILES} ${CMAKE_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/index.xml ${level} ${AVAILABLE_LANG}
+                   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-#
-# Install target command
-#
-INSTALL( FILES ${xhtml_files} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )
-INSTALL( FILES ${cml_SRCS} DESTINATION ${SHARE_HOME}/${CHEM_GROUP} )
+#################################################################
+#                         Install files                         #
+#################################################################
+install(FILES ${index_files} DESTINATION ${SHARE_HOME}/${CHEM_GROUP})
+install(FILES ${chemical_structure_files} DESTINATION ${SHARE_HOME}/${CHEM_GROUP})
+install(FILES ${chemical_data_files} DESTINATION ${SHARE_HOME}/${CHEM_GROUP})
