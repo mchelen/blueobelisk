@@ -1,8 +1,9 @@
 #!/usr/bin/python
 
-"""This file generates the following index files:
-- src/name_index.html
-- src/raw_formula.html
+"""This file generates the index filesi in the top directory:
+- src/name_index_lang.html
+- src/raw_formula_lang.html
+- src/index_lang.html
 """
 
 import sys
@@ -10,6 +11,7 @@ import os
 import xml.sax
 import l10nhandler
 import indexhandler
+import indexwriter
 import nameindexwriter
 import formulaindexwriter
 
@@ -41,12 +43,16 @@ def formulaCmp(tuple1, tuple2):
   return cmp( len(formula1), len(formula2) )
 
 sourceDir = sys.argv[1]
-
-langList = sys.argv[2:]
+if not os.path.isdir(sourceDir):
+    print "Error: "+ sourceDir + ": no such directory"
+    sys.exit(1)
+indexFile = sys.argv[2]
+level = int(sys.argv[3])
+langList = sys.argv[4:]
 
 skip_dir = ['jmol','images','styles']
 
-os.chdir(sourceDir)
+os.chdir(sourceDir + os.path.sep + "src")
 
 src_list = os.listdir(os.curdir)
 
@@ -57,8 +63,10 @@ formula_list = []
 l10n_parser = xml.sax.make_parser()
 l10n_handler = l10nhandler.L10NHandler()
 l10n_parser.setContentHandler(l10n_handler)
-l10n_parser.parse(os.pardir + "/xml/l10n.xml")
+l10n_file = sourceDir + os.path.sep + "xml" + os.path.sep + "l10n.xml"
+l10n_parser.parse(l10n_file)
 
+# find the index.xml files in the subdirectories and index the data
 for dir in src_list:
   if os.path.isdir(dir) and dir not in skip_dir:
     os.chdir(dir)
@@ -72,13 +80,21 @@ for dir in src_list:
         name_list.append( (entry.name["en"], "./" + dir +"/" + entry.path) )
         formula_list.append( [(get_formula_ar(entry.path), "./" + dir +"/" + entry.path), entry.name["en"] ])
     os.chdir(os.pardir)
-
 name_list.sort()
 formula_list.sort(formulaCmp)
-
 data_index = nameindexwriter.DataIndexWriter("name_index",name_list,l10n_handler)
 formula_index = formulaindexwriter.DataIndexWriter("formula_index",formula_list,l10n_handler)
+
+# parse the top index file
+index_parser = xml.sax.make_parser()
+index_parser.setFeature(xml.sax.handler.feature_external_ges, 0)
+index_handler = indexhandler.IndexHandler()
+index_parser.setContentHandler(index_handler)
+index_parser.parse(indexFile)
+index = indexwriter.IndexWriter(indexFile,index_handler,l10n_handler)
 
 for lang in langList:
   data_index.WriteXHTML("Name index", lang)
   formula_index.WriteXHTML("Formula index", lang)
+  index = indexwriter.IndexWriter("index_" + lang + ".html",index_handler,l10n_handler)
+  index.WriteXHTML(index_handler.title,lang,level)

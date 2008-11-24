@@ -19,7 +19,8 @@ class IndexWriter:
             xhtmlout.setTitle(index_title[lang])
         else:
             xhtmlout.setTitle(index_title['en'])
-        xhtmlout.addHead('    <link href="' + '../' * level + 'styles/style.css" rel="stylesheet" type="text/css" />')
+        xhtmlout.addHead('    <link rel="stylesheet" type="text/css" href="' + '../' * level + 'styles/style.css" />')
+        xhtmlout.addHead('    <link rel="shortcut icon" href="' + '../' * level + 'images/favicon.ico" />')
         xhtmlout.addBody('    <div id="header">')
         xhtmlout.addBody('      <img src="'+ '../' * level + 'images/header.png" alt="Header image" />')
         xhtmlout.addBody('    </div>')
