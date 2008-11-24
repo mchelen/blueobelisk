@@ -1,21 +1,27 @@
-PROJECT( chemical-structures )
+project(chemical-structures)
 
-CMAKE_MINIMUM_REQUIRED(VERSION 2.2)
+set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/modules)
 
-SET( VERSION 2.1 )
+cmake_minimum_required(VERSION 2.4.0)
 
+#################################################################
+#                    Define global variables                    #
+#################################################################
+set(VERSION 2.2)
+set(AVAILABLE_LANG "en" "es" "de" "fr" "nl")
+set(SHARE_HOME ${CMAKE_INSTALL_PREFIX}/share/chemical-structures)
 
-SET( CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/modules )
+#################################################################
+#                        Python Settings                        #
+#################################################################
+find_package(PythonInterp REQUIRED)
+set(MAKEINDEXFILES ${CMAKE_SOURCE_DIR}/tools/make_index_files.py)
+set(MAKEXHTMLFILES ${CMAKE_SOURCE_DIR}/tools/make_xhtml_files.py)
 
-FIND_PACKAGE( PythonInterp REQUIRED )
-SET( PYHANDLER ${CMAKE_SOURCE_DIR}/tools/index2xhtml.py )
-SET( PYDATAINDEXER ${CMAKE_SOURCE_DIR}/tools/make_index.py )
+#################################################################
+#                      Open Babel Settings                      #
+#################################################################
+find_package(OpenBabel2Exe)
 
-FIND_PACKAGE( OpenBabel2Exe )
-
-SET( AVAILABLE_LANG "en" "es" "de" "fr" "nl" )
-
-SET( SHARE_HOME ${CMAKE_INSTALL_PREFIX}/share/chemical-structures )
-
-ADD_SUBDIRECTORY( src )
+add_subdirectory(src)
 

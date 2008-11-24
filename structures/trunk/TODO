@@ -1,11 +1,24 @@
-Add Apiol
-Add Statine
-Add Serotonin
-Add ATP and GTP
-Add cyclic carbohydrates
-Try to get a better minimisation of linolein.
-Update the build system
-Check Acetylacetone name
+#################################################################
+#                     New molecule requests                     #
+#################################################################
+Apiol
+Statine
+Serotonin
+AMP, ADP, ATP
+GMP, GDP, GTP
+Aminochlorothenoxazin
+dipanone
+prolidine
+hexalgon
+cyclic carbohydrates
 
-Comments:
-Is the translate function (tools/l10nhandler) in the right place ? It could be better used in the l10nwriter ?
+#################################################################
+#                         Optimization                          #
+#################################################################
+Get a better minimization of linolein
+
+#################################################################
+#                             Misc                              #
+#################################################################
+Add a custom clean target to the build system
+
