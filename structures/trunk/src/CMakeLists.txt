@@ -9,15 +9,15 @@ set(main_index_files "")
 #                       Index file handle                       #
 #################################################################
 foreach(lang ${AVAILABLE_LANG})
-  set(index_files ${index_files} "index_${lang}.html")
+  set(index_files ${index_files} "${CMAKE_CURRENT_BINARY_DIR}/index_${lang}.html")
 endforeach(lang)
 
 #################################################################
 #                    Main index file handle                     #
 #################################################################
 foreach(lang ${AVAILABLE_LANG})
-  set(main_index_files ${main_index_files} "name_index_${lang}.html")
-  set(main_index_files ${main_index_files} "formula_index_${lang}.html")
+  set(main_index_files ${main_index_files} "${CMAKE_CURRENT_BINARY_DIR}/name_index_${lang}.html")
+  set(main_index_files ${main_index_files} "${CMAKE_CURRENT_BINARY_DIR}/formula_index_${lang}.html")
 endforeach(lang)
 
 #################################################################
@@ -25,9 +25,13 @@ endforeach(lang)
 #################################################################
 add_custom_command(TARGET index
                    COMMAND ${PYTHON_EXECUTABLE} ${MAKEINDEXFILES} ${CMAKE_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/index.xml ${level} ${AVAILABLE_LANG}
-                   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+                   WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
 )
 
+add_custom_command(TARGET clean_xhtml
+                   COMMAND rm *.html
+                   WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
+)
 #################################################################
 #                         Install files                         #
 #################################################################

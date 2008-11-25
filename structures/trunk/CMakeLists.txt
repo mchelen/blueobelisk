@@ -23,5 +23,14 @@ set(MAKEXHTMLFILES ${CMAKE_SOURCE_DIR}/tools/make_xhtml_files.py)
 #################################################################
 find_package(OpenBabel2Exe)
 
+#################################################################
+#                     Define global target                      #
+#################################################################
+add_custom_target(clean_xhtml)
+add_custom_target(clean_structure)
+
+#################################################################
+#                      Add subdirectories                       #
+#################################################################
 add_subdirectory(src)
 

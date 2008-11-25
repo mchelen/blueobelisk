@@ -1,37 +1,35 @@
-message(STATUS "Generating jmol Makefile")
+#################################################################
+#                   Local variable settings                     #
+#################################################################
+set(LOCAL_TARGET jmol)
+message(STATUS "Generating ${LOCAL_TARGET} Makefile")
 
-set(level "1")
-
-set(xhtml_files "")
-
-set(Jmol_files 
+file(GLOB jmol_SRCS *.jar *.js)
+set(jmol_SRCS
+    ${jmol_SRCS}
     COPYRIGHT.txt
-    jmol
-    JmolApplet0.jar
-    JmolApplet1.jar
-    JmolApplet2.jar
-    JmolApplet3.jar
-    JmolApplet4.jar
-    JmolApplet5.jar
-    JmolApplet6.jar
-    JmolApplet_i18n.jar
-    JmolApplet.jar
-    JmolAppletSigned0.jar
-    JmolAppletSigned1.jar
-    JmolAppletSigned2.jar
-    JmolAppletSigned3.jar
-    JmolAppletSigned4.jar
-    JmolAppletSigned5.jar
-    JmolAppletSigned6.jar
-    JmolAppletSigned_i18n.jar
-    JmolAppletSigned.jar
-    jmol.bat
-    Jmol.jar
-    Jmol.js
-    jmol.mac
-    jmol.sh
     LICENSE.txt
     README.txt
 )
+set(jmol_files "")
 
-install(FILES ${Jmol_files} DESTINATION ${SHARE_HOME}/jmol)
+add_custom_target(${LOCAL_TARGET} ALL)
+
+#################################################################
+#                       jmol file handle                       #
+#################################################################
+foreach(jmol_SRC_FILE ${jmol_SRCS})
+  get_filename_component(jmol_FILE ${jmol_SRC_FILE} NAME)
+
+  add_custom_command(TARGET ${LOCAL_TARGET}
+                   COMMAND cp ${jmol_SRC_FILE} ${CMAKE_CURRENT_BINARY_DIR}/${jmol_FILE}
+                   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+  )
+  set(jmol_files ${jmol_files} ${jmol_FILE})
+endforeach(jmol_SRC_FILE)
+
+#################################################################
+#                         Install files                         #
+#################################################################
+install(FILES ${jmol_files} DESTINATION ${SHARE_HOME}/jmol)
+

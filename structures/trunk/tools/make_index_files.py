@@ -52,6 +52,8 @@ langList = sys.argv[4:]
 
 skip_dir = ['jmol','images','styles']
 
+current_binary_dir = os.path.abspath(os.curdir)
+
 os.chdir(sourceDir + os.path.sep + "src")
 
 src_list = os.listdir(os.curdir)
@@ -80,6 +82,7 @@ for dir in src_list:
         name_list.append( (entry.name["en"], "./" + dir +"/" + entry.path) )
         formula_list.append( [(get_formula_ar(entry.path), "./" + dir +"/" + entry.path), entry.name["en"] ])
     os.chdir(os.pardir)
+os.chdir(current_binary_dir)
 name_list.sort()
 formula_list.sort(formulaCmp)
 data_index = nameindexwriter.DataIndexWriter("name_index",name_list,l10n_handler)
