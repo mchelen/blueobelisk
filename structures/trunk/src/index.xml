@@ -6,12 +6,14 @@
   <title xml:lang="es">Estructuras de moléculas</title>
   <title xml:lang="fr">Structures de molécules</title>
   <title xml:lang="nl">Molekulaire Structuren</title>
+  <title xml:lang="tw">Chemical Structures (化學構造)</title>
   <entry>
     <name xml:lang="en">Acid anhydrides</name>
     <name xml:lang="de">Säureanhydride</name>
     <name xml:lang="es">Anhídridos de ácido</name>
     <name xml:lang="fr">Anhydrides d'acide</name>
     <name xml:lang="nl">Carbonzuuranhydride</name>
+    <name xml:lang="tw">Acid anhydrides (酸酐)</name>
     <dirname>acid_anhydrides</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2007-09-17</date>
@@ -22,6 +24,7 @@
     <name xml:lang="es">Alcohols</name>
     <name xml:lang="fr">Alcools</name>
     <name xml:lang="nl">Alcoholen</name>
+    <name xml:lang="tw">Alcohols (醇類)</name>
     <dirname>alcohols</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -32,6 +35,7 @@
     <name xml:lang="es">Aldehídos</name>
     <name xml:lang="fr">Aldéhydes</name>
     <name xml:lang="nl">Aldehyden</name>
+    <name xml:lang="tw">Aldehydes (醛類)</name>
     <dirname>aldehydes</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -42,6 +46,7 @@
     <name xml:lang="es">Alcanos</name>
     <name xml:lang="fr">Alcanes</name>
     <name xml:lang="nl">Alkanen</name>
+    <name xml:lang="tw">Alkanes (烷類)</name>
     <dirname>alkanes</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -52,6 +57,7 @@
     <name xml:lang="es">Alquenos</name>
     <name xml:lang="fr">Alcènes</name>
     <name xml:lang="nl">Alkenen</name>
+    <name xml:lang="tw">Alkenes (烯類)</name>
     <dirname>alkenes</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -62,6 +68,7 @@
     <name xml:lang="es">Alquinos</name>
     <name xml:lang="fr">Alcynes</name>
     <name xml:lang="nl">Alkynen</name>
+    <name xml:lang="tw">Alkynes (炔類)</name>
     <dirname>alkynes</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-03</date>
@@ -72,6 +79,7 @@
     <name xml:lang="es">Amidas</name>
     <name xml:lang="fr">Amides</name>
     <name xml:lang="nl">Amides</name>
+    <name xml:lang="tw">Amides (醯胺類)</name>
     <dirname>amides</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -82,6 +90,7 @@
     <name xml:lang="es">Aminas</name>
     <name xml:lang="fr">Amines</name>
     <name xml:lang="nl">Amines</name>
+    <name xml:lang="tw">Amines (胺類)</name>
     <dirname>amines</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -92,6 +101,7 @@
     <name xml:lang="es">Aminoácidos</name>
     <name xml:lang="fr">Acides aminés</name>
     <name xml:lang="nl">Aminozuren</name>
+    <name xml:lang="tw">Amino acids (胺基酸)</name>
     <dirname>amino_acids</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -102,6 +112,7 @@
     <name xml:lang="es">Aromáticos</name>
     <name xml:lang="fr">Aromatiques</name>
     <name xml:lang="nl">Aromaten</name>
+    <name xml:lang="tw">Aromatics (芳香族)</name>
     <dirname>aromatics</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -112,6 +123,7 @@
     <name xml:lang="es">Carbamidas</name>
     <name xml:lang="fr">Carbamides</name>
     <name xml:lang="nl">Carbamides</name>
+    <name xml:lang="tw">Carbamides (羰基胺類)</name>
     <dirname>carbamides</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
@@ -122,6 +134,7 @@
     <name xml:lang="es">Hidratos de carbono</name>
     <name xml:lang="fr">Carbohydrates</name>
     <name xml:lang="nl">Koolhydraten</name>
+    <name xml:lang="tw">Carbohydrates (碳水化合物)</name>
     <dirname>carbohydrates</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
@@ -132,6 +145,7 @@
     <name xml:lang="es">Ácidos carboxílicos</name>
     <name xml:lang="fr">Acides carboxyliques</name>
     <name xml:lang="nl">Carbonzuren</name>
+    <name xml:lang="tw">Carboxylic acids (羧酸)</name>
     <dirname>carboxylic_acids</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -142,6 +156,7 @@
     <name xml:lang="es">Drogas</name>
     <name xml:lang="fr">Drogues</name>
     <name xml:lang="nl">Drugs</name>
+    <name xml:lang="tw">Drugs (藥物)</name>
     <dirname>drugs</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -152,6 +167,7 @@
     <name xml:lang="es">Ésters</name>
     <name xml:lang="fr">Esters</name>
     <name xml:lang="nl">Esters</name>
+    <name xml:lang="tw">Esters (酯類)</name>
     <dirname>esters</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -162,6 +178,7 @@
     <name xml:lang="es">Éters</name>
     <name xml:lang="fr">Ethers</name>
     <name xml:lang="nl">Ethers</name>
+    <name xml:lang="tw">Ethers (醚類)</name>
     <dirname>ethers</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -172,6 +189,7 @@
     <name xml:lang="es">Ácidos grasos</name>
     <name xml:lang="fr">Acides gras</name>
     <name xml:lang="nl">Vetzuren</name>
+    <name xml:lang="tw">Fatty acids (脂肪酸)</name>
     <dirname>fatty_acids</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -182,6 +200,7 @@
     <name xml:lang="es">Haloalcanos</name>
     <name xml:lang="fr">Halogénures d'alkyle</name>
     <name xml:lang="nl">Gehalogeneerde Alkanen</name>
+    <name xml:lang="tw">Haloalkanes (鹵烷類)</name>
     <dirname>haloalkanes</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -192,6 +211,7 @@
     <name xml:lang="es">Heteroaromáticos</name>
     <name xml:lang="fr">Hétéroaromatiques</name>
     <name xml:lang="nl">Heteroaromaten</name>
+    <name xml:lang="tw">Heteroaromatics (雜芳族)</name>
     <dirname>heteroaromatics</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
@@ -202,6 +222,7 @@
     <name xml:lang="es">Cetonas</name>
     <name xml:lang="fr">Cétones</name>
     <name xml:lang="nl">Ketonen</name>
+    <name xml:lang="tw">Ketones (酮類)</name>
     <dirname>ketones</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -212,6 +233,7 @@
     <name xml:lang="es">Macrociclos</name>
     <name xml:lang="fr">MacrocyclesNitriles</name>
     <name xml:lang="nl">Grote ringsystemen</name>
+    <name xml:lang="tw">Macrocycles (大環類)</name>
     <dirname>macrocycles</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2007-05-29</date>
@@ -222,6 +244,7 @@
     <name xml:lang="es">Nitrilos</name>
     <name xml:lang="fr">Nitriles</name>
     <name xml:lang="nl">Nitrillen</name>
+    <name xml:lang="tw">Nitriles (腈類)</name>
     <dirname>nitriles</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -232,6 +255,7 @@
     <name xml:lang="es">Nitroalcanos</name>
     <name xml:lang="fr">Nitroalcanes</name>
     <name xml:lang="nl">Nitroalkanen</name>
+    <name xml:lang="tw">Nitroalkanes (硝基烷類)</name>
     <dirname>nitroalkanes</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-20</date>
@@ -242,6 +266,7 @@
     <name xml:lang="es">Nucleobases</name>
     <name xml:lang="fr">Nucléobases</name>
     <name xml:lang="nl">Nucleotiden</name>
+    <name xml:lang="tw">Nucleobases (鹼基/核鹼基)</name>
     <dirname>nucleobases</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
@@ -252,6 +277,7 @@
     <name xml:lang="es">Alcanos policíclicos</name>
     <name xml:lang="fr">Alcanes polycycliques</name>
     <name xml:lang="nl">Polycyclische Alkanen</name>
+    <name xml:lang="tw">Polycyclic alkanes (多環烷類)</name>
     <dirname>polycyclic_alkanes</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
@@ -262,6 +288,7 @@
     <name xml:lang="es">Aromáticos policíclicos</name>
     <name xml:lang="fr">Aromatiques polycycliques</name>
     <name xml:lang="nl">Polycyclische Aromaten</name>
+    <name xml:lang="tw">Polycyclic aromatics (多環芳香類)</name>
     <dirname>polycyclic_aromatics</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
@@ -272,6 +299,7 @@
     <name xml:lang="es">Sulfonas</name>
     <name xml:lang="fr">Sulfones</name>
     <name xml:lang="nl">Sulfonen</name>
+    <name xml:lang="tw">Sulfones (碸類)</name>
     <dirname>sulfones</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-20</date>
@@ -282,6 +310,7 @@
     <name xml:lang="es">Sulfóxidos</name>
     <name xml:lang="fr">Sulfoxydes</name>
     <name xml:lang="nl">Sulfoxides</name>
+    <name xml:lang="tw">Sulfoxides (亞碸類)</name>
     <dirname>sulfoxides</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-20</date>
@@ -292,6 +321,7 @@
     <name xml:lang="es">Tioéters</name>
     <name xml:lang="fr">Thioéthers</name>
     <name xml:lang="nl">Thioethers</name>
+    <name xml:lang="tw">Thioethers (硫醚類)</name>
     <dirname>thioethers</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
@@ -302,6 +332,7 @@
     <name xml:lang="es">Tiols</name>
     <name xml:lang="fr">Thiols</name>
     <name xml:lang="nl">Thiolen</name>
+    <name xml:lang="tw">Thiols (硫醇類)</name>
     <dirname>thiols</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-20</date>
@@ -312,6 +343,7 @@
     <name xml:lang="es">Agua</name>
     <name xml:lang="fr">Eau</name>
     <name xml:lang="nl">Water</name>
+    <name xml:lang="tw">Water (水)</name>
     <dirname>water</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>

@@ -8,7 +8,7 @@ cmake_minimum_required(VERSION 2.4.0)
 #                    Define global variables                    #
 #################################################################
 set(VERSION 2.2)
-set(AVAILABLE_LANG "en" "es" "de" "fr" "nl")
+set(AVAILABLE_LANG "en" "es" "de" "fr" "nl" "tw")
 set(SHARE_HOME ${CMAKE_INSTALL_PREFIX}/share/chemical-structures)
 
 #################################################################

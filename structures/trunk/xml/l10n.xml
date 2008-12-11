@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <l10n xmlns="http://www.gnome.org/~shaunm/gnome-doc-utils/l10n">
   <msgset>
     <msgid>Abbreviation:</msgid>
@@ -7,6 +7,7 @@
     <msg xml:lang="es">Abreviatura :</msg>
     <msg xml:lang="fr">Abréviation :</msg>
     <msg xml:lang="nl">Afkorting:</msg>
+    <msg xml:lang="tw">Abbreviation (縮寫): </msg>
   </msgset>
   <msgset>
     <msgid>Abbreviations:</msgid>
@@ -15,6 +16,7 @@
     <msg xml:lang="es">Abreviaturas :</msg>
     <msg xml:lang="fr">Abréviations :</msg>
     <msg xml:lang="nl">Afkortingen:</msg>
+    <msg xml:lang="tw">Abbreviations (縮寫):</msg>
   </msgset>
   <msgset>
     <msgid>Back to index</msgid>
@@ -23,6 +25,7 @@
     <msg xml:lang="es">Regresar al índice</msg>
     <msg xml:lang="fr">Retour à l'index</msg>
     <msg xml:lang="nl">Terug naar de index</msg>
+    <msg xml:lang="tw">Back to index (回到目錄)</msg>
   </msgset>
   <msgset>
     <msgid>Boiling point: </msgid>
@@ -31,6 +34,7 @@
     <msg xml:lang="es">Punto de ebullición : </msg>
     <msg xml:lang="fr">Point d'ébullition : </msg>
     <msg xml:lang="nl">Kookpunt: </msg>
+    <msg xml:lang="tw">Boiling point (沸點):</msg>
   </msgset>
   <msgset>
     <msgid>Comments</msgid>
@@ -39,6 +43,7 @@
     <msg xml:lang="es">Comentarios</msg>
     <msg xml:lang="fr">Commentaires</msg>
     <msg xml:lang="nl">Commentaar</msg>
+    <msg xml:lang="tw">Comments (備註)</msg>
   </msgset>
   <msgset>
     <msgid>Directories</msgid>
@@ -47,6 +52,7 @@
     <msg xml:lang="es">Directorios</msg>
     <msg xml:lang="fr">Répertoires</msg>
     <msg xml:lang="nl">Mappen</msg>
+    <msg xml:lang="tw">Directories (目錄)</msg>
   </msgset>
   <msgset>
     <msgid>Formula: </msgid>
@@ -55,6 +61,7 @@
     <msg xml:lang="es">Fórmula :</msg>
     <msg xml:lang="fr">Formule brute : </msg>
     <msg xml:lang="nl">Molecuulformule:</msg>
+    <msg xml:lang="tw">Formula (化學式):</msg>
   </msgset>
   <msgset>
     <msgid>Formula index</msgid>
@@ -63,6 +70,7 @@
     <msg xml:lang="es">Índice de fórmulas</msg>
     <msg xml:lang="fr">Index des formules</msg>
     <msg xml:lang="nl">Index met molecuulformules</msg>
+    <msg xml:lang="tw">Formula index (依化學式排列)</msg>
   </msgset>
   <msgset>
     <msgid>In CML format</msgid>
@@ -71,6 +79,7 @@
     <msg xml:lang="es">En CML formato</msg>
     <msg xml:lang="fr">Au format CML</msg>
     <msg xml:lang="nl">In CML-formaat</msg>
+    <msg xml:lang="tw">In CML format (In CML 化學檔案格式)</msg>
   </msgset>
   <msgset>
     <msgid>In MOL format</msgid>
@@ -79,6 +88,7 @@
     <msg xml:lang="es">En MOL formato </msg>
     <msg xml:lang="fr">Au format MOL</msg>
     <msg xml:lang="nl">In MDL-molfile-formaat</msg>
+    <msg xml:lang="tw">In MOL format (In MOL 化學檔案格式)</msg>
   </msgset>
   <msgset>
     <msgid>InChI:</msgid>
@@ -87,6 +97,7 @@
     <msg xml:lang="es">InChI :</msg>
     <msg xml:lang="fr">InChI :</msg>
     <msg xml:lang="nl">InChI:</msg>
+    <msg xml:lang="tw">InChI (InChI 化學檔案格式):</msg>
   </msgset>
   <msgset>
     <msgid>IUPAC name: </msgid>
@@ -95,6 +106,7 @@
     <msg xml:lang="es">Nombre IUPAC : </msg>
     <msg xml:lang="fr">Nom IUPAC : </msg>
     <msg xml:lang="nl">IUPAC-naam: </msg>
+    <msg xml:lang="tw">IUPAC name (IUPAC 名稱):</msg>
   </msgset>
   <msgset>
     <msgid>Melting point: </msgid>
@@ -103,6 +115,7 @@
     <msg xml:lang="es">Punto de fusión : </msg>
     <msg xml:lang="fr">Point de fusion : </msg>
     <msg xml:lang="nl">Smeltpunt: </msg>
+    <msg xml:lang="tw">Melting point (熔點):</msg>
   </msgset>
   <msgset>
     <msgid>Molecular weight: </msgid>
@@ -111,6 +124,7 @@
     <msg xml:lang="es">Masa molecular :</msg>
     <msg xml:lang="fr">Masse moléculaire : </msg>
     <msg xml:lang="nl">Moleculair gewicht:</msg>
+    <msg xml:lang="tw">Molecular weight (分子量):</msg>
   </msgset>
   <msgset>
     <msgid>Monoisotopic weight: </msgid>
@@ -119,6 +133,7 @@
     <msg xml:lang="es">Masa monoisótopica : </msg>
     <msg xml:lang="fr">Masse monoisotopique : </msg>
     <msg xml:lang="nl">Exacte massa: </msg>
+    <msg xml:lang="tw">Monoisotopic weight (單同位素分子量):</msg>
   </msgset>
   <msgset>
     <msgid>Name</msgid>
@@ -127,6 +142,7 @@
     <msg xml:lang="es">Nombre</msg>
     <msg xml:lang="fr">Nom</msg>
     <msg xml:lang="nl">Naam</msg>
+    <msg xml:lang="tw">Name (名稱)</msg>
   </msgset>
   <msgset>
     <msgid>Name index</msgid>
@@ -135,6 +151,7 @@
     <msg xml:lang="es">Índice del nombre</msg>
     <msg xml:lang="fr">Index des noms</msg>
     <msg xml:lang="nl">Index met namen</msg>
+    <msg xml:lang="tw">Name index (依化學名排列)</msg>
   </msgset>
   <msgset>
     <msgid>Names</msgid>
@@ -143,6 +160,7 @@
     <msg xml:lang="es">Nombres</msg>
     <msg xml:lang="fr">Noms</msg>
     <msg xml:lang="nl">Namen</msg>
+    <msg xml:lang="tw">Names (名稱)</msg>
   </msgset>
   <msgset>
     <msgid>Previous</msgid>
@@ -151,6 +169,8 @@
     <msg xml:lang="es">Anterior</msg>
     <msg xml:lang="fr">Précédent</msg>
     <msg xml:lang="nl">Vorige</msg>
+    <msg xml:lang="tw">Previous (前一頁)</msg>
+
   </msgset>
   <msgset>
     <msgid>Properties</msgid>
@@ -159,6 +179,7 @@
     <msg xml:lang="es">Propiedades</msg>
     <msg xml:lang="fr">Propriétés</msg>
     <msg xml:lang="nl">Eigenschappen</msg>
+    <msg xml:lang="tw">Properties (性質)</msg>
   </msgset>
   <msgset>
     <msgid>Structure</msgid>
@@ -167,6 +188,7 @@
     <msg xml:lang="es">Estructura</msg>
     <msg xml:lang="fr">Structure</msg>
     <msg xml:lang="nl">Structuur</msg>
+    <msg xml:lang="tw">Structure (結構)</msg>
   </msgset>
   <msgset>
     <msgid>Synonym:</msgid>
@@ -175,6 +197,7 @@
     <msg xml:lang="es">Sinónimo :</msg>
     <msg xml:lang="fr">Synonyme :</msg>
     <msg xml:lang="nl">Synoniem:</msg>
+    <msg xml:lang="tw">Synonym (俗名):</msg>
   </msgset>
   <msgset>
     <msgid>Synonyms</msgid>
@@ -183,6 +206,7 @@
     <msg xml:lang="es">Sinónimos</msg>
     <msg xml:lang="fr">Synonymes</msg>
     <msg xml:lang="nl">Synoniemen</msg>
+    <msg xml:lang="tw">Synonyms (俗名)</msg>
   </msgset>
   <msgset>
     <msgid>Synonyms:</msgid>
@@ -191,6 +215,7 @@
     <msg xml:lang="es">Sinónimos :</msg>
     <msg xml:lang="fr">Synonymes :</msg>
     <msg xml:lang="nl">Synoniemen:</msg>
+    <msg xml:lang="tw">Synonyms (俗名):</msg>
   </msgset>
   <msgset>
     <msgid>Structure Download</msgid>
@@ -199,6 +224,7 @@
     <msg xml:lang="es">Descargar la estructura</msg>
     <msg xml:lang="fr">Téléchargement de la structure</msg>
     <msg xml:lang="nl">De structuur downloaden</msg>
+    <msg xml:lang="tw">Structure Download (下載分子結構)</msg>
   </msgset>
 <!--template
   <msgset>
@@ -208,6 +234,7 @@
     <msg xml:lang="fr"></msg>
     <msg xml:lang="nl"></msg>
     <msg xml:lang="es"></msg>
+    <msg xml:lang="tw"></msg>
   </msgset>
 -->
 </l10n>
