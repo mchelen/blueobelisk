@@ -158,10 +158,12 @@
     <date>2006-07-13</date>
   </entry>
   <entry id="CS_2_4-diaminotoluene">
-    <name xml:lang="en">2,4-Diaminotoluène</name>
+    <name xml:lang="en">2,4-Diaminotoluene</name>
     <name xml:lang="de">2,4-Diaminotoluol</name>
     <name xml:lang="fr">2,4-Diaminotoluène</name>
     <filename>2_4-diaminotoluene</filename>
+    <synonym xml:lang="en">2,4-Toluenediamine</synonym>
+    <synonym xml:lang="fr">2,4-Toluènediamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
@@ -188,6 +190,8 @@
     <name xml:lang="de">2,6-Diaminotoluol</name>
     <name xml:lang="fr">2,6-Diaminotoluène</name>
     <filename>2_6-diaminotoluene</filename>
+    <synonym xml:lang="en">2,6-Toluenediamine</synonym>
+    <synonym xml:lang="fr">2,6-Toluènediamine</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>

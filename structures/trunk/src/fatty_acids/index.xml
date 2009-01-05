@@ -107,10 +107,12 @@
     <name xml:lang="en">Decanoic acid</name>
     <name xml:lang="fr">Acide décanoïque</name>
     <filename>decanoic_acid</filename>
+    <synonym xml:lang="en">Capric acid</synonym>
     <synonym xml:lang="en">Caprinic acid</synonym>
+    <synonym xml:lang="fr">Acide caprique</synonym>
     <synonym xml:lang="fr">Acide caprinique</synonym>
     <authors>Jerome Pansanel</authors>
-    <date>2006-05-11</date>
+    <date>2009-01-05</date>
   </entry>
   <entry id="CS_dodecanoic_acid">
     <name xml:lang="en">Lauric acid</name>

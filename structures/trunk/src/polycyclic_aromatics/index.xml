@@ -173,10 +173,10 @@
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
   </entry>
-  <entry id="CS_phenantrene">
-    <name xml:lang="en">Phenantrene</name>
-    <name xml:lang="fr">Phénantrène</name>
-    <filename>phenantrene</filename>
+  <entry id="CS_phenanthrene">
+    <name xml:lang="en">Phenanthrene</name>
+    <name xml:lang="fr">Phénanthrène</name>
+    <filename>phenanthrene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
   </entry>
@@ -206,8 +206,8 @@
     <name xml:lang="fr">2-Benzofuranyl méthyl cétone</name>
     <filename>2-Benzofuranyl_methyl_ketone</filename>
     <synonym xml:lang="en">1-(1-Benzofuran-2-yl)ethanone</synonym>
-    <synonym xml:lang="fr">1-(1-Benzofuran-2-yl)éthanone</synonym>
     <synonym xml:lang="en">2-Acetylbenzofuran</synonym>
+    <synonym xml:lang="fr">1-(1-Benzofuran-2-yl)éthanone</synonym>
     <synonym xml:lang="fr">2-Acétobenzofurane</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-10-15</date>

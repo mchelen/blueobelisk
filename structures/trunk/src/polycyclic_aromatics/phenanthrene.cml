@@ -4,10 +4,10 @@
           xmlns:units="http://www.xml-cml.org/units/units"
           xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
           xmlns:iupac="http://www.iupac.org"
-          id="CS_phenantrene">
+          id="CS_phenanthrene">
   <formula concise=" C 14 H 10 "/>
   <identifier convention="iupac:inchi" value="1/C14H10/c1-3-7-13-11(5-1)9-10-12-6-2-4-8-14(12)13/h1-10H"/>
-  <name convention="IUPAC">Phenantrene</name>
+  <name convention="IUPAC">Phenanthrene</name>
   <atomArray>
     <atom id="a1" elementType="C" x3="3.118888" y3="0.699659" z3="0.320213"/>
     <atom id="a2" elementType="C" x3="3.480784" y3="-0.613106" z3="-0.025448"/>

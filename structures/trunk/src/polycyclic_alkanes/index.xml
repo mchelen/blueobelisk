@@ -10,7 +10,7 @@
     <name xml:lang="en">cis-Decahydronaphthalene</name>
     <name xml:lang="fr">cis-Décahydronaphthalène</name>
     <filename>cis-decahydronaphthalene</filename>
-    <synonym xml:lang="en">cis-Decaline</synonym>
+    <synonym xml:lang="en">cis-Decalin</synonym>
     <synonym xml:lang="fr">cis-Décaline</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
@@ -19,7 +19,7 @@
     <name xml:lang="en">trans-Decahydronaphthalene</name>
     <name xml:lang="fr">trans-Décahydronaphthalène</name>
     <filename>trans-decahydronaphthalene</filename>
-    <synonym xml:lang="en">trans-Decaline</synonym>
+    <synonym xml:lang="en">trans-Decalin</synonym>
     <synonym xml:lang="fr">trans-Décaline</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>

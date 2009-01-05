@@ -142,7 +142,9 @@
     <name xml:lang="fr">D-Psicose</name>
     <filename>d-psicose</filename>
     <synonym xml:lang="en">D-ribo-2-Hexulose</synonym>
+    <synonym xml:lang="en">D-Allulose</synonym>
     <synonym xml:lang="fr">D-ribo-2-Hexulose</synonym>
+    <synonym xml:lang="fr">D-Allulose</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-10-02</date>
   </entry>

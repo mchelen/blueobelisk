@@ -137,12 +137,16 @@
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>
-  <entry id="CS_3-chloropropanoxide">
-    <name xml:lang="en">3-Chloropropanoxide</name>
-    <name xml:lang="fr">3-Chloropropanoxide</name>
-    <filename>3-chloropropanoxide</filename>
+  <entry id="CS_chloromethyloxirane">
+    <name xml:lang="en">(R)-Epichlorohydrin</name>
+    <name xml:lang="fr">(R)-Épichlorohydrine</name>
+    <filename>R-epichlorohydrin</filename>
+    <synonym xml:lang="en">(R)-2-(Chloromethyl)oxirane</synonym>
+    <synonym xml:lang="en">(R)-1-Chloro-2,3-epoxypropane</synonym>
+    <synonym xml:lang="fr">(R)-2-(Chlorométhyl)oxirane</synonym>
+    <synonym xml:lang="fr">(R)-1-Chloro-2,3-époxypropane</synonym>
     <authors>Jerome Pansanel</authors>
-    <date>2006-07-13</date>
+    <date>2009-01-05</date>
   </entry>
   <entry id="CS_3-chloropropene">
     <name xml:lang="en">3-Chloropropene</name>

@@ -4,10 +4,10 @@
           xmlns:units="http://www.xml-cml.org/units/units"
           xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
           xmlns:iupac="http://www.iupac.org"
-          id="CS_3-chloropropanoxide">
+          id="CS_R-epichlorohydrin">
   <formula concise=" C 3 H 5 O 1 Cl 1 "/>
   <identifier convention="iupac:inchi" value="1/C3H5ClO/c4-1-3-2-5-3/h3H,1-2H2/t3-/m0/s1"/>
-  <name convention="IUPAC">3-Chloropropanoxide</name>
+  <name convention="IUPAC">(R)-2-(Chloromethyl)oxirane</name>
   <atomArray>
     <atom id="a1" elementType="C" x3="1.407469" y3="0.250342" z3="-0.024004"/>
     <atom id="a2" elementType="C" x3="0.117273" y3="-0.427831" z3="0.280445"/>

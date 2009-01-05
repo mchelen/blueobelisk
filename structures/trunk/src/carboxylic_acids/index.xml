@@ -102,8 +102,8 @@
     <name xml:lang="de">(2S,3S)-2,3-Dihydroxybutandicarbonsäure</name>
     <name xml:lang="fr">Acide (2S,3S)-2,3-dihydroxybutanedioïque</name>
     <filename>D-tartaric_acid</filename>
-    <synonym xml:lang="en">D-Weinsäure</synonym>
     <synonym xml:lang="en">D-Tartaric acid</synonym>
+    <synonym xml:lang="de">D-Weinsäure</synonym>
     <synonym xml:lang="fr">Acide D-tartrique</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
