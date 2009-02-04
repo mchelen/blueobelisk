@@ -6,9 +6,11 @@
   <title xml:lang="es">Tioéters</title>
   <title xml:lang="fr">Thioéthers</title>
   <title xml:lang="nl">Thioethers</title>
+  <title xml:lang="tw">Thioethers 硫醚類</title>
   <entry id="CS_thiepin">
     <name xml:lang="en">Thiepin</name>
     <name xml:lang="fr">Thiépine</name>
+    <name xml:lang="tw">Thiepin 暫譯為: 一硫柒圜 (含硫雜環)</name>
     <filename>thiepin</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
@@ -16,6 +18,7 @@
   <entry id="CS_thiophene">
     <name xml:lang="en">Thiophene</name>
     <name xml:lang="fr">Thiophène</name>
+    <name xml:lang="tw">Thiophene 噻吩/一硫二烯伍圜</name>
     <filename>thiophene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>

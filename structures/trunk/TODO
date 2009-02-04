@@ -22,3 +22,29 @@ Get a better minimization of linolein
 #################################################################
 Add a custom clean target to the build system
 
+Check for
+ 193a165,166
+>     <synonym xml:lang="en">2,4-Toluenediamine</synonym> ok
+>     <synonym xml:lang="fr">2,4-Toluènediamine</synonym> ok
+224a193,194
+>     <synonym xml:lang="en">2,6-Toluenediamine</synonym> ok
+>     <synonym xml:lang="fr">2,6-Toluènediamine</synonym> ok
+
+In Haloalkane:
+Add translation for chloromethyloxirane
+- translation for R-Epichlorohydrin is missing
+
+In Polycyclic aromatics:
+- translation for 2-Phthalimidoethanol is not complete.
+- translation for 1,3-Dihydro-1,3-dioxoisoindole is not complete.
+
+In Sulfoxides:
+- translation is missing for Methylsulfinylmethane.
+
+In polycyclic aromatics, check the spelling of Phenanthrene in French
+phénanthrène
+
+In carbohydrate, ketohexose is a family name. It may be not right for psicose
+http://en.wikipedia.org/wiki/Ketohexose
+
+Dire à I-Yuang que l'on peut traduire SMILES et InChI

@@ -6,9 +6,11 @@
   <title xml:lang="es">Nitrilos</title>
   <title xml:lang="fr">Nitriles</title>
   <title xml:lang="nl">Nitrillen</title>
+  <title xml:lang="tw">Nitriles 腈類</title>
   <entry id="CS_acetonitrile">
     <name xml:lang="en">Acetonitrile</name>
     <name xml:lang="fr">Acétonitrile</name>
+    <name xml:lang="tw">Acetonitrile 乙腈/氰甲烷</name>
     <filename>acetonitrile</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -16,44 +18,56 @@
   <entry id="CS_1_1_1-trichloroacetonitrile">
     <name xml:lang="en">1,1,1-Trichloroacetonitrile</name>
     <name xml:lang="fr">1,1,1-Trichloroacétonitrile</name>
+    <name xml:lang="tw">1,1,1-Trichloroacetonitrile 1,1,1-三氯乙腈</name>
     <filename>1_1_1-trichloroacetonitrile</filename>
     <synonym xml:lang="en">Cyanotrichloromethane</synonym>
     <synonym xml:lang="en">Trichloromethyl cyanide</synonym>
     <synonym xml:lang="fr">Cyanotrichlorométhane</synonym>
     <synonym xml:lang="fr">Cyanotrichlorométhane</synonym>
+    <synonym xml:lang="tw">Cyanotrichloromethane 氰三氯甲烷</synonym>
+    <synonym xml:lang="tw">Trichloromethyl cyanide 三氯甲烷氰</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_2-methylpropanenitrile">
     <name xml:lang="en">Isobutyronitrile</name>
     <name xml:lang="fr">Isobutyronitrile</name>
+    <name xml:lang="tw">Isobutyronitrile 異丁腈</name>
     <filename>isobutyronitrile</filename>
     <synonym xml:lang="en">2-Methylpropanenitrile</synonym>
     <synonym xml:lang="en">2-Methylpropionitrile</synonym>
     <synonym xml:lang="fr">2-Méthylpropanenitrile</synonym>
     <synonym xml:lang="fr">2-Méthylpropionitrile</synonym>
+    <synonym xml:lang="tw">2-Methylpropanenitrile 2-甲基丙腈/異丁腈</synonym>
+    <synonym xml:lang="tw">2-Methylpropionitrile 2-甲基丙腈/異丁腈</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_butanenitrile">
     <name xml:lang="en">Butyronitrile</name>
     <name xml:lang="fr">Butyronitrile</name>
+    <name xml:lang="tw">Butyronitrile 丁腈</name>
     <filename>butyronitrile</filename>
     <synonym xml:lang="en">Butanenitrile</synonym>
     <synonym xml:lang="en">Propyl cyanide</synonym>
     <synonym xml:lang="fr">Butanenitrile</synonym>
     <synonym xml:lang="fr">1-Cyanopropane</synonym>
+    <synonym xml:lang="tw">Butanenitrile 丁腈</synonym>
+    <synonym xml:lang="tw">Propyl cyanide 丁腈/氰丙烷</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_propanenitrile">
     <name xml:lang="en">Propiononitrile</name>
     <name xml:lang="fr">Propiononitrile</name>
+    <name xml:lang="tw">Propionitrile 丙腈</name>
     <filename>propionitrile</filename>
     <synonym xml:lang="en">Propanenitrile</synonym>
     <synonym xml:lang="fr">Propanenitrile</synonym>
+    <synonym xml:lang="tw">Propanenitrile 丙腈</synonym>
     <synonym xml:lang="en">Ethyl cyanide</synonym>
     <synonym xml:lang="fr">Cyanoéthane</synonym>
+    <synonym xml:lang="tw">Ethyl cyanide 丙腈/氰乙烷</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>

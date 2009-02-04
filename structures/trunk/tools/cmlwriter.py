@@ -154,7 +154,7 @@ class CMLWriter:
         xhtmlout.addBody('          </ul>')
         xhtmlout.addBody('        </div>')
         xhtmlout.addBody('        <div id="inchi">')
-        xhtmlout.addBody('          <h3>InChI</h3>')
+        xhtmlout.addBody('          <h3>' + self.l10n.translate('InChI', lang) + '</h3>')
 	if len(self.cml.inchi) > 80:
 	    htmlinchi = ""
 	    size = int(len(self.cml.inchi)/80)
@@ -167,7 +167,7 @@ class CMLWriter:
         xhtmlout.addBody('        </div>')
         if smiles:
             xhtmlout.addBody('        <div id="smiles">')
-            xhtmlout.addBody('          <h3>SMILES</h3>')
+            xhtmlout.addBody('          <h3>' +  self.l10n.translate('SMILES', lang) + '</h3>')
             if len(smiles) > 80:
 	        htmlsmiles = ""
   	        size = int(len(smiles)/80)

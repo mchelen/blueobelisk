@@ -91,6 +91,24 @@
     <msg xml:lang="tw">In MOL format (MOL 化學檔案格式)</msg>
   </msgset>
   <msgset>
+    <msgid>InChI</msgid>
+    <msg>InChI</msg>
+    <msg xml:lang="de">InChI</msg>
+    <msg xml:lang="es">InChI</msg>
+    <msg xml:lang="fr">InChI</msg>
+    <msg xml:lang="nl">InChI</msg>
+    <msg xml:lang="tw">InChI 文字化學式</msg>
+  </msgset>
+  <msgset>
+    <msgid>SMILES</msgid>
+    <msg>SMILES</msg>
+    <msg xml:lang="de">SMILES</msg>
+    <msg xml:lang="es">SMILES</msg>
+    <msg xml:lang="fr">SMILES</msg>
+    <msg xml:lang="nl">SMILES</msg>
+    <msg xml:lang="tw">SMILES</msg>
+  </msgset>
+  <msgset>
     <msgid>InChI:</msgid>
     <msg>InChI:</msg>
     <msg xml:lang="de">InChI:</msg>

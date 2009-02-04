@@ -6,27 +6,33 @@
   <title xml:lang="es">Alcanos policíclicos</title>
   <title xml:lang="fr">Alcanes polycycliques</title>
   <title xml:lang="nl">Polycyclische Alkanen</title>
+  <title xml:lang="tw">Polycyclic alkanes 多環烷類</title>
   <entry id="CS_cis-decahydronaphthalene">
     <name xml:lang="en">cis-Decahydronaphthalene</name>
     <name xml:lang="fr">cis-Décahydronaphthalène</name>
+    <name xml:lang="tw">cis-Decahydronaphthalene 順十氫萘/順十氫化萘</name>
     <filename>cis-decahydronaphthalene</filename>
     <synonym xml:lang="en">cis-Decalin</synonym>
     <synonym xml:lang="fr">cis-Décaline</synonym>
+    <synonym xml:lang="tw">cis-Decalin 順十氫萘/順十氫化萘</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
   </entry>
   <entry id="CS_trans-decahydronaphthalene">
     <name xml:lang="en">trans-Decahydronaphthalene</name>
     <name xml:lang="fr">trans-Décahydronaphthalène</name>
+    <name xml:lang="tw">trans-Decahydronaphthalene 反十氫萘/反十氫化萘</name>
     <filename>trans-decahydronaphthalene</filename>
     <synonym xml:lang="en">trans-Decalin</synonym>
     <synonym xml:lang="fr">trans-Décaline</synonym>
+    <synonym xml:lang="tw">trans-Decalin 反十氫萘/反十氫化萘</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
   </entry>
   <entry id="CS_hexadecahydro-1H-cyclopenta_a_phenanthrene">
     <name xml:lang="en">Hexadecahydro-1H-cyclopenta[a]phenanthrene</name>
     <name xml:lang="fr">Hexadecahydro-1H-cyclopenta[a]phenanthrène</name>
+    <name xml:lang="tw">Hexadecahydro-1H-cyclopenta[a]phenanthrene 16氫-1氫-環戊烷并[a]菲</name>
     <filename>hexadecahydro-1H-cyclopenta_a_phenanthrene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
@@ -35,40 +41,50 @@
     <name xml:lang="en">Abietic acid</name>
     <name xml:lang="de">Abietinsäure</name>
     <name xml:lang="fr">Acide abiétique</name>
+    <name xml:lang="tw">Abietic acid 松脂酸</name>
     <filename>abietic_acid</filename>
     <synonym xml:lang="en">Sylvic acid</synonym>
     <synonym xml:lang="en">Abietinic acid</synonym>
     <synonym xml:lang="de">Sylvinsäure</synonym>
     <synonym xml:lang="fr">Acide sylvitique</synonym>
     <synonym xml:lang="fr">Acide abiétinique</synonym>
+    <synonym xml:lang="tw">Sylvic acid 松香酸</synonym>
+    <synonym xml:lang="tw">Abietinic acid 松脂酸</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>
   </entry>
   <entry id="CS_1R_4S-1_7_7-trimethylnorbornan-2-one">
     <name xml:lang="en">(1R)-Camphor</name>
     <name xml:lang="fr">(1R)-Camphor</name>
+    <name xml:lang="tw">(1R)-Camphor (1R)-樟腦</name>
     <filename>1R-camphor</filename>
     <synonym xml:lang="en">(1R,4S)-1,7,7-Trimethylnorbornan-2-one</synonym>
     <synonym xml:lang="en">D-Camphor</synonym>
     <synonym xml:lang="fr">(1R,4S)-1,7,7-Triméthylnorbornan-2-one</synonym>
     <synonym xml:lang="fr">D-Camphor</synonym>
+    <synonym xml:lang="tw">(1R,4S)-1,7,7-Trimethylnorbornan-2-one (1R,4S)-1,7,7-三甲基降樟腦</synonym>
+    <synonym xml:lang="tw">D-Camphor D-樟腦</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_1R_4S-2_2-dimethyl-3-methylidenenorbornane">
     <name xml:lang="en">(1R)-Camphene</name>
     <name xml:lang="fr">(1R)-Camphène</name>
+    <name xml:lang="tw">(1R)-Camphene 莰烯/松精油/樟腦精</name>
     <filename>1R-camphene</filename>
     <synonym xml:lang="en">(1R,4S)-2,2-Dimethyl-3-methylidenenorbornane</synonym>
     <synonym xml:lang="en">D-Camphene</synonym>
     <synonym xml:lang="fr">(1R,4S)-2,2-Diméthyl-3-méthylidènenorbornane</synonym>
     <synonym xml:lang="fr">D-Camphène</synonym>
+    <synonym xml:lang="tw">(1R,4S)-2,2-Dimethyl-3-methylidenenorbornane (1R,4S)-2,2-二甲基-3-亞甲基降莰烷</synonym>
+    <synonym xml:lang="tw">D-Camphene 莰烯</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_cubane">
     <name xml:lang="en">Cubane</name>
     <name xml:lang="fr">Cubane</name>
+    <name xml:lang="tw">Cubane 立方體烷</name>
     <filename>cubane</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
@@ -76,9 +92,11 @@
   <entry id="CS_bicyclo_2_2_1_heptane">
     <name xml:lang="en">Norbornane</name>
     <name xml:lang="fr">Norbornane</name>
+    <name xml:lang="tw">Norbornane 降莰烷</name>
     <filename>norbornane</filename>
     <synonym xml:lang="en">Bicyclo[2.2.1]heptane</synonym>
     <synonym xml:lang="fr">Bicyclo[2.2.1]heptane</synonym>
+    <synonym xml:lang="tw">Bicyclo[2.2.1]heptane 雙環[2.2.1]庚烷</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-12-03</date>
   </entry>

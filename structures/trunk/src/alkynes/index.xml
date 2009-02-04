@@ -6,13 +6,16 @@
   <title xml:lang="es">Alquinos</title>
   <title xml:lang="fr">Alcynes</title>
   <title xml:lang="nl">Alkynen</title>
+  <title xml:lang="tw">Alkynes 炔類</title>
   <entry id="CS_acetylene">
     <name xml:lang="en">Acetylene</name>
     <name xml:lang="de">Acetylen</name>
     <name xml:lang="fr">Acétylène</name>
+    <name xml:lang="tw">Acetylene 乙炔</name>
     <filename>acetylene</filename>
     <synonym xml:lang="en">Ethyne</synonym>
     <synonym xml:lang="fr">Ethyne</synonym>
+    <synonym xml:lang="tw">Ethyne 乙炔</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>
   </entry>
@@ -20,10 +23,12 @@
     <name xml:lang="en">But-1-yne</name>
     <name xml:lang="de">But-1-yn</name>
     <name xml:lang="fr">But-1-yne</name>
+    <name xml:lang="tw">But-1-yne 丁-1-炔</name>
     <filename>but-1-yne</filename>
     <synonym xml:lang="en">1-Butyne</synonym>
     <synonym xml:lang="de">1-Butin</synonym>
     <synonym xml:lang="fr">1-Butyne</synonym>
+    <synonym xml:lang="tw">1-Butyne 1-丁炔</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>
   </entry>
@@ -31,10 +36,12 @@
     <name xml:lang="en">But-2-yne</name>
     <name xml:lang="de">But-2-yn</name>
     <name xml:lang="fr">But-2-yne</name>
+    <name xml:lang="tw">But-2-yne 丁-2-炔</name>
     <filename>but-2-yne</filename>
     <synonym xml:lang="en">2-Butyne</synonym>
     <synonym xml:lang="de">2-Butin</synonym>
     <synonym xml:lang="fr">2-Butyne</synonym>
+    <synonym xml:lang="tw">2-Butyne 2-丁炔</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>
   </entry>
@@ -42,6 +49,7 @@
     <name xml:lang="en">Propyne</name>
     <name xml:lang="de">Propyn</name>
     <name xml:lang="fr">Propyne</name>
+    <name xml:lang="tw">Propyne 丙炔</name>
     <filename>propyne</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-09</date>

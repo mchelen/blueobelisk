@@ -6,10 +6,12 @@
   <title xml:lang="es">Alquenos</title>
   <title xml:lang="fr">Alcènes</title>
   <title xml:lang="nl">Alkenen</title>
+  <title xml:lang="tw">Alkenes 烯類</title>
   <entry id="CS_but-1-ene">
     <name xml:lang="en">But-1-ene</name>
     <name xml:lang="de">But-1-en</name>
     <name xml:lang="fr">But-1-ène</name>
+    <name xml:lang="tw">But-1-ene 丁-1-烯</name>
     <filename>but-1-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -18,6 +20,7 @@
     <name xml:lang="en">(Z)-But-2-ene</name>
     <name xml:lang="de">(Z)-But-2-en</name>
     <name xml:lang="fr">(Z)-But-2-ène</name>
+    <name xml:lang="tw">(Z)-But-2-ene (Z)-丁-2-烯</name>
     <filename>Z-but-2-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -26,6 +29,7 @@
     <name xml:lang="en">(Z)-Cycloheptene</name>
     <name xml:lang="de">(Z)-Cyclohepten</name>
     <name xml:lang="fr">(Z)-Cycloheptène</name>
+    <name xml:lang="tw">(Z)-Cycloheptene (Z)-環庚烯</name>
     <filename>Z-cycloheptene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -34,6 +38,7 @@
     <name xml:lang="en">Cyclohexene</name>
     <name xml:lang="de">Cyclohexen</name>
     <name xml:lang="fr">Cyclohexène</name>
+    <name xml:lang="tw">Cyclohexene 環己烯</name>
     <filename>cyclohexene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -42,6 +47,7 @@
     <name xml:lang="en">(Z)-Cyclooctene</name>
     <name xml:lang="de">(Z)-Cycloocten</name>
     <name xml:lang="fr">(Z)-Cyclooctène</name>
+    <name xml:lang="tw">(Z)-Cyclooctene (Z)-環辛烯</name>
     <filename>Z-cyclooctene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -50,6 +56,7 @@
     <name xml:lang="en">Cyclopentene</name>
     <name xml:lang="de">Cyclopenten</name>
     <name xml:lang="fr">Cyclopentene</name>
+    <name xml:lang="tw">Cyclopentene 環戊烯</name>
     <filename>cyclopentene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -58,6 +65,7 @@
     <name xml:lang="en">(Z)-Hept-2-ene</name>
     <name xml:lang="de">(Z)-Hept-2-en</name>
     <name xml:lang="fr">(Z)-Hept-2-ène</name>
+    <name xml:lang="tw">(Z)-Hept-2-ene (Z)-庚-2-烯</name>
     <filename>Z-hept-2-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -66,6 +74,7 @@
     <name xml:lang="en">(Z)-Hept-3-ene</name>
     <name xml:lang="de">(Z)-Hept-3-en</name>
     <name xml:lang="fr">(Z)-Hept-3-ène</name>
+    <name xml:lang="tw">(Z)-Hept-3-ene (Z)-庚-3-烯</name>
     <filename>Z-hept-3-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -74,6 +83,7 @@
     <name xml:lang="en">(Z)-Hex-2-ene</name>
     <name xml:lang="de">(Z)-Hex-2-en</name>
     <name xml:lang="fr">(Z)-Hex-2-ène</name>
+    <name xml:lang="tw">(Z)-Hex-2-ene (Z)-己-2-烯</name>
     <filename>Z-hex-2-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -82,6 +92,7 @@
     <name xml:lang="en">(Z)-Hex-3-ene</name>
     <name xml:lang="de">(Z)-Hex-3-en</name>
     <name xml:lang="fr">(Z)-Hex-3-ène</name>
+    <name xml:lang="tw">(Z)-Hex-3-ene (Z)-己-3-烯</name>
     <filename>Z-hex-3-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -90,6 +101,7 @@
     <name xml:lang="en">(Z)-Oct-2-ene</name>
     <name xml:lang="de">(Z)-Oct-2-en</name>
     <name xml:lang="fr">(Z)-Oct-2-ène</name>
+    <name xml:lang="tw">(Z)-Oct-2-ene (Z)-辛-2-烯</name>
     <filename>Z-oct-2-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -98,6 +110,7 @@
     <name xml:lang="en">(Z)-Oct-3-ene</name>
     <name xml:lang="de">(Z)-Oct-3-en</name>
     <name xml:lang="fr">(Z)-Oct-3-ène</name>
+    <name xml:lang="tw">(Z)-Oct-3-ene (Z)-辛-3-烯</name>
     <filename>Z-oct-3-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -106,6 +119,7 @@
     <name xml:lang="en">(Z)-Oct-4-ene</name>
     <name xml:lang="de">(Z)-Oct-4-en</name>
     <name xml:lang="fr">(Z)-Oct-4-ène</name>
+    <name xml:lang="tw">(Z)-Oct-4-ene (Z)-辛-4-烯</name>
     <filename>Z-oct-4-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -114,6 +128,7 @@
     <name xml:lang="en">(Z)-Pent-2-ene</name>
     <name xml:lang="de">(Z)-Pent-2-en</name>
     <name xml:lang="fr">(Z)-Pent-2-ène</name>
+    <name xml:lang="tw">(Z)-Pent-2-ene (Z)-戊-2-烯</name>
     <filename>Z-pent-2-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -122,10 +137,12 @@
     <name xml:lang="en">Ethene</name>
     <name xml:lang="de">Ethen</name>
     <name xml:lang="fr">Ethène</name>
+    <name xml:lang="tw">Ethene 乙烯</name>
     <filename>ethene</filename>
     <synonym xml:lang="en">Ethylene</synonym>
     <synonym xml:lang="de">Ethylen</synonym>
     <synonym xml:lang="fr">Ethylène</synonym>
+    <synonym xml:lang="tw">Ethylene 乙烯</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
@@ -133,6 +150,7 @@
     <name xml:lang="en">Hept-1-ene</name>
     <name xml:lang="de">Hept-1-en</name>
     <name xml:lang="fr">Hept-1-ène</name>
+    <name xml:lang="tw">Hept-1-ene 庚-1-烯</name>
     <filename>hept-1-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -141,6 +159,7 @@
     <name xml:lang="en">Hex-1-ene</name>
     <name xml:lang="de">Hex-1-en</name>
     <name xml:lang="fr">Hex-1-ène</name>
+    <name xml:lang="tw">Hex-1-ene 己-1-烯</name>
     <filename>hex-1-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -149,6 +168,7 @@
     <name xml:lang="en">Oct-1-ene</name>
     <name xml:lang="de">Oct-1-en</name>
     <name xml:lang="fr">Oct-1-ène</name>
+    <name xml:lang="tw">Oct-1-ene 辛-1-烯</name>
     <filename>oct-1-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -157,6 +177,7 @@
     <name xml:lang="en">Pent-1-ene</name>
     <name xml:lang="de">Pent-1-en</name>
     <name xml:lang="fr">Pent-1-ène</name>
+    <name xml:lang="tw">Pent-1-ene 戊-1-烯</name>
     <filename>pent-1-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -165,6 +186,7 @@
     <name xml:lang="en">Propene</name>
     <name xml:lang="de">Propen</name>
     <name xml:lang="fr">Propène</name>
+    <name xml:lang="tw">Propene 丙烯</name>
     <filename>propene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -173,6 +195,7 @@
     <name xml:lang="en">(E)-But-2-ene</name>
     <name xml:lang="de">(E)-But-2-en</name>
     <name xml:lang="fr">(E)-But-2-ène</name>
+    <name xml:lang="tw">(E)-But-2-ene (E)-丁-2-烯</name>
     <filename>E-but-2-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -181,6 +204,7 @@
     <name xml:lang="en">(E)-Hept-2-ene</name>
     <name xml:lang="de">(E)-Hept-2-en</name>
     <name xml:lang="fr">(E)-Hept-2-ène</name>
+    <name xml:lang="tw">(E)-Hept-2-ene (E)-庚-2-烯</name>
     <filename>E-hept-2-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -189,6 +213,7 @@
     <name xml:lang="en">(E)-Hept-3-ene</name>
     <name xml:lang="de">(E)-Hept-3-en</name>
     <name xml:lang="fr">(E)-Hept-3-ène</name>
+    <name xml:lang="tw">(E)-Hept-3-ene (E)-庚-3-烯</name>
     <filename>E-hept-3-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -197,6 +222,7 @@
     <name xml:lang="en">(E)-Hex-2-ene</name>
     <name xml:lang="de">(E)-Hex-2-en</name>
     <name xml:lang="fr">(E)-Hex-2-ène</name>
+    <name xml:lang="tw">(E)-Hex-2-ene (E)-己-2-烯</name>
     <filename>E-hex-2-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -213,6 +239,7 @@
     <name xml:lang="en">(E)-Oct-2-ene</name>
     <name xml:lang="de">(E)-Oct-2-en</name>
     <name xml:lang="fr">(E)-Oct-2-ène</name>
+    <name xml:lang="tw">(E)-Hex-3-ene (E)-己-3-烯</name>
     <filename>E-oct-2-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -221,6 +248,7 @@
     <name xml:lang="en">(E)-Oct-3-ene</name>
     <name xml:lang="de">(E)-Oct-3-en</name>
     <name xml:lang="fr">(E)-Oct-3-ène</name>
+    <name xml:lang="tw">(E)-Oct-3-ene (E)-辛-3-烯</name>
     <filename>E-oct-3-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -229,6 +257,7 @@
     <name xml:lang="en">(E)-Oct-4-ene</name>
     <name xml:lang="de">(E)-Oct-4-en</name>
     <name xml:lang="fr">(E)-Oct-4-ène</name>
+    <name xml:lang="tw">(E)-Oct-4-ene (E)-辛-4-烯</name>
     <filename>E-oct-4-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -237,6 +266,7 @@
     <name xml:lang="en">(E)-Pent-2-ene</name>
     <name xml:lang="de">(E)-Pent-2-en</name>
     <name xml:lang="fr">(E)-Pent-2-ène</name>
+    <name xml:lang="tw">(E)-Pent-2-ene (E)-戊-2-烯</name>
     <filename>E-pent-2-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
@@ -245,12 +275,14 @@
     <name xml:lang="en">2-Methylbuta-1,3-diene</name>
     <name xml:lang="de">2-Methylbuta-1,3-dien</name>
     <name xml:lang="fr">2-Méthylbuta-1,3-diène</name>
+    <name xml:lang="tw">2-Methylbuta-1,3-diene 2-甲基-1,3-丁二烯</name>
     <filename>2-methylbuta-1_3-diene</filename>
     <synonym xml:lang="en">Isoprene</synonym>
     <synonym xml:lang="en">Isopentadiene</synonym>
     <synonym xml:lang="fr">Isoprène</synonym>
     <synonym xml:lang="fr">Isopentadiène</synonym>
     <synonym xml:lang="de">Isopren</synonym>
+    <synonym xml:lang="tw">Isoprene 異戊二烯</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-11</date>
   </entry>
@@ -258,6 +290,7 @@
     <name xml:lang="en">(3E)-Penta-1,3-diene</name>
     <name xml:lang="de">(3E)-Penta-1,3-dien</name>
     <name xml:lang="fr">(3E)-Penta-1,3-diène</name>
+    <name xml:lang="tw">(3E)-Penta-1,3-diene (3E)-戊-1,3-二烯</name>
     <filename>3E-penta-1_3-diene</filename>
     <synonym xml:lang="en">trans-Piperylene</synonym>
     <synonym xml:lang="fr">trans-Pipérylène</synonym>
@@ -268,9 +301,11 @@
     <name xml:lang="en">(3Z)-Penta-1,3-diene</name>
     <name xml:lang="de">(3Z)-Penta-1,3-dien</name>
     <name xml:lang="fr">(3Z)-Penta-1,3-diène</name>
+    <name xml:lang="tw">(3Z)-Penta-1,3-diene ((3Z)-戊-1,3-二烯</name>
     <filename>3Z-penta-1_3-diene</filename>
     <synonym xml:lang="en">cis-Piperylene</synonym>
     <synonym xml:lang="fr">cis-Pipérylène</synonym>
+    <synonym xml:lang="en">cis-Piperylene 順-戊二烯</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-11</date>
   </entry>
@@ -278,6 +313,7 @@
     <name xml:lang="en">2-Methylbut-2-ene</name>
     <name xml:lang="de">2-Methylbut-2-en</name>
     <name xml:lang="fr">2-Methylbut-2-ène</name>
+    <name xml:lang="tw">2-Methylbut-2-ene 2-甲基-2-丁烯</name>
     <filename>2-methylbut-2-ene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
@@ -286,6 +322,7 @@
     <name xml:lang="en">(3Z)-3-ethylhepta-1,3-diene</name>
     <name xml:lang="de">(3Z)-3-ethylhepta-1,3-dien</name>
     <name xml:lang="fr">(3Z)-3-ethylhepta-1,3-diène</name>
+    <name xml:lang="tw">(3Z)-3-ethylhepta-1,3-diene (3Z)-3-乙基-1,3-庚二烯</name>
     <filename>3Z_3-ethylhepta-1_3-diene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-10-15</date>
@@ -294,9 +331,11 @@
     <name xml:lang="en">Cyclohepta-1,3,5-triene</name>
     <name xml:lang="de">Cyclohepta-1,3,5-trien</name>
     <name xml:lang="fr">Cyclohepta-1,3,5-triène</name>
+    <name xml:lang="tw">Cyclohepta-1,3,5-triene 環庚-1,3,5-三烯</name>
     <filename>cyclohepta-1_3_5-triene</filename>
     <synonym xml:lang="en">Tropilidene</synonym>
     <synonym xml:lang="fr">Tropilidène</synonym>
+    <synonym xml:lang="tw">Tropilidene 環庚三烯</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-21</date>
   </entry>
@@ -304,6 +343,7 @@
     <name xml:lang="en">Cyclohepta-1,3-diene</name>
     <name xml:lang="de">Cyclohepta-1,3-dien</name>
     <name xml:lang="fr">Cyclohepta-1,3-diène</name>
+    <name xml:lang="tw">Cyclohepta-1,3-diene 環庚-1,3-二烯</name>
     <filename>cyclohepta-1_3-diene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-21</date>
@@ -312,6 +352,7 @@
     <name xml:lang="en">Cyclohepta-1,4-diene</name>
     <name xml:lang="de">Cyclohepta-1,4-dien</name>
     <name xml:lang="fr">Cyclohepta-1,4-diène</name>
+    <name xml:lang="tw">Cyclohepta-1,4-diene 環庚-1,4-二烯</name>
     <filename>cyclohepta-1_4-diene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-21</date>
@@ -320,6 +361,7 @@
     <name xml:lang="en">Cyclohexa-1,3-diene</name>
     <name xml:lang="de">Cyclohexa-1,3-dien</name>
     <name xml:lang="fr">Cyclohexa-1,3-diène</name>
+    <name xml:lang="tw">Cyclohexa-1,3-diene 環己-1,3-二烯</name>
     <filename>cyclohexa-1_3-diene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-21</date>
@@ -328,6 +370,7 @@
     <name xml:lang="en">Cyclohexa-1,4-diene</name>
     <name xml:lang="de">Cyclohexa-1,4-dien</name>
     <name xml:lang="fr">Cyclohexa-1,4-diène</name>
+    <name xml:lang="tw">Cyclohexa-1,4-diene 環己-1,4-二烯</name>
     <filename>cyclohexa-1_4-diene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-21</date>
@@ -336,9 +379,11 @@
     <name xml:lang="en">Cycloocta-1,3,5,7-tetraene</name>
     <name xml:lang="de">Cycloocta-1,3,5,7-tetraen</name>
     <name xml:lang="fr">Cycloocta-1,3,5,7-tétraène</name>
+    <name xml:lang="tw">Cycloocta-1,3,5,7-tetraene 環辛-1,3,5,7-四烯</name>
     <filename>cycloocta-1_3_5_7-tetraene</filename>
     <synonym xml:lang="en">[8]Annulene</synonym>
     <synonym xml:lang="fr">[8]Annulène</synonym>
+    <synonym xml:lang="tw">[8]Annulene </synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-21</date>
   </entry>
@@ -346,6 +391,7 @@
     <name xml:lang="en">Cycloocta-1,3,5-triene</name>
     <name xml:lang="de">Cycloocta-1,3,5-trien</name>
     <name xml:lang="fr">Cycloocta-1,3,5-triène</name>
+    <name xml:lang="tw">Cycloocta-1,3,5-triene 環辛-1,3,5-三烯</name>
     <filename>cycloocta-1_3_5-triene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-21</date>
@@ -354,6 +400,7 @@
     <name xml:lang="en">Cycloocta-1,3-diene</name>
     <name xml:lang="de">Cycloocta-1,3-dien</name>
     <name xml:lang="fr">Cycloocta-1,3-diène</name>
+    <name xml:lang="tw">Cycloocta-1,3-diene 環辛-1,3-二烯</name>
     <filename>cycloocta-1_3-diene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-21</date>
@@ -362,6 +409,7 @@
     <name xml:lang="en">Cyclopenta-1,3-diene</name>
     <name xml:lang="de">Cyclopenta-1,3-dien</name>
     <name xml:lang="fr">Cyclopenta-1,3-diène</name>
+    <name xml:lang="tw">Cyclopenta-1,3-diene 環戊-1,3-二烯</name>
     <filename>cyclopenta-1_3-diene</filename>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-21</date>

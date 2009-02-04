@@ -6,12 +6,15 @@
   <title xml:lang="es">Sulfóxidos</title>
   <title xml:lang="fr">Sulfoxydes</title>
   <title xml:lang="nl">Sulfoxides</title>
+  <title xml:lang="tw">Sulfoxides 亞碸類</name>
   <entry id="CS_methylsulfinylmethane">
     <name xml:lang="en">Dimethyl sulfoxide</name>
     <name xml:lang="fr">Diméthylsulfoxyde</name>
+    <name xml:lang="tw">Dimethyl sulfoxide 二甲亞碸</name>
     <filename>dimethyl_sulfoxide</filename>
     <synonym xml:lang="en">Methylsulfinylmethane</synonym>
     <synonym xml:lang="fr">Méthylsulfinylméthane</synonym>
+    <synonym xml:lang="tw">Methylsulfinylmethane</synonym>
     <abbrev>DMSO</abbrev>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>

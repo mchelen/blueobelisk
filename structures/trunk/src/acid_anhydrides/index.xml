@@ -6,23 +6,28 @@
   <title xml:lang="es">Anhídridos de ácido</title>
   <title xml:lang="fr">Anhydrides d'acide</title>
   <title xml:lang="nl">Carbonzuuranhydride</title>
+  <title xml:lang="tw">Acid anhydrides 酸酐</title>
   <entry id="CS_3-methylfuran-2_5-dione">
     <name xml:lang="en">3-Methylfuran-2,5-dione</name>
     <name xml:lang="fr">3-Méthylfuran-2,5-dione</name>
+    <name xml:lang="tw">3-Methylfuran-2,5-dione 3-甲基夫喃-2,5-二酮</name>
     <filename>3-methylfuran-2_5-dione</filename>
     <synonym xml:lang="en">Citraconic anhydride</synonym>
     <synonym xml:lang="en">2-Methylmaleic anhydride</synonym>
     <synonym xml:lang="fr">Anhydride citraconique</synonym>
     <synonym xml:lang="fr">Anhydride 2-méthylmaléique</synonym>
+    <synonym xml:lang="tw">Citraconic anhydride 檸康酐</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-09-17</date>
   </entry>
   <entry id="CS_furan-2_5-dione">
     <name xml:lang="en">Furan-2,5-dione</name>
     <name xml:lang="fr">Furan-2,5-dione</name>
+    <name xml:lang="tw">Furan-2,5-dione 呋喃-2,5-二酮</name>
     <filename>furan-2_5-dione</filename>
     <synonym xml:lang="en">Maleic anhydride</synonym>
     <synonym xml:lang="fr">Anhydride maléique</synonym>
+    <synonym xml:lang="tw">Maleic anhydride 順丁烯二酸酐</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2007-09-17</date>
   </entry>

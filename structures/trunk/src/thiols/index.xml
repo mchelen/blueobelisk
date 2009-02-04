@@ -6,131 +6,166 @@
   <title xml:lang="es">Tiols</title>
   <title xml:lang="fr">Thiols</title>
   <title xml:lang="nl">Thiolen</title>
+  <title xml:lang="tw">Thiols 硫醇</title>
   <entry id="CS_2-methylproprane-2-thiol">
     <name xml:lang="en">2-Methylproprane-2-thiol</name>
     <name xml:lang="fr">2-Méthylproprane-2-thiol</name>
+    <name xml:lang="tw">2-Methylpropane-2-thiol 2-甲基丙烷-2-硫醇</name>
     <filename>2-methylproprane-2-thiol</filename>
     <synonym xml:lang="en">2-Methyl-2-propanethiol</synonym>
     <synonym xml:lang="en">tert-Butyl mercaptan</synonym>
     <synonym xml:lang="fr">2-Méthyl-2-propanethiol</synonym>
     <synonym xml:lang="fr">Mercaptan tert-butylique</synonym>
+    <synonym xml:lang="tw">2-Methyl-2-propanethiol 2-甲基-2-丙硫醇</synonym>
+    <synonym xml:lang="tw">tert-Butyl mercaptan 三級丁硫醇</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_butane-1-thiol">
     <name xml:lang="en">Butane-1-thiol</name>
     <name xml:lang="fr">Butane-1-thiol</name>
+    <name xml:lang="tw">Butane-1-thiol 丁-1-硫醇</name>
     <filename>butane-1-thiol</filename>
     <synonym xml:lang="en">1-butanethiol</synonym>
     <synonym xml:lang="en">n-Butyl mercaptan</synonym>
     <synonym xml:lang="fr">1-butanethiol</synonym>
     <synonym xml:lang="fr">Mercaptan n-butylique</synonym>
+    <synonym xml:lang="tw">1-butanethiol 1-丁硫醇</synonym>
+    <synonym xml:lang="tw">n-Butyl mercaptan 正-丁硫醇</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_R_butane-2-thiol">
     <name xml:lang="en">(R)-Butane-2-thiol</name>
     <name xml:lang="fr">(R)-Butane-2-thiol</name>
+    <name xml:lang="tw">(R)-Butane-2-thiol (R)-丁-2-硫醇</name>
     <filename>R_butane-2-thiol</filename>
     <synonym xml:lang="en">(R)-2-Butanethiol</synonym>
     <synonym xml:lang="en">sec-Butyl mercaptan</synonym>
     <synonym xml:lang="fr">(R)-2-Butanethiol</synonym>
     <synonym xml:lang="fr">Mercaptan sec-butylique</synonym>
+    <synonym xml:lang="tw">(R)-2-Butanethiol (R)-2-丁硫醇</synonym>
+    <synonym xml:lang="tw">sec-Butyl mercaptan 二級丁硫醇</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_ethane-1_2-dithiol">
     <name xml:lang="en">Ethane-1,2-dithiol</name>
     <name xml:lang="fr">Ethane-1,2-dithiol</name>
+    <name xml:lang="tw">Ethane-1,2-dithiol 乙-1,2-二硫醇</name>
     <filename>ethane-1_2-dithiol</filename>
     <synonym xml:lang="en">1,2-Ethanedithiol</synonym>
     <synonym xml:lang="en">1,2-Dimercaptoethane</synonym>
     <synonym xml:lang="fr">1,2-Ethanedithiol</synonym>
     <synonym xml:lang="fr">1,2-Dimercaptoéthane</synonym>
+    <synonym xml:lang="tw">1,2-Ethanedithiol 1,2-乙二硫醇</synonym>
+    <synonym xml:lang="tw">1,2-Dimercaptoethane 1,2-乙二硫醇</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_ethanethiol">
     <name xml:lang="en">Ethanethiol</name>
     <name xml:lang="fr">Ethanethiol</name>
+    <name xml:lang="tw">Ethanethiol 乙硫醇</name>
     <filename>ethanethiol</filename>
     <synonym xml:lang="en">Ethyl mercaptan</synonym>
     <synonym xml:lang="fr">Mercaptan éthylique</synonym>
+    <synonym xml:lang="tw">Ethyl mercaptan 乙硫醇</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_heptane-1-thiol">
     <name xml:lang="en">Heptane-1-thiol</name>
     <name xml:lang="fr">Heptane-1-thiol</name>
+    <name xml:lang="tw">Heptane-1-thiol 庚-1-硫醇</name>
     <filename>heptane-1-thiol</filename>
     <synonym xml:lang="en">1-Heptanethiol</synonym>
     <synonym xml:lang="en">Heptyl mercaptan</synonym>
     <synonym xml:lang="fr">1-Heptanethiol</synonym>
     <synonym xml:lang="fr">Mercaptan heptylique</synonym>
+    <synonym xml:lang="tw">1-Heptanethiol 1-庚硫醇</synonym>
+    <synonym xml:lang="tw">Heptyl mercaptan 庚硫醇</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_hexane-1-thiol">
     <name xml:lang="en">Hexane-1-thiol</name>
     <name xml:lang="fr">Hexane-1-thiol</name>
+    <name xml:lang="tw">Hexane-1-thiol 己-1-硫醇</name>
     <filename>hexane-1-thiol</filename>
     <synonym xml:lang="en">1-Hexanethiol</synonym>
     <synonym xml:lang="en">Hexyl mercaptan</synonym>
     <synonym xml:lang="fr">1-Hexanethiol</synonym>
     <synonym xml:lang="fr">Mercaptan hexylique</synonym>
+    <synonym xml:lang="tw">1-Hexanethiol 1-己硫醇</synonym>
+    <synonym xml:lang="tw">Hexyl mercaptan 己硫醇</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_methanethiol">
     <name xml:lang="en">Methanethiol</name>
     <name xml:lang="fr">Methanethiol</name>
+    <name xml:lang="tw">Methanethiol 甲硫醇</name>
     <filename>methanethiol</filename>
     <synonym xml:lang="en">Methyl mercaptan</synonym>
     <synonym xml:lang="fr">Mercaptan méthylique</synonym>
+    <synonym xml:lang="tw">Methyl mercaptan 甲硫醇</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_octane-1-thiol">
     <name xml:lang="en">Octane-1-thiol</name>
     <name xml:lang="fr">Octane-1-thiol</name>
+    <name xml:lang="tw">Octane-1-thiol 辛-1-硫醇</name>
     <filename>octane-1-thiol</filename>
     <synonym xml:lang="en">1-Octanethiol</synonym>
     <synonym xml:lang="en">Octyl mercaptan</synonym>
     <synonym xml:lang="fr">1-Octanethiol</synonym>
     <synonym xml:lang="fr">Mercaptan octylique</synonym>
+    <synonym xml:lang="tw">1-Octanethiol 1-辛硫醇</synonym>
+    <synonym xml:lang="tw">Octyl mercaptan 辛硫醇</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_pentane-1-thiol">
     <name xml:lang="en">Pentane-1-thiol</name>
     <name xml:lang="fr">Pentane-1-thiol</name>
+    <name xml:lang="tw">Pentane-1-thiol 戊-1-硫醇</name>
     <filename>pentane-1-thiol</filename>
     <synonym xml:lang="en">1-Pentanethiol</synonym>
     <synonym xml:lang="en">n-Amyl mercaptan</synonym>
     <synonym xml:lang="fr">1-Pentanethiol</synonym>
     <synonym xml:lang="fr">Mercaptan n-amylique</synonym>
+    <synonym xml:lang="tw">1-Pentanethiol 1-戊硫醇</synonym>
+    <synonym xml:lang="tw">n-Amyl mercaptan 正-戊基硫醇</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_proprane-1-thiol">
     <name xml:lang="en">Proprane-1-thiol</name>
     <name xml:lang="fr">Proprane-1-thiol</name>
+    <name xml:lang="tw">Proprane-1-thiol 丙-1-硫醇</name>
     <filename>proprane-1-thiol</filename>
     <synonym xml:lang="en">1-Propanethiol</synonym>
     <synonym xml:lang="en">n-Propyl mercaptan</synonym>
     <synonym xml:lang="fr">1-Propanethiol</synonym>
     <synonym xml:lang="fr">Mercaptan n-propylique</synonym>
+    <synonym xml:lang="tw">1-Propanethiol 1-丙硫醇</synonym>
+    <synonym xml:lang="tw">n-Propyl mercaptan 正-丙硫醇</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
   <entry id="CS_proprane-2-thiol">
     <name xml:lang="en">Proprane-2-thiol</name>
     <name xml:lang="fr">Proprane-2-thiol</name>
+    <name xml:lang="tw">Proprane-2-thiol 丙-2-硫醇</name>
     <filename>proprane-2-thiol</filename>
     <synonym xml:lang="en">2-Propanethiol</synonym>
     <synonym xml:lang="en">Isopropyl mercaptan</synonym>
     <synonym xml:lang="fr">2-Propanethiol</synonym>
     <synonym xml:lang="fr">Mercaptan isopropylique</synonym>
+    <synonym xml:lang="tw">2-Propanethiol 2-丙硫醇</synonym>
+    <synonym xml:lang="tw">Isopropyl mercaptan 異丙硫醇</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>

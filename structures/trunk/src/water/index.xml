@@ -6,14 +6,17 @@
   <title xml:lang="es">Agua</title>
   <title xml:lang="fr">Eau</title>
   <title xml:lang="nl">Water</title>
+  <title xml:lang="tw">Water 水</title>
   <entry id="CS_oxidane">
     <name xml:lang="en">Water</name>
     <name xml:lang="de">Wasser</name>
     <name xml:lang="fr">Eau</name>
+    <name xml:lang="tw">Water 水</name>
     <filename>water</filename>
     <synonym xml:lang="en">Oxidane</synonym>
     <synonym xml:lang="de">Oxidan</synonym>
     <synonym xml:lang="fr">Oxidane</synonym>
+    <synonym xml:lang="tw">Oxidane 氧烷</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-05-10</date>
   </entry>
