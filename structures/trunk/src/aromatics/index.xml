@@ -352,12 +352,12 @@
     <name xml:lang="fr">Ethoxybenzène</name>
     <name xml:lang="tw">Ethoxybenzene 乙氧基苯</name>
     <filename>ethoxybenzene</filename>
-    <synonym xml:lang="en">Ethyl phenyl ether</name>
-    <synonym xml:lang="en">Phenetole</name>
-    <synonym xml:lang="fr">Éthyl phényl éther</name>
-    <synonym xml:lang="fr">Phénétole</name>
-    <synonym xml:lang="tw">Ethyl phenyl ether 乙基苯基醚</name>
-    <synonym xml:lang="tw">Phenetole 苯乙醚</name>
+    <synonym xml:lang="en">Ethyl phenyl ether</synonym>
+    <synonym xml:lang="en">Phenetole</synonym>
+    <synonym xml:lang="fr">Éthyl phényl éther</synonym>
+    <synonym xml:lang="fr">Phénétole</synonym>
+    <synonym xml:lang="tw">Ethyl phenyl ether 乙基苯基醚</synonym>
+    <synonym xml:lang="tw">Phenetole 苯乙醚</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-31</date>
   </entry>

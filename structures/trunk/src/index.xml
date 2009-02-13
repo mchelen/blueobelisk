@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "../xml/index.dtd">
 <index>
   <title xml:lang="en">Chemical Structures</title>
   <title xml:lang="de">Chemische Strukturen</title>

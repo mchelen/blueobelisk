@@ -77,6 +77,7 @@ for dir in src_list:
       index_parser.setFeature(xml.sax.handler.feature_external_ges, 0)
       index_handler = indexhandler.IndexHandler()
       index_parser.setContentHandler(index_handler)
+      print os.path.realpath(os.path.curdir)
       index_parser.parse("index.xml")
       for entry in index_handler.entryList["file"]:
         name_list.append( (entry.name["en"], "./" + dir +"/" + entry.path) )
