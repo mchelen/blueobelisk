@@ -169,11 +169,14 @@
   <entry id="CS_chloromethyloxirane">
     <name xml:lang="en">(R)-Epichlorohydrin</name>
     <name xml:lang="fr">(R)-Épichlorohydrine</name>
+    <name xml:lang="tw">(R)-Epichlorohydrin 環氧氯丙烷/表氯醇</name>
     <filename>R-epichlorohydrin</filename>
     <synonym xml:lang="en">(R)-2-(Chloromethyl)oxirane</synonym>
     <synonym xml:lang="en">(R)-1-Chloro-2,3-epoxypropane</synonym>
     <synonym xml:lang="fr">(R)-2-(Chlorométhyl)oxirane</synonym>
     <synonym xml:lang="fr">(R)-1-Chloro-2,3-époxypropane</synonym>
+    <synonym xml:lang="tw">(R)-2-(Chloromethyl)oxirane (R)-2-(氯甲基)環氧乙烷</synonym>
+    <synonym xml:lang="tw">(R)-1-Chloro-2,3-epoxypropane (R)-1-氯-2,3-環氧丙烷</synonym>
     <authors>Jerome Pansanel</authors>
     <date>2006-07-13</date>
   </entry>

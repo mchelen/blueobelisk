@@ -97,7 +97,7 @@
     <msg xml:lang="es">InChI</msg>
     <msg xml:lang="fr">InChI</msg>
     <msg xml:lang="nl">InChI</msg>
-    <msg xml:lang="tw">InChI 文字化學式</msg>
+    <msg xml:lang="tw">InChI (InChI 文字化學式)</msg>
   </msgset>
   <msgset>
     <msgid>SMILES</msgid>
@@ -106,7 +106,7 @@
     <msg xml:lang="es">SMILES</msg>
     <msg xml:lang="fr">SMILES</msg>
     <msg xml:lang="nl">SMILES</msg>
-    <msg xml:lang="tw">SMILES</msg>
+    <msg xml:lang="tw">SMILES (SMILES 文字化學式)</msg>
   </msgset>
   <msgset>
     <msgid>InChI:</msgid>
