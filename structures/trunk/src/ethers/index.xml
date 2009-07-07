@@ -175,4 +175,18 @@
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
+  <entry id="CS_tetrahydropyran">
+    <name xml:lang="en">Tetrahydropyran</name>
+    <name xml:lang="fr">Tétrahydropyrane</name>
+    <name xml:lang="tw">Tetrahydropyran 四氫吡喃</name>
+    <filename>tetrahydropyran</filename>
+    <synonym xml:lang="en">Oxane</synonym>
+    <synonym xml:lang="en">Oxacyclohexane</synonym>
+    <synonym xml:lang="fr">Oxane</synonym>
+    <synonym xml:lang="fr">Oxacyclohexane</synonym>
+    <synonym xml:lang="tw">Oxane 暫譯: 氧烷</synonym>
+    <synonym xml:lang="tw">Oxacyclohexane 暫譯: 氧環己烷</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2009-07-06</date>
+  </entry>
 </index>

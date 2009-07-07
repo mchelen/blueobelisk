@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Peptides</title>
+  <title xml:lang="es">Péptidos</title>
+  <title xml:lang="de">Peptide</title>
+  <title xml:lang="fr">Peptides</title>
+  <title xml:lang="nl">Peptiden</title>
+  <title xml:lang="tw">Peptides 多肽</title>
+  <entry id="CS_aspartame">
+    <name xml:lang="en">Aspartame</name>
+    <name xml:lang="fr">Aspartame</name>
+    <name xml:lang="tw">Aspartame 阿斯巴甜 (雙肽甜味料)</name>
+    <filename>aspartame</filename>
+    <synonym xml:lang="en">L-Aspartyl-L-phenylalanine methyl ester</synonym>
+    <synonym xml:lang="fr">Ester méthylique de L-aspartyl-L-phénylalanine</synonym>
+    <synonym xml:lang="tw">L-Aspartyl-L-phenylalanine methyl ester 天門冬醯-L-苯丙胺酸甲酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2009-07-06</date>
+  </entry>
+</index>

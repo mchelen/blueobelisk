@@ -227,4 +227,23 @@
     <authors>Jerome Pansanel</authors>
     <date>2006-11-22</date>
   </entry>
+  <entry id="CS_1_5-dihydro-2H-pyrrol-2-one">
+    <name xml:lang="en">1,5-Dihydro-2H-pyrrol-2-one</name>
+    <name xml:lang="fr">1,5-Dihydro-2H-pyrrol-2-one</name>
+    <name xml:lang="tw">1,5-Dihydro-2H-pyrrol-2-one 1,5-二羥基-2氫-吡咯-2-酮</name>
+    <filename>1_5-dihydro-2H-pyrrol-2-one</filename>
+    <synonym xml:lang="en">1,5-Dihydropyrrol-2-one </synonym>
+    <synonym xml:lang="fr">1,5-Dihydropyrrol-2-one </synonym>
+    <synonym xml:lang="tw">1,5-Dihydropyrrol-2-one 1,5-二羥基吡咯-2-酮</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2009-07-06</date>
+  </entry>
+  <entry id="CS_pyrrol-2-one">
+    <name xml:lang="en">Pyrrol-2-one</name>
+    <name xml:lang="fr">Pyrrol-2-one</name>
+    <name xml:lang="tw">Pyrrol-2-one 吡咯-2-酮</name>
+    <filename>pyrrol-2-one</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2009-07-06</date>
+  </entry>
 </index>

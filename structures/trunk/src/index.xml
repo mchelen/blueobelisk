@@ -231,12 +231,23 @@
     <name xml:lang="en">Macrocycles</name>
     <name xml:lang="de">Makrozyklen</name>
     <name xml:lang="es">Macrociclos</name>
-    <name xml:lang="fr">MacrocyclesNitriles</name>
+    <name xml:lang="fr">Macrocycles</name>
     <name xml:lang="nl">Grote ringsystemen</name>
     <name xml:lang="tw">Macrocycles 大環類</name>
     <dirname>macrocycles</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2007-05-29</date>
+  </entry>
+  <entry>
+    <name xml:lang="en">Natural products</name>
+    <name xml:lang="de">Naturstoff</name>
+    <name xml:lang="es">Sustancias naturales</name>
+    <name xml:lang="fr">Substances naturelles</name>
+    <name xml:lang="nl">Natuurlijke chemicaliën</name>
+    <name xml:lang="tw">Natural products 天然物質</name>
+    <dirname>natural_products</dirname>
+    <authors>Jerome Pansanel</authors>
+    <date>2009-07-07</date>
   </entry>
   <entry>
     <name xml:lang="en">Nitriles</name>
@@ -270,6 +281,17 @@
     <dirname>nucleobases</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2006-06-13</date>
+  </entry>
+  <entry>
+    <name xml:lang="en">Peptides</name>
+    <name xml:lang="es">Péptidos</name>
+    <name xml:lang="de">Peptide</name>
+    <name xml:lang="fr">Peptides</name>
+    <name xml:lang="nl">Peptiden</name>
+    <name xml:lang="tw">Peptides 多肽</name>
+    <dirname>peptides</dirname>
+    <authors>Jerome Pansanel</authors>
+    <date>2009-07-07</date>
   </entry>
   <entry>
     <name xml:lang="en">Polycyclic alkanes</name>

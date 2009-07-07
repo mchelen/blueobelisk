@@ -274,4 +274,18 @@
     <authors>Jerome Pansanel</authors>
     <date>2007-09-17</date>
   </entry>
+  <entry id="CS_4-aminobutanoic_acid">
+    <name xml:lang="en">4-Aminobutanoic acid</name>
+    <name xml:lang="fr">Acide 4-aminobutanoïque</name>
+    <name xml:lang="tw">4-Aminobutanoic acid 4-胺基丁酸</name>
+    <filename>4-aminobutanoic_acid</filename>
+    <synonym xml:lang="en">4-Aminobutyric acid</synonym>
+    <synonym xml:lang="en">gamma-Aminobutyric acid</synonym>
+    <synonym xml:lang="fr">Acide 4-aminobutyrique</synonym>
+    <synonym xml:lang="fr">Acide gamma-aminobutyrique</synonym>
+    <synonym xml:lang="tw">4-Aminobutyric acid 4-胺基丁酸</synonym>
+    <synonym xml:lang="tw">gamma-Aminobutyric acid 伽馬-胺基丁酸 (簡稱為 GABA)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2009-07-06</date>
+  </entry>
 </index>
