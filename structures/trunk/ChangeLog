@@ -1,3 +1,15 @@
+2009-07-08 17:00:43 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Release 2.2
+
+* Many fixes in tools
+
+* New htdocs/notices.html file
+
+* Compounds and directory are now sorted by alphabetic order
+
+* New version of Jmol included
+
 2009-07-07 17:44:36 Jerome Pansanel <j.pansanel@pansanel.net>
 
 * New categories added:

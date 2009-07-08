@@ -30,5 +30,4 @@ write a cml parser to verify the integrity of each file:
 1. parse against cml dtd
 1. check the content of each field and value
 
-Add the version and the copyright notice on a dedicated page
-Add the name of the molecule to the page
+Add the version on the html pages 

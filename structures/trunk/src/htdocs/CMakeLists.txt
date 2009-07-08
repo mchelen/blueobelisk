@@ -1,7 +1,7 @@
 #################################################################
 #                   Local variable settings                     #
 #################################################################
-set(LOCAL_TARGET notices.html)
+set(LOCAL_TARGET htdocs)
 message(STATUS "Generating ${LOCAL_TARGET} Makefile")
 
 file(GLOB htdocs_SRCS *.html)
