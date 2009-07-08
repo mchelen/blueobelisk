@@ -4,14 +4,14 @@
 set(LOCAL_TARGET notices.html)
 message(STATUS "Generating ${LOCAL_TARGET} Makefile")
 
-file(GLOB htdocs_SRCS *.xhtml)
+file(GLOB htdocs_SRCS *.html)
 
 set(htdocs_files "")
 
 add_custom_target(${LOCAL_TARGET} ALL)
 
 #################################################################
-#                       jmol file handle                       #
+#                      htdocs file handle                       #
 #################################################################
 foreach(htdocs_SRC_FILE ${htdocs_SRCS})
   get_filename_component(htdocs_FILE ${htdocs_SRC_FILE} NAME)
