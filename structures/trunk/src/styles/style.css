@@ -116,7 +116,12 @@ div#structure
 
 div#footer
 {
+  font-size: small;
+}
 
+div#footer p
+{
+  margin: 0;
 }
 
 img
