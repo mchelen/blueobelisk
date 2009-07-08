@@ -167,7 +167,7 @@
     <msg>Name: </msg>
     <msg xml:lang="de">Name: </msg>
     <msg xml:lang="es">Nombre : </msg>
-    <msg xml:lang="fr">Nom :</msg>
+    <msg xml:lang="fr">Nom : </msg>
     <msg xml:lang="nl">Naam: </msg>
     <msg xml:lang="tw">Name 化學名稱: </msg>
   </msgset>
