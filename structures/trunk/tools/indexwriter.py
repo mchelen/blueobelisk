@@ -86,5 +86,5 @@ class IndexWriter:
             xhtmlout.addBody('        </ul>')
             xhtmlout.addBody('      </div>')
         xhtmlout.addBody('    </div>')
-        xhtmlout.addFooter('<p><a href="'+'../' * level +'htdocs/notices.xhtml" title="Legal Notices">Legal Notices</a></p>')
+        xhtmlout.addFooter('<p><a href="'+'../' * level +'htdocs/notices.html" title="Legal Notices">Legal Notices</a></p>')
         xhtmlout.write()
