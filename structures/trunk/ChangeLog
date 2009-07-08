@@ -1,8 +1,34 @@
-2007-01-03 15:05:40 Jerome Pansanel <j.pansanel@pansanel.net>
+2009-07-07 17:44:36 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* New categories added:
+    Natural products
+    Peptides
+
+* New structures added:
+    carboxylic_acids/4-aminobutanoic_acid.cml
+    ethers/tetrahydropyran.cml
+    ketones/pyrrol-2-one.cml
+    ketones/1_5-dihydro-2H-pyrrol-2-one.cml
+    natural_products/norepinephrine.cml
+    natural_products/coelenterazine.cml
+    natural_products/D-luciferin.cml
+    natural_products/R-adrenaline.cml
+    peptides/aspartame.cml
+
+2008-02-23 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* Traditionnal Chinese translation added
+
+2009-02-04 Jerome Pansanel <j.pansanel@pansanel.net>
+
+* The build system has been updated. The out-of-source build is now
+  supported.
+
+2008-01-03 15:05:40 Jerome Pansanel <j.pansanel@pansanel.net>
 
 * Release 2.1
 
-2007-01-01 13:45:18 Jerome Pansanel <j.pansanel@pansanel.net>
+2008-01-01 13:45:18 Jerome Pansanel <j.pansanel@pansanel.net>
 
 * Fix some html lines for xhtml1.0-strict compliancy
 
