@@ -22,14 +22,13 @@ Get a better minimization of linolein
 #################################################################
 Add a custom clean target to the build system
 
-Check for
- 193a165,166
->     <synonym xml:lang="en">2,4-Toluenediamine</synonym> ok
->     <synonym xml:lang="fr">2,4-Toluènediamine</synonym> ok
-224a193,194
->     <synonym xml:lang="en">2,6-Toluenediamine</synonym> ok
->     <synonym xml:lang="fr">2,6-Toluènediamine</synonym> ok
+Add javascript that display a small help
+Melting point: The melting point of a crystalline solid is the temperature range at which it changes state from solid to liquid
+(?)
 
-In polycyclic aromatics, check the spelling of Phenanthrene in French
-phénanthrène
+write a cml parser to verify the integrity of each file:
+1. parse against cml dtd
+1. check the content of each field and value
 
+Add the version and the copyright notice on a dedicated page
+Add the name of the molecule to the page
