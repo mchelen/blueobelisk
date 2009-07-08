@@ -244,7 +244,7 @@
     <name xml:lang="es">Sustancias naturales</name>
     <name xml:lang="fr">Substances naturelles</name>
     <name xml:lang="nl">Natuurlijke chemicaliën</name>
-    <name xml:lang="tw">Natural products 天然物質</name>
+    <name xml:lang="tw">Natural products 天然產物/化合物</name>
     <dirname>natural_products</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2009-07-07</date>
@@ -288,7 +288,7 @@
     <name xml:lang="de">Peptide</name>
     <name xml:lang="fr">Peptides</name>
     <name xml:lang="nl">Peptiden</name>
-    <name xml:lang="tw">Peptides 多肽</name>
+    <name xml:lang="tw">Peptides 胜肽</name>
     <dirname>peptides</dirname>
     <authors>Jerome Pansanel</authors>
     <date>2009-07-07</date>
