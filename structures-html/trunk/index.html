@@ -2,13 +2,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-  <title>Chemical Structures Database</title>
+  <title>The Chemical Structures Project</title>
   <meta name="author" content="Jerome Pansanel" />
   <meta name="keywords" content="chemical, structures, chemical structures, chemistry, database, chemical database, open data, free software, open source" />
-<meta name="description" content="The Chemical Structures Database aims to provide a complete set of 3D molecular structures. The database is freely available under the BSD license." />
+  <meta name="description" content="The Chemical Structures Database aims to provide a complete set of 3D molecular structures. The database is freely available under the BSD license." />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
-  <link href="./lib/style.css" rel="stylesheet" type="text/css" />
+  <link href="./data/styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
   <div id="header">
@@ -18,36 +18,39 @@
 
     <h3>News</h3>
     <ul>
+      <li>2009-07-08: version 2.2.0 is released</li>
       <li>2008-12-10: a <a href="data/index_tw.html">traditional chinese version</a> of Chemical-Structre is online; many thanks to I-Yuan Chiang !</li>
-      <li>2008-01-02: new version is online</li>
+      <li>2008-01-15: A french ISO is available for downloading</li>
+      <li>2008-01-03: version 2.1 is released</li>
       <li>2007-12-10: spanish translation has been added</li>
       <li>2007-02-28: version 2.0.1 is released</li>
-      <li>2007-02-27: dutch translation has been added</li>
-      <li>2007-02-27: version 2.0.0 is released</li>
     </ul>
 
     <h3>The Project</h3>
     <p>The Chemical Structures Project aims to provide a complete set of 3D
- molecular structures in CML format.<sup>[<a href="#ref1">1</a>]</sup> As CML format permits to
- include more than a simple structure, each file contains also additional
- informations, like molecular weight, boiling point, melting point or InChI
- code.<sup>[<a href="#ref1">2</a>]</sup></p>
+ molecular structures in CML format.<sup>[<a href="#ref1">1</a>]</sup>
+ As CML format permits to include more than a simple structure, each file
+ contains also additional informations, like molecular weight, boiling point,
+ melting point or InChI code.<sup>[<a href="#ref2">2</a>]</sup> A CML file
+ can also be easily converted to other file formats with Open Babel,
+ a Free Software for chemical data file convertion.<sup>[<a href="#ref3">3</a>]</sup></p>
+
     <p>Each structure is generated with Ghemical, a free software for molecular
- modelling.<sup>[<a href="#ref1">3</a>]</sup> The final structure is minimized with the MOPAC/PM3
- method (v7-1.11).<sup>[<a href="#ref1">4</a>]</sup> The name used is the IUPAC name. In some case, when the
- IUPAC name is too long, the common name is preferred. The formula, the mass
- and the exact mass are computed with OpenBabel, a free software for chemical
- data file convertion.<sup>[<a href="#ref1">5</a>]</sup> Melting points and boiling points are
- values founded in the literature. In the case where the different values
- given in the literature are not concordent, a mean value is calculated. For
- each value, an error value is also provided.</p>
+ modelling.<sup>[<a href="#ref4">4</a>]</sup> The 3D structure is modellised
+ by a Monte Carlo simulation using the MOPAC/PM3 (v7-1.11) method.<sup>[<a href="#ref5">5</a>]</sup>
+ Each compound is named by its common name, but the CML file contains
+ also the IUPAC name.<sup>[<a href="#ref6">6</a>]</sup>. The formula, the mass
+ and the exact mass are computed with Open Babel. Melting points and boiling
+ points are values founded in the literature. If the different values given in
+ the literature are not concordent, then a mean value is calculated. For
+ each boiling and melting points, an error value is also calculated.</p>
+
     <p>You can find further informations about this project on the
- <a href="http://www.sourceforge.net/projects/chem-file/" title="Project Homepage on SourceForge">
- project's pages</a> (hosted on SourceForge.net).</p>
+ <a href="http://www.sourceforge.net/projects/chem-file/" title="Project Homepage on SourceForge">Project Area</a> of SourceForge.</p>
  
     <h3>Online Access</h3>
     <p>You can access the last version of this project by browsing the following
- links. The project is using the Jmol applet<sup>[<a href="#ref1">6</a>]</sup> for 3D
+ links. The project is using the Jmol applet<sup>[<a href="#ref7">7</a>]</sup> for 3D
  visualisation. Therefore, you need to have a working java environment on your
  computer. The webpages are available in three languages:
     </p>
@@ -61,33 +64,42 @@
     </ul>
 
     <h3>Download</h3>
-    <p>You can download either the webpage or the source data on the
- <a href="https://sourceforge.net/project/showfiles.php?group_id=169897" title="Chemical Structures Download Area">
- download area</a> (hosted on SourceForge).</p>
+    <p>Two types of archive are available:
+      <ul>
+        <li>A source package -- It contains the CML files and all the tools
+and data used for the build of the project.</li>
+        <li>A build package -- It contains a set of HTML pages and the
+structures in MOL and CML format. It provides the same data as the <a href="data/index_en.html" title="Online Version of the Chemical Structures Database">online version</a>.</li>
+      </ul>
+ All files are available from the <a href="http://sourceforge.net/projects/chem-file/files/" title="Chemical Structures Download Area">download area</a> (hosted on SourceForge).</p>
 
     <h3>New structure</h3>
     <p>If you want to request a new structure, simply <a href="mailto:structure@pansanel.net" 
-title="E-Mail">send me a mail</a> with the name and/or the 2D structure !</p>
+title="E-Mail">send me an e- mail</a> with the name and/or the 2D structure!</p>
 
     <h3>License</h3>
-    <p>These files are released under the BSD license. This license permits you to modify any files,
-and to  distribute either the original or the customized file without restriction.</p>
+    <p>These files are released under the BSD license. This license permits you
+to modify any files, and to  distribute either the original or the customized
+file without restriction.</p>
 
     <h3>References</h3>
     <ol>
       <li><a name="ref1"></a><a href="http://cml.sourceforge.net/" title="Chemical Markup Language Homepage">CML</a> - The Chemical Markup Language</li>
       <li><a name="ref2"></a><a href="http://www.iupac.org/inchi/" title="InChi Homepage">InChi</a> - The IUPAC International Chemical Identifier</li>
-      <li><a name="ref3"></a><a href="http://www.uku.fi/~thassine/projects/ghemical/" title="Ghemical Homepage">Ghemical</a> - A Computational Chemistry Package</li>
-      <li><a name="ref4"></a><a href="http://openmopac.net/" title="MOPAC Homepage">MOPAC</a> - A Semiempirical Quantum Chemistry Program</li>
-      <li><a name="ref5"></a><a href="http://openbabel.sourceforge.net/wiki/Main_Page" title="OpenBabel Homepage">OpenBabel</a> - The Open Source Chemistry Toolbox</li>
-      <li><a name="ref6"></a><a href="http://jmol.sourceforge.net/" title="Jmol Homepage">Jmol</a> - An Open Source Molecule Viewer</li>
+      <li><a name="ref3"></a><a href="http://openbabel.sourceforge.net/wiki/Main_Page" title="OpenBabel Homepage">OpenBabel</a> - The Open Source Chemistry Toolbox</li>
+      <li><a name="ref4"></a><a href="http://www.uku.fi/~thassine/projects/ghemical/" title="Ghemical Homepage">Ghemical</a> - A Computational Chemistry Package</li>
+      <li><a name="ref5"></a><a href="http://openmopac.net/" title="MOPAC Homepage">MOPAC</a> - A Semiempirical Quantum Chemistry Program</li>
+      <li><a name="ref6"></a><a href="http://www.iupac.org/" title="IUPAC Homepage">IUPAC</a> - International Union of Pure and Applied Chemistry</li>
+      <li><a name="ref7"></a><a href="http://jmol.sourceforge.net/" title="Jmol Homepage">Jmol</a> - An Open Source Molecule Viewer</li>
     </ol>
   </div>
 
+  <!-- Footer Section -->
   <div class="footer">
-    <a href="http://www.alchem.org/"><img src="images/alchemlogo.png" alt="Header image"/></a>
+    <p><a href="./notices.html" title="Legal Notices">Legal Notices</a></p>
+    <p><a href="http://www.alchem.org/"><img src="images/alchemlogo.png" alt="Header image"/></a>
     <a href="http://www.blueobelisk.org/"><img src="images/bologo.png" alt="Header image"/></a>
-   <a href="http://sourceforge.net"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=169897&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo" /></a>
+   <a href="http://sourceforge.net/projects/chem-file"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=169897&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo" /></a></p>
   </div>
 </body>
 </html>
