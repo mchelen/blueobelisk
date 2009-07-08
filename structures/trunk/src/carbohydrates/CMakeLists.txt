@@ -1,7 +1,7 @@
 #################################################################
 #                   Local variables settings                    #
 #################################################################
-set(CHEM_GROUP "carbohhydrates")
+set(CHEM_GROUP "carbohydrates")
 
 message(STATUS "Generating ${CHEM_GROUP} Makefile")
 
