@@ -41,10 +41,20 @@ class IndexWriter:
 	Create a list of directories
 	"""
         if len(self.index.entryList["dir"]) > 0:
+            # Order the entry list by alphabetic order
+            entryDict = {}
+            for entry in self.index.entryList["dir"]:
+                if entry.name.has_key(lang):
+                    entryDict[entry.name[lang]] = entry
+                else:
+                    entryDict[entry.name['en']] = entry
+            keys = entryDict.keys()
+            keys.sort()
             xhtmlout.addBody('      <div id="directories">')
             xhtmlout.addBody('        <h2>'+ self.l10n.translate("Directories", lang) +'</h2>')
             xhtmlout.addBody('        <ul id="directory_list">')
-            for entry in self.index.entryList["dir"]:
+            for key in keys:
+                entry = entryDict[key]
                 if entry.name.has_key(lang):
                     xhtmlout.addBody('          <li><a href="./' + entry.path + '/index_' + lang + '.html">' + entry.name[lang] + '</a></li>')
                 else:
@@ -55,10 +65,20 @@ class IndexWriter:
 	Create list of files
 	"""
         if len(self.index.entryList["file"]) > 0:
+            # Order the entry list by alphabetic order
+            entryDict = {}
+            for entry in self.index.entryList["file"]:
+                if entry.name.has_key(lang):
+                    entryDict[entry.name[lang]] = entry
+                else:
+                    entryDict[entry.name['en']] = entry
+            keys = entryDict.keys()
+            keys.sort()
             xhtmlout.addBody('      <div id="files">')
             xhtmlout.addBody('        <h2>' + self.l10n.translate("Names", lang) + '</h2>')
             xhtmlout.addBody('        <ul id="directory_list">')
-            for entry in self.index.entryList["file"]:
+            for key in keys:
+                entry = entryDict[key]
                 if entry.name.has_key(lang):
                     xhtmlout.addBody('            <li><a href="./' + entry.path + '_' + lang + '.html">' + entry.name[lang] + '</a></li>')
                 else:
@@ -66,4 +86,5 @@ class IndexWriter:
             xhtmlout.addBody('        </ul>')
             xhtmlout.addBody('      </div>')
         xhtmlout.addBody('    </div>')
+        xhtmlout.addFooter('<p><a href="'+'../' * level +'htdocs/notices.xhtml" title="Legal Notices">Legal Notices</a></p>')
         xhtmlout.write()

@@ -6,6 +6,7 @@ Exported classes:
     CMLHandler - CML file handler.
 """ 
 
+import sys
 import xml.sax.handler
 
 class CMLHandler(xml.sax.handler.ContentHandler):
@@ -113,7 +114,12 @@ class CMLHandler(xml.sax.handler.ContentHandler):
                 self.inMonoisotopicWeight = False
             elif self.inMp:
                 self.inMp = False
-                self.mpSet = True
+                self.mp = self.mp.strip()
+                if self.mp:
+                    self.mpSet = True
             elif self.inBp:
                 self.inBp = False
-                self.bpSet = True
+                self.bp = self.bp.strip()
+                if self.bp:
+                    self.bpSet = True
+

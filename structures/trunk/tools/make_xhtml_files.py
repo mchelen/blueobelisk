@@ -14,7 +14,7 @@ import cmlwriter
 
 source_dir = sys.argv[1]
 if not os.path.isdir(source_dir):
-    print "Error: "+ source_dir + ": no such directory"
+    sys.stderror.write("[ERROR] %s: no such directory.\n" % (source_dir))
     sys.exit(1)
 indexFile = sys.argv[2]
 level = int(sys.argv[3])
@@ -30,6 +30,7 @@ if os.path.isfile(indexFile):
   l10n_parser.setContentHandler(l10n_handler)
   l10n_parser.parse(source_dir + "/xml/l10n.xml")
 
+  # Parse index file
   index_parser = xml.sax.make_parser()
   index_parser.setFeature(xml.sax.handler.feature_external_ges, 0)
   index_handler = indexhandler.IndexHandler()
@@ -37,15 +38,19 @@ if os.path.isfile(indexFile):
   index_parser.parse(indexFile)
   index = indexwriter.IndexWriter(indexFile,index_handler,l10n_handler)
   for lang in langList:
-    index = indexwriter.IndexWriter("index_" + lang + ".html",index_handler,l10n_handler)
-    index.WriteXHTML(index_handler.title,lang,level)
+      index = indexwriter.IndexWriter("index_" + lang \
+                                    + ".html",index_handler,l10n_handler)
+      index.WriteXHTML(index_handler.title,lang,level)
+
   # Add dir entry to the index file
   for index_entry in index_handler.entryList["file"]:
-    if index_entry.path != "" and os.path.isfile(index_entry.path + ".cml"):
-      cml_parser = xml.sax.make_parser()
-      cml_handler = cmlhandler.CMLHandler()
-      cml_parser.setContentHandler(cml_handler)
-      cml_parser.parse(index_entry.path + ".cml")
-      for lang in langList:
-        cml = cmlwriter.CMLWriter(index_entry.path + "_" + lang + ".html", cml_handler,l10n_handler)
-        cml.WriteXHTML(index_entry,lang,level)
+      if index_entry.path != "" and os.path.isfile(index_entry.path + ".cml"):
+        cml_parser = xml.sax.make_parser()
+        cml_handler = cmlhandler.CMLHandler()
+        cml_parser.setContentHandler(cml_handler)
+        cml_parser.parse(index_entry.path + ".cml")
+        for lang in langList:
+            cml = cmlwriter.CMLWriter(index_entry.path + "_" + lang \
+                                    + ".html", cml_handler,l10n_handler)
+            cml.WriteXHTML(index_entry,lang,level)
+

@@ -76,6 +76,7 @@ class CMLWriter:
         xhtmlout.addBody('        <div id="properties">')
         xhtmlout.addBody('          <h3>' + self.l10n.translate('Properties', lang) + '</h3>')
         xhtmlout.addBody('          <ul>')
+        xhtmlout.addBody('            <li>' + self.l10n.translate('Name: ', lang) + title + '</li>')
         xhtmlout.addBody('            <li>' + self.l10n.translate('IUPAC name: ', lang) + self.cml.name + '</li>')
         xhtmlout.addBody('            <li>' + self.l10n.translate('Formula: ', lang) + self.parseFormula(self.cml.formula) + '</li>')
         xhtmlout.addBody('            <li>' + self.l10n.translate('Molecular weight: ', lang) + self.cml.weight + ' g/mol</li>')
@@ -180,4 +181,5 @@ class CMLWriter:
             xhtmlout.addBody('        </div>')
         xhtmlout.addBody('      </div>')
         xhtmlout.addBody('    </div>')
+        xhtmlout.addFooter('<p><a href="'+'../' * level +'htdocs/notices.xhtml" title="Legal Notices">Legal Notices</a></p>')
         xhtmlout.write()

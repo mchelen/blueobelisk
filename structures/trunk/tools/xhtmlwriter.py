@@ -7,7 +7,8 @@ class XHTMLWriter:
     self.stylesheet = ""
     self.head = ""
     self.body = ""
-  
+    self.footer = ""
+
   def setOutput(self, fout):
     self.fout = fout
 
@@ -19,6 +20,9 @@ class XHTMLWriter:
 
   def addBody(self, line):
     self.body = self.body + line + "\n"
+
+  def addFooter(self, line):
+    self.footer = self.footer + line + "\n"
 
   def write(self):
     out = codecs.open(self.fout, encoding='utf-8', mode='w')
@@ -32,6 +36,10 @@ class XHTMLWriter:
     out.write('  </head>' + "\n")
     out.write('  <body>' + "\n")
     out.write(self.body)
+    out.write('    <!-- Footer Section -->' + "\n")
+    out.write('    <div id="footer">' + "\n")
+    out.write(self.footer)
+    out.write('    </div>' + "\n")
     out.write('  </body>' + "\n")
     out.write('</html>')
     out.close()

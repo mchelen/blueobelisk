@@ -174,8 +174,9 @@ class IndexHandler(xml.sax.handler.ContentHandler):
             try:
                 self.entry.synDict[self.synLang].append(self.synonym)
             except:
-                print self.synLang
-                print self.entry.synDict
+                sys.stderr.write("[ERROR] Could not append the " \
+                               + "synonym to " % (self.synonym) \
+                               + "the %s dictionary.\n" % (self.synLang))
             self.synonym = ""
             self.inSynonym = False
             self.synLang = ""
