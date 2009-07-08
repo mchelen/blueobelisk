@@ -1,5 +1,5 @@
 
-Copyright 1998-2005 The Jmol Development Team
+Copyright 1998-2007 The Jmol Development Team
 
 This library is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
