@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_bromoethane">
+  <formula concise=" C 2 H 5 Br 1 "/>
+  <identifier convention="iupac:inchi" value="1/C2H5Br/c1-2-3/h2H2,1H3"/>
+  <name convention="IUPAC">Bromoethane</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="0.641178" y3="0.247919" z3="0.250012"/>
+    <atom id="a2" elementType="Br" x3="1.711423" y3="-1.069613" z3="-0.727866"/>
+    <atom id="a3" elementType="H" x3="0.866082" y3="0.124445" z3="1.319946"/>
+    <atom id="a4" elementType="C" x3="-0.766165" y3="-0.071792" z3="-0.117849"/>
+    <atom id="a5" elementType="H" x3="0.975092" y3="1.245756" z3="-0.071616"/>
+    <atom id="a6" elementType="H" x3="-0.923609" y3="0.012501" z3="-1.201156"/>
+    <atom id="a7" elementType="H" x3="-1.473415" y3="0.607885" z3="0.376125"/>
+    <atom id="a8" elementType="H" x3="-1.030585" y3="-1.097100" z3="0.172405"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a1 a3" order="1"/>
+    <bond atomRefs2="a1 a4" order="1"/>
+    <bond atomRefs2="a1 a5" order="1"/>
+    <bond atomRefs2="a4 a6" order="1"/>
+    <bond atomRefs2="a4 a7" order="1"/>
+    <bond atomRefs2="a4 a8" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">108.9651</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">107.9574622</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">-119</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">38</scalar>
+    </property>
+  </propertyList>
+</molecule>

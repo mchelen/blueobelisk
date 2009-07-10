@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1-chloro-4-methoxybenzene">
+  <formula concise=" C 7 H 7 O 1 Cl 1 "/>
+  <identifier convention="iupac:inchi" value="1/C7H7ClO/c1-9-7-4-2-6(8)3-5-7/h2-5H,1H3"/>
+  <name convention="IUPAC">1-Chloro-4-methoxybenzene</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="1.984834" y3="0.900234" z3="0.322745"/>
+    <atom id="a2" elementType="C" x3="2.254043" y3="-0.457658" z3="0.152142"/>
+    <atom id="a3" elementType="C" x3="1.227696" y3="-1.366905" z3="-0.079033"/>
+    <atom id="a4" elementType="C" x3="-0.088989" y3="-0.923994" z3="-0.142403"/>
+    <atom id="a5" elementType="C" x3="-0.361969" y3="0.437382" z3="0.028574"/>
+    <atom id="a6" elementType="C" x3="0.677043" y3="1.354965" z3="0.262091"/>
+    <atom id="a7" elementType="Cl" x3="3.848485" y3="-1.003252" z3="0.227790"/>
+    <atom id="a8" elementType="O" x3="-1.616187" y3="1.012106" z3="-0.009069"/>
+    <atom id="a9" elementType="H" x3="2.808080" y3="1.599807" z3="0.503848"/>
+    <atom id="a10" elementType="H" x3="1.459098" y3="-2.429607" z3="-0.210463"/>
+    <atom id="a11" elementType="H" x3="-0.889800" y3="-1.649181" z3="-0.325067"/>
+    <atom id="a12" elementType="H" x3="0.456310" y3="2.420480" z3="0.395216"/>
+    <atom id="a13" elementType="C" x3="-2.713456" y3="0.163611" z3="-0.239571"/>
+    <atom id="a14" elementType="H" x3="-3.554733" y3="0.861735" z3="-0.218294"/>
+    <atom id="a15" elementType="H" x3="-2.830532" y3="-0.589557" z3="0.548254"/>
+    <atom id="a16" elementType="H" x3="-2.659924" y3="-0.330168" z3="-1.216759"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="2"/>
+    <bond atomRefs2="a3 a4" order="1"/>
+    <bond atomRefs2="a4 a5" order="2"/>
+    <bond atomRefs2="a5 a6" order="1"/>
+    <bond atomRefs2="a6 a1" order="2"/>
+    <bond atomRefs2="a2 a7" order="1"/>
+    <bond atomRefs2="a5 a8" order="1"/>
+    <bond atomRefs2="a1 a9" order="1"/>
+    <bond atomRefs2="a3 a10" order="1"/>
+    <bond atomRefs2="a4 a11" order="1"/>
+    <bond atomRefs2="a6 a12" order="1"/>
+    <bond atomRefs2="a8 a13" order="1"/>
+    <bond atomRefs2="a13 a14" order="1"/>
+    <bond atomRefs2="a13 a15" order="1"/>
+    <bond atomRefs2="a13 a16" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">142.5829</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">142.0185425</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">-18</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="2.0" dictRef="cml:bp" units="units:celsius">199</scalar>
+    </property>
+  </propertyList>
+</molecule>

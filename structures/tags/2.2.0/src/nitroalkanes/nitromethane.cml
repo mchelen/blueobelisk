@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_nitromethane">
+  <formula concise=" C 1 H 3 N 1 O 2 "/>
+  <identifier convention="iupac:inchi" value="1/CH4NO2/c1-2(3)4/h1H3,(H,3,4)"/>
+  <name convention="IUPAC">Nitromethane</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="0.297136" y3="0.587098" z3="-0.009682"/>
+    <atom id="a2" elementType="N" x3="-0.385385" y3="-0.748275" z3="0.019193"/>
+    <atom id="a3" elementType="O" x3="0.289340" y3="-1.741838" z3="0.029160"/>
+    <atom id="a4" elementType="O" x3="-1.585622" y3="-0.784280" z3="0.027594"/>
+    <atom id="a5" elementType="H" x3="1.109609" y3="0.582690" z3="0.759572"/>
+    <atom id="a6" elementType="H" x3="-0.460657" y3="1.381751" z3="0.204827"/>
+    <atom id="a7" elementType="H" x3="0.735581" y3="0.722855" z3="-1.030665"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="2"/>
+    <bond atomRefs2="a2 a4" order="1"/>
+    <bond atomRefs2="a1 a5" order="1"/>
+    <bond atomRefs2="a1 a6" order="1"/>
+    <bond atomRefs2="a1 a7" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">61.0400</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">61.0163783</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">-29</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">101</scalar>
+    </property>
+  </propertyList>
+</molecule>

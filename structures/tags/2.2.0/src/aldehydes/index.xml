@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Aldehydes</title>
+  <title xml:lang="de">Aldehyde</title>
+  <title xml:lang="es">Aldehídos</title>
+  <title xml:lang="fr">Aldéhydes</title>
+  <title xml:lang="nl">Aldehyden</title>
+  <title xml:lang="tw">Aldehydes 醛類</title>
+  <entry id="CS_2-methylpropanal">
+    <name xml:lang="en">2-Methylpropanal</name>
+    <name xml:lang="fr">2-Méthylpropanal</name>
+    <name xml:lang="tw">2-Methylpropanal 2-甲基丙醛</name>
+    <filename>2-methylpropanal</filename>
+    <synonym xml:lang="en">Isobutyraldehyde</synonym>
+    <synonym xml:lang="de">Isobutyraldehyd</synonym>
+    <synonym xml:lang="fr">Aldéhyde isobutyrique</synonym>
+    <synonym xml:lang="tw">Isobutyraldehyde 異丁醛</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_2R-2-methylbutanal">
+    <name xml:lang="en">(2R)-2-Methylbutanal</name>
+    <name xml:lang="fr">(2R)-2-Méthylbutanal</name>
+    <name xml:lang="tw">(2R)-2-Methylbutanal (2R)-2-甲基丁醛</name>
+    <filename>2R-2-methylbutanal</filename>
+    <synonym xml:lang="en">2-Methylbutyraldehyde</synonym>
+    <synonym xml:lang="de">2-Methylbutyraldehyd</synonym>
+    <synonym xml:lang="fr">2-Méthylbutyraldéhyde</synonym>
+    <synonym xml:lang="tw">2-Methylbutyraldehyde 2-甲基丁醛</synonym>
+    <synonym xml:lang="fr">Aldéhyde 2-méthylbutyrique</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_3-methylbutanal">
+    <name xml:lang="en">3-Methylbutanal</name>
+    <name xml:lang="fr">3-Méthylbutanal</name>
+    <name xml:lang="tw">3-Methylbutanal 3-甲基丁醛</name>
+    <filename>3-methylbutanal</filename>
+    <synonym xml:lang="en">Isovaleraldehyde</synonym>
+    <synonym xml:lang="de">Isovaleraldehyd</synonym>
+    <synonym xml:lang="fr">Aldéhyde isovalérique</synonym>
+    <synonym xml:lang="tw">Isovaleraldehyde 異戊醛</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_butanal">
+    <name xml:lang="en">Butanal</name>
+    <name xml:lang="de">Butanal</name>
+    <name xml:lang="fr">Butanal</name>
+    <name xml:lang="tw">Butanal 丁醛</name>
+    <filename>butanal</filename>
+    <synonym xml:lang="en">n-Butyraldehyde</synonym>
+    <synonym xml:lang="de">n-Butyraldehyd</synonym>
+    <synonym xml:lang="fr">n-Butyraldéhyde</synonym>
+    <synonym xml:lang="fr">Aldéhyde butyrique</synonym>
+    <synonym xml:lang="tw">n-Butyraldehyde 正-丁醛</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_acetaldehyde">
+    <name xml:lang="en">Acetaldehyde</name>
+    <name xml:lang="fr">Acétaldéhyde</name>
+    <name xml:lang="tw">Acetaldehyde 乙醛</name>
+    <filename>acetaldehyde</filename>
+    <synonym xml:lang="en">Ethanal</synonym>
+    <synonym xml:lang="fr">Ethanal</synonym>
+    <synonym xml:lang="tw">Ethanal 乙醛</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_heptanal">
+    <name xml:lang="en">Heptanal</name>
+    <name xml:lang="fr">Heptanal</name>
+    <name xml:lang="tw">Heptanal 庚醛</name>
+    <filename>heptanal</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_hexanal">
+    <name xml:lang="en">Hexanal</name>
+    <name xml:lang="fr">Hexanal</name>
+    <name xml:lang="tw">Hexanal 已醛</name>
+    <filename>hexanal</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_formaldehyde">
+    <name xml:lang="en">Formaldehyde</name>
+    <name xml:lang="fr">Formaldéhyde</name>
+    <name xml:lang="de">Formaldehyd</name>
+    <name xml:lang="tw">Formaldehyde 甲醛</name>
+    <filename>formaldehyde</filename>
+    <synonym xml:lang="en">Methanal</synonym>
+    <synonym xml:lang="fr">Méthanal</synonym>
+    <synonym xml:lang="tw">Methanal 甲醛</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_octanal">
+    <name xml:lang="en">Octanal</name>
+    <name xml:lang="fr">Octanal</name>
+    <name xml:lang="tw">Octanal 辛醛</name>
+    <filename>octanal</filename>
+    <synonym xml:lang="en">Octyl aldehyde</synonym>
+    <synonym xml:lang="de">Octylaldehyd</synonym>
+    <synonym xml:lang="fr">Aldéhyde octylique</synonym>
+    <synonym xml:lang="tw">Octyl aldehyde 辛醛</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_pentanal">
+    <name xml:lang="en">Pentanal</name>
+    <name xml:lang="fr">Pentanal</name>
+    <name xml:lang="tw">Pentanal 戊醛</name>
+    <filename>pentanal</filename>
+    <synonym xml:lang="en">n-Valeraldehyde</synonym>
+    <synonym xml:lang="de">n-Valeraldehyd</synonym>
+    <synonym xml:lang="fr">n-Valéraldéhyde</synonym>
+    <synonym xml:lang="fr">Aldéhyde valérique</synonym>
+    <synonym xml:lang="tw">n-Valeraldehyde 正戊醛</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_propanal">
+    <name xml:lang="en">Propanal</name>
+    <name xml:lang="fr">Propanal</name>
+    <name xml:lang="tw">Propanal 丙醛</name>
+    <filename>propanal</filename>
+    <synonym xml:lang="en">Proprionaldehyde</synonym>
+    <synonym xml:lang="de">Proprionaldehyd</synonym>
+    <synonym xml:lang="fr">Proprionaldéhyde</synonym>
+    <synonym xml:lang="fr">Aldéhyde proprionique</synonym>
+    <synonym xml:lang="tw">Proprionaldehyde 丙醛</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_prop-2-enal">
+    <name xml:lang="en">Prop-2-enal</name>
+    <name xml:lang="fr">Prop-2-enal</name>
+    <name xml:lang="tw">Prop-2-enal 丙-2-烯醛</name>
+    <filename>prop-2-enal</filename>
+    <synonym xml:lang="en">Acrolein</synonym>
+    <synonym xml:lang="fr">Acroléine</synonym>
+    <synonym xml:lang="tw">Acrolein 丙烯醛</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-21</date>
+  </entry>
+</index>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_pentyl_acetate">
+  <formula concise=" C 7 H 14 O 2 "/>
+  <identifier convention="iupac:inchi" value="1/C7H14O2/c1-3-4-5-6-9-7(2)8/h3-6H2,1-2H3"/>
+  <name convention="IUPAC">Pentyl acetate</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="3.232149" y3="0.929059" z3="0.175809"/>
+    <atom id="a2" elementType="O" x3="3.105366" y3="1.931739" z3="0.851080"/>
+    <atom id="a3" elementType="O" x3="2.129698" y3="0.197119" z3="-0.156836"/>
+    <atom id="a4" elementType="C" x3="0.852488" y3="0.644430" z3="0.300402"/>
+    <atom id="a5" elementType="H" x3="0.648331" y3="1.658445" z3="-0.093071"/>
+    <atom id="a6" elementType="H" x3="0.847626" y3="0.703028" z3="1.405592"/>
+    <atom id="a7" elementType="C" x3="-0.165889" y3="-0.370789" z3="-0.210693"/>
+    <atom id="a8" elementType="C" x3="4.502715" y3="0.349945" z3="-0.378306"/>
+    <atom id="a9" elementType="C" x3="-1.566931" y3="0.029826" z3="0.221782"/>
+    <atom id="a10" elementType="H" x3="0.074281" y3="-1.384625" z3="0.168091"/>
+    <atom id="a11" elementType="H" x3="-0.116112" y3="-0.447577" z3="-1.315536"/>
+    <atom id="a12" elementType="H" x3="-1.809128" y3="1.040920" z3="-0.163508"/>
+    <atom id="a13" elementType="H" x3="-1.614761" y3="0.113519" z3="1.326367"/>
+    <atom id="a14" elementType="C" x3="-2.601752" y3="-0.971421" z3="-0.266318"/>
+    <atom id="a15" elementType="C" x3="-3.997854" y3="-0.574229" z3="0.156752"/>
+    <atom id="a16" elementType="H" x3="-2.361302" y3="-1.981293" z3="0.121879"/>
+    <atom id="a17" elementType="H" x3="-2.550825" y3="-1.058097" z3="-1.370058"/>
+    <atom id="a18" elementType="H" x3="-4.088812" y3="-0.514975" z3="1.249561"/>
+    <atom id="a19" elementType="H" x3="-4.742023" y3="-1.299836" z3="-0.195389"/>
+    <atom id="a20" elementType="H" x3="-4.279923" y3="0.407272" z3="-0.247104"/>
+    <atom id="a21" elementType="H" x3="4.514276" y3="0.422299" z3="-1.473840"/>
+    <atom id="a22" elementType="H" x3="4.607800" y3="-0.709998" z3="-0.112224"/>
+    <atom id="a23" elementType="H" x3="5.380584" y3="0.885236" z3="0.005567"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="2"/>
+    <bond atomRefs2="a1 a3" order="1"/>
+    <bond atomRefs2="a1 a8" order="1"/>
+    <bond atomRefs2="a3 a4" order="1"/>
+    <bond atomRefs2="a4 a5" order="1"/>
+    <bond atomRefs2="a4 a6" order="1"/>
+    <bond atomRefs2="a4 a7" order="1"/>
+    <bond atomRefs2="a7 a9" order="1"/>
+    <bond atomRefs2="a7 a10" order="1"/>
+    <bond atomRefs2="a7 a11" order="1"/>
+    <bond atomRefs2="a8 a21" order="1"/>
+    <bond atomRefs2="a8 a22" order="1"/>
+    <bond atomRefs2="a8 a23" order="1"/>
+    <bond atomRefs2="a9 a12" order="1"/>
+    <bond atomRefs2="a9 a13" order="1"/>
+    <bond atomRefs2="a9 a14" order="1"/>
+    <bond atomRefs2="a14 a15" order="1"/>
+    <bond atomRefs2="a14 a16" order="1"/>
+    <bond atomRefs2="a14 a17" order="1"/>
+    <bond atomRefs2="a15 a18" order="1"/>
+    <bond atomRefs2="a15 a19" order="1"/>
+    <bond atomRefs2="a15 a20" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">130.1849</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">130.0993797</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">-100</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">149</scalar>
+    </property>
+  </propertyList>
+</molecule>
