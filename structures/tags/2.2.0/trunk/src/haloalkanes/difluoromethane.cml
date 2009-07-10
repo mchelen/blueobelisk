@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_difluoromethane">
+  <formula concise=" C 1 H 2 F 2 "/>
+  <identifier convention="iupac:inchi" value="1/CH2F2/c2-1-3/h1H2"/>
+  <name convention="IUPAC">Difluoromethane</name>
+  <atomArray>
+    <atom id="a1" elementType="F" x3="1.067673" y3="-0.739127" z3="0.020296"/>
+    <atom id="a2" elementType="C" x3="-0.000245" y3="0.085083" z3="-0.002299"/>
+    <atom id="a3" elementType="F" x3="-1.064294" y3="-0.744049" z3="0.019912"/>
+    <atom id="a4" elementType="H" x3="-0.001351" y3="0.674318" z3="-0.929246"/>
+    <atom id="a5" elementType="H" x3="-0.001783" y3="0.723775" z3="0.891337"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="1"/>
+    <bond atomRefs2="a2 a4" order="1"/>
+    <bond atomRefs2="a2 a5" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">52.0234</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">52.0124565</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="2.0" dictRef="cml:mp" units="units:celsius">-136</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">-52</scalar>
+    </property>
+  </propertyList>
+</molecule>

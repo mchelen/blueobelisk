@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_2_3_4_5_6-pentachlorophenol">
+  <formula concise=" C 6 H 1 O 1 Cl 5 "/>
+  <identifier convention="iupac:inchi" value="1/C6HCl5O/c7-1-2(8)4(10)6(12)5(11)3(1)9/h12H"/>
+  <name convention="IUPAC">2,3,4,5,6-Pentachlorophenol</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="1.133290" y3="0.758063" z3="0.025850"/>
+    <atom id="a2" elementType="C" x3="1.434097" y3="-0.601422" z3="-0.058781"/>
+    <atom id="a3" elementType="C" x3="0.411757" y3="-1.552592" z3="-0.097790"/>
+    <atom id="a4" elementType="C" x3="-0.921529" y3="-1.145531" z3="-0.052108"/>
+    <atom id="a5" elementType="C" x3="-1.237909" y3="0.210508" z3="0.032611"/>
+    <atom id="a6" elementType="C" x3="-0.211218" y3="1.167620" z3="0.071944"/>
+    <atom id="a7" elementType="O" x3="-0.432994" y3="2.507527" z3="0.154282"/>
+    <atom id="a8" elementType="Cl" x3="-2.851547" y3="0.684462" z3="0.086836"/>
+    <atom id="a9" elementType="Cl" x3="-2.145217" y3="-2.284616" z3="-0.098848"/>
+    <atom id="a10" elementType="Cl" x3="0.787427" y3="-3.182011" z3="-0.199397"/>
+    <atom id="a11" elementType="Cl" x3="3.030840" y3="-1.097146" z3="-0.114041"/>
+    <atom id="a12" elementType="Cl" x3="2.375297" y3="1.880836" z3="0.071332"/>
+    <atom id="a13" elementType="H" x3="-1.372295" y3="2.654303" z3="0.178109"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="2"/>
+    <bond atomRefs2="a3 a4" order="1"/>
+    <bond atomRefs2="a4 a5" order="2"/>
+    <bond atomRefs2="a5 a6" order="1"/>
+    <bond atomRefs2="a6 a1" order="2"/>
+    <bond atomRefs2="a6 a7" order="1"/>
+    <bond atomRefs2="a5 a8" order="1"/>
+    <bond atomRefs2="a4 a9" order="1"/>
+    <bond atomRefs2="a3 a10" order="1"/>
+    <bond atomRefs2="a2 a11" order="1"/>
+    <bond atomRefs2="a1 a12" order="1"/>
+    <bond atomRefs2="a7 a13" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">266.3365</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">263.8470031</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="2.0" dictRef="cml:mp" units="units:celsius">174</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">310</scalar>
+    </property>
+  </propertyList>
+</molecule>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1-chloro-1_1_2_2_2-pentafluoroethane">
+  <formula concise=" C 2 F 5 Cl 1 "/>
+  <identifier convention="iupac:inchi" value="1/C2ClF5/c3-1(4,5)2(6,7)8"/>
+  <name convention="IUPAC">1-Chloro-1,1,2,2,2-pentafluoroethane</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="-0.631373" y3="0.331465" z3="-0.350975"/>
+    <atom id="a2" elementType="C" x3="0.586028" y3="-0.342537" z3="0.430734"/>
+    <atom id="a3" elementType="F" x3="-0.992293" y3="-0.382792" z3="-1.429714"/>
+    <atom id="a4" elementType="F" x3="-1.723257" y3="0.444744" z3="0.423083"/>
+    <atom id="a5" elementType="F" x3="-0.329453" y3="1.567807" z3="-0.780492"/>
+    <atom id="a6" elementType="F" x3="0.226881" y3="-1.556003" z3="0.886605"/>
+    <atom id="a7" elementType="Cl" x3="1.980626" y3="-0.437001" z3="-0.708806"/>
+    <atom id="a8" elementType="F" x3="0.882841" y3="0.374317" z3="1.529566"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a1 a3" order="1"/>
+    <bond atomRefs2="a1 a4" order="1"/>
+    <bond atomRefs2="a1 a5" order="1"/>
+    <bond atomRefs2="a2 a6" order="1"/>
+    <bond atomRefs2="a2 a7" order="1"/>
+    <bond atomRefs2="a2 a8" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">154.4664</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">153.9608688</scalar>
+    </property>
+  </propertyList>
+</molecule>

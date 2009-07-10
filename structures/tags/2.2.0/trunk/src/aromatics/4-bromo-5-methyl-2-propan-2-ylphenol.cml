@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_4-bromo-5-methyl-2-propan-2-yl-phenol">
+  <formula concise=" C 10 H 13 O 1 Br 1 "/>
+  <identifier convention="iupac:inchi" value="1/C10H13BrO/c1-6(2)8-5-9(11)7(3)4-10(8)12/h4-6,12H,1-3H3"/>
+  <name convention="IUPAC">4-Bromo-5-methyl-2-propan-2-yl-phenol</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="-0.092168" y3="0.522146" z3="-0.101038"/>
+    <atom id="a2" elementType="C" x3="1.128091" y3="0.187799" z3="-0.724254"/>
+    <atom id="a3" elementType="C" x3="1.663845" y3="-1.109605" z3="-0.651910"/>
+    <atom id="a4" elementType="C" x3="0.981922" y3="-2.100326" z3="0.050074"/>
+    <atom id="a5" elementType="C" x3="-0.214828" y3="-1.746976" z3="0.653325"/>
+    <atom id="a6" elementType="C" x3="-0.763294" y3="-0.484505" z3="0.599157"/>
+    <atom id="a7" elementType="C" x3="-0.677513" y3="1.907238" z3="-0.171245"/>
+    <atom id="a8" elementType="O" x3="1.779010" y3="1.178969" z3="-1.408483"/>
+    <atom id="a9" elementType="H" x3="2.614708" y3="-1.351015" z3="-1.143800"/>
+    <atom id="a10" elementType="C" x3="1.488851" y3="-3.487218" z3="0.165621"/>
+    <atom id="a11" elementType="Br" x3="-1.128067" y3="-3.076934" z3="1.593260"/>
+    <atom id="a12" elementType="H" x3="-1.716608" y3="-0.284755" z3="1.103699"/>
+    <atom id="a13" elementType="C" x3="-0.795078" y3="2.510909" z3="1.221322"/>
+    <atom id="a14" elementType="C" x3="-2.031931" y3="1.882169" z3="-0.865775"/>
+    <atom id="a15" elementType="H" x3="-0.004559" y3="2.569154" z3="-0.769621"/>
+    <atom id="a16" elementType="H" x3="2.572528" y3="0.807753" z3="-1.773929"/>
+    <atom id="a17" elementType="H" x3="1.638592" y3="-3.752786" z3="1.221418"/>
+    <atom id="a18" elementType="H" x3="2.440526" y3="-3.630829" z3="-0.361036"/>
+    <atom id="a19" elementType="H" x3="0.758687" y3="-4.196823" z3="-0.247815"/>
+    <atom id="a20" elementType="H" x3="0.180099" y3="2.549713" z3="1.722710"/>
+    <atom id="a21" elementType="H" x3="-1.473207" y3="1.933204" z3="1.864432"/>
+    <atom id="a22" elementType="H" x3="-1.184987" y3="3.536058" z3="1.172546"/>
+    <atom id="a23" elementType="H" x3="-1.953096" y3="1.466603" z3="-1.878151"/>
+    <atom id="a24" elementType="H" x3="-2.446464" y3="2.894998" z3="-0.953503"/>
+    <atom id="a25" elementType="H" x3="-2.765058" y3="1.275059" z3="-0.317003"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="2"/>
+    <bond atomRefs2="a3 a4" order="1"/>
+    <bond atomRefs2="a5 a6" order="1"/>
+    <bond atomRefs2="a5 a4" order="2"/>
+    <bond atomRefs2="a1 a6" order="2"/>
+    <bond atomRefs2="a1 a7" order="1"/>
+    <bond atomRefs2="a2 a8" order="1"/>
+    <bond atomRefs2="a3 a9" order="1"/>
+    <bond atomRefs2="a4 a10" order="1"/>
+    <bond atomRefs2="a5 a11" order="1"/>
+    <bond atomRefs2="a6 a12" order="1"/>
+    <bond atomRefs2="a7 a13" order="1"/>
+    <bond atomRefs2="a7 a14" order="1"/>
+    <bond atomRefs2="a7 a15" order="1"/>
+    <bond atomRefs2="a8 a16" order="1"/>
+    <bond atomRefs2="a10 a17" order="1"/>
+    <bond atomRefs2="a10 a18" order="1"/>
+    <bond atomRefs2="a10 a19" order="1"/>
+    <bond atomRefs2="a13 a20" order="1"/>
+    <bond atomRefs2="a13 a21" order="1"/>
+    <bond atomRefs2="a13 a22" order="1"/>
+    <bond atomRefs2="a14 a23" order="1"/>
+    <bond atomRefs2="a14 a24" order="1"/>
+    <bond atomRefs2="a14 a25" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">229.1136</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">228.0149770</scalar>
+    </property>
+  </propertyList>
+</molecule>

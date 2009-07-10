@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1_1_2_2-tetrachloroethane">
+  <formula concise=" C 2 H 2 Cl 4 "/>
+  <identifier convention="iupac:inchi" value="1/C2H2Cl4/c3-1(4)2(5)6/h1-2H"/>
+  <name convention="IUPAC">1,1,2,2-Tetrachloroethane</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="0.688232" y3="0.076497" z3="-0.299368"/>
+    <atom id="a2" elementType="C" x3="-0.688241" y3="-0.076408" z3="0.299347"/>
+    <atom id="a3" elementType="Cl" x3="1.379008" y3="1.618759" z3="0.204742"/>
+    <atom id="a4" elementType="Cl" x3="1.739196" y3="-1.200196" z3="0.313333"/>
+    <atom id="a5" elementType="Cl" x3="-1.739472" y3="1.199959" z3="-0.313471"/>
+    <atom id="a6" elementType="Cl" x3="-1.378757" y3="-1.618827" z3="-0.204565"/>
+    <atom id="a7" elementType="H" x3="0.655869" y3="0.029517" z3="-1.411554"/>
+    <atom id="a8" elementType="H" x3="-0.655836" y3="-0.029302" z3="1.411536"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a1 a3" order="1"/>
+    <bond atomRefs2="a1 a4" order="1"/>
+    <bond atomRefs2="a1 a7" order="1"/>
+    <bond atomRefs2="a2 a5" order="1"/>
+    <bond atomRefs2="a2 a6" order="1"/>
+    <bond atomRefs2="a2 a8" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">167.8493</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">165.8910608</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">-43</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">146</scalar>
+    </property>
+  </propertyList>
+</molecule>

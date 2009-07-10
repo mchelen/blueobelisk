@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_tetrachloromethane">
+  <formula concise=" C 1 Cl 4 "/>
+  <identifier convention="iupac:inchi" value="1/CCl4/c2-1(3,4)5"/>
+  <name convention="IUPAC">Tetrachloromethane</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="-0.000003" y3="-0.000006" z3="0.000004"/>
+    <atom id="a2" elementType="Cl" x3="-0.139570" y3="1.740919" z3="-0.007790"/>
+    <atom id="a3" elementType="Cl" x3="-1.594806" y3="-0.711949" z3="-0.007884"/>
+    <atom id="a4" elementType="Cl" x3="0.857664" y3="-0.508858" z3="1.433836"/>
+    <atom id="a5" elementType="Cl" x3="0.876714" y3="-0.520105" z3="-1.418168"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a1 a3" order="1"/>
+    <bond atomRefs2="a1 a4" order="1"/>
+    <bond atomRefs2="a1 a5" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">153.8227</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">151.8754107</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">-23</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">76</scalar>
+    </property>
+  </propertyList>
+</molecule>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Natural products</title>
+  <title xml:lang="de">Naturstoff</title>
+  <title xml:lang="es">Sustancias naturales</title>
+  <title xml:lang="fr">Substances naturelles</title>
+  <title xml:lang="nl">Natuurlijke chemicaliën</title>
+  <title xml:lang="tw">Natural products 天然產物/化合物</title>
+  <entry id="CS_coelenterazine">
+    <name xml:lang="en">Coelenterazine</name>
+    <name xml:lang="fr">Coelentérazine</name>
+    <name xml:lang="tw">Coelenterazine 腔腸素</name>
+    <filename>coelenterazine</filename>
+    <synonym xml:lang="en">Renilla luciferin</synonym>
+    <synonym xml:lang="fr">Luciférine de Renilla reniformis</synonym>
+    <synonym xml:lang="tw">Renilla luciferin 水母螢光素</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2009-07-06</date>
+  </entry>
+  <entry id="CS_D-luciferin">
+    <name xml:lang="en">D-Luciferin</name>
+    <name xml:lang="fr">D-Luciférine</name>
+    <name xml:lang="tw">D-Luciferin 螢蟲素</name>
+    <filename>D-luciferin</filename>
+    <synonym xml:lang="en">Firefly luciferin</synonym>
+    <synonym xml:lang="fr">Luciférine de luciole</synonym>
+    <synonym xml:lang="tw">Firefly luciferin 螢火蟲螢光素</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2009-07-06</date>
+  </entry>
+  <entry id="CS_norepinephrine">
+    <name xml:lang="en">Norepinephrine</name>
+    <name xml:lang="fr">Norépinéphrine</name>
+    <name xml:lang="tw">Norepinephrine 正腎上腺素</name>
+    <filename>norepinephrine</filename>
+    <synonym xml:lang="en">Noradrenaline</synonym>
+    <synonym xml:lang="fr">Noradrénaline</synonym>
+    <synonym xml:lang="tw">Noradrenaline 降腎上腺素</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2009-07-06</date>
+  </entry>
+  <entry id="CS_R-adrenaline">
+    <name xml:lang="en">R-Adrenaline</name>
+    <name xml:lang="fr">R-Adrénaline</name>
+    <name xml:lang="tw">R-Adrenaline R-腎上腺素</name>
+    <filename>R-adrenaline</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2009-07-06</date>
+  </entry>
+</index>

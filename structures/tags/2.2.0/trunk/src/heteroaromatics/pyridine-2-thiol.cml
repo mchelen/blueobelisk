@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_pyridine-2-thiol">
+  <formula concise=" C 5 H 5 N 1 S 1 "/>
+  <identifier convention="iupac:inchi" value="1/C5H5NS/c7-5-3-1-2-4-6-5/h1-4H,(H,6,7)"/>
+  <name convention="IUPAC">Pyridine-2-thiol</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="1.114663" y3="0.502502" z3="0.002052"/>
+    <atom id="a2" elementType="C" x3="0.747246" y3="-0.849653" z3="-0.018620"/>
+    <atom id="a3" elementType="N" x3="-0.563452" y3="-1.215831" z3="-0.017289"/>
+    <atom id="a4" elementType="C" x3="-1.527934" y3="-0.271609" z3="0.004189"/>
+    <atom id="a5" elementType="C" x3="-1.217469" y3="1.088791" z3="0.025356"/>
+    <atom id="a6" elementType="C" x3="0.119790" y3="1.473813" z3="0.024131"/>
+    <atom id="a7" elementType="S" x3="2.021683" y3="-2.064867" z3="-0.046408"/>
+    <atom id="a8" elementType="H" x3="2.174334" y3="0.784166" z3="0.000710"/>
+    <atom id="a9" elementType="H" x3="-2.557421" y3="-0.647430" z3="0.003762"/>
+    <atom id="a10" elementType="H" x3="-2.016012" y3="1.836696" z3="0.042572"/>
+    <atom id="a11" elementType="H" x3="0.389801" y3="2.534971" z3="0.040481"/>
+    <atom id="a12" elementType="H" x3="1.314771" y3="-3.171549" z3="-0.060937"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="2"/>
+    <bond atomRefs2="a3 a4" order="1"/>
+    <bond atomRefs2="a4 a5" order="2"/>
+    <bond atomRefs2="a5 a6" order="1"/>
+    <bond atomRefs2="a6 a1" order="2"/>
+    <bond atomRefs2="a2 a7" order="1"/>
+    <bond atomRefs2="a1 a8" order="1"/>
+    <bond atomRefs2="a4 a9" order="1"/>
+    <bond atomRefs2="a5 a10" order="1"/>
+    <bond atomRefs2="a6 a11" order="1"/>
+    <bond atomRefs2="a7 a12" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">111.1649</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">111.0142702</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">128</scalar>
+    </property>
+  </propertyList>
+</molecule>

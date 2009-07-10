@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Macrocycles</title>
+  <title xml:lang="de">Makrozyklen</title>
+  <title xml:lang="es">Macrociclos</title>
+  <title xml:lang="fr">Macrocycles</title>
+  <title xml:lang="nl">Grote ringsysteme</title>
+  <title xml:lang="tw">Macrocycles 大環類</title>
+  <entry id="CS_porphyrin">
+    <name xml:lang="en">Porphin</name>
+    <name xml:lang="fr">Porphine</name>
+    <name xml:lang="tw">Porphin 卟吩/四聯吡咯環</name>
+    <filename>porphin</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-21</date>
+  </entry>
+</index>

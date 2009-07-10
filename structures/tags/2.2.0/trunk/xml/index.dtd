@@ -1,0 +1,60 @@
+<!-- DTD for index (a list of files and directories) -->
+
+<!-- ENTITY DECLARATIONS -->
+
+<!-- Lang attribute value -->
+<!ENTITY % Lang "(en|de|es|fr|nl)">
+
+<!-- Entry type -->
+<!ENTITY % entry.type "(dirname|filename)">
+
+<!-- ELEMENT DECLARATION -->
+
+<!-- Root database element -->
+<!ELEMENT index (title+,entry+)>
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title
+          xml:lang NMTOKEN #IMPLIED
+ >
+
+<!-- Entry details -->
+<!ELEMENT entry (name*, %entry.type;, synonym*, abbrev*, comments*, authors, date)>
+<!ATTLIST entry
+          id CDATA #IMPLIED
+ >
+
+<!-- Name describing the entry -->
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name 
+          xml:lang NMTOKEN #IMPLIED
+ >
+
+<!-- name of the directory or the filename -->
+<!-- directory name -->
+<!ELEMENT dirname (#PCDATA)>
+
+<!-- file name -->
+<!ELEMENT filename (#PCDATA)>
+
+<!-- Synomyms of the name.
+     Each synonym can be localized by using the right lang attribut -->
+<!ELEMENT synonym (#PCDATA)>
+<!ATTLIST synonym
+          xml:lang %Lang;  "en"
+ >
+
+<!-- Abbreviation of the name.
+     The same abbreviation can be used in many languages. -->
+<!ELEMENT abbrev (#PCDATA)>
+
+<!-- Comments about the entry -->
+<!ELEMENT comments (#PCDATA)>
+<!ATTLIST comments
+          xml:lang %Lang;  "en"
+ >
+
+<!-- Comment describing people who's worked on this entry -->
+<!ELEMENT authors (#PCDATA)>
+
+<!-- Date of the last entry uptade -->
+<!ELEMENT date (#PCDATA)>

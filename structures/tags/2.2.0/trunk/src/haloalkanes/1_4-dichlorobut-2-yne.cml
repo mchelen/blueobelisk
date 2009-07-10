@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1_4-dichlorobut-2-yne">
+  <formula concise=" C 4 H 4 Cl 2 "/>
+  <identifier convention="iupac:inchi" value="1/C4H4Cl2/c5-3-1-2-4-6/h3-4H2"/>
+  <name convention="IUPAC">1,4-Dichlorobut-2-yne</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="0.592912" y3="0.010933" z3="-0.063565"/>
+    <atom id="a2" elementType="C" x3="-0.592906" y3="-0.010353" z3="0.064237"/>
+    <atom id="a3" elementType="C" x3="2.014773" y3="0.036169" z3="-0.216945"/>
+    <atom id="a4" elementType="C" x3="-2.014828" y3="-0.036206" z3="0.217013"/>
+    <atom id="a5" elementType="Cl" x3="2.778194" y3="0.059322" z3="1.398121"/>
+    <atom id="a6" elementType="Cl" x3="-2.777377" y3="-0.058110" z3="-1.398485"/>
+    <atom id="a7" elementType="H" x3="2.335230" y3="0.934238" z3="-0.774875"/>
+    <atom id="a8" elementType="H" x3="2.367858" y3="-0.855998" z3="-0.764521"/>
+    <atom id="a9" elementType="H" x3="-2.368781" y3="0.855153" z3="0.765386"/>
+    <atom id="a10" elementType="H" x3="-2.335076" y3="-0.935148" z3="0.773634"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="3"/>
+    <bond atomRefs2="a1 a3" order="1"/>
+    <bond atomRefs2="a2 a4" order="1"/>
+    <bond atomRefs2="a3 a5" order="1"/>
+    <bond atomRefs2="a4 a6" order="1"/>
+    <bond atomRefs2="a3 a7" order="1"/>
+    <bond atomRefs2="a3 a8" order="1"/>
+    <bond atomRefs2="a4 a9" order="1"/>
+    <bond atomRefs2="a4 a10" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">122.9806</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">121.9690055</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">166</scalar>
+    </property>
+  </propertyList>
+</molecule>

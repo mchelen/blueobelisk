@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_methyl_propanoate">
+  <formula concise=" C 4 H 8 O 2 "/>
+  <identifier convention="iupac:inchi" value="1/C4H8O2/c1-3-4(5)6-2/h3H2,1-2H3"/>
+  <name convention="IUPAC">Methyl propanoate</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="-0.224418" y3="0.122117" z3="0.153560"/>
+    <atom id="a2" elementType="O" x3="-0.398381" y3="0.958386" z3="1.016611"/>
+    <atom id="a3" elementType="O" x3="-1.314580" y3="-0.534979" z3="-0.355388"/>
+    <atom id="a4" elementType="C" x3="-2.594545" y3="-0.213512" z3="0.143241"/>
+    <atom id="a5" elementType="H" x3="-2.853360" y3="0.833919" z3="-0.044664"/>
+    <atom id="a6" elementType="H" x3="-2.680161" y3="-0.428701" z3="1.213647"/>
+    <atom id="a7" elementType="C" x3="1.066690" y3="-0.335601" z3="-0.483793"/>
+    <atom id="a8" elementType="H" x3="0.995804" y3="-0.182879" z3="-1.579687"/>
+    <atom id="a9" elementType="H" x3="1.167060" y3="-1.430030" z3="-0.337145"/>
+    <atom id="a10" elementType="C" x3="2.277421" y3="0.380893" z3="0.068435"/>
+    <atom id="a11" elementType="H" x3="2.218556" y3="1.465171" z3="-0.093144"/>
+    <atom id="a12" elementType="H" x3="2.390042" y3="0.218593" z3="1.148347"/>
+    <atom id="a13" elementType="H" x3="-3.244563" y3="-0.876773" z3="-0.432809"/>
+    <atom id="a14" elementType="H" x3="3.194436" y3="0.023395" z3="-0.417209"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="2"/>
+    <bond atomRefs2="a1 a3" order="1"/>
+    <bond atomRefs2="a1 a7" order="1"/>
+    <bond atomRefs2="a3 a4" order="1"/>
+    <bond atomRefs2="a4 a5" order="1"/>
+    <bond atomRefs2="a4 a6" order="1"/>
+    <bond atomRefs2="a4 a13" order="1"/>
+    <bond atomRefs2="a7 a8" order="1"/>
+    <bond atomRefs2="a7 a9" order="1"/>
+    <bond atomRefs2="a7 a10" order="1"/>
+    <bond atomRefs2="a10 a11" order="1"/>
+    <bond atomRefs2="a10 a12" order="1"/>
+    <bond atomRefs2="a10 a14" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">88.1051</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">88.0524295</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">-88</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">79</scalar>
+    </property>
+  </propertyList>
+</molecule>

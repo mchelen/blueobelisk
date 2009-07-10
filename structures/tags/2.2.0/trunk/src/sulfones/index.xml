@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Sulfones</title>
+  <title xml:lang="de">Sulfone</title>
+  <title xml:lang="es">Sulfonas</title>
+  <title xml:lang="fr">Sulfones</title>
+  <title xml:lang="nl">Sulfonen</title>
+  <title xml:lang="tw">Sulfones 碸 </title>
+  <entry id="CS_4-methylbenzenesulfonic_acid">
+    <name xml:lang="en">p-Toluenesulfonic acid</name>
+    <name xml:lang="fr">Acide p-toluènesulfonique</name>
+    <name xml:lang="tw">p-Toluenesulfonic acid 對-甲苯磺酸</name>
+    <filename>p-toluenesulfonic_acid</filename>
+    <synonym xml:lang="en">4-Methylbenzenesulfonic acid</synonym>
+    <synonym xml:lang="fr">Acide 4-méthylbenzènesulfonique</synonym>
+    <synonym xml:lang="tw">4-Methylbenzenesulfonic acid 4-甲基苯磺酸</synonym>
+    <abbrev>PTSA</abbrev>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_benzenesulfonic_acid">
+    <name xml:lang="en">Benzenesulfonic acid</name>
+    <name xml:lang="fr">Acide benzènesulfonique</name>
+    <name xml:lang="tw">Benzenesulfonic acid 苯磺酸</name>
+    <filename>benzenesulfonic_acid</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_methanesulfonic_acid">
+    <name xml:lang="en">Methanesulfonic acid</name>
+    <name xml:lang="fr">Acide méthanesulfonique</name>
+    <name xml:lang="tw">Methanesulfonic acid 甲磺酸</name>
+    <filename>methanesulfonic_acid</filename>
+    <synonym xml:lang="en">Methylsulfonic acid</synonym>
+    <synonym xml:lang="fr">Acide méthylsulfonique</synonym>
+    <synonym xml:lang="tw">Methylsulfonic acid 甲磺酸</synonym>
+    <abbrev>MSA</abbrev>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+</index>

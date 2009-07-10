@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1S_2S-1-ethyl-2-methylcyclopentane">
+  <formula concise=" C 8 H 16 "/>
+  <identifier convention="iupac:inchi" value="1/C8H16/c1-3-8-6-4-5-7(8)2/h7-8H,3-6H2,1-2H3/t7-,8-/m0/s1"/>
+  <name convention="IUPAC">(1S,2S)-1-Ethyl-2-methylcyclopentane</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="1.273621" y3="1.879797" z3="0.281083"/>
+    <atom id="a2" elementType="C" x3="1.893848" y3="0.492338" z3="0.348999"/>
+    <atom id="a3" elementType="C" x3="0.727471" y3="-0.496989" z3="0.256434"/>
+    <atom id="a4" elementType="C" x3="-0.432468" y3="0.254410" z3="-0.434393"/>
+    <atom id="a5" elementType="C" x3="0.000861" y3="1.724821" z3="-0.541139"/>
+    <atom id="a6" elementType="C" x3="1.120553" y3="-1.757639" z3="-0.489083"/>
+    <atom id="a7" elementType="C" x3="-1.753015" y3="0.123139" z3="0.322588"/>
+    <atom id="a8" elementType="C" x3="-2.314303" y3="-1.280613" z3="0.280428"/>
+    <atom id="a9" elementType="H" x3="1.964043" y3="2.621258" z3="-0.159261"/>
+    <atom id="a10" elementType="H" x3="1.040193" y3="2.253450" z3="1.296217"/>
+    <atom id="a11" elementType="H" x3="2.481793" y3="0.345413" z3="1.272712"/>
+    <atom id="a12" elementType="H" x3="2.606174" y3="0.341728" z3="-0.485537"/>
+    <atom id="a13" elementType="H" x3="0.415821" y3="-0.784718" z3="1.290187"/>
+    <atom id="a14" elementType="H" x3="-0.584046" y3="-0.157684" z3="-1.461394"/>
+    <atom id="a15" elementType="H" x3="-0.787993" y3="2.419244" z3="-0.195909"/>
+    <atom id="a16" elementType="H" x3="0.185787" y3="1.991351" z3="-1.598737"/>
+    <atom id="a17" elementType="H" x3="1.953214" y3="-2.269106" z3="0.010730"/>
+    <atom id="a18" elementType="H" x3="1.437420" y3="-1.545587" z3="-1.519590"/>
+    <atom id="a19" elementType="H" x3="0.280483" y3="-2.463662" z3="-0.543489"/>
+    <atom id="a20" elementType="H" x3="-2.492067" y3="0.824646" z3="-0.115128"/>
+    <atom id="a21" elementType="H" x3="-1.621891" y3="0.448885" z3="1.374136"/>
+    <atom id="a22" elementType="H" x3="-3.289328" y3="-1.332552" z3="0.781563"/>
+    <atom id="a23" elementType="H" x3="-1.651216" y3="-2.001021" z3="0.779628"/>
+    <atom id="a24" elementType="H" x3="-2.454956" y3="-1.630909" z3="-0.751045"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="1"/>
+    <bond atomRefs2="a3 a4" order="1"/>
+    <bond atomRefs2="a4 a5" order="1"/>
+    <bond atomRefs2="a5 a1" order="1"/>
+    <bond atomRefs2="a3 a6" order="1"/>
+    <bond atomRefs2="a4 a7" order="1"/>
+    <bond atomRefs2="a7 a8" order="1"/>
+    <bond atomRefs2="a1 a9" order="1"/>
+    <bond atomRefs2="a1 a10" order="1"/>
+    <bond atomRefs2="a2 a11" order="1"/>
+    <bond atomRefs2="a2 a12" order="1"/>
+    <bond atomRefs2="a3 a13" order="1"/>
+    <bond atomRefs2="a4 a14" order="1"/>
+    <bond atomRefs2="a5 a15" order="1"/>
+    <bond atomRefs2="a5 a16" order="1"/>
+    <bond atomRefs2="a6 a17" order="1"/>
+    <bond atomRefs2="a6 a18" order="1"/>
+    <bond atomRefs2="a6 a19" order="1"/>
+    <bond atomRefs2="a7 a20" order="1"/>
+    <bond atomRefs2="a7 a21" order="1"/>
+    <bond atomRefs2="a8 a22" order="1"/>
+    <bond atomRefs2="a8 a23" order="1"/>
+    <bond atomRefs2="a8 a24" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">112.2126</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">112.1252005</scalar>
+    </property>
+  </propertyList>
+</molecule>

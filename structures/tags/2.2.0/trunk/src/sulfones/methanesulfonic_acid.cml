@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_methanesulfonic_acid">
+  <formula concise=" C 1 H 4 O 3 S 1 "/>
+  <identifier convention="iupac:inchi" value="1/CH4O3S/c1-5(2,3)4/h1H3,(H,2,3,4)"/>
+  <name convention="IUPAC">Methanesulfonic acid</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="0.879844" y3="-0.734335" z3="-0.071976"/>
+    <atom id="a2" elementType="S" x3="-0.446856" y3="0.397793" z3="-0.427434"/>
+    <atom id="a3" elementType="O" x3="-0.756837" y3="0.948291" z3="1.135834"/>
+    <atom id="a4" elementType="O" x3="-1.644323" y3="-0.294283" z3="-0.823307"/>
+    <atom id="a5" elementType="O" x3="0.019115" y3="1.523276" z3="-1.182424"/>
+    <atom id="a6" elementType="H" x3="-1.653274" y3="1.178880" z3="1.334175"/>
+    <atom id="a7" elementType="H" x3="0.591714" y3="-1.786252" z3="-0.213678"/>
+    <atom id="a8" elementType="H" x3="1.252038" y3="-0.664415" z3="0.961650"/>
+    <atom id="a9" elementType="H" x3="1.758578" y3="-0.568956" z3="-0.712839"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="1"/>
+    <bond atomRefs2="a2 a4" order="2"/>
+    <bond atomRefs2="a2 a5" order="2"/>
+    <bond atomRefs2="a3 a6" order="1"/>
+    <bond atomRefs2="a1 a7" order="1"/>
+    <bond atomRefs2="a1 a8" order="1"/>
+    <bond atomRefs2="a1 a9" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">96.1057</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">95.9881150</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">20</scalar>
+    </property>
+  </propertyList>
+</molecule>

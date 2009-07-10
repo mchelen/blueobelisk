@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Heteroaromatics</title>
+  <title xml:lang="de">Heteroaromaten</title>
+  <title xml:lang="es">Heteroaromáticos</title>
+  <title xml:lang="fr">Heteroaromatiques</title>
+  <title xml:lang="nl">Heteroaromaten</title>
+  <title xml:lang="tw">Heteroaromatics 雜芳族</title>
+  <entry id="CS_1H-pyrrole">
+    <name xml:lang="en">1H-Pyrrole</name>
+    <name xml:lang="fr">1H-Pyrrole</name>
+    <name xml:lang="tw">1H-Pyrrole 1氫-吡咯</name>
+    <filename>1H-pyrrole</filename>
+    <synonym xml:lang="en">Pyrrol</synonym>
+    <synonym xml:lang="fr">Pyrrole</synonym>
+    <synonym xml:lang="tw">Pyrrol 吡咯/一氮二烯伍圜</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_pyridine">
+    <name xml:lang="en">Pyridine</name>
+    <name xml:lang="fr">Pyridine</name>
+    <name xml:lang="tw">Pyridine 吡啶/一氯三烯陸圜</name>
+    <filename>pyridine</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_1_2-oxazole">
+    <name xml:lang="en">1,2-Oxazole</name>
+    <name xml:lang="fr">1,2-Oxazole</name>
+    <name xml:lang="tw">1,2-Oxazole 1,2-噁唑/咢唑</name>
+    <filename>1_2-oxazole</filename>
+    <synonym xml:lang="en">Oxazole</synonym>
+    <synonym xml:lang="fr">Oxazole</synonym>
+    <synonym xml:lang="tw">Oxazole 噁唑/咢唑</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_1_2-thiazole">
+    <name xml:lang="en">1,2-Thiazole</name>
+    <name xml:lang="fr">1,2-Thiazole</name>
+    <name xml:lang="tw">1,2-Thiazole 1,2-噻唑</name>
+    <filename>1_2-thiazole</filename>
+    <synonym xml:lang="en">Thiazole</synonym>
+    <synonym xml:lang="fr">Thiazole</synonym>
+    <synonym xml:lang="tw">Thiazole 噻唑</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_1_3-oxazole">
+    <name xml:lang="en">1,3-Oxazole</name>
+    <name xml:lang="fr">1,3-Oxazole</name>
+    <name xml:lang="tw">1,3-Thiazole 1,3-噁唑/咢唑</name>
+    <filename>1_3-oxazole</filename>
+    <synonym xml:lang="en">Isoxazole</synonym>
+    <synonym xml:lang="fr">Isoxazole</synonym>
+    <synonym xml:lang="tw">Isoxazole 異咢唑</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_1_3-thiazole">
+    <name xml:lang="en">1,3-Thiazole</name>
+    <name xml:lang="fr">1,3-Thiazole</name>
+    <name xml:lang="tw">1,3-Thiazole 1,3-噻唑</name>
+    <filename>1_3-thiazole</filename>
+    <synonym xml:lang="en">Isothiazole</synonym>
+    <synonym xml:lang="fr">Isothiazole</synonym>
+    <synonym xml:lang="tw">Isothiazole 異噻唑</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_1H-pyrazole">
+    <name xml:lang="en">1H-Pyrazole</name>
+    <name xml:lang="fr">1H-Pyrazole</name>
+   <name xml:lang="tw">1H-Pyrazole 1氫-吡唑</name>
+    <filename>1H-pyrazole</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_1H-pyridine-2-thione">
+    <name xml:lang="en">1H-Pyridine-2-thione</name>
+    <name xml:lang="fr">1H-Pyridine-2-thione</name>
+    <name xml:lang="tw">1H-Pyridine-2-thione 1氫-吡啶-2-硫酮</name>
+    <filename>1H-pyridine-2-thione</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_pyridine-2-thiol">
+    <name xml:lang="en">Pyridine-2-thiol</name>
+    <name xml:lang="fr">Pyridine-2-thiol</name>
+    <name xml:lang="tw">Pyridine-2-thiol 吡啶-2-硫醇</name>
+    <filename>pyridine-2-thiol</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-22</date>
+  </entry>
+  <entry id="CS_pyridine-2-carboxamide">
+    <name xml:lang="en">Picolinamide</name>
+    <name xml:lang="fr">Picolinamide</name>
+    <name xml:lang="tw">Picolinamide 吡啶醯胺</name>
+    <filename>picolinamide</filename>
+    <synonym xml:lang="en">Pyridine-2-carboxamide</synonym>
+    <synonym xml:lang="fr">Pyridine-2-carboxamide</synonym>
+    <synonym xml:lang="tw">Pyridine-2-carboxamide 吡啶醯胺</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_pyridine-2-carboxylic_acid">
+    <name xml:lang="en">Picolinic acid</name>
+    <name xml:lang="fr">Acide picolinique</name>
+    <name xml:lang="tw">Picolinic acid 吡啶甲酸</name>
+    <filename>picolinic_acid</filename>
+    <synonym xml:lang="en">Pyridine-2-carboxylic acid</synonym>
+    <synonym xml:lang="fr">Acide pyridine-2-carboxylique</synonym>
+    <synonym xml:lang="tw">Pyridine-2-carboxylic acid 吡啶-2-羧酸</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_pyridine-3-carboxamide">
+    <name xml:lang="en">Nicotinamide</name>
+    <name xml:lang="fr">Nicotinamide</name>
+    <name xml:lang="tw">Nicotinamide 菸鹼醯胺</name>
+    <filename>nicotinamide</filename>
+    <synonym xml:lang="en">Pyridine-3-carboxamide</synonym>
+    <synonym xml:lang="fr">Pyridine-3-carboxamide</synonym>
+    <synonym xml:lang="tw">Pyridine-3-carboxamide 菸鹼醯胺</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_pyridine-3-carboxylic_acid">
+    <name xml:lang="en">Nicotinic acid</name>
+    <name xml:lang="fr">Acide nicotinique</name>
+    <name xml:lang="tw">Nicotinic acid 菸鹼酸</name>
+    <filename>nicotinic_acid</filename>
+    <synonym xml:lang="en">Pyridine-3-carboxylic acid</synonym>
+    <synonym xml:lang="fr">Acide pyridine-3-carboxylique</synonym>
+    <synonym xml:lang="tw">Pyridine-3-carboxylic acid 吡啶-3-羧酸</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_pyridine-4-carboxamide">
+    <name xml:lang="en">Isonicotinamide</name>
+    <name xml:lang="fr">Isonicotinamide</name>
+    <name xml:lang="tw">Isonicotinamide 異菸鹼酸</name>
+    <filename>isonicotinamide</filename>
+    <synonym xml:lang="en">Pyridine-4-carboxamide</synonym>
+    <synonym xml:lang="fr">Pyridine-4-carboxamide</synonym>
+    <synonym xml:lang="tw">Pyridine-4-carboxamide 異菸鹼酸</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_pyridine-4-carboxylic_acid">
+    <name xml:lang="en">Isonicotinic acid</name>
+    <name xml:lang="fr">Acide isonicotinique</name>
+    <name xml:lang="tw">Isonicotinic acid 異菸鹼酸</name>
+    <filename>isonicotinic_acid</filename>
+    <synonym xml:lang="en">Pyridine-4-carboxylic acid</synonym>
+    <synonym xml:lang="fr">Acide pyridine-4-carboxylique</synonym>
+    <synonym xml:lang="tw">Pyridine-4-carboxylic acid 吡啶-4-羧酸</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+</index>

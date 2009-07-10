@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+	  xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_furan-2_5-dione">
+  <formula concise=" C 4 H 2 O 3 "/>
+  <identifier convention="iupac:inchi" value="1/C4H2O3/c5-3-1-2-4(6)7-3/h1-2H"/>
+  <name convention="IUPAC">Furan-2,5-dione</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="1.017046" y3="-0.248048" z3="-0.176007"/>
+    <atom id="a2" elementType="C" x3="-0.093885" y3="-0.876608" z3="-0.591382"/>
+    <atom id="a3" elementType="C" x3="-1.274073" y3="-0.109316" z3="-0.063463"/>
+    <atom id="a4" elementType="O" x3="-0.810677" y3="0.987646" z3="0.673790"/>
+    <atom id="a5" elementType="C" x3="0.588544" y3="0.944426" z3="0.633131"/>
+    <atom id="a6" elementType="H" x3="-0.192652" y3="-1.776046" z3="-1.197900"/>
+    <atom id="a7" elementType="O" x3="1.169088" y3="1.817072" z3="1.218119"/>
+    <atom id="a8" elementType="O" x3="-2.464824" y3="-0.238503" z3="-0.141066"/>
+    <atom id="a9" elementType="H" x3="2.061432" y3="-0.500623" z3="-0.355221"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="2"/>
+    <bond atomRefs2="a2 a3" order="1"/>
+    <bond atomRefs2="a3 a4" order="1"/>
+    <bond atomRefs2="a1 a5" order="1"/>
+    <bond atomRefs2="a2 a6" order="1"/>
+    <bond atomRefs2="a5 a4" order="1"/>
+    <bond atomRefs2="a5 a7" order="2"/>
+    <bond atomRefs2="a3 a8" order="2"/>
+    <bond atomRefs2="a1 a9" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">98.0569</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">98.0003939</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="2.0" dictRef="cml:mp" units="units:celsius">54</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">200</scalar>
+    </property>
+  </propertyList>
+</molecule>
