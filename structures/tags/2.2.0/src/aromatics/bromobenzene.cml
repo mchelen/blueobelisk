@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_bromobenzene">
+  <formula concise=" C 6 H 5 Br 1 "/>
+  <identifier convention="iupac:inchi" value="1/C6H5Br/c7-6-4-2-1-3-5-6/h1-5H"/>
+  <name convention="IUPAC">Bromobenzene</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="-0.157113" y3="1.364132" z3="0.000000"/>
+    <atom id="a2" elementType="C" x3="1.141032" y3="0.858988" z3="0.000000"/>
+    <atom id="a3" elementType="C" x3="1.351497" y3="-0.518038" z3="0.000000"/>
+    <atom id="a4" elementType="C" x3="0.274592" y3="-1.401527" z3="0.000000"/>
+    <atom id="a5" elementType="C" x3="-1.028631" y3="-0.909548" z3="0.000000"/>
+    <atom id="a6" elementType="C" x3="-1.200765" y3="0.460294" z3="0.000000"/>
+    <atom id="a7" elementType="H" x3="-0.357514" y3="2.440022" z3="0.000000"/>
+    <atom id="a8" elementType="H" x3="1.994296" y3="1.544947" z3="0.000000"/>
+    <atom id="a9" elementType="H" x3="2.374039" y3="-0.910098" z3="0.000000"/>
+    <atom id="a10" elementType="H" x3="0.450671" y3="-2.482059" z3="0.000000"/>
+    <atom id="a11" elementType="H" x3="-1.896776" y3="-1.575861" z3="0.000000"/>
+    <atom id="a12" elementType="Br" x3="-2.945327" y3="1.128748" z3="0.000000"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="2"/>
+    <bond atomRefs2="a2 a3" order="1"/>
+    <bond atomRefs2="a3 a4" order="2"/>
+    <bond atomRefs2="a4 a5" order="1"/>
+    <bond atomRefs2="a5 a6" order="2"/>
+    <bond atomRefs2="a6 a1" order="1"/>
+    <bond atomRefs2="a1 a7" order="1"/>
+    <bond atomRefs2="a2 a8" order="1"/>
+    <bond atomRefs2="a3 a9" order="1"/>
+    <bond atomRefs2="a4 a10" order="1"/>
+    <bond atomRefs2="a5 a11" order="1"/>
+    <bond atomRefs2="a6 a12" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">157.0079</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">155.9574622</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">-31</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">156</scalar>
+    </property>
+  </propertyList>
+</molecule>

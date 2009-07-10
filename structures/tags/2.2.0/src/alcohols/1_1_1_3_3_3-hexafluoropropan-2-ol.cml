@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1_1_1_3_3_3-hexafluoropropan-2-ol">
+  <formula concise=" C 3 H 2 O 1 F 6 "/>
+  <identifier convention="iupac:inchi" value="1/C3H2F6O/c4-2(5,6)1(10)3(7,8)9/h1,10H"/>
+  <name convention="IUPAC">1,1,1,3,3,3-Hexafluoropropan-2-ol</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="1.280455" y3="-0.201864" z3="-0.089684"/>
+    <atom id="a2" elementType="C" x3="-0.123628" y3="0.535503" z3="-0.090701"/>
+    <atom id="a3" elementType="C" x3="-1.249430" y3="-0.572920" z3="-0.154815"/>
+    <atom id="a4" elementType="F" x3="1.650423" y3="-0.620767" z3="-1.316893"/>
+    <atom id="a5" elementType="F" x3="1.302447" y3="-1.302055" z3="0.685754"/>
+    <atom id="a6" elementType="F" x3="2.287726" y3="0.581601" z3="0.345457"/>
+    <atom id="a7" elementType="O" x3="-0.328732" y3="1.232211" z3="1.098812"/>
+    <atom id="a8" elementType="F" x3="-2.458390" y3="-0.082844" z3="-0.489069"/>
+    <atom id="a9" elementType="F" x3="-1.430305" y3="-1.245650" z3="0.996853"/>
+    <atom id="a10" elementType="F" x3="-0.965010" y3="-1.517442" z3="-1.076681"/>
+    <atom id="a11" elementType="H" x3="-0.193365" y3="1.193945" z3="-0.988775"/>
+    <atom id="a12" elementType="H" x3="0.227810" y3="2.000282" z3="1.079743"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="1"/>
+    <bond atomRefs2="a1 a4" order="1"/>
+    <bond atomRefs2="a1 a5" order="1"/>
+    <bond atomRefs2="a1 a6" order="1"/>
+    <bond atomRefs2="a2 a7" order="1"/>
+    <bond atomRefs2="a3 a8" order="1"/>
+    <bond atomRefs2="a3 a9" order="1"/>
+    <bond atomRefs2="a3 a10" order="1"/>
+    <bond atomRefs2="a2 a11" order="1"/>
+    <bond atomRefs2="a7 a12" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">168.0378</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">168.0009840</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">-4</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">59</scalar>
+    </property>
+  </propertyList>
+</molecule>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_but-1-yne">
+  <formula concise=" C 4 H 6 "/>
+  <identifier convention="iupac:inchi" value="1/C4H6/c1-3-4-2/h1H,4H2,2H3"/>
+  <name convention="IUPAC">But-1-yne</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="-1.019692" y3="0.513299" z3="-0.144210"/>
+    <atom id="a2" elementType="C" x3="-2.136931" y3="0.514134" z3="-0.557629"/>
+    <atom id="a3" elementType="C" x3="0.330368" y3="0.516551" z3="0.357591"/>
+    <atom id="a4" elementType="H" x3="0.301005" y3="0.687113" z3="1.452436"/>
+    <atom id="a5" elementType="H" x3="0.867649" y3="1.383280" z3="-0.076896"/>
+    <atom id="a6" elementType="C" x3="1.052753" y3="-0.776716" z3="0.036460"/>
+    <atom id="a7" elementType="H" x3="-3.134834" y3="0.515631" z3="-0.926523"/>
+    <atom id="a8" elementType="H" x3="2.079685" y3="-0.756844" z3="0.422969"/>
+    <atom id="a9" elementType="H" x3="1.110580" y3="-0.951831" z3="-1.045391"/>
+    <atom id="a10" elementType="H" x3="0.549415" y3="-1.644614" z3="0.481193"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="3"/>
+    <bond atomRefs2="a1 a3" order="1"/>
+    <bond atomRefs2="a3 a4" order="1"/>
+    <bond atomRefs2="a3 a5" order="1"/>
+    <bond atomRefs2="a3 a6" order="1"/>
+    <bond atomRefs2="a2 a7" order="1"/>
+    <bond atomRefs2="a6 a8" order="1"/>
+    <bond atomRefs2="a6 a9" order="1"/>
+    <bond atomRefs2="a6 a10" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">54.0904</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">54.0469502</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">-126</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">8</scalar>
+    </property>
+  </propertyList>
+</molecule>

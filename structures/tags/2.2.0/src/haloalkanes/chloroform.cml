@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_chloroform">
+  <formula concise=" C 1 H 1 Cl 3 "/>
+  <identifier convention="iupac:inchi" value="1/CHCl3/c2-1(3)4/h1H"/>
+  <name convention="IUPAC">Chloroform</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="0.070707" y3="-0.041938" z3="0.118206"/>
+    <atom id="a2" elementType="Cl" x3="-0.083081" y3="1.703653" z3="0.086165"/>
+    <atom id="a3" elementType="Cl" x3="-1.535007" y3="-0.743654" z3="0.086103"/>
+    <atom id="a4" elementType="H" x3="0.616491" y3="-0.365813" z3="1.030581"/>
+    <atom id="a5" elementType="Cl" x3="0.930889" y3="-0.552249" z3="-1.321055"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a1 a3" order="1"/>
+    <bond atomRefs2="a1 a4" order="1"/>
+    <bond atomRefs2="a1 a5" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">119.3776</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">117.9143831</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">-63</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">60</scalar>
+    </property>
+  </propertyList>
+</molecule>

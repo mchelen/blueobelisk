@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Carbohydrates</title>
+  <title xml:lang="de">Kohlenhydrate</title>
+  <title xml:lang="es">Hidratos de carbono</title>
+  <title xml:lang="fr">Carbohydrates</title>
+  <title xml:lang="nl">Koolhydraten</title>
+  <title xml:lang="tw">Carbohydrates 碳水化合物</title>
+  <entry id="CS_d-allose">
+    <name xml:lang="en">D-Allose</name>
+    <name xml:lang="fr">D-Allose</name>
+    <name xml:lang="tw">D-Allose D-阿洛糖</name>
+    <filename>d-allose</filename>
+    <synonym xml:lang="en">D-allo-Hexose</synonym>
+    <synonym xml:lang="tw">D-allo-Hexose D-別己糖</synonym>
+    <synonym xml:lang="tw">這是種六碳醛糖 (aldohexose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-altrose">
+    <name xml:lang="en">D-Altrose</name>
+    <name xml:lang="fr">D-Altrose</name>
+    <name xml:lang="tw">D-Altrose 阿卓糖</name>
+    <filename>d-altrose</filename>
+    <synonym xml:lang="en">D-altro-Hexose</synonym>
+    <synonym xml:lang="tw">D-altro-Hexose </synonym>
+    <synonym xml:lang="tw">這是種六碳醛糖 (aldohexose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-arabinose">
+    <name xml:lang="en">D-Arabinose</name>
+    <name xml:lang="fr">D-Arabinose</name>
+    <name xml:lang="tw">D-Arabinose 阿拉伯糖/樹膠糖</name>
+    <filename>d-arabinose</filename>
+    <synonym xml:lang="en">D-arabino-Pentose</synonym>
+    <synonym xml:lang="tw">D-arabino-Pentose</synonym>
+    <synonym xml:lang="tw">這是種五碳醛糖 (aldopentose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-erythrose">
+    <name xml:lang="en">D-Erythrose</name>
+    <name xml:lang="fr">D-Erythrose</name>
+    <name xml:lang="tw">D-Erythrose D-赤藻糖</name>
+    <filename>d-erythrose</filename>
+    <synonym xml:lang="en">D-erythro-Tetrose</synonym>
+    <synonym xml:lang="fr">D-érythro-Tétrose</synonym>
+    <synonym xml:lang="tw">D-erythro-Tetrose 赤藻糖/原藻醛糖/丁糖/四碳糖</synonym>
+    <synonym xml:lang="tw">這是種四碳醛糖 (aldotetrose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-erythrulose">
+    <name xml:lang="en">D-Erythrulose</name>
+    <name xml:lang="fr">D-Érythrulose</name>
+    <name xml:lang="tw">D-Erythrulose 赤藻酮糖</name>
+    <filename>d-erythrulose</filename>
+    <synonym xml:lang="en">D-glycero-2-Tetrulose</synonym>
+    <synonym xml:lang="fr">D-glycéro-2-Tétrulose</synonym>
+    <synonym xml:lang="tw">D-glycero-2-Tetrulose</synonym>
+    <synonym xml:lang="tw">這是種四碳酮糖 (ketotetrose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-fructose">
+    <name xml:lang="en">D-Fructose</name>
+    <name xml:lang="fr">D-Fructose</name>
+    <name xml:lang="tw">D-Fructose D-果糖</name>
+    <filename>d-fructose</filename>
+    <synonym xml:lang="en">D-arabino-2-Hexulose</synonym>
+    <synonym xml:lang="en">D-Levulose</synonym>
+    <synonym xml:lang="en">Fruit Sugar</synonym>
+    <synonym xml:lang="fr">D-arabino-2-Hexulose</synonym>
+    <synonym xml:lang="fr">D-Levulose</synonym>
+    <synonym xml:lang="tw">D-arabino-2-Hexulose</synonym>
+    <synonym xml:lang="tw">D-Levulose D-左旋糖</synonym>
+    <synonym xml:lang="tw">Fruit Sugar 果糖</synonym>
+    <synonym xml:lang="tw">這是種六碳酮糖 (ketohexose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-galactose">
+    <name xml:lang="en">D-Galactose</name>
+    <name xml:lang="fr">D-Galactose</name>
+    <name xml:lang="tw">D-Galactose D-半乳糖</name>
+    <filename>d-galactose</filename>
+    <synonym xml:lang="en">D-galacto-Hexose</synonym>
+    <synonym xml:lang="fr">D-galacto-Hexose</synonym>
+    <synonym xml:lang="tw">D-galacto-Hexose</synonym>
+    <synonym xml:lang="tw">這是種六碳醛糖 (aldohexose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-glucose">
+    <name xml:lang="en">D-Glucose</name>
+    <name xml:lang="fr">D-Glucose</name>
+    <name xml:lang="tw">D-Glucose D-葡萄糖</name>
+    <filename>d-glucose</filename>
+    <synonym xml:lang="en">D-gluco-Hexose</synonym>
+    <synonym xml:lang="en">Dextrose</synonym>
+    <synonym xml:lang="fr">D-gluco-Hexose</synonym>
+    <synonym xml:lang="fr">Dextrose</synonym>
+    <synonym xml:lang="tw">D-gluco-Hexose</synonym>
+    <synonym xml:lang="tw">Dextrose 右旋糖</synonym>
+    <synonym xml:lang="tw">這是種六碳醛糖 (aldohexose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-glyceraldehyde">
+    <name xml:lang="en">D-Glyceraldehyde</name>
+    <name xml:lang="fr">D-Glycéraldéhyde</name>
+    <name xml:lang="tw">D-Glyceraldehyde D-甘油醛</name>
+    <filename>d-glyceraldehyde</filename>
+    <synonym xml:lang="en">D-glycero-Triose</synonym>
+    <synonym xml:lang="en">D-Glycerose</synonym>
+    <synonym xml:lang="fr">D-glycéro-Triose</synonym>
+    <synonym xml:lang="fr">D-Glycérose</synonym>
+    <synonym xml:lang="tw">D-glycero-Triose</synonym>
+    <synonym xml:lang="tw">D-Glycerose D-甘油糖</synonym>
+    <synonym xml:lang="tw">這是種三碳醛糖 (aldotriose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-gulose">
+    <name xml:lang="en">D-Gulose</name>
+    <name xml:lang="fr">D-Gulose</name>
+    <name xml:lang="tw">D-Gulose 古洛糖</name>
+    <filename>d-gulose</filename>
+    <synonym xml:lang="en">D-gulo-Hexose</synonym>
+    <synonym xml:lang="fr">D-gulo-Hexose</synonym>
+    <synonym xml:lang="tw">D-gulo-Hexose</synonym>
+    <synonym xml:lang="tw">這是種六碳醛糖 (aldohexose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-idose">
+    <name xml:lang="en">D-Idose</name>
+    <name xml:lang="fr">D-Idose</name>
+    <name xml:lang="tw">D-Idose 艾杜糖</name>
+    <filename>d-idose</filename>
+    <synonym xml:lang="en">D-ido-Hexose</synonym>
+    <synonym xml:lang="fr">D-ido-Hexose</synonym>
+    <synonym xml:lang="tw">D-ido-Hexose</synonym>
+    <synonym xml:lang="tw">這是種六碳醛糖 (aldohexose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_dihydroxyacetone">
+    <name xml:lang="en">Dihydroxyacetone</name>
+    <name xml:lang="fr">Dihydroxyacétone</name>
+    <name xml:lang="tw">Dihydroxyacetone 二羥丙酮</name>
+    <filename>dihydroxyacetone</filename>
+    <synonym xml:lang="en">Glycerone</synonym>
+    <synonym xml:lang="fr">Glycérone</synonym>
+    <synonym xml:lang="tw">Glycerone</synonym>
+    <synonym xml:lang="tw">這是種三碳酮糖 (ketotriose)</synonym>
+    <abbrev>DHA</abbrev>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-lyxose">
+    <name xml:lang="en">D-Lyxose</name>
+    <name xml:lang="fr">D-Lyxose</name>
+    <name xml:lang="tw">D-Lyxose D-來蘇糖</name>
+    <filename>d-lyxose</filename>
+    <synonym xml:lang="en">D-lyxo-Pentose</synonym>
+    <synonym xml:lang="fr">D-lyxo-Pentose</synonym>
+    <synonym xml:lang="tw">D-lyxo-Pentose</synonym>
+    <synonym xml:lang="tw">這是種五碳醛糖 (aldopentose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-mannose">
+    <name xml:lang="en">D-Mannose</name>
+    <name xml:lang="fr">D-Mannose</name>
+    <name xml:lang="tw">D-Mannose D-甘露糖</name>
+    <filename>d-mannose</filename>
+    <synonym xml:lang="en">D-manno-Hexose</synonym>
+    <synonym xml:lang="fr">D-manno-Hexose</synonym>
+    <synonym xml:lang="tw">D-manno-Hexose</synonym>
+    <synonym xml:lang="tw">這是種六碳醛糖 (aldohexose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-psicose">
+    <name xml:lang="en">D-Psicose</name>
+    <name xml:lang="fr">D-Psicose</name>
+    <name xml:lang="tw">D-Psicose D-阿洛酮糖</name>
+    <filename>d-psicose</filename>
+    <synonym xml:lang="en">D-ribo-2-Hexulose</synonym>
+    <synonym xml:lang="en">D-Allulose</synonym>
+    <synonym xml:lang="fr">D-ribo-2-Hexulose</synonym>
+    <synonym xml:lang="fr">D-Allulose</synonym>
+    <synonym xml:lang="tw">D-ribo-2-Hexulose</synonym>
+    <synonym xml:lang="tw">這是種六碳酮糖 (ketohexose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-ribose">
+    <name xml:lang="en">D-Ribose</name>
+    <name xml:lang="fr">D-Ribose</name>
+    <name xml:lang="tw">D-Ribose 核糖</name>
+    <filename>d-ribose</filename>
+    <synonym xml:lang="en">D-ribo-Pentose</synonym>
+    <synonym xml:lang="fr">D-ribo-Pentose</synonym>
+    <synonym xml:lang="tw">D-ribo-Pentose</synonym>
+    <synonym xml:lang="tw">這是種五碳醛糖 (aldopentose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-ribulose">
+    <name xml:lang="en">D-Ribulose</name>
+    <name xml:lang="fr">D-Ribulose</name>
+    <name xml:lang="tw">D-Ribulose 核酮糖</name>
+    <filename>d-ribulose</filename>
+    <synonym xml:lang="en">D-erythro-2-Pentulose</synonym>
+    <synonym xml:lang="fr">D-érythro-2-Pentulose</synonym>
+    <synonym xml:lang="tw">D-erythro-2-Pentulose</synonym>
+    <synonym xml:lang="tw">這是種五碳酮糖 (ketopentose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-sorbose">
+    <name xml:lang="en">D-Sorbose</name>
+    <name xml:lang="fr">D-Sorbose</name>
+    <name xml:lang="tw">D-Sorbose 山梨糖/花椒糖</name>
+    <filename>d-sorbose</filename>
+    <synonym xml:lang="en">D-xylo-2-Hexulose</synonym>
+    <synonym xml:lang="fr">D-xylo-2-Hexulose</synonym>
+    <synonym xml:lang="tw">D-xylo-2-Hexulose</synonym>
+    <synonym xml:lang="tw">這是種六碳酮糖 (ketohexose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-tagatose">
+    <name xml:lang="en">D-Tagatose</name>
+    <name xml:lang="fr">D-Tagatose</name>
+    <name xml:lang="tw">D-Tagatose 塔格糖</name>
+    <filename>d-tagatose</filename>
+    <synonym xml:lang="en">D-lyxo-2-Hexulose</synonym>
+    <synonym xml:lang="fr">D-lyxo-2-Hexulose</synonym>
+    <synonym xml:lang="tw">D-lyxo-2-Hexulose</synonym>
+    <synonym xml:lang="tw">這是種六碳酮糖 (ketohexose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-talose">
+    <name xml:lang="en">D-Talose</name>
+    <name xml:lang="fr">D-Talose</name>
+    <name xml:lang="tw">D-Talose 塔羅糖/太洛糖</name>
+    <filename>d-talose</filename>
+    <synonym xml:lang="en">D-talo-Hexose</synonym>
+    <synonym xml:lang="fr">D-talo-Hexose</synonym>
+    <synonym xml:lang="tw">D-talo-Hexose D-5右羥己糖</synonym>
+    <synonym xml:lang="tw">這是種六碳醛糖 (aldohexose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-threose">
+    <name xml:lang="en">D-Threose</name>
+    <name xml:lang="fr">D-Thréose</name>
+    <name xml:lang="tw">D-Threose D-蘇糖/異赤藻糖</name>
+    <filename>d-threose</filename>
+    <synonym xml:lang="en">D-threo-Tetrose</synonym>
+    <synonym xml:lang="fr">D-thréo-Tétrose</synonym>
+    <synonym xml:lang="tw">D-threo-Tetrose</synonym>
+    <synonym xml:lang="tw">這是種四碳醛糖 (aldotetrose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-xylose">
+    <name xml:lang="en">D-Xylose</name>
+    <name xml:lang="fr">D-Xylose</name>
+    <name xml:lang="tw">D-Xylose 木糖</name>
+    <filename>d-xylose</filename>
+    <synonym xml:lang="en">D-xylo-Pentose</synonym>
+    <synonym xml:lang="en">Wood Sugar</synonym>
+    <synonym xml:lang="fr">D-xylo-Pentose</synonym>
+    <synonym xml:lang="tw">D-xylo-Pentose</synonym>
+    <synonym xml:lang="tw">Wood Sugar 木糖</synonym>
+    <synonym xml:lang="tw">這是種五碳醛糖 (aldopentose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+  <entry id="CS_d-xylulose">
+    <name xml:lang="en">D-Xylulose</name>
+    <name xml:lang="fr">D-Xylulose</name>
+    <name xml:lang="tw">D-Xylulose 木酮糖</name>
+    <filename>d-xylulose</filename>
+    <synonym xml:lang="en">D-threo-2-Pentulose</synonym>
+    <synonym xml:lang="fr">D-thréo-2-Pentulose</synonym>
+    <synonym xml:lang="tw">D-threo-2-Pentulose</synonym>
+    <synonym xml:lang="tw">這是種五碳酮糖 (ketopentose)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2007-10-02</date>
+  </entry>
+</index>

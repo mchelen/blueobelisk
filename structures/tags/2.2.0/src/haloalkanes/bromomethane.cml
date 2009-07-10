@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_bromomethane">
+  <formula concise=" C 1 H 3 Br 1 "/>
+  <identifier convention="iupac:inchi" value="1/CH3Br/c1-2/h1H3"/>
+  <name convention="IUPAC">Bromomethane</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="-0.104476" y3="0.128652" z3="0.078387"/>
+    <atom id="a2" elementType="Br" x3="1.007440" y3="-1.240558" z3="-0.755788"/>
+    <atom id="a3" elementType="H" x3="0.039154" y3="0.078911" z3="1.158088"/>
+    <atom id="a4" elementType="H" x3="-1.145647" y3="-0.069532" z3="-0.177545"/>
+    <atom id="a5" elementType="H" x3="0.203529" y3="1.102527" z3="-0.303141"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a1 a3" order="1"/>
+    <bond atomRefs2="a1 a4" order="1"/>
+    <bond atomRefs2="a1 a5" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">94.9385</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">93.9418121</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">-94</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">4</scalar>
+    </property>
+  </propertyList>
+</molecule>

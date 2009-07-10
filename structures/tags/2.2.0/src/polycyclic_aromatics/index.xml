@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Polycyclic aromatics</title>
+  <title xml:lang="de">Polyzyklische Aromaten</title>
+  <title xml:lang="es">Aromáticos policíclicos</title>
+  <title xml:lang="fr">Aromatiques polycycliques</title>
+  <title xml:lang="nl">Polycyclische Aromaten</title>
+  <title xml:lang="tw">Polycyclic aromatics 多環芳香類</title>
+  <entry id="CS_1_10-phenanthroline">
+    <name xml:lang="en">1,10-Phenanthroline</name>
+    <name xml:lang="fr">1,10-Phénanthroline</name>
+    <name xml:lang="tw">1,10-Phenanthroline 1,10二氮雜菲</name>
+    <filename>1_10-phenanthroline</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_1_8-naphthyridine">
+    <name xml:lang="en">1,8-Naphthyridine</name>
+    <name xml:lang="fr">1,8-Naphthyridine</name>
+    <name xml:lang="tw">1,8-Naphthyridine 1,8-萘啶</name>
+    <filename>1_8-naphthyridine</filename>
+    <synonym xml:lang="en">1,8-Diazanaphthalene</synonym>
+    <synonym xml:lang="fr">1,8-Diazanaphthalène</synonym>
+    <synonym xml:lang="tw">1,8-Diazanaphthalene</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_1H-indene">
+    <name xml:lang="en">1H-Indene</name>
+    <name xml:lang="fr">1H-Indène</name>
+    <name xml:lang="tw">1H-Indene 1氫-茚</name>
+    <filename>1H-indene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_1H-indole">
+    <name xml:lang="en">1H-Indole</name>
+    <name xml:lang="fr">1H-Indole</name>
+    <name xml:lang="tw">1H-Indole 1氫-吲哚</name>
+    <filename>1H-indole</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_2-2-hydroxyethylisoindole-1_3-dione">
+    <name xml:lang="en">N-(2-Hydroxyethyl)phthalimide</name>
+    <name xml:lang="fr">N-(2-Hydroxyéthyl)phthalimide</name>
+    <name xml:lang="tw">N-(2-Hydroxyethyl)phthalimide N-(2-羥乙基)鄰苯二甲醯亞胺</name>
+    <filename>N-2-hydroxyethylphthalimide</filename>
+    <synonym xml:lang="en">2-(2-Hydroxyethyl)isoindole-1,3-dione</synonym>
+    <synonym xml:lang="en">2-Phthalimidoethanol</synonym>
+    <synonym xml:lang="fr">2-(2-Hydroxyéthyl)isoindole-1,3-dione</synonym>
+    <synonym xml:lang="fr">2-Phthalimidoéthanol</synonym>
+    <synonym xml:lang="tw">2-(2-Hydroxyethyl)isoindole-1,3-dione 2-(2-羥乙基)異吲哚-1,3-二酮</synonym>
+    <synonym xml:lang="tw">2-Phthalimidoethanol 酞醯亞胺基乙醇</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_2H-chromene">
+    <name xml:lang="en">2H-Chromene</name>
+    <name xml:lang="fr">2H-Chromène</name>
+    <name xml:lang="tw">2H-Chromene 2氫-克唏</name>
+    <filename>2H-chromene</filename>
+    <synonym xml:lang="en">2H-1-Benzopyran</synonym>
+    <synonym xml:lang="fr">2H-1-Benzopyran</synonym>
+    <synonym xml:lang="tw">2H-1-Benzopyran 2氫-1-苯并呱喃</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_4H-chromene">
+    <name xml:lang="en">4H-Chromene</name>
+    <name xml:lang="fr">4H-Chromène</name>
+    <name xml:lang="tw">4H-Chromene 4氫-克唏</name>
+    <filename>4H-chromene</filename>
+    <synonym xml:lang="en">4H-1-Benzopyran</synonym>
+    <synonym xml:lang="fr">4H-1-Benzopyran</synonym>
+    <synonym xml:lang="tw">4H-1-Benzopyran 4氫-1-苯并呱喃</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_7H-purine">
+    <name xml:lang="en">7H-Purine</name>
+    <name xml:lang="fr">7H-Purine</name>
+    <name xml:lang="tw">7H-Purine 7氫-嘌呤</name>
+    <filename>7H-purine</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_9H-carbazole">
+    <name xml:lang="en">9H-Carbazole</name>
+    <name xml:lang="fr">9H-Carbazole</name>
+    <name xml:lang="tw">9H-Carbazole 9氫-咔唑</name>
+    <filename>9H-carbazole</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_9H-fluorene">
+    <name xml:lang="en">9H-Fluorene</name>
+    <name xml:lang="fr">9H-Fluorène</name>
+    <name xml:lang="tw">9H-Fluorene 9氫-茀</name>
+    <filename>9H-fluorene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_9H-xanthene">
+    <name xml:lang="en">9H-Xanthene</name>
+    <name xml:lang="fr">9H-Xanthène</name>
+    <name xml:lang="tw">9H-Xanthene 9氫-二苯并喃</name>
+    <filename>9H-xanthene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_acridine">
+    <name xml:lang="en">Acridine</name>
+    <name xml:lang="fr">Acridine</name>
+    <name xml:lang="tw">Acridine 吖啶/一氮蒽</name>
+    <filename>acridine</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_anthracene">
+    <name xml:lang="en">Anthracene</name>
+    <name xml:lang="fr">Anthracène</name>
+    <name xml:lang="tw">Anthracene 蔥</name>
+    <filename>anthracene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_benzofuran">
+    <name xml:lang="en">Benzofuran</name>
+    <name xml:lang="fr">Benzofurane</name>
+    <name xml:lang="tw">Benzofuran 苯并夫喃</name>
+    <filename>benzofuran</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_benzothiophene">
+    <name xml:lang="en">Benzothiophene</name>
+    <name xml:lang="fr">Benzothiophène</name>
+    <name xml:lang="tw">Benzothiophene 苯并噻吩</name>
+    <filename>benzothiophene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_chromen-2-one">
+    <name xml:lang="en">Coumarin</name>
+    <name xml:lang="fr">Coumarine</name>
+    <name xml:lang="tw">Coumarin 香豆素/薰草素</name>
+    <filename>coumarin</filename>
+    <synonym xml:lang="en">Chromen-2-one</synonym>
+    <synonym xml:lang="fr">Chromèn-2-one</synonym>
+    <synonym xml:lang="tw">Chromen-2-one 克唏-2-酮</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_chromen-4-one">
+    <name xml:lang="en">Chromone</name>
+    <name xml:lang="fr">Chromone</name>
+    <name xml:lang="tw">Chromone 色酮</name>
+    <filename>chromone</filename>
+    <synonym xml:lang="en">Chromen-4-one</synonym>
+    <synonym xml:lang="en">1-Benzopyran-4-one</synonym>
+    <synonym xml:lang="fr">Chromèn-4-one</synonym>
+    <synonym xml:lang="fr">1-Benzopyran-4-one</synonym>
+    <synonym xml:lang="tw">Chromen-4-one 克唏-4-酮</synonym>
+    <synonym xml:lang="tw">1-Benzopyran-4-one 1-苯并夫喃-4-酮</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_cinnoline">
+    <name xml:lang="en">Cinnoline</name>
+    <name xml:lang="fr">Cinnoline</name>
+    <name xml:lang="tw">Cinnoline 辛啉</name>
+    <filename>cinnoline</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_isoindole-1_3-dione">
+    <name xml:lang="en">Phthalimide</name>
+    <name xml:lang="fr">Phthalimide</name>
+    <name xml:lang="tw">Phthalimide 鄰苯二甲醯亞胺</name>
+    <filename>phthalimide</filename>
+    <synonym xml:lang="en">Isoindole-1,3-dione</synonym>
+    <synonym xml:lang="en">1,3-Dihydro-1,3-dioxoisoindole</synonym>
+    <synonym xml:lang="fr">Isoindole-1,3-dione</synonym>
+    <synonym xml:lang="fr">1,3-Dihydro-1,3-dioxoisoindole</synonym>
+    <synonym xml:lang="tw">Isoindole-1,3-dione 異吲哚-1,3-二酮</synonym>
+    <synonym xml:lang="tw">1,3-Dihydro-1,3-dioxoisoindole 1,3-二氫-1,3-二氧異吲哚</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_isoquinoline">
+    <name xml:lang="en">Isoquinoline</name>
+    <name xml:lang="fr">Isoquinoline</name>
+    <name xml:lang="tw">Isoquinoline 異構喹啉</name>
+    <filename>isoquinoline</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_naphthalene">
+    <name xml:lang="en">Naphthalene</name>
+    <name xml:lang="fr">Naphthalène</name>
+    <name xml:lang="tw">Naphthalene 萘</name>
+    <filename>naphthalene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_phenanthrene">
+    <name xml:lang="en">Phenanthrene</name>
+    <name xml:lang="fr">Phénanthrène</name>
+    <name xml:lang="tw">Phenanthrene 菲</name>
+    <filename>phenanthrene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_quinazoline">
+    <name xml:lang="en">Quinazoline</name>
+    <name xml:lang="fr">Quinazoline</name>
+    <name xml:lang="tw">Quinazoline 喹唑啉</name>
+    <filename>quinazoline</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_quinoline">
+    <name xml:lang="en">Quinoline</name>
+    <name xml:lang="fr">Quinoline</name>
+    <name xml:lang="tw">Quinoline 喹啉</name>
+    <filename>quinoline</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_tetralin">
+    <name xml:lang="en">Tetralin</name>
+    <name xml:lang="fr">Tétraline</name>
+    <name xml:lang="tw">Tetralin 四氫萘</name>
+    <filename>tetralin</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-07-31</date>
+  </entry>
+  <entry id="CS_1_1-benzofuran-2-yl_ethanone">
+    <name xml:lang="en">2-Benzofuranyl methyl ketone</name>
+    <name xml:lang="fr">2-Benzofuranyl méthyl cétone</name>
+    <name xml:lang="tw">2-Benzofuranyl methyl ketone 2-苯并夫喃基甲基酮</name>
+    <filename>2-Benzofuranyl_methyl_ketone</filename>
+    <synonym xml:lang="en">1-(1-Benzofuran-2-yl)ethanone</synonym>
+    <synonym xml:lang="en">2-Acetylbenzofuran</synonym>
+    <synonym xml:lang="fr">1-(1-Benzofuran-2-yl)éthanone</synonym>
+    <synonym xml:lang="fr">2-Acétobenzofurane</synonym>
+    <synonym xml:lang="tw">1-(1-Benzofuran-2-yl)ethanone</synonym>
+    <synonym xml:lang="tw">2-Acetylbenzofuran</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-10-15</date>
+  </entry>
+  <entry id="CS_acenaphthene-1_2-dione">
+    <name xml:lang="en">Acenaphthenequinone</name>
+    <name xml:lang="fr">Acénaphthènequinone</name>
+    <name xml:lang="tw">Acenaphthenequinone 乙烷萘醌</name>
+    <filename>acenaphthenequinone</filename>
+    <synonym xml:lang="en">Acenaphthene-1,2-dione</synonym>
+    <synonym xml:lang="fr">Acénaphthène-1,2-dione</synonym>
+    <synonym xml:lang="tw">Acenaphthene-1,2-dione  苊-1,2-二酮</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_acenaphthene">
+    <name xml:lang="en">Acenaphthene</name>
+    <name xml:lang="fr">Acénaphthène</name>
+    <name xml:lang="tw">Acenaphthene 苊</name>
+    <filename>acenaphthene</filename>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_acenaphthylene">
+    <name xml:lang="en">Acenaphthylene</name>
+    <name xml:lang="fr">Acénaphthylène</name>
+    <name xml:lang="tw">Acenaphthylene 苊烯</name>
+    <filename>acenaphthylene</filename>
+    <synonym xml:lang="en">Acenaphthalene</synonym>
+    <synonym xml:lang="fr">Acénaphthalène</synonym>
+    <synonym xml:lang="tw">Acenaphthalene 苊烯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-09</date>
+  </entry>
+  <entry id="CS_1_3_7-trimethylpurine-2_6-dione">
+    <name xml:lang="en">Caffeine</name>
+    <name xml:lang="fr">Cafféine</name>
+    <name xml:lang="tw">Caffeine 咖啡因/咖啡鹼</name>
+    <filename>caffeine</filename>
+    <synonym xml:lang="en">1,3,7-Trimethylpurine-2,6-dione</synonym>
+    <synonym xml:lang="en">1,3,7-Trimethylxanthine</synonym>
+    <synonym xml:lang="fr">1,3,7-Triméthylpurine-2,6-dione</synonym>
+    <synonym xml:lang="fr">1,3,7-Triméthylxanthine</synonym>
+    <synonym xml:lang="tw">1,3,7-Trimethylpurine-2,6-dione 1,3,7-三甲基嘌呤-2,6-二酮</synonym>
+    <synonym xml:lang="tw">1,3,7-Trimethylxanthine 1,3,7-三甲基黃嘌呤</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-21</date>
+  </entry>
+  <entry id="CS_2-hydroxy-3-1R-3-oxo-1-phenylbutyl_chromen-4-one">
+    <name xml:lang="en">D-Warfarin</name>
+    <name xml:lang="fr">D-Warfarine</name>
+    <name xml:lang="tw">D-Warfarin D-殺鼠靈</name>
+    <filename>D-warfarin</filename>
+    <synonym xml:lang="en">2-hydroxy-3-[(1R)-3-oxo-1-phenylbutyl]chromen-4-one</synonym>
+    <synonym xml:lang="fr">2-hydroxy-3-[(1R)-3-oxo-1-phénylbutyl]chromèn-4-one</synonym>
+    <synonym xml:lang="tw">2-hydroxy-3-[(1R)-3-oxo-1-phenylbutyl]chromen-4-one 2-羥-3-[(1R)-3-氧基-1-苯丁基]克唏-4-酮</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-21</date>
+  </entry>
+  <entry id="CS_7_9-dihydro-3H-purine-2_6_8-trione">
+    <name xml:lang="en">Uric acid</name>
+    <name xml:lang="fr">Acide urique</name>
+    <name xml:lang="tw">Uric acid 尿酸</name>
+    <filename>uric_acid</filename>
+    <synonym xml:lang="en">7,9-dihydro-3H-purine-2,6,8-trione</synonym>
+    <synonym xml:lang="en">2,6,8-Trihydroxypurine</synonym>
+    <synonym xml:lang="fr">7,9-dihydro-3H-purine-2,6,8-trione</synonym>
+    <synonym xml:lang="fr">2,6,8-Trihydroxypurine</synonym>
+    <synonym xml:lang="tw">7,9-dihydro-3H-purine-2,6,8-trione 7,9-二氫-3H-嘌呤-2,6,8-三酮</synonym>
+    <synonym xml:lang="tw">2,6,8-Trihydroxypurine 2,6,8-三羥基嘌呤</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-11-21</date>
+  </entry>
+</index>

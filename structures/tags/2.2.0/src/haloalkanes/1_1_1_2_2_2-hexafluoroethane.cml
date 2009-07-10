@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_1_1_1_2_2_2-hexafluoroethane">
+  <formula concise=" C 2 F 6 "/>
+  <identifier convention="iupac:inchi" value="1/C2F6/c3-1(4,5)2(6,7)8"/>
+  <name convention="IUPAC">1,1,1,2,2,2-Hexafluoroethane</name>
+  <atomArray>
+    <atom id="a1" elementType="F" x3="0.648207" y3="1.213040" z3="-1.157794"/>
+    <atom id="a2" elementType="C" x3="0.698478" y3="0.122737" z3="-0.378412"/>
+    <atom id="a3" elementType="F" x3="1.703366" y3="0.296907" z3="0.492586"/>
+    <atom id="a4" elementType="F" x3="1.020512" y3="-0.917341" z3="-1.161479"/>
+    <atom id="a5" elementType="C" x3="-0.698451" y3="-0.122712" z3="0.378382"/>
+    <atom id="a6" elementType="F" x3="-1.020613" y3="0.917214" z3="1.161658"/>
+    <atom id="a7" elementType="F" x3="-1.703328" y3="-0.296723" z3="-0.492568"/>
+    <atom id="a8" elementType="F" x3="-0.648172" y3="-1.213123" z3="1.157626"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="1"/>
+    <bond atomRefs2="a2 a4" order="1"/>
+    <bond atomRefs2="a2 a5" order="1"/>
+    <bond atomRefs2="a5 a6" order="1"/>
+    <bond atomRefs2="a5 a7" order="1"/>
+    <bond atomRefs2="a5 a8" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">138.0118</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">137.9904193</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">-100</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">-78</scalar>
+    </property>
+  </propertyList>
+</molecule>

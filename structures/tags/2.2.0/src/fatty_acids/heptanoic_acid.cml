@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_heptanoic_acid">
+  <formula concise=" C 7 H 14 O 2 "/>
+  <identifier convention="iupac:inchi" value="1/C7H14O2/c1-2-3-4-5-6-7(8)9/h2-6H2,1H3,(H,8,9)"/>
+  <name convention="IUPAC">Heptanoic acid</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="0.048740" y3="1.374367" z3="-0.251333"/>
+    <atom id="a2" elementType="C" x3="0.250794" y3="0.036249" z3="0.440736"/>
+    <atom id="a3" elementType="C" x3="-0.358647" y3="-1.097086" z3="-0.369382"/>
+    <atom id="a4" elementType="C" x3="-0.153127" y3="-2.431328" z3="0.328634"/>
+    <atom id="a5" elementType="C" x3="-0.740930" y3="-3.583547" z3="-0.441523"/>
+    <atom id="a6" elementType="O" x3="-1.335156" y3="-3.601173" z3="-1.504159"/>
+    <atom id="a7" elementType="O" x3="-0.578401" y3="-4.793858" z3="0.149482"/>
+    <atom id="a8" elementType="H" x3="-1.032897" y3="1.559764" z3="-0.409606"/>
+    <atom id="a9" elementType="H" x3="0.496099" y3="1.348115" z3="-1.265516"/>
+    <atom id="a10" elementType="C" x3="0.656619" y3="2.512143" z3="0.553422"/>
+    <atom id="a11" elementType="H" x3="-0.197765" y3="0.063038" z3="1.454474"/>
+    <atom id="a12" elementType="H" x3="1.332640" y3="-0.148445" z3="0.599143"/>
+    <atom id="a13" elementType="H" x3="0.088866" y3="-1.124248" z3="-1.383217"/>
+    <atom id="a14" elementType="H" x3="-1.440120" y3="-0.912880" z3="-0.528574"/>
+    <atom id="a15" elementType="H" x3="-0.606034" y3="-2.411310" z3="1.341173"/>
+    <atom id="a16" elementType="H" x3="0.928276" y3="-2.622535" z3="0.486053"/>
+    <atom id="a17" elementType="H" x3="-0.972583" y3="-5.471683" z3="-0.390721"/>
+    <atom id="a18" elementType="C" x3="0.456645" y3="3.843554" z3="-0.134797"/>
+    <atom id="a19" elementType="H" x3="1.737675" y3="2.326407" z3="0.711928"/>
+    <atom id="a20" elementType="H" x3="0.208392" y3="2.538737" z3="1.566674"/>
+    <atom id="a21" elementType="H" x3="0.897755" y3="4.663014" z3="0.446870"/>
+    <atom id="a22" elementType="H" x3="-0.608694" y3="4.073360" z3="-0.270252"/>
+    <atom id="a23" elementType="H" x3="0.921851" y3="3.859347" z3="-1.129510"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a1 a8" order="1"/>
+    <bond atomRefs2="a1 a9" order="1"/>
+    <bond atomRefs2="a1 a10" order="1"/>
+    <bond atomRefs2="a2 a3" order="1"/>
+    <bond atomRefs2="a2 a11" order="1"/>
+    <bond atomRefs2="a2 a12" order="1"/>
+    <bond atomRefs2="a3 a4" order="1"/>
+    <bond atomRefs2="a3 a13" order="1"/>
+    <bond atomRefs2="a3 a14" order="1"/>
+    <bond atomRefs2="a4 a5" order="1"/>
+    <bond atomRefs2="a4 a15" order="1"/>
+    <bond atomRefs2="a4 a16" order="1"/>
+    <bond atomRefs2="a5 a6" order="2"/>
+    <bond atomRefs2="a5 a7" order="1"/>
+    <bond atomRefs2="a7 a17" order="1"/>
+    <bond atomRefs2="a10 a18" order="1"/>
+    <bond atomRefs2="a10 a19" order="1"/>
+    <bond atomRefs2="a10 a20" order="1"/>
+    <bond atomRefs2="a18 a21" order="1"/>
+    <bond atomRefs2="a18 a22" order="1"/>
+    <bond atomRefs2="a18 a23" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">130.1849</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">130.0993797</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">-10</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">223</scalar>
+    </property>
+  </propertyList>
+</molecule>

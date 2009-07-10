@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_3-pyridin-3-ylpyridine">
+  <formula concise=" C 10 H 8 N 2 "/>
+  <identifier convention="iupac:inchi" value="1/C10H8N2/c1-3-9(7-11-5-1)10-4-2-6-12-8-10/h1-8H"/>
+  <name convention="IUPAC">3-Pyridin-3-ylpyridine</name>
+  <atomArray>
+    <atom id="a1" elementType="N" x3="3.022905" y3="0.176101" z3="0.419379"/>
+    <atom id="a2" elementType="C" x3="3.319777" y3="-1.084325" z3="0.025514"/>
+    <atom id="a3" elementType="C" x3="2.324892" y3="-1.967708" z3="-0.395278"/>
+    <atom id="a4" elementType="C" x3="1.002195" y3="-1.542470" z3="-0.409456"/>
+    <atom id="a5" elementType="C" x3="0.690674" y3="-0.240448" z3="-0.002345"/>
+    <atom id="a6" elementType="C" x3="-0.690128" y3="0.241987" z3="-0.002087"/>
+    <atom id="a7" elementType="C" x3="-1.738412" y3="-0.590771" z3="-0.423381"/>
+    <atom id="a8" elementType="C" x3="-1.003090" y3="1.539949" z3="0.416822"/>
+    <atom id="a9" elementType="C" x3="-2.326139" y3="1.964136" z3="0.405592"/>
+    <atom id="a10" elementType="C" x3="-3.319789" y3="1.084224" z3="-0.025334"/>
+    <atom id="a11" elementType="N" x3="-3.021328" y3="-0.171749" z3="-0.431924"/>
+    <atom id="a12" elementType="C" x3="1.740268" y3="0.595866" z3="0.408836"/>
+    <atom id="a13" elementType="H" x3="4.380420" y3="-1.357916" z3="0.060040"/>
+    <atom id="a14" elementType="H" x3="2.585412" y3="-2.983152" z3="-0.709747"/>
+    <atom id="a15" elementType="H" x3="0.191606" y3="-2.212188" z3="-0.735923"/>
+    <atom id="a16" elementType="H" x3="-1.548830" y3="-1.621802" z3="-0.763134"/>
+    <atom id="a17" elementType="H" x3="-0.193268" y3="2.207443" z3="0.749950"/>
+    <atom id="a18" elementType="H" x3="-2.588108" y3="2.975871" z3="0.730688"/>
+    <atom id="a19" elementType="H" x3="-4.380731" y3="1.356943" z3="-0.057841"/>
+    <atom id="a20" elementType="H" x3="1.551674" y3="1.630009" z3="0.739627"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="2"/>
+    <bond atomRefs2="a3 a4" order="1"/>
+    <bond atomRefs2="a4 a5" order="2"/>
+    <bond atomRefs2="a5 a6" order="1"/>
+    <bond atomRefs2="a6 a7" order="1"/>
+    <bond atomRefs2="a6 a8" order="2"/>
+    <bond atomRefs2="a8 a9" order="1"/>
+    <bond atomRefs2="a9 a10" order="2"/>
+    <bond atomRefs2="a10 a11" order="1"/>
+    <bond atomRefs2="a11 a7" order="2"/>
+    <bond atomRefs2="a1 a12" order="2"/>
+    <bond atomRefs2="a12 a5" order="1"/>
+    <bond atomRefs2="a2 a13" order="1"/>
+    <bond atomRefs2="a3 a14" order="1"/>
+    <bond atomRefs2="a4 a15" order="1"/>
+    <bond atomRefs2="a7 a16" order="1"/>
+    <bond atomRefs2="a8 a17" order="1"/>
+    <bond atomRefs2="a9 a18" order="1"/>
+    <bond atomRefs2="a10 a19" order="1"/>
+    <bond atomRefs2="a12 a20" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">156.1839</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">156.0687483</scalar>
+    </property>
+    <property dictRef="cml:mp" title="Melting point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:mp" units="units:celsius">68</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">291</scalar>
+    </property>
+  </propertyList>
+</molecule>

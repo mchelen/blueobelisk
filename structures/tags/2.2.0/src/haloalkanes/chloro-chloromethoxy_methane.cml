@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_chloro-chloromethoxy_methane">
+  <formula concise=" C 2 H 4 O 1 Cl 2 "/>
+  <identifier convention="iupac:inchi" value="1/C2H4Cl2O/c3-1-5-2-4/h1-2H2"/>
+  <name convention="IUPAC">Chloro-(chloromethoxy)methane</name>
+  <atomArray>
+    <atom id="a1" elementType="C" x3="0.790542" y3="0.608426" z3="0.641132"/>
+    <atom id="a2" elementType="O" x3="-0.318410" y3="0.755252" z3="-0.195196"/>
+    <atom id="a3" elementType="C" x3="-0.864606" y3="-0.432562" z3="-0.686581"/>
+    <atom id="a4" elementType="Cl" x3="2.234451" y3="0.091855" z3="-0.307353"/>
+    <atom id="a5" elementType="Cl" x3="-1.711977" y3="-1.330517" z3="0.627568"/>
+    <atom id="a6" elementType="H" x3="0.621518" y3="-0.121280" z3="1.451502"/>
+    <atom id="a7" elementType="H" x3="-1.595077" y3="-0.093196" z3="-1.434090"/>
+    <atom id="a8" elementType="H" x3="0.951388" y3="1.619750" z3="1.039754"/>
+    <atom id="a9" elementType="H" x3="-0.107828" y3="-1.097728" z3="-1.136739"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="1"/>
+    <bond atomRefs2="a1 a4" order="1"/>
+    <bond atomRefs2="a3 a5" order="1"/>
+    <bond atomRefs2="a1 a6" order="1"/>
+    <bond atomRefs2="a3 a7" order="1"/>
+    <bond atomRefs2="a1 a8" order="1"/>
+    <bond atomRefs2="a3 a9" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">114.9586</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">113.9639201</scalar>
+    </property>
+  </propertyList>
+</molecule>

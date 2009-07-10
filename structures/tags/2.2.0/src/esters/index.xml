@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index PUBLIC "-//CHEMSTRUCT//DTD Index 1.0//EN" "index.dtd">
+<index>
+  <title xml:lang="en">Esters</title>
+  <title xml:lang="de">Ester</title>
+  <title xml:lang="es">Ésters</title>
+  <title xml:lang="fr">Esters</title>
+  <title xml:lang="nl">Esters</title>
+  <title xml:lang="tw">Esters 酯類</title>
+  <entry id="CS_ethyl_acetate">
+    <name xml:lang="en">Ethyl acetate</name>
+    <name xml:lang="fr">Acétate d'éthyle</name>
+    <name xml:lang="tw">Ethyl acetate 醋酸乙酯/乙酸乙酯</name>
+    <filename>ethyl_acetate</filename>
+    <synonym xml:lang="en">Acetic acid ethyl ester</synonym>
+    <synonym xml:lang="tw">Acetic acid ethyl ester 乙酸乙酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-10</date>
+  </entry>
+  <entry id="CS_butyl_acetate">
+    <name xml:lang="en">Butyl acetate</name>
+    <name xml:lang="fr">Acétate de butyle</name>
+    <name xml:lang="tw">Butyl acetate 乙酸丁酯</name>
+    <filename>butyl_acetate</filename>
+    <synonym xml:lang="en">Acetic acid n-butyl ester</synonym>
+    <synonym xml:lang="tw">Acetic acid n-butyl ester 乙酸丁酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_butyl_butanoate">
+    <name xml:lang="en">Butyl butanoate</name>
+    <name xml:lang="fr">Butanoate de butyle</name>
+    <name xml:lang="tw">Butyl butanoate 丁酸丁酯</name>
+    <filename>butyl_butanoate</filename>
+    <synonym xml:lang="en">n-Butyric acid n-butyl ester</synonym>
+    <synonym xml:lang="en">Butyl butyrate</synonym>
+    <synonym xml:lang="fr">Butyrate de butyle</synonym>
+    <synonym xml:lang="tw">n-Butyric acid n-butyl ester 丁酸正丁酯</synonym>
+    <synonym xml:lang="tw">Butyl butyrate 丁酸丁酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_butyl_formate">
+    <name xml:lang="en">Butyl formate</name>
+    <name xml:lang="fr">Formate de butyle</name>
+    <name xml:lang="tw">Butyl formate 甲酸丁酯</name>
+    <filename>butyl_formate</filename>
+    <synonym xml:lang="en">Formic acid n-butyl ester</synonym>
+    <synonym xml:lang="tw">Formic acid n-butyl ester 甲酸正丁酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_butyl_pentanoate">
+    <name xml:lang="en">Butyl pentanoate</name>
+    <name xml:lang="fr">Pentanoate de butyle</name>
+    <name xml:lang="tw">Butyl pentanoate 戊酸丁酯</name>
+    <filename>butyl_pentanoate</filename>
+    <synonym xml:lang="en">n-Valeric acid n-butyl ester</synonym>
+    <synonym xml:lang="tw">n-Valeric acid n-butyl ester 戊酸正丁酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_butyl_propanoate">
+    <name xml:lang="en">Butyl propanoate</name>
+    <name xml:lang="fr">Propanoate de butyle</name>
+    <name xml:lang="tw">Butyl propanoate 丙酸丁酯</name>
+    <filename>butyl_propanoate</filename>
+    <synonym xml:lang="en">Propionic acid n-butyl ester</synonym>
+    <synonym xml:lang="en">Butyl propionate</synonym>
+    <synonym xml:lang="fr">Propionate de butyle</synonym>
+    <synonym xml:lang="tw">Propionic acid n-butyl ester 丙酸正丁酯</synonym>
+    <synonym xml:lang="tw">Butyl propionate 丙酸丁酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_ethyl_butanoate">
+    <name xml:lang="en">Ethyl butanoate</name>
+    <name xml:lang="fr">Butanoate d'éthyle</name>
+    <name xml:lang="tw">Ethyl butanoate 丁酸乙酯</name>
+    <filename>ethyl_butanoate</filename>
+    <synonym xml:lang="en">n-Butyric acid ethyl ester</synonym>
+    <synonym xml:lang="en">Ethyl Butyrate</synonym>
+    <synonym xml:lang="fr">Butyrate d'éthyle</synonym>
+    <synonym xml:lang="tw">n-Butyric acid ethyl ester 正-丁酸乙酯</synonym>
+    <synonym xml:lang="tw">Ethyl Butyrate 丁酸乙酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_ethyl_formate">
+    <name xml:lang="en">Ethyl formate</name>
+    <name xml:lang="fr">Formate d'éthyle</name>
+    <name xml:lang="tw">Ethyl formate 甲酸乙酯</name>
+    <filename>ethyl_formate</filename>
+    <synonym xml:lang="en">Formic acid ethyl ester</synonym>
+    <synonym xml:lang="en">Ethyl formiate</synonym>
+    <synonym xml:lang="fr">Formiate d'éthyle</synonym>
+    <synonym xml:lang="tw">Formic acid ethyl ester 甲酸乙酯</synonym>
+    <synonym xml:lang="tw">Ethyl formiate 甲酸乙酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_ethyl_pentanoate">
+    <name xml:lang="en">Ethyl pentanoate</name>
+    <name xml:lang="fr">Pentanoate d'éthyle</name>
+    <name xml:lang="tw">Ethyl pentanoate 戊酸乙酯</name>
+    <filename>ethyl_pentanoate</filename>
+    <synonym xml:lang="en">n-Valeric acid ethyl ester</synonym>
+    <synonym xml:lang="en">Ethyl valerate</synonym>
+    <synonym xml:lang="fr">Valérate d'éthyle</synonym>
+    <synonym xml:lang="tw">n-Valeric acid ethyl ester 正-戊酸乙酯</synonym>
+    <synonym xml:lang="tw">Ethyl valerate 戊酸乙酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_ethyl_propanoate">
+    <name xml:lang="en">Ethyl propanoate</name>
+    <name xml:lang="fr">Propanoate d'éthyle</name>
+    <name xml:lang="tw">Ethyl propanoate 丙酸乙酯</name>
+    <filename>ethyl_propanoate</filename>
+    <synonym xml:lang="en">Propionic acid ethyl ester</synonym>
+    <synonym xml:lang="en">Ethyl propionate</synonym>
+    <synonym xml:lang="fr">Proprionate d'éthyle</synonym>
+    <synonym xml:lang="tw">Propionic acid ethyl ester 丙酸乙酯</synonym>
+    <synonym xml:lang="tw">Ethyl propionate 丙酸乙酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_methyl_acetate">
+    <name xml:lang="en">Methyl acetate</name>
+    <name xml:lang="fr">Acétate de méthyle</name>
+    <name xml:lang="tw">Methyl acetate 乙酸甲酯</name>
+    <filename>methyl_acetate</filename>
+    <synonym xml:lang="en">Acetic acid methyl ester</synonym>
+    <synonym xml:lang="tw">Acetic acid methyl ester 乙酸甲酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_methyl_butanoate">
+    <name xml:lang="en">Methyl butanoate</name>
+    <name xml:lang="fr">Butanoate de méthyle</name>
+    <name xml:lang="tw">Methyl butanoate 丁酸甲酯</name>
+    <filename>methyl_butanoate</filename>
+    <synonym xml:lang="en">n-Butyric acid methyl ester</synonym>
+    <synonym xml:lang="en">Methyl butyrate</synonym>
+    <synonym xml:lang="fr">Butyrate de méthyle</synonym>
+    <synonym xml:lang="tw">n-Butyric acid methyl ester 正-丁酸甲酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_methyl_formate">
+    <name xml:lang="en">Methyl formate</name>
+    <name xml:lang="fr">Formate de méthyle</name>
+    <name xml:lang="tw">Methyl formate 甲酸甲酯</name>
+    <filename>methyl_formate</filename>
+    <synonym xml:lang="en">Formic acid methyl ester</synonym>
+    <synonym xml:lang="tw">Formic acid methyl ester 甲酸甲酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_methyl_pentanoate">
+    <name xml:lang="en">Methyl pentanoate</name>
+    <name xml:lang="fr">Pentanoate de méthyle</name>
+    <name xml:lang="tw">Methyl pentanoate 戊酸甲酯</name>
+    <filename>methyl_pentanoate</filename>
+    <synonym xml:lang="en">n-Valeric acid methyl ester</synonym>
+    <synonym xml:lang="en">Methyl valerate</synonym>
+    <synonym xml:lang="fr">Valérate de méthyle</synonym>
+    <synonym xml:lang="tw">n-Valeric acid methyl ester 正-戊酸甲酯</synonym>
+    <synonym xml:lang="tw">Methyl valerate 戊酸甲酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_methyl_propanoate">
+    <name xml:lang="en">Methyl propanoate</name>
+    <name xml:lang="fr">Propanoate de méthyle</name>
+    <name xml:lang="tw">Methyl propanoate 丙酸甲酯</name>
+    <filename>methyl_propanoate</filename>
+    <synonym xml:lang="en">Propionic acid methyl ester</synonym>
+    <synonym xml:lang="en">Methyl propionate</synonym>
+    <synonym xml:lang="fr">Propionate de méthyle</synonym>
+    <synonym xml:lang="tw">Propionic acid methyl ester 丙酸甲酯</synonym>
+    <synonym xml:lang="tw">Methyl propionate 丙酸甲酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_pentyl_acetate">
+    <name xml:lang="en">Pentyl acetate</name>
+    <name xml:lang="fr">Acétate de pentyle</name>
+    <name xml:lang="tw">Pentyl acetate 乙酸戊酯</name>
+    <filename>pentyl_acetate</filename>
+    <synonym xml:lang="en">Acetic acid pentyl ester</synonym>
+    <synonym xml:lang="en">Amyl acetate</synonym>
+    <synonym xml:lang="en">Amyl ethanoate</synonym>
+    <synonym xml:lang="fr">Acétate d'amyle</synonym>
+    <synonym xml:lang="fr">Ethanoate d'amyle</synonym>
+    <synonym xml:lang="tw">Acetic acid pentyl ester 乙酸戊酯</synonym>
+    <synonym xml:lang="tw">Amyl acetate 乙酸戊酯</synonym>
+    <synonym xml:lang="tw">Amyl ethanoate 乙酸戊酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_pentyl_butanoate">
+    <name xml:lang="en">Pentyl butanoate</name>
+    <name xml:lang="fr">Butanoate de pentyle</name>
+    <name xml:lang="tw">Pentyl butanoate 丁酸戊酯</name>
+    <filename>pentyl_butanoate</filename>
+    <synonym xml:lang="en">n-Butyric acid pentyl ester</synonym>
+    <synonym xml:lang="en">Pentyl butyrate</synonym>
+    <synonym xml:lang="en">Amyl butyrate</synonym>
+    <synonym xml:lang="fr">Butyrate de pentyle</synonym>
+    <synonym xml:lang="fr">Butyrate d'amyle</synonym>
+    <synonym xml:lang="tw">n-Butyric acid pentyl ester 正-丁酸戊酯</synonym>
+    <synonym xml:lang="tw">Pentyl butyrate 丁酸戊酯</synonym>
+    <synonym xml:lang="tw">Amyl butyrate 丁酸戊酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_pentyl_formate">
+    <name xml:lang="en">Pentyl formate</name>
+    <name xml:lang="fr">Formate de pentyle</name>
+    <name xml:lang="tw">Pentyl formate 甲酸戊酯</name>
+    <filename>pentyl_formate</filename>
+    <synonym xml:lang="en">Formic acid pentyl ester</synonym>
+    <synonym xml:lang="en">Amyl formate</synonym>
+    <synonym xml:lang="fr">Formate d'amyle</synonym>
+    <synonym xml:lang="tw">Formic acid pentyl ester 甲酸戊酯</synonym>
+    <synonym xml:lang="tw">Amyl formate 甲酸戊酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_pentyl_pentanoate">
+    <name xml:lang="en">Pentyl pentanoate</name>
+    <name xml:lang="fr">Pentanoate de pentyle</name>
+    <name xml:lang="tw">Pentyl pentanoate 戊酸戊酯</name>
+    <filename>pentyl_pentanoate</filename>
+    <synonym xml:lang="en">n-Valeric acid pentyl ester</synonym>
+    <synonym xml:lang="en">Pentyl valerate</synonym>
+    <synonym xml:lang="en">Amyl valerate</synonym>
+    <synonym xml:lang="fr">Valérate de pentyle</synonym>
+    <synonym xml:lang="fr">Valérate d'amyle</synonym>
+    <synonym xml:lang="tw">n-Valeric acid pentyl ester 正-戊酸戊酯</synonym>
+    <synonym xml:lang="tw">Pentyl valerate 戊酸戊酯</synonym>
+    <synonym xml:lang="tw">Amyl valerate 戊酸戊酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_pentyl_propanoate">
+    <name xml:lang="en">Pentyl propanoate</name>
+    <name xml:lang="fr">Propanoate de pentyle</name>
+    <name xml:lang="tw">Pentyl propanoate 丙酸戊酯</name>
+    <filename>pentyl_propanoate</filename>
+    <synonym xml:lang="en">Propionic acid pentyl ester</synonym>
+    <synonym xml:lang="en">Pentyl propionate</synonym>
+    <synonym xml:lang="en">Amyl propionate</synonym>
+    <synonym xml:lang="fr">Proprionate de pentyle</synonym>
+    <synonym xml:lang="fr">Proprionate d'amyle</synonym>
+    <synonym xml:lang="tw">Propionic acid pentyl ester 丙酸戊酯</synonym>
+    <synonym xml:lang="tw">Pentyl propionate 丙酸戊酯</synonym>
+    <synonym xml:lang="tw">Amyl propionate 丙酸戊酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_propyl_acetate">
+    <name xml:lang="en">Propyl acetate</name>
+    <name xml:lang="fr">Acétate de propyle</name>
+    <name xml:lang="tw">Propyl acetate 乙酸丙酯</name>
+    <filename>propyl_acetate</filename>
+    <synonym xml:lang="en">Acetic acid propyl ester</synonym>
+    <synonym xml:lang="tw">Acetic acid propyl ester 乙酸丙酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_propyl_butanoate">
+    <name xml:lang="en">Propyl butanoate</name>
+    <name xml:lang="fr">Butanoate de propyle</name>
+    <name xml:lang="tw">Propyl butanoate 丁酸丙酯</name>
+    <filename>propyl_butanoate</filename>
+    <synonym xml:lang="en">n-Butyric acid propyl ester</synonym>
+    <synonym xml:lang="en">Propyl butyrate</synonym>
+    <synonym xml:lang="fr">Butyrate de propyle</synonym>
+    <synonym xml:lang="tw">n-Butyric acid propyl ester 正-丁酸丙酯</synonym>
+    <synonym xml:lang="tw">Propyl butyrate 丁酸丙酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_propyl_formate">
+    <name xml:lang="en">Propyl formate</name>
+    <name xml:lang="fr">Formate de propyle</name>
+    <name xml:lang="tw">Propyl formate 甲酸丙酯</name>
+    <filename>propyl_formate</filename>
+    <synonym xml:lang="en">Formic acid propyl ester</synonym>
+    <synonym xml:lang="tw">Formic acid propyl ester 甲酸丙酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_propyl_pentanoate">
+    <name xml:lang="en">Propyl pentanoate</name>
+    <name xml:lang="fr">Pentanoate de propyle</name>
+    <name xml:lang="tw">Propyl pentanoate 戊酸丙酯</name>
+    <filename>propyl_pentanoate</filename>
+    <synonym xml:lang="en">n-Valeric acid propyl ester</synonym>
+    <synonym xml:lang="en">Propyl valerate</synonym>
+    <synonym xml:lang="fr">Valérate de propyle</synonym>
+    <synonym xml:lang="tw">n-Valeric acid propyl ester 正-戊酸丙酯</synonym>
+    <synonym xml:lang="tw">Propyl valerate 戊酸丙酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_propyl_propanoate">
+    <name xml:lang="en">Propyl propanoate</name>
+    <name xml:lang="fr">Propanoate de propyle</name>
+    <name xml:lang="tw">Propyl propanoate 丙酸丙酯</name>
+    <filename>propyl_propanoate</filename>
+    <synonym xml:lang="en">Propionic acid propyl ester</synonym>
+    <synonym xml:lang="en">Propyl propionate</synonym>
+    <synonym xml:lang="fr">Propionate de propyle</synonym>
+    <synonym xml:lang="tw">Propionic acid propyl ester 丙酸丙酯</synonym>
+    <synonym xml:lang="tw">Propyl propionate 丙酸丙酯</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-05-11</date>
+  </entry>
+  <entry id="CS_linolein">
+    <name xml:lang="en">Linolein</name>
+    <name xml:lang="fr">Linoléine</name>
+    <name xml:lang="tw">Linolein 亞麻油脂/三亞麻油酸甘油酯</name>
+    <filename>linolein</filename>
+    <synonym xml:lang="en">2,3-bis[[(9Z,12Z)-Octadeca-9,12-dienoyl]oxy]propyl (9Z,12Z)-octadeca-9,12-dienoate</synonym>
+    <synonym xml:lang="fr">(9Z,12Z)-Octadéca-9,12-diènoate de 2,3-bis[[(9Z,12Z)-octadéca-9,12-diènoyl]oxy]propyle</synonym>
+    <synonym xml:lang="tw">2,3-bis[[(9Z,12Z)-Octadeca-9,12-dienoyl]oxy]propyl (9Z,12Z)-octadeca-9,12-dienoate 2,3-雙[[(9Z,12Z)-十八碳-9,12-二烯醯基]氧基]丙基 (9Z,12Z-十八碳-9,12-二烯酸)</synonym>
+    <authors>Jerome Pansanel</authors>
+    <date>2006-06-27</date>
+  </entry>
+</index>

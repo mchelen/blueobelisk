@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema"
+          xmlns:cml="http://www.xml-cml.org/dict/cml"
+          xmlns:units="http://www.xml-cml.org/units/units"
+          xmlns:xsd="http://www.w3c.org/2001/XMLSchema"
+          xmlns:iupac="http://www.iupac.org"
+          id="CS_3S-octan-3-ol">
+  <formula concise=" C 8 H 18 O 1 "/>
+  <identifier convention="iupac:inchi" value="1/C8H18O/c1-3-5-6-7-8(9)4-2/h8-9H,3-7H2,1-2H3/t8-/m0/s1"/>
+  <name convention="IUPAC">(3S)-Octan-3-ol</name>
+  <atomArray>
+    <atom id="a1" elementType="H" x3="4.810641" y3="-0.182581" z3="2.456677"/>
+    <atom id="a2" elementType="C" x3="4.253963" y3="0.004882" z3="1.529726"/>
+    <atom id="a3" elementType="H" x3="4.505228" y3="1.020428" z3="1.195733"/>
+    <atom id="a4" elementType="H" x3="4.636329" y3="-0.690842" z3="0.770930"/>
+    <atom id="a5" elementType="C" x3="2.765818" y3="-0.161113" z3="1.739500"/>
+    <atom id="a6" elementType="H" x3="2.547361" y3="-1.183180" z3="2.108206"/>
+    <atom id="a7" elementType="H" x3="2.417132" y3="0.523240" z3="2.538498"/>
+    <atom id="a8" elementType="C" x3="1.989865" y3="0.103117" z3="0.459124"/>
+    <atom id="a9" elementType="H" x3="2.204278" y3="1.127480" z3="0.093185"/>
+    <atom id="a10" elementType="H" x3="2.341892" y3="-0.577533" z3="-0.342237"/>
+    <atom id="a11" elementType="C" x3="0.494464" y3="-0.070488" z3="0.671995"/>
+    <atom id="a12" elementType="H" x3="0.281192" y3="-1.097376" z3="1.032234"/>
+    <atom id="a13" elementType="H" x3="0.145457" y3="0.606403" z3="1.477233"/>
+    <atom id="a14" elementType="C" x3="-0.276719" y3="0.203430" z3="-0.609008"/>
+    <atom id="a15" elementType="H" x3="-0.072899" y3="1.234733" z3="-0.961581"/>
+    <atom id="a16" elementType="H" x3="0.086520" y3="-0.467332" z3="-1.413887"/>
+    <atom id="a17" elementType="C" x3="-1.786713" y3="-0.005393" z3="-0.430296"/>
+    <atom id="a18" elementType="H" x3="-1.975797" y3="-0.960227" z3="0.121649"/>
+    <atom id="a19" elementType="O" x3="-2.271935" y3="1.060238" z3="0.368522"/>
+    <atom id="a20" elementType="H" x3="-3.218273" y3="1.059815" z3="0.261191"/>
+    <atom id="a21" elementType="C" x3="-2.486289" y3="-0.062408" z3="-1.800819"/>
+    <atom id="a22" elementType="H" x3="-2.320141" y3="0.887152" z3="-2.347581"/>
+    <atom id="a23" elementType="H" x3="-2.017366" y3="-0.851884" z3="-2.419377"/>
+    <atom id="a24" elementType="C" x3="-3.968032" y3="-0.329681" z3="-1.656683"/>
+    <atom id="a25" elementType="H" x3="-4.164480" y3="-1.338367" z3="-1.270040"/>
+    <atom id="a26" elementType="H" x3="-4.432132" y3="0.384156" z3="-0.955901"/>
+    <atom id="a27" elementType="H" x3="-4.489361" y3="-0.236667" z3="-2.616993"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a1 a2" order="1"/>
+    <bond atomRefs2="a2 a3" order="1"/>
+    <bond atomRefs2="a2 a4" order="1"/>
+    <bond atomRefs2="a2 a5" order="1"/>
+    <bond atomRefs2="a5 a6" order="1"/>
+    <bond atomRefs2="a5 a7" order="1"/>
+    <bond atomRefs2="a5 a8" order="1"/>
+    <bond atomRefs2="a8 a9" order="1"/>
+    <bond atomRefs2="a8 a10" order="1"/>
+    <bond atomRefs2="a8 a11" order="1"/>
+    <bond atomRefs2="a11 a12" order="1"/>
+    <bond atomRefs2="a11 a13" order="1"/>
+    <bond atomRefs2="a11 a14" order="1"/>
+    <bond atomRefs2="a14 a15" order="1"/>
+    <bond atomRefs2="a14 a16" order="1"/>
+    <bond atomRefs2="a14 a17" order="1"/>
+    <bond atomRefs2="a17 a18" order="1"/>
+    <bond atomRefs2="a17 a19" order="1"/>
+    <bond atomRefs2="a17 a21" order="1"/>
+    <bond atomRefs2="a19 a20" order="1"/>
+    <bond atomRefs2="a21 a22" order="1"/>
+    <bond atomRefs2="a21 a23" order="1"/>
+    <bond atomRefs2="a21 a24" order="1"/>
+    <bond atomRefs2="a24 a25" order="1"/>
+    <bond atomRefs2="a24 a26" order="1"/>
+    <bond atomRefs2="a24 a27" order="1"/>
+  </bondArray>
+  <propertyList>
+    <property dictRef="cml:molwt" title="Molecular weight">
+      <scalar dataType="xsd:double" dictRef="cml:molwt" units="units:g">130.2279</scalar>
+    </property>
+    <property dictRef="cml:monoisotopicwt" title="Monoisotopic weight">
+      <scalar dataType="xsd:double" dictRef="cml:monoisotopicwt" units="units:g">130.1357652</scalar>
+    </property>
+    <property dictRef="cml:bp" title="Boiling point">
+      <scalar dataType="xsd:double" errorValue="1.0" dictRef="cml:bp" units="units:celsius">175</scalar>
+    </property>
+  </propertyList>
+</molecule>
